@@ -1,0 +1,8 @@
+name = "Vivillon Pride Patterns v1.0"
+filename = "Vivillon Pride Patterns v1.0.zip"
+side = "client"
+
+[download]
+mode = "file"
+hash-format = "sha256"
+hash = "2115e21fe0b4be79e73dc9aee382ed77a0c4e43f6ad4224501f482259836f865"

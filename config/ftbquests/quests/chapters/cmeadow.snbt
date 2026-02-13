@@ -1,0 +1,450 @@
+{
+	autofocus_id: "4F8A1D9C2E7B5A30"
+	default_hide_dependency_lines: true
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "cmeadow"
+	group: "3453313E23B8AB3B"
+	icon: "meadow:cheese_wheel"
+	id: "7C91E4B2A5D63F18"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&bLet's Do: Meadow&r te lleva a una vida alpina tranquila: granjas de montana, cocina casera y decoracion acogedora."
+				""
+				"Tu objetivo principal aqui es dominar la cadena del queso: de la leche al molde, de la rueda a la fondue y los postres."
+				""
+				"Tambien desbloquearas herramientas utiles, bloques decorativos y algunos detalles de fauna para sobrevivir con estilo."
+			]
+			icon: "ftbquests:book"
+			id: "4F8A1D9C2E7B5A30"
+			optional: true
+			rewards: [
+				{
+					id: "5D2A7C1F8E3B4A90"
+					item: {
+						Count: 8
+						id: "meadow:grain"
+					}
+					type: "item"
+				}
+				{
+					id: "6B4E1F2C9A7D3E50"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.5d
+			subtitle: "¡Haz clic para saber más!"
+			tasks: [{
+				id: "1A3E5C7D9B2F4E60"
+				title: "Aceptar recompensas"
+				type: "checkmark"
+			}]
+			title: "&6Introduccion a Meadow"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F8A1D9C2E7B5A30"]
+			id: "2C7F9A1E4D5B8C30"
+			rewards: [
+				{
+					id: "7A1E5D3C9B2F4C80"
+					item: "meadow:grain"
+					type: "item"
+				}
+				{
+					id: "27A12FF2D62C2AC2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Empieza la ruta lactea consiguiendo leche fresca."
+			tasks: [{
+				id: "3D8A5C2F1E7B4A60"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			title: "Leche fresca"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2C7F9A1E4D5B8C30"]
+			id: "293CD888555AD260"
+			rewards: [
+				{
+					id: "7C84F47A9049E1FC"
+					item: "meadow:cheese_rack"
+					type: "item"
+				}
+				{
+					id: "64D9F4D00562F448"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Con este molde empiezas a transformar la leche en queso."
+			tasks: [{
+				id: "518C83D39726B8EB"
+				item: "meadow:cheese_form"
+				type: "item"
+			}]
+			title: "Molde de queso"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			id: "761BB63C1F492F2C"
+			rewards: [
+				{
+					id: "1D102CCA6DAA044F"
+					item: "meadow:cheese_slice"
+					type: "item"
+				}
+				{
+					id: "1B6D4F8A2C5E7B90"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Deja madurar tu primera rueda de queso alpino."
+			tasks: [{
+				id: "5887E525380F11EB"
+				item: "meadow:cheese_wheel"
+				type: "item"
+			}]
+			title: "Rueda de queso"
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			id: "2E8A4C6F1D3B9E70"
+			rewards: [
+				{
+					id: "4A1C6E8B3D5F2A90"
+					item: "meadow:cheese_roll"
+					type: "item"
+				}
+				{
+					id: "5B2D7F9C4E6A3B10"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Corta la rueda y sirve porciones para tus recetas."
+			tasks: [{
+				id: "3F9B5D7A2E4C1F80"
+				item: "meadow:cheese_slice"
+				type: "item"
+			}]
+			title: "Porcion de queso"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2E8A4C6F1D3B9E70"]
+			id: "6C3E8A1D5F7B2C40"
+			rewards: [
+				{
+					id: "75D2D988FA0F33C9"
+					item: "meadow:cheese_sandwich"
+					type: "item"
+				}
+				{
+					id: "0B5D09345C1206FE"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Un clasico alpino: caliente, cremoso y perfecto para compartir."
+			tasks: [{
+				id: "7D4F9B2E6A8C3D50"
+				item: "meadow:fondue"
+				type: "item"
+			}]
+			title: "Fondue"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6C3E8A1D5F7B2C40"]
+			id: "3DE51B1C9ABEBAB7"
+			rewards: [
+				{
+					id: "1BDA126334E253A6"
+					item: "meadow:cheese_roll"
+					type: "item"
+				}
+				{
+					id: "1826862A063191E6"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Cierra la cadena lactea con un postre de categoria."
+			tasks: [{
+				id: "760674527E82A06D"
+				item: "meadow:cheesecake"
+				type: "item"
+			}]
+			title: "Tarta de queso"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4F8A1D9C2E7B5A30"]
+			id: "2AA6BE1F4AC2561C"
+			rewards: [
+				{
+					id: "1D4A7C2E9B5F1EA0"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					id: "2E5B8D3F1C6A2FB0"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Tu cocina alpina empieza con un buen caldero."
+			tasks: [{
+				id: "1C17D69EDB45E9BD"
+				item: "meadow:cooking_cauldron"
+				type: "item"
+			}]
+			title: "Caldero de cocina"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "3F6C9E4A2D7B3AC0"
+			rewards: [
+				{
+					id: "5B8E2A6C9F4D5CE0"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					id: "6C9F3B7D1A5E6DF0"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Recolecta grano para preparar harina y masa."
+			tasks: [{
+				id: "4A7D1F5B8E3C4BD0"
+				item: "meadow:grain"
+				type: "item"
+			}]
+			title: "Grano"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3F6C9E4A2D7B3AC0"]
+			id: "7D1A4C8E2B6F7E10"
+			rewards: [
+				{
+					id: "01A7D216533F8960"
+					item: "meadow:dough"
+					type: "item"
+				}
+				{
+					id: "331B4FFB765741F9"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Muele el grano y obten harina para tus recetas."
+			tasks: [{
+				id: "61DE6B1EF6897F29"
+				item: "meadow:flour"
+				type: "item"
+			}]
+			title: "Harina"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7D1A4C8E2B6F7E10"]
+			id: "4B5B19E8C8D6D941"
+			rewards: [
+				{
+					id: "6E0CDD0D8E527A35"
+					item: "meadow:cheese_slice"
+					type: "item"
+				}
+				{
+					id: "351F5806B050412D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Prepara una comida caliente para sobrevivir en altura."
+			tasks: [{
+				id: "1628C2044CC817A1"
+				item: "meadow:alpine_salt_stew"
+				type: "item"
+			}]
+			title: "Estofado alpino"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4F8A1D9C2E7B5A30"]
+			id: "7B20D899704E7A1F"
+			rewards: [
+				{
+					id: "2B5E9A4C7F1D28B0"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					id: "3C6F1B5D8A2E39C0"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Corta madera de forma eficiente para construir en grande."
+			tasks: [{
+				id: "1A4D8F3B6E9C17A0"
+				item: "meadow:woodcutter"
+				type: "item"
+			}]
+			title: "Lenador"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "4D7A2C6E9B3F4AD0"
+			rewards: [
+				{
+					id: "6F9C4E8A2D5B6CF0"
+					item: "meadow:cheese_wheel"
+					type: "item"
+				}
+				{
+					id: "7A1D5F9B3E6C7D01"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Deja madurar tus quesos con orden y estilo."
+			tasks: [{
+				id: "5E8B3D7F1C4A5BE0"
+				item: "meadow:cheese_rack"
+				type: "item"
+			}]
+			title: "Estanteria de queso"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "42259717651D0D2B"
+			rewards: [
+				{
+					id: "1B1FD9CF9AD35C62"
+					item: "meadow:wooden_flower_pot"
+					type: "item"
+				}
+				{
+					id: "5881AC3109C975DF"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Mantener tus cultivos hidratados te ahorra mucho tiempo."
+			tasks: [{
+				id: "379FE608B422000D"
+				item: {
+					Count: 1
+					id: "meadow:watering_can"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Regadera"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "4769FD7968AC5D61"
+			optional: true
+			rewards: [
+				{
+					id: "155CBBC7871984D3"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "0E8FEA236AB855CA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Una herramienta divertida para capturar momentos de tu granja."
+			tasks: [{
+				id: "494879449C602473"
+				item: "meadow:camera"
+				type: "item"
+			}]
+			title: "Camara alpina"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Las vacas de las Highlands son una base excelente para tu produccion lactea."
+				""
+				"Si las encuentras, protege el area y monta cerca una zona de cultivo para una granja autosuficiente."
+			]
+			id: "0A1B2C3D4E5F0A1B"
+			optional: true
+			rewards: [{
+				id: "2C3D4E5F6A7B2C3D"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "¡Haz clic para saber más!"
+			tasks: [{
+				id: "1B2C3D4E5F6A1B2C"
+				title: "Fauna util"
+				type: "checkmark"
+			}]
+			title: "Vaca de las Highlands"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0A1B2C3D4E5F0A1B"]
+			description: [
+				"El oso pardo de Meadow es neutral, pero no conviene molestarlo."
+				""
+				"Si te acercas demasiado o lo provocas, preparate para correr o pelear. Lleva comida y buena armadura."
+			]
+			id: "3D4E5F6A7B8C3D4E"
+			optional: true
+			rewards: [{
+				id: "5F6A7B8C9D0E5F6A"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "¡Haz clic para saber más!"
+			tasks: [{
+				id: "4E5F6A7B8C9D4E5F"
+				title: "Advertencia"
+				type: "checkmark"
+			}]
+			title: "Cuidado con el oso pardo"
+			x: -3.0d
+			y: 2.0d
+		}
+	]
+	title: " &2M&feadow"
+}

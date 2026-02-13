@@ -1,0 +1,8 @@
+name = "Incendium_Optional_Resourcepack_1.20.1_v5.3.7"
+filename = "Incendium_Optional_Resourcepack_1.20.1_v5.3.7.zip"
+side = "client"
+
+[download]
+mode = "file"
+hash-format = "sha256"
+hash = "6d12fb6d13d365387928317c6687a56cdec539ec217d1e7e1793b62f58d78c65"

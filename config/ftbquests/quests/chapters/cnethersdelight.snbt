@@ -1,0 +1,381 @@
+{
+	autofocus_id: "A1D4F8C2E7B3906D"
+	default_hide_dependency_lines: true
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "cnethersdelight"
+	group: "046437929532397A"
+	icon: "nethersdelight:stuffed_hoglin"
+	id: "1D020E31CF9C8913"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&4Nether's Delight&r expande &6Farmer's Delight&r con cocina infernal: ingredientes del Nether, nuevos platos y estaciones de coccion propias."
+				""
+				"Tu ruta aqui es simple: consigue un cuchillo, caza hoglins y striders, cocina en piedra negra y remata con un gran festin."
+				""
+				"Tambien desbloqueas cuchillos mejores con &6Farmer's Knives&r para cortar mas rapido y avanzar en todas tus recetas."
+			]
+			icon: "ftbquests:book"
+			id: "664C1062952A8AE8"
+			optional: true
+			rewards: [
+				{
+					id: "3D419B364C72E111"
+					item: "farmersknives:iron_knife"
+					type: "item"
+				}
+				{
+					id: "4E8CBF1F4D5EEB57"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.5d
+			subtitle: "Pulsa para ver como cocinar en el Nether"
+			tasks: [{
+				id: "3DDB8680CF329F10"
+				title: "Aceptar recompensas"
+				type: "checkmark"
+			}]
+			title: "&4Guia de inicio"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7EAEE4E32AB13991"
+			rewards: [
+				{
+					id: "5E0D84D123102102"
+					item: "nethersdelight:hoglin_ear"
+					type: "item"
+				}
+				{
+					id: "415030FDC4309688"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Paso base: sin cuchillo no hay cortes ni cocina avanzada"
+			tasks: [{
+				id: "38F56E26CF845CF6"
+				item: "farmersknives:iron_knife"
+				type: "item"
+			}]
+			title: "&6Cuchillo de hierro"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "34E7225B02C94BD4"
+			rewards: [
+				{
+					id: "593C3520FE934235"
+					item: "nethersdelight:propelpearl"
+					type: "item"
+				}
+				{
+					id: "78DAEA4302E4FBC1"
+					type: "xp"
+					xp: 30
+				}
+			]
+			subtitle: "Ligero y rapido: ideal para cocina y farmeo temprano"
+			tasks: [{
+				id: "1ED02ADB20FB6F16"
+				item: "farmersknives:golden_knife"
+				type: "item"
+			}]
+			title: "&6Cuchillo de oro"
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			id: "3510593E63CC80BF"
+			rewards: [
+				{
+					id: "085080E80C0DB83A"
+					item: "nethersdelight:strider_slice"
+					type: "item"
+				}
+				{
+					id: "0AFC5D23F34C074E"
+					type: "xp"
+					xp: 35
+				}
+			]
+			subtitle: "Mas durabilidad para sesiones largas de crafteo"
+			tasks: [{
+				id: "78D06B0BFBA01BAC"
+				item: "farmersknives:diamond_knife"
+				type: "item"
+			}]
+			title: "&6Cuchillo de diamante"
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			id: "71F5AD38E629A091"
+			rewards: [
+				{
+					id: "12968F51D0315716"
+					item: "farmersknives:emerald_knife"
+					type: "item"
+				}
+				{
+					id: "462978E9DEF17470"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "&6Hito&r: el cuchillo final para dominar todas las recetas"
+			tasks: [{
+				id: "70E70DA04764FAC2"
+				item: "farmersknives:netherite_knife"
+				type: "item"
+			}]
+			title: "&6Cuchillo de netherite"
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			id: "2D9A4E7C1B6F8A30"
+			rewards: [
+				{
+					id: "7B6AC8B3B46ECFBA"
+					item: "nethersdelight:blackstone_stove"
+					type: "item"
+				}
+				{
+					id: "71E5EE67E4E6A5FF"
+					type: "xp"
+					xp: 30
+				}
+			]
+			subtitle: "Estacion principal para cocinar comida infernal"
+			tasks: [{
+				id: "3DBDF1153C531091"
+				item: "nethersdelight:blackstone_stove"
+				type: "item"
+			}]
+			title: "&4Hornillo de piedra negra"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D9A4E7C1B6F8A30"]
+			id: "3F1C8B5E2A7D9C40"
+			rewards: [
+				{
+					id: "77F6999668E9BA1F"
+					item: "nethersdelight:blackstone_blast_furnace"
+					type: "item"
+				}
+				{
+					id: "4BB110ABF195A5F4"
+					type: "xp"
+					xp: 35
+				}
+			]
+			subtitle: "Upgrade de cocina para producir platos mas rapido"
+			tasks: [{
+				id: "06334DD0B0DBC4D7"
+				item: "nethersdelight:blackstone_blast_furnace"
+				type: "item"
+			}]
+			title: "&4Alto horno de piedra negra"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "5A3E9C1D7B4F2E60"
+			rewards: [
+				{
+					id: "7C16269D33901B40"
+					item: "nethersdelight:hoglin_loin"
+					type: "item"
+				}
+				{
+					id: "1F5C8DBF5229B952"
+					type: "xp"
+					xp: 30
+				}
+			]
+			subtitle: "Consiguelo cazando hoglins con cuchillo"
+			tasks: [{
+				id: "55686957D4F84A8E"
+				item: "nethersdelight:hoglin_loin"
+				type: "item"
+			}]
+			title: "&cLomo de hoglin"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5A3E9C1D7B4F2E60"]
+			id: "6C2F8A4E1D9B3F70"
+			rewards: [
+				{
+					id: "21F24C76236A7576"
+					item: "nethersdelight:strider_slice"
+					type: "item"
+				}
+				{
+					id: "2A09BEB560C40FBF"
+					type: "xp"
+					xp: 30
+				}
+			]
+			subtitle: "Otra proteina clave para la cocina del Nether"
+			tasks: [{
+				id: "05645D8B1AC15E66"
+				item: "nethersdelight:strider_slice"
+				type: "item"
+			}]
+			title: "&cFilete de strider"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C2F8A4E1D9B3F70"]
+			id: "7E4B1D9A6C3F8E20"
+			rewards: [
+				{
+					id: "4D2FB5475FE26A38"
+					item: "nethersdelight:propelpearl"
+					type: "item"
+				}
+				{
+					id: "596DF0A772D88DBF"
+					type: "xp"
+					xp: 35
+				}
+			]
+			subtitle: "Util para movilidad y para varias recetas del mod"
+			tasks: [{
+				id: "438DE49AD7032B6D"
+				item: "nethersdelight:propelpearl"
+				type: "item"
+			}]
+			title: "&cPerla propulsora"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5A3E9C1D7B4F2E60"
+				"2D9A4E7C1B6F8A30"
+			]
+			id: "651F357BAA4346FB"
+			rewards: [
+				{
+					id: "1391E1506D70248B"
+					item: "nethersdelight:nether_skewer"
+					type: "item"
+				}
+				{
+					id: "58059316F6C1AA24"
+					type: "xp"
+					xp: 40
+				}
+			]
+			subtitle: "Pincho infernal para comer rapido durante expediciones"
+			tasks: [{
+				id: "292DFCCD87826058"
+				item: "nethersdelight:nether_skewer"
+				type: "item"
+			}]
+			title: "&4Brocheta del Nether"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6C2F8A4E1D9B3F70"
+				"2D9A4E7C1B6F8A30"
+			]
+			id: "78873F1BE42A3F00"
+			rewards: [
+				{
+					id: "38337452A0EF807A"
+					item: "nethersdelight:grilled_strider"
+					type: "item"
+				}
+				{
+					id: "06E828536A178F1F"
+					type: "xp"
+					xp: 40
+				}
+			]
+			subtitle: "Receta basica para convertir carne cruda en comida fuerte"
+			tasks: [{
+				id: "4111E0DE0496BBB9"
+				item: "nethersdelight:grilled_strider"
+				type: "item"
+			}]
+			title: "&4Strider a la parrilla"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3F1C8B5E2A7D9C40"]
+			id: "4B313BBE60EA4658"
+			rewards: [
+				{
+					id: "64DFC28A1B359F30"
+					item: "nethersdelight:plate_of_stuffed_hoglin_snout"
+					type: "item"
+				}
+				{
+					id: "72FB13DFB16CF5B3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.25d
+			subtitle: "&6Hito&r: tu gran festin infernal, listo para compartir"
+			tasks: [{
+				id: "21E0726DAC0EC4B3"
+				item: "nethersdelight:stuffed_hoglin"
+				type: "item"
+			}]
+			title: "&6Hoglin relleno"
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A3E9C1D7B4F2E60"]
+			description: [
+				"El &cMimetismo&r se obtiene de hoglins y te da una herramienta muy curiosa para enganarte visualmente en el Nether."
+				""
+				"Guardalo para momentos dificiles o para probar interacciones con mobs mientras exploras."
+			]
+			id: "7F125CA8EAA3B40E"
+			optional: true
+			rewards: [
+				{
+					id: "48E652A4CB88F1E8"
+					item: "nethersdelight:mimicream"
+					type: "item"
+				}
+				{
+					id: "09D193F2127672F2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Extra opcional: conoce como funciona este drop especial"
+			tasks: [{
+				id: "39829D361874AF5B"
+				item: "nethersdelight:mimicream"
+				type: "item"
+			}]
+			title: "&cExtra: Mimetismo"
+			x: 0.0d
+			y: 3.5d
+		}
+	]
+	title: " &4D&felicias del &4N&fether"
+}

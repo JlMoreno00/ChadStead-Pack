@@ -1,0 +1,501 @@
+{
+	autofocus_id: "10F4A6B8C2D3E5F7"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "cstorage"
+	group: "7DE0C6EA36844BEB"
+	icon: "storagedrawers:controller"
+	id: "6DBE46E6125349D1"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&6Iron Chests&r te da cofres con mucha mas capacidad para que escales rapido tu base."
+				""
+				"&6Storage Drawers&r te permite guardar grandes cantidades de un mismo item de forma compacta y ordenada."
+				""
+				"Combina ambos sistemas: usa cofres para almacenamiento general y cajones para recursos en masa."
+			]
+			icon: "ftbquests:book"
+			id: "10F4A6B8C2D3E5F7"
+			optional: true
+			rewards: [
+				{
+					id: "2BE4D6F8A1C30579"
+					item: "ironchests:iron_chest"
+					type: "item"
+				}
+				{
+					id: "3CF5E7A9B2D4068A"
+					type: "xp"
+					xp: 40
+				}
+			]
+			size: 1.5d
+			subtitle: "Haz clic para empezar"
+			tasks: [{
+				id: "47385EF729837993"
+				title: "Aceptar recompensas"
+				type: "checkmark"
+			}]
+			title: "&6Almacenamiento Extra"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10F4A6B8C2D3E5F7"]
+			description: [
+				"Tu primer salto de capacidad. Perfecto para salir del cofre vanilla sin gastar demasiado."
+				""
+				"&eCapacidad:&r 45 slots"
+			]
+			id: "21A5C7E9B3D4F608"
+			rewards: [
+				{
+					count: 8
+					id: "4DF6A8C1E3B50729"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "5E07B9D2F4C6183A"
+					type: "xp"
+					xp: 30
+				}
+			]
+			subtitle: "Entrada economica"
+			tasks: [{
+				id: "5AD52950D43F56AA"
+				item: "ironchests:copper_chest"
+				type: "item"
+			}]
+			title: "Cofre de cobre"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["21A5C7E9B3D4F608"]
+			description: [
+				"El clasico de progresion: barato, robusto y enorme para mid-game."
+				""
+				"&eCapacidad:&r 54 slots"
+			]
+			id: "32B6D8F0C4E50719"
+			rewards: [
+				{
+					count: 4
+					id: "6F18CAE3D5B7294B"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "7029DBF4E6C83A5C"
+					type: "xp"
+					xp: 35
+				}
+			]
+			subtitle: "Capacidad segura"
+			tasks: [{
+				id: "084A63DEDFC5131B"
+				item: "ironchests:iron_chest"
+				type: "item"
+			}]
+			title: "Cofre de hierro"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["32B6D8F0C4E50719"]
+			description: [
+				"Cuando tu granja ya produce a lo grande, este cofre aguanta el ritmo sin problema."
+				""
+				"&eCapacidad:&r 81 slots"
+			]
+			id: "43C7E9A1D5F6082A"
+			rewards: [
+				{
+					count: 3
+					id: "36FB510A7C8A3D14"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "1717F37DAC311BFD"
+					type: "xp"
+					xp: 40
+				}
+			]
+			subtitle: "Para farm intensa"
+			tasks: [{
+				id: "621C999535477DC7"
+				item: "ironchests:gold_chest"
+				type: "item"
+			}]
+			title: "Cofre de oro"
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["43C7E9A1D5F6082A"]
+			description: [
+				"Nivel top para almacenamiento general en base principal."
+				""
+				"&eCapacidad:&r 108 slots"
+			]
+			id: "54D8FA12E6A7093B"
+			rewards: [
+				{
+					count: 2
+					id: "28B80457A1884717"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "7E5D568E2B708C4E"
+					type: "xp"
+					xp: 45
+				}
+			]
+			subtitle: "Almacen premium"
+			tasks: [{
+				id: "620C05D8884DE15E"
+				item: "ironchests:diamond_chest"
+				type: "item"
+			}]
+			title: "Cofre de diamante"
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["54D8FA12E6A7093B"]
+			description: [
+				"Tu cofre blindado. Ideal para guardar lo importante en zonas con riesgo."
+				""
+				"&eCapacidad:&r 108 slots"
+				""
+				"&6Extra:&r resistente a explosiones."
+			]
+			id: "65E90B23F7B80A4C"
+			rewards: [
+				{
+					count: 4
+					id: "5E3F352613DBE75F"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "4C72DD6B2287FCCB"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "A prueba de boom"
+			tasks: [{
+				id: "401689D1C6C92767"
+				item: "ironchests:obsidian_chest"
+				type: "item"
+			}]
+			title: "Cofre de obsidiana"
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["54D8FA12E6A7093B"]
+			description: [
+				"Version decorativa y practica del tier alto. Puedes ver lo que hay dentro sin abrirlo."
+				""
+				"&eCapacidad:&r 108 slots"
+			]
+			id: "76FA1C3408C91B5D"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "02D9956447BD089F"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					id: "1177DDDBD5E92B02"
+					type: "xp"
+					xp: 35
+				}
+			]
+			subtitle: "Opcional y bonito"
+			tasks: [{
+				id: "5A0987D06763CF69"
+				item: "ironchests:crystal_chest"
+				type: "item"
+			}]
+			title: "Cofre de cristal"
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["10F4A6B8C2D3E5F7"]
+			description: [
+				"Empiezas el sistema de cajones. Cada cajon guarda muchisimo de un solo item."
+				""
+				"&eTip:&r perfecto para piedra, madera, lingotes y cultivos."
+			]
+			id: "564ADBC5310F6009"
+			rewards: [
+				{
+					count: 2
+					id: "09C2648D1F37CEF5"
+					item: "storagedrawers:oak_full_drawers_1"
+					type: "item"
+				}
+				{
+					id: "1AD3759E2048DF06"
+					type: "xp"
+					xp: 30
+				}
+			]
+			subtitle: "Base del sistema"
+			tasks: [{
+				id: "4D22ED8C5D4649EF"
+				item: "storagedrawers:oak_full_drawers_1"
+				type: "item"
+			}]
+			title: "Cajon basico"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Divide almacenamiento en dos items sin gastar mas espacio de pared."
+				""
+				"Ideal para pares de recursos que siempre van juntos."
+			]
+			id: "590156271590B361"
+			rewards: [
+				{
+					count: 2
+					id: "2BE486AF3159E017"
+					item: "storagedrawers:oak_full_drawers_2"
+					type: "item"
+				}
+				{
+					id: "3CF597B0426AF128"
+					type: "xp"
+					xp: 32
+				}
+			]
+			subtitle: "Mas flexible"
+			tasks: [{
+				id: "2D344D2245173372"
+				item: "storagedrawers:oak_full_drawers_2"
+				type: "item"
+			}]
+			title: "Cajon de 2 slots"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Maximizas variedad: cuatro items diferentes en un solo bloque."
+				""
+				"Muy util para recursos de uso frecuente pero de volumen medio."
+			]
+			id: "052C8535E14B240B"
+			rewards: [
+				{
+					count: 2
+					id: "4DA6A8C1537B0239"
+					item: "storagedrawers:oak_full_drawers_4"
+					type: "item"
+				}
+				{
+					id: "5EB7B9D2648C134A"
+					type: "xp"
+					xp: 35
+				}
+			]
+			subtitle: "Orden total"
+			tasks: [{
+				id: "64A30525E972B613"
+				item: "storagedrawers:oak_full_drawers_4"
+				type: "item"
+			}]
+			title: "Cajon de 4 slots"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Convierte automaticamente entre bloques, lingotes y nuggets (u otras cadenas compactables)."
+				""
+				"Te ahorra crafting manual constante."
+			]
+			id: "05BC7AB1DA2BB592"
+			rewards: [
+				{
+					id: "6FC8CAE3759D245B"
+					item: "storagedrawers:compacting_drawers_3"
+					type: "item"
+				}
+				{
+					id: "70D9DBF486AE356C"
+					type: "xp"
+					xp: 45
+				}
+			]
+			subtitle: "Automatiza conversiones"
+			tasks: [{
+				id: "406C5805200DF905"
+				item: "storagedrawers:compacting_drawers_3"
+				type: "item"
+			}]
+			title: "Cajon compactador"
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			description: ["Necesaria para fabricar mejoras de capacidad. Es la puerta al almacenamiento avanzado."]
+			id: "09899BC60191492D"
+			rewards: [
+				{
+					count: 2
+					id: "7FA09705130FF618"
+					item: "storagedrawers:upgrade_template"
+					type: "item"
+				}
+				{
+					id: "39FF6BBC9E9E23BA"
+					type: "xp"
+					xp: 30
+				}
+			]
+			subtitle: "Empieza a mejorar"
+			tasks: [{
+				id: "275ED761730C22B3"
+				item: "storagedrawers:upgrade_template"
+				type: "item"
+			}]
+			title: "Plantilla de mejora"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			description: ["Primer upgrade real para multiplicar capacidad en cajones clave."]
+			id: "0F69D7751D79A14D"
+			rewards: [
+				{
+					id: "330342B4313FD609"
+					item: "storagedrawers:iron_storage_upgrade"
+					type: "item"
+				}
+				{
+					id: "619293E145AB6317"
+					type: "xp"
+					xp: 35
+				}
+			]
+			subtitle: "Mas espacio por slot"
+			tasks: [{
+				id: "07E5630E64287156"
+				item: "storagedrawers:iron_storage_upgrade"
+				type: "item"
+			}]
+			title: "Mejora de hierro"
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Upgrade potente para tus recursos mas abundantes."
+				""
+				"Si automatizas mineria o granjas, esto se nota muchisimo."
+			]
+			id: "0F90808343945D96"
+			rewards: [
+				{
+					id: "03DDB189A88DB69A"
+					item: "storagedrawers:diamond_storage_upgrade"
+					type: "item"
+				}
+				{
+					id: "14EF05B6B5BCB433"
+					type: "xp"
+					xp: 45
+				}
+			]
+			subtitle: "Escala en serio"
+			tasks: [{
+				id: "1652A7233CBEE229"
+				item: "storagedrawers:diamond_storage_upgrade"
+				type: "item"
+			}]
+			title: "Mejora de diamante"
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"El cerebro del sistema. Conecta todos los cajones cercanos y te deja gestionarlos desde un punto."
+				""
+				"Con esto montas un almacen de recursos serio y limpio."
+			]
+			id: "4A624FEFAF9B6299"
+			rewards: [
+				{
+					id: "763A7BAC43215C04"
+					item: "storagedrawers:controller_slave"
+					type: "item"
+				}
+				{
+					id: "594F11FA5EBB3EE5"
+					type: "xp"
+					xp: 55
+				}
+			]
+			subtitle: "Conecta todo"
+			tasks: [{
+				id: "056E2FD7857B05BC"
+				item: "storagedrawers:controller"
+				type: "item"
+			}]
+			title: "Controlador"
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&bComo usar cajones rapido:&r"
+				"- Clic: metes items del inventario."
+				"- Clic derecho: sacas 1 item."
+				"- Shift + clic derecho: sacas un stack completo."
+				""
+				"Usa upgrades para aumentar capacidad y deja los cofres para items variados."
+			]
+			icon: "ftbquests:book"
+			id: "0F23A5CD9152A4E6"
+			optional: true
+			rewards: [
+				{
+					id: "19B3758E4F20CE15"
+					item: "storagedrawers:upgrade_template"
+					type: "item"
+				}
+				{
+					id: "2AC4869F5031DF26"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Mini guia de uso"
+			tasks: [{
+				id: "1A18D0CD324FD367"
+				title: "Leido"
+				type: "checkmark"
+			}]
+			title: "Como funcionan los cajones"
+			x: 5.0d
+			y: 1.5d
+		}
+	]
+	title: " &6A&flmacenamiento &6E&fxtra"
+}

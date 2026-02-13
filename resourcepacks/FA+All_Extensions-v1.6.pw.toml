@@ -1,0 +1,8 @@
+name = "FA+All_Extensions-v1.6"
+filename = "FA+All_Extensions-v1.6.zip"
+side = "client"
+
+[download]
+mode = "file"
+hash-format = "sha256"
+hash = "63186dc000c0e10c890e8826ac2c058964f56304c4655be0d286ec2b87c3ff2e"

@@ -1,0 +1,507 @@
+{
+	autofocus_id: "920600CB0FCA1706"
+	default_hide_dependency_lines: true
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "cfarmcharm"
+	group: "28F2E5AC1C6F81F3"
+	icon: "farm_and_charm:pizza"
+	id: "66B296014ED938C2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&2Farm \\& Charm&r le da una vuelta completa a tu granja: nuevos cultivos, estaciones de cocina y recetas para montar una cocina de verdad."
+				""
+				"Encontraras varios cultivos silvestres en llanuras y bosques, asi que explora antes de plantar en serio."
+				""
+				"&aConsejo&r: para los tomates, usa cuerdas y vallas de Brewery para guiarlos en vertical y ahorrar espacio."
+			]
+			icon: "ftbquests:book"
+			id: "2E9F88BA817C2233"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "6F05B9099BB26DBA"
+					item: "farm_and_charm:tomato"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "73A06FCE251E6F1F"
+					item: "farm_and_charm:lettuce"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1A461804B007261B"
+					item: "farm_and_charm:corn"
+					type: "item"
+				}
+				{
+					id: "55A120703DD758D7"
+					type: "xp"
+					xp: 50
+				}
+			]
+			size: 1.5d
+			subtitle: "Pulsa para ver como empezar tu huerto"
+			tasks: [{
+				id: "45394A0C5381F5BD"
+				title: "Aceptar recompensas"
+				type: "checkmark"
+			}]
+			title: "&6Guia de inicio"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "50F9A2DCBF0739DB"
+			rewards: [
+				{
+					count: 2
+					id: "19F21ACB0E3B9AAD"
+					item: "farm_and_charm:tomato"
+					type: "item"
+				}
+				{
+					id: "3DA97AA63039EE7A"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Tomate: base para salsas y platos fuertes"
+			tasks: [{
+				id: "69B25EC036EFDE19"
+				item: "farm_and_charm:tomato"
+				type: "item"
+			}]
+			title: "&2Cultivo: &aTomate"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["50F9A2DCBF0739DB"]
+			id: "2D68AD03C5B612D2"
+			rewards: [
+				{
+					count: 2
+					id: "122C1B595C52600E"
+					item: "farm_and_charm:lettuce"
+					type: "item"
+				}
+				{
+					id: "683B65E56CA8343C"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Lechuga fresca para recetas ligeras"
+			tasks: [{
+				id: "05AAFB41354677D7"
+				item: "farm_and_charm:lettuce"
+				type: "item"
+			}]
+			title: "&2Cultivo: &aLechuga"
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["50F9A2DCBF0739DB"]
+			id: "0121BF43FAEF2CE8"
+			rewards: [
+				{
+					count: 2
+					id: "65C2D4427B03C5CE"
+					item: "farm_and_charm:corn"
+					type: "item"
+				}
+				{
+					id: "042F8FD0769386DA"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Maiz para asar y para mejorar tu granja"
+			tasks: [{
+				id: "5EE2515D1F2CCE0F"
+				item: "farm_and_charm:corn"
+				type: "item"
+			}]
+			title: "&2Cultivo: &aMaiz"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2D68AD03C5B612D2"]
+			id: "7AFD0EE958B73A79"
+			rewards: [
+				{
+					count: 2
+					id: "435E8245B8ED4AD6"
+					item: "farm_and_charm:oat"
+					type: "item"
+				}
+				{
+					id: "3C251D9ACF6C4391"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Avena para desayunos potentes"
+			tasks: [{
+				id: "132CAFD410C350A7"
+				item: "farm_and_charm:oat"
+				type: "item"
+			}]
+			title: "&2Cultivo: &aAvena"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			id: "0305F0DA7BF3DC91"
+			rewards: [
+				{
+					count: 2
+					id: "62971076A754F4DE"
+					item: "farm_and_charm:strawberry"
+					type: "item"
+				}
+				{
+					id: "5ACD6F62FA95C5C7"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Fresa dulce para rematar tus recetas"
+			tasks: [{
+				id: "728E198A356F031C"
+				item: "farm_and_charm:strawberry"
+				type: "item"
+			}]
+			title: "&2Cultivo: &aFresa"
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			id: "2492A757EA426059"
+			rewards: [
+				{
+					id: "52DB38E624DB1927"
+					item: "farm_and_charm:crafting_bowl"
+					type: "item"
+				}
+				{
+					id: "5204CBCA178EBAB9"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Tu mesa base para preparar ingredientes"
+			tasks: [{
+				id: "2693947246044733"
+				item: "farm_and_charm:crafting_bowl"
+				type: "item"
+			}]
+			title: "&6Equipo: &bCuenco de preparacion"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "797B7D3D4E3101B0"
+			rewards: [
+				{
+					id: "1CEDB3573B506CB4"
+					item: "farm_and_charm:roaster"
+					type: "item"
+				}
+				{
+					id: "281EA8A9AD4D511D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Asador para darle sabor y textura"
+			tasks: [{
+				id: "759ADF1EEEC5E00D"
+				item: "farm_and_charm:roaster"
+				type: "item"
+			}]
+			title: "&6Equipo: &bAsador"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			id: "5CDE04249095BADD"
+			rewards: [
+				{
+					id: "0CE4DB50754ACC9B"
+					item: "farm_and_charm:mincer"
+					type: "item"
+				}
+				{
+					id: "4654E1449255D58C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Picadora para procesar ingredientes"
+			tasks: [{
+				id: "6E8CA3E629B96170"
+				item: "farm_and_charm:mincer"
+				type: "item"
+			}]
+			title: "&6Equipo: &bPicadora"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"797B7D3D4E3101B0"
+				"5CDE04249095BADD"
+			]
+			id: "008AD226D1C428CE"
+			rewards: [
+				{
+					id: "5C366F206522C8FD"
+					item: "farm_and_charm:scarecrow"
+					type: "item"
+				}
+				{
+					id: "58405D0F4280DB6D"
+					type: "xp"
+					xp: 30
+				}
+			]
+			subtitle: "Protege tu huerto y manten ordenado el campo"
+			tasks: [{
+				id: "4D566F199723B787"
+				item: "farm_and_charm:scarecrow"
+				type: "item"
+			}]
+			title: "&6Equipo: &bEspantapajaros"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			id: "31DDCCD33FCF7E4F"
+			rewards: [
+				{
+					id: "422DD9DA914E126D"
+					item: "farm_and_charm:dough"
+					type: "item"
+				}
+				{
+					id: "02283F82128972C0"
+					type: "xp"
+					xp: 30
+				}
+			]
+			subtitle: "Masa lista para meterte de lleno en la cocina"
+			tasks: [{
+				id: "682A918FA07FF7A4"
+				item: "farm_and_charm:dough"
+				type: "item"
+			}]
+			title: "&6Cocina: &aMasa"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50F9A2DCBF0739DB"]
+			id: "38D61349BB035111"
+			rewards: [
+				{
+					id: "4C2CAD77393213D0"
+					item: "farm_and_charm:tomato_sauce"
+					type: "item"
+				}
+				{
+					id: "301F54F4FE8606CD"
+					type: "xp"
+					xp: 30
+				}
+			]
+			subtitle: "Salsa de tomate casera, clave para recetas potentes"
+			tasks: [{
+				id: "02E4A1377B902D16"
+				item: "farm_and_charm:tomato_sauce"
+				type: "item"
+			}]
+			title: "&6Cocina: &aSalsa de tomate"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"31DDCCD33FCF7E4F"
+				"5CDE04249095BADD"
+			]
+			id: "7C41D21704EF6B7A"
+			rewards: [
+				{
+					id: "56F9712F344933CE"
+					item: "farm_and_charm:pasta"
+					type: "item"
+				}
+				{
+					id: "20F1DD70DA2FB11A"
+					type: "xp"
+					xp: 35
+				}
+			]
+			subtitle: "Pasta fresca preparada en casa"
+			tasks: [{
+				id: "14C5C353D8E1DA77"
+				item: "farm_and_charm:pasta"
+				type: "item"
+			}]
+			title: "&6Cocina: &aPasta"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"38D61349BB035111"
+				"797B7D3D4E3101B0"
+			]
+			id: "5E67A8B6C2579208"
+			rewards: [
+				{
+					id: "3BA2E4A16ADC0735"
+					item: "farm_and_charm:spaghetti"
+					type: "item"
+				}
+				{
+					id: "698799AE77CB28CF"
+					type: "xp"
+					xp: 75
+				}
+			]
+			subtitle: "&6Hito&r: ya dominas una receta estrella"
+			tasks: [{
+				id: "043076AB7C52867A"
+				item: "farm_and_charm:spaghetti"
+				type: "item"
+			}]
+			title: "&6Cocina: &6Espaguetis"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5E67A8B6C2579208"]
+			id: "23D09D3A52282B4F"
+			rewards: [
+				{
+					id: "7C1751215FBA3E43"
+					item: "farm_and_charm:pizza"
+					type: "item"
+				}
+				{
+					id: "11962ECA1750F1F3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "&6Hito&r: plato final de Farm \\& Charm"
+			tasks: [{
+				id: "0F63636CEC8C8929"
+				item: "farm_and_charm:pizza"
+				type: "item"
+			}]
+			title: "&6Cocina: &6Pizza"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2D68AD03C5B612D2"
+				"50F9A2DCBF0739DB"
+			]
+			id: "57D2A493FC5FEA51"
+			rewards: [
+				{
+					id: "05A5188237B48306"
+					item: "farm_and_charm:farmers_salad"
+					type: "item"
+				}
+				{
+					id: "7217C2F0D945678B"
+					type: "xp"
+					xp: 40
+				}
+			]
+			subtitle: "Comida ligera para el dia a dia"
+			tasks: [{
+				id: "4B555FA82F6024DE"
+				item: "farm_and_charm:farmers_salad"
+				type: "item"
+			}]
+			title: "&6Cocina: &aEnsalada del granjero"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"El fertilizante acelera el crecimiento de los cultivos."
+				""
+				"Usalo en tus lineas de maiz y avena para notar el cambio enseguida."
+			]
+			id: "54BD3CBB67114C4C"
+			rewards: [
+				{
+					count: 3
+					id: "0BD07D4BDC642F45"
+					item: "farm_and_charm:fertilizer"
+					type: "item"
+				}
+				{
+					id: "6D00B57557B608D9"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Mejora opcional para acelerar tu granja"
+			tasks: [{
+				id: "5F635E31FC9E7A60"
+				item: "farm_and_charm:fertilizer"
+				type: "item"
+			}]
+			title: "&aExtra: Fertilizante"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"El silo te ayuda a guardar materiales de granja sin llenar cofres por todas partes."
+				""
+				"Perfecto para centralizar cosechas antes de cocinar."
+			]
+			id: "6066008F4D77AB54"
+			rewards: [
+				{
+					id: "261DFE3C49897882"
+					item: "farm_and_charm:silo"
+					type: "item"
+				}
+				{
+					id: "2B6F8D29D9C867E4"
+					type: "xp"
+					xp: 35
+				}
+			]
+			subtitle: "Almacenamiento util para una granja grande"
+			tasks: [{
+				id: "5308EDACB9C0943F"
+				item: "farm_and_charm:silo"
+				type: "item"
+			}]
+			title: "&aExtra: Silo"
+			x: 5.0d
+			y: 2.0d
+		}
+	]
+	title: "&2Farm \\& Charm"
+}

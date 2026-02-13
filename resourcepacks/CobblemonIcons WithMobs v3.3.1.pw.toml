@@ -1,0 +1,8 @@
+name = "CobblemonIcons WithMobs v3.3.1"
+filename = "CobblemonIcons WithMobs v3.3.1.zip"
+side = "client"
+
+[download]
+mode = "file"
+hash-format = "sha256"
+hash = "cfee260d352922005be20c406145f1ca29b99f0b8644d3ae94e7ac7667b8ac71"

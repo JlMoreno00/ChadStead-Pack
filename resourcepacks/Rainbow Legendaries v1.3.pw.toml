@@ -1,0 +1,8 @@
+name = "Rainbow Legendaries v1.3"
+filename = "Rainbow Legendaries v1.3.zip"
+side = "client"
+
+[download]
+mode = "file"
+hash-format = "sha256"
+hash = "049106f360cb7c4bb82737a0155df6f2e6b77fa13c38b141266b886a1ddff05c"

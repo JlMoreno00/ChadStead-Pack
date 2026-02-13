@@ -1,0 +1,8 @@
+name = "BCG Compatibility"
+filename = "BCG Compatibility.zip"
+side = "client"
+
+[download]
+mode = "file"
+hash-format = "sha256"
+hash = "5f01402b89292d6a7368f33813d9e8ab56a2e7ea24baff548a7166fb974b84c4"

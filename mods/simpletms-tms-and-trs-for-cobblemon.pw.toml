@@ -1,0 +1,13 @@
+name = "SimpleTMs: TMs and TRs for Cobblemon"
+filename = "SimpleTMs-fabric-2.0.2-backport.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5da1439098bcae36d16a818fe0cb4aad4a99686f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6130403
+project-id = 959184

@@ -1,0 +1,8 @@
+name = "BCG x Whimscape"
+filename = "BCG x Whimscape.zip"
+side = "client"
+
+[download]
+mode = "file"
+hash-format = "sha256"
+hash = "5475ad031c9fefff18d79c3ec951dfdeec61bbf64327b5279a94b89ab6da5274"

@@ -1,0 +1,1027 @@
+{
+	autofocus_id: "D69EC1C78A5B9B4A"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "csophbackpacks"
+	group: "7DE0C6EA36844BEB"
+	icon: "sophisticatedbackpacks:backpack"
+	id: "62F5DED10B7BC2CE"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&bSophisticated Backpacks&r te da mochilas mejorables para explorar, farmear y construir sin pelearte con el inventario."
+				""
+				"Pulsa &bB&r para abrir tu mochila. Haz &bShift + clic derecho&r con la mochila en mano para equiparla o colocarla."
+				""
+				"Empieza con cuero y sube de nivel hasta netherite. Luego anade mejoras para automatizar todo a tu estilo."
+			]
+			icon: "ftbquests:book"
+			id: "2E0EB0BC93D0F775"
+			optional: true
+			rewards: [
+				{
+					id: "3CBF645675ED014F"
+					item: "sophisticatedbackpacks:backpack"
+					type: "item"
+				}
+				{
+					id: "33C0BF40975B2B92"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "¡Haz clic para saber más!"
+			tasks: [{
+				id: "128DB9AA8E3B619E"
+				title: "Aceptar recompensas"
+				type: "checkmark"
+			}]
+			title: "&bIntroduccion"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2151B4FE9A26CD26"
+			rewards: [
+				{
+					count: 4
+					id: "38CCAFA2526F933B"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "41FB2D8BD536A872"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Tu primera mochila: simple, barata y util para empezar."
+			tasks: [{
+				id: "0B3E3B75D0C59BAF"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "Mochila de Cuero"
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2151B4FE9A26CD26"]
+			id: "422F20A345731353"
+			rewards: [
+				{
+					count: 4
+					id: "1B952CAD60BDA7B9"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "1FED3F55365C3971"
+					type: "xp"
+					xp: 12
+				}
+			]
+			subtitle: "Mas capacidad y mas huecos para mejoras."
+			tasks: [{
+				id: "340C6D3FD9BFF3D6"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			title: "Mochila de Hierro"
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["422F20A345731353"]
+			id: "17047F5838E33FA5"
+			rewards: [
+				{
+					count: 2
+					id: "425BD6AD30E533F6"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "5E7527A770D6272B"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Buen salto para partidas largas y mineria intensa."
+			tasks: [{
+				id: "32F83D9E5A38981F"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			title: "Mochila de Oro"
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			id: "18D5424F4B5139B7"
+			rewards: [
+				{
+					count: 3
+					id: "2C91F15176269477"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "1A098EC2B61AAA2D"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Mas espacio, mas mejoras y mucha mas comodidad."
+			tasks: [{
+				id: "21BA9AAFC1BB3CA4"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			title: "Mochila de Diamante"
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			id: "011217C6C92F521F"
+			rewards: [
+				{
+					count: 2
+					id: "0EEE226AAE90C268"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "06FB8248A4FB3D7B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "La mejor mochila del mod: maxima capacidad y rendimiento."
+			tasks: [{
+				id: "32E95D56C7D66060"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			title: "Mochila de Netherite"
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"La Base de Mejora es el crafteo clave para casi todas las mejoras."
+				"Fabrica varias: las vas a gastar rapidisimo."
+			]
+			id: "1E74E7685214EEF1"
+			rewards: [
+				{
+					count: 6
+					id: "0053C95E6ADFE306"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "38FF5F228FB4EB19"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [{
+				id: "58C028BCBD74F15A"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			title: "Base de Mejoras"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1E74E7685214EEF1"]
+			description: [
+				"Recoge automaticamente items cercanos y los guarda en la mochila."
+				"Ideal para mineria, granjas y limpieza rapida."
+			]
+			id: "368880F5BC516832"
+			rewards: [
+				{
+					id: "1F564B2F2C84128D"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					id: "2231AC102E2C1816"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "5948AD106B31D977"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				type: "item"
+			}]
+			title: "Mejora de Recogida"
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["368880F5BC516832"]
+			description: [
+				"Version mejorada de Recogida: mas alcance y mejor control."
+				"Recoges mas rapido sin llenar todo a lo loco."
+			]
+			id: "43D558E25CA4C35E"
+			rewards: [
+				{
+					id: "4D6AE1134EBA631A"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "7869FB0A884DB867"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "480188647CA4AD7F"
+				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+				type: "item"
+			}]
+			title: "Mejora de Recogida Avanzada"
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1E74E7685214EEF1"]
+			description: [
+				"Filtra exactamente que entra o no entra en tu mochila."
+				"Clave para mantener orden desde el principio."
+			]
+			id: "6A637A6E33264B1C"
+			rewards: [
+				{
+					id: "1307A57803FE60DC"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "7A1C9158E0F9F55E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "7AA8C7877D67CE9B"
+				item: "sophisticatedbackpacks:filter_upgrade"
+				type: "item"
+			}]
+			title: "Mejora de Filtro"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6A637A6E33264B1C"]
+			description: [
+				"Filtrado avanzado con mas opciones y precision."
+				"Perfecto para automatizaciones finas."
+			]
+			id: "3AD398B5AFB6B67B"
+			rewards: [
+				{
+					id: "36B681A790F1B80D"
+					item: "minecraft:comparator"
+					type: "item"
+				}
+				{
+					id: "5F74C88650208EFC"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "5514220C18E40148"
+				item: "sophisticatedbackpacks:advanced_filter_upgrade"
+				type: "item"
+			}]
+			title: "Mejora de Filtro Avanzada"
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1E74E7685214EEF1"]
+			description: [
+				"Atrae items cercanos hacia ti o hacia la mochila."
+				"Muy comodo en cuevas y combate."
+			]
+			id: "70677196EDCDA8E6"
+			rewards: [
+				{
+					count: 2
+					id: "1FA295A6FC85D4B4"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "1733C8FEEBE4986C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "6C45718E7264350D"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+				type: "item"
+			}]
+			title: "Mejora de Iman"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["70677196EDCDA8E6"]
+			description: [
+				"Version avanzada del magnet con mejor rango y control."
+				"No se te escapa casi nada."
+			]
+			id: "31ACFE27733838C1"
+			rewards: [
+				{
+					id: "679B6AAD0DE56D5F"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "79023A3FE2786B2E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "25B084FC7A35B27C"
+				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+				type: "item"
+			}]
+			title: "Mejora de Iman Avanzada"
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1E74E7685214EEF1"]
+			description: [
+				"Te alimenta automaticamente cuando tienes hambre."
+				"Muy util para exploracion larga o combate."
+			]
+			id: "1C6EC2A5FD0FB1BE"
+			rewards: [
+				{
+					count: 2
+					id: "058936183D045B44"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					id: "56C54B2C56E66B33"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "7637643676E9B445"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			title: "Mejora de Alimentacion"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1C6EC2A5FD0FB1BE"]
+			description: [
+				"Version avanzada de Alimentacion, mas eficiente y estable."
+				"Comes justo cuando toca, sin desperdiciar."
+			]
+			id: "383DE01E9A3208AA"
+			rewards: [
+				{
+					count: 2
+					id: "62B675DBA2224812"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					id: "3AB453EFCC698E33"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "20D9B665C876FD3B"
+				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+				type: "item"
+			}]
+			title: "Mejora de Alimentacion Avanzada"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E74E7685214EEF1"]
+			description: [
+				"Destruye automaticamente items que no quieres guardar."
+				"Perfecto para limpiar basura de minas o granjas."
+			]
+			id: "54B394EF4905097B"
+			rewards: [
+				{
+					id: "56B239B7E65F31C6"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "452E9A343666960A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "0B1C33BA1D4056B5"
+				item: "sophisticatedbackpacks:void_upgrade"
+				type: "item"
+			}]
+			title: "Mejora de Vacio"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Version avanzada de Vacio con reglas mas precisas."
+				"Evitas borrar cosas importantes por error."
+			]
+			id: "4B78CFB9E3B6E267"
+			rewards: [
+				{
+					count: 2
+					id: "6412A323C362EA32"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "43E0DFF36842C8BD"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "204849BECDF3554D"
+				item: "sophisticatedbackpacks:advanced_void_upgrade"
+				type: "item"
+			}]
+			title: "Mejora de Vacio Avanzada"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1E74E7685214EEF1"]
+			description: [
+				"Compacta items automaticamente (por ejemplo lingotes a bloques)."
+				"Ahorra muchisimo espacio al farmear."
+			]
+			id: "2FDC2A9658C34658"
+			rewards: [
+				{
+					id: "60FB1415C17C587B"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					id: "457D0C4BA32D812D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "7B3A05F3FC427114"
+				item: "sophisticatedbackpacks:compacting_upgrade"
+				type: "item"
+			}]
+			title: "Mejora de Compactacion"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FDC2A9658C34658"]
+			description: [
+				"Compactado avanzado con mas recetas y mejor control."
+				"Saca el maximo partido al espacio de la mochila."
+			]
+			id: "1E0145D60909DC6D"
+			rewards: [
+				{
+					id: "474DF7DEC815AF1C"
+					item: "minecraft:sticky_piston"
+					type: "item"
+				}
+				{
+					id: "094C1D85D2845FB9"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "526FAB4FD5208656"
+				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
+				type: "item"
+			}]
+			title: "Mejora de Compactacion Avanzada"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E74E7685214EEF1"]
+			description: [
+				"Rellena tu hotbar automaticamente cuando se te acaban bloques o items."
+				"Increible para construir sin parar."
+			]
+			id: "65DECB33410D7CD5"
+			rewards: [
+				{
+					id: "0D001FE70A9988A4"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "0314F43FD4831B1E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "02E02D19565775B7"
+				item: "sophisticatedbackpacks:restock_upgrade"
+				type: "item"
+			}]
+			title: "Mejora de Reabastecimiento"
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1E74E7685214EEF1"]
+			description: [
+				"Manda items de tu inventario a la mochila con un clic."
+				"Orden instantaneo despues de lootear."
+			]
+			id: "3DFE060D980FAF02"
+			rewards: [
+				{
+					id: "111A268E8309EF0F"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+				{
+					id: "75BAAB1A0C095787"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "37FA6947D7AC0057"
+				item: "sophisticatedbackpacks:deposit_upgrade"
+				type: "item"
+			}]
+			title: "Mejora de Deposito"
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1E74E7685214EEF1"]
+			description: [
+				"Abre una mesa de crafteo dentro de la mochila."
+				"Crafteas en cualquier sitio sin colocar bloques."
+			]
+			id: "4C3D3C2474A17B75"
+			rewards: [
+				{
+					id: "73C01A7A44A86F32"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+				{
+					id: "06DBB90D88A3438D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "58B416DB6686A170"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+				type: "item"
+			}]
+			title: "Mejora de Crafteo"
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1E74E7685214EEF1"]
+			description: [
+				"Cocina items automaticamente usando combustible en la mochila."
+				"Perfecto para hornos portatiles."
+			]
+			id: "472A7C794C43066D"
+			rewards: [
+				{
+					id: "5ED04913041A3F6D"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					id: "1E8EBAE512EDBA78"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "71D905D1366E0202"
+				item: "sophisticatedbackpacks:smelting_upgrade"
+				type: "item"
+			}]
+			title: "Mejora de Fundicion"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Fundido automatico mejorado: cocina en cuanto entran los items."
+				"Acelera mucho el procesado de recursos."
+			]
+			id: "2E6C675E3B720E1A"
+			rewards: [
+				{
+					id: "0558C2AD2D641D7F"
+					item: "minecraft:blast_furnace"
+					type: "item"
+				}
+				{
+					id: "2A837783896EB488"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "7F81A0A32527CFF4"
+				item: "sophisticatedbackpacks:auto_smelting_upgrade"
+				type: "item"
+			}]
+			title: "Mejora de Autofundido"
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E74E7685214EEF1"]
+			description: [
+				"Cambia herramientas automaticamente segun el bloque que rompes."
+				"Picar, cavar y talar sin cambiar de hueco."
+			]
+			id: "5004359CFB0F244A"
+			rewards: [
+				{
+					id: "208EF1A5127785DB"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "381522E3017D6240"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "0B67A5D33E231025"
+				item: "sophisticatedbackpacks:tool_swapper_upgrade"
+				type: "item"
+			}]
+			title: "Mejora de Cambio de Herramienta"
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1E74E7685214EEF1"]
+			description: [
+				"Rellena automaticamente items consumibles del inventario."
+				"No te quedas sin antorchas ni bloques en mal momento."
+			]
+			id: "0EB08A71039524C0"
+			rewards: [
+				{
+					id: "68B4E144B0595536"
+					item: "minecraft:bundle"
+					type: "item"
+				}
+				{
+					id: "6703BD17CCF8C424"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "105DCCA11D3DCCA9"
+				item: "sophisticatedbackpacks:refill_upgrade"
+				type: "item"
+			}]
+			title: "Mejora de Relleno"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E74E7685214EEF1"]
+			description: [
+				"Anade tanque interno para almacenar liquidos en la mochila."
+				"Muy util para lava, agua y automatizaciones."
+			]
+			id: "33ACB6A93E9C0FB9"
+			rewards: [
+				{
+					id: "07447F8E132B0F42"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					id: "42E6FAAC249368F0"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "7ABA220FAC91F8F4"
+				item: "sophisticatedbackpacks:tank_upgrade"
+				type: "item"
+			}]
+			title: "Mejora de Tanque"
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E74E7685214EEF1"]
+			description: [
+				"Guarda energia FE dentro de la mochila para herramientas y maquinas."
+				"Una bateria portatil en toda regla."
+			]
+			id: "00BE77BC30A4B6A8"
+			rewards: [
+				{
+					id: "10D3CE94D754EF40"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+				{
+					id: "2D3E6C40FCC870DF"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "55B90D9AA9F2946E"
+				item: "sophisticatedbackpacks:battery_upgrade"
+				type: "item"
+			}]
+			title: "Mejora de Bateria"
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E74E7685214EEF1"]
+			description: [
+				"Evita que la mochila se pierda al morir."
+				"Seguridad total para tu inventario mas importante."
+			]
+			id: "4FB012CC2665FA69"
+			rewards: [
+				{
+					id: "19A57639AB5F1B04"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "1D6E4AA5DB10B58F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "5F57C73E6890BA17"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			title: "Mejora Eterna"
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E74E7685214EEF1"]
+			description: [
+				"Permite abrir otras mochilas o inventarios conectados desde la tuya."
+				"Gestion total sin cerrar interfaces."
+			]
+			id: "2A2613F22EA3E744"
+			rewards: [
+				{
+					id: "25EAB56FB8E52EA2"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					id: "7306E6F094DF9CAA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "2E6731EE3E5F40CB"
+				item: "sophisticatedbackpacks:inception_upgrade"
+				type: "item"
+			}]
+			title: "Mejora de Incepcion"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E74E7685214EEF1"]
+			description: [
+				"Reproduce musica desde la mochila con discos."
+				"Un toque de estilo mientras exploras o construyes."
+			]
+			id: "056130892312256C"
+			rewards: [
+				{
+					id: "14DD790083BE3CFC"
+					item: "minecraft:music_disc_13"
+					type: "item"
+				}
+				{
+					id: "5FD8ADC4D1D2047B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "478F6791556CB3B7"
+				item: "sophisticatedbackpacks:jukebox_upgrade"
+				type: "item"
+			}]
+			title: "Mejora de Tocadiscos"
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1E74E7685214EEF1"]
+			description: [
+				"Aumenta el tamano de pila por hueco a x1.5."
+				"Primer paso para cargar muchisimo mas."
+			]
+			id: "25E3F0584E11C84A"
+			rewards: [
+				{
+					count: 2
+					id: "727829E6072EC846"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "23648BB28DFE76C1"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "013DBFBC949ECBF2"
+				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
+				type: "item"
+			}]
+			title: "Mejora de Apilado Inicial (1.5x)"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["25E3F0584E11C84A"]
+			description: [
+				"Aumenta el tamano de pila por hueco a x2."
+				"Mas espacio real sin cambiar de mochila."
+			]
+			id: "7AE01E717B9C7F7C"
+			rewards: [
+				{
+					count: 2
+					id: "16126401B51A0DBC"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "5EFE4F27D74E88DC"
+					type: "xp"
+					xp: 12
+				}
+			]
+			tasks: [{
+				id: "1EE3867E7175C89B"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			title: "Mejora de Apilado Nivel 1 (2x)"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Aumenta el tamano de pila por hueco a x4."
+				"Empieza a notarse de verdad en mineria y granjas."
+			]
+			id: "30FC4AE9AA750DD2"
+			rewards: [
+				{
+					id: "1C40DB3AD560F490"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "12D273EB82952D62"
+					type: "xp"
+					xp: 14
+				}
+			]
+			tasks: [{
+				id: "1E3ACD0A990367F1"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			title: "Mejora de Apilado Nivel 2 (4x)"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["30FC4AE9AA750DD2"]
+			description: [
+				"Aumenta el tamano de pila por hueco a x8."
+				"Perfecto para materiales de construccion masivos."
+			]
+			id: "4BA0987A0B6D497F"
+			rewards: [
+				{
+					count: 2
+					id: "7040724924E22E16"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "1EED99F112C48999"
+					type: "xp"
+					xp: 16
+				}
+			]
+			tasks: [{
+				id: "125E017C51650EA0"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			title: "Mejora de Apilado Nivel 3 (8x)"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Aumenta el tamano de pila por hueco a x16."
+				"Capacidad absurda para el juego avanzado."
+			]
+			id: "5EFD9B9767B6DAC0"
+			rewards: [
+				{
+					count: 2
+					id: "57BD39F7AB9DE468"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "7E68DC80F57EC244"
+					type: "xp"
+					xp: 18
+				}
+			]
+			tasks: [{
+				id: "1753B222308DD21F"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			title: "Mejora de Apilado Nivel 4 (16x)"
+			x: 3.0d
+			y: 5.5d
+		}
+	]
+	title: " &bM&fochilas &bS&fofisticadas"
+}

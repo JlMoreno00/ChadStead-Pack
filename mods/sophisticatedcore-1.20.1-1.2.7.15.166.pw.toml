@@ -1,0 +1,8 @@
+name = "sophisticatedcore-1.20.1-1.2.7.15.166"
+filename = "sophisticatedcore-1.20.1-1.2.7.15.166.jar"
+side = "both"
+
+[download]
+mode = "file"
+hash-format = "sha256"
+hash = "dafca4311f94ed5eff18f34077e7ab91a169863a4bde2cc82ae525d869ee9396"

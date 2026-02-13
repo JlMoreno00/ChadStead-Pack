@@ -1,0 +1,13 @@
+name = "project-1459531"
+filename = "Cobbreeding-fabric-1.7.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a62fcf7541ee81ffa6938b905f249ce2cf8c13db"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7607388
+project-id = 1459531

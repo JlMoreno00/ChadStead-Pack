@@ -1,0 +1,393 @@
+{
+	autofocus_id: "A4F9C2D1E7B8356C"
+	default_hide_dependency_lines: true
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "cbeachparty"
+	group: "3453313E23B8AB3B"
+	icon: "beachparty:coconut"
+	id: "37948E2F3FC3B1E1"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&bBeach Party&r convierte tu base en un rincon veraniego con bebidas tropicales, muebles de playa y mucho ambiente."
+				""
+				"Prepara tragos frios, monta tu zona chill y disfruta de una vibe relajada junto al mar."
+				""
+				"&eTip:&r empieza por las bebidas y luego arma tu esquina de descanso con tumbona, sombrilla y mini nevera."
+			]
+			icon: "ftbquests:book"
+			id: "4453E82D3E14A9A8"
+			optional: true
+			rewards: [
+				{
+					id: "19A4E7C2D5B8F601"
+					item: {
+						Count: 1
+						id: "beachparty:sunglasses"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2AB5F8D3C6E1A702"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.5d
+			subtitle: "Tu fiesta tropical empieza aqui"
+			tasks: [{
+				id: "11A4B7C9D2E5F601"
+				title: "Aceptar recompensa"
+				type: "checkmark"
+			}]
+			title: "&6Beach Party"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "25DF59C218A4DBC9"
+			rewards: [
+				{
+					id: "3BC6A9E4D7F2B803"
+					item: "beachparty:coconut_half"
+					type: "item"
+				}
+				{
+					id: "4CD7B1F5A8E3C904"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Primera parada: coco fresco"
+			tasks: [{
+				id: "22B5C8D1E3F6A702"
+				item: "beachparty:coconut"
+				type: "item"
+			}]
+			title: "Coco"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			id: "452207449793C681"
+			rewards: [
+				{
+					id: "5DE8C2A6B9F4D015"
+					item: "beachparty:sweetberries_juice"
+					type: "item"
+				}
+				{
+					id: "6EF9D3B7C1A5E126"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Refrescante y cremosa"
+			tasks: [{
+				id: "33C6D9E2F4A7B803"
+				item: "beachparty:coconut_milk"
+				type: "item"
+			}]
+			title: "Leche de coco"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			id: "3D12A710222CF8FF"
+			rewards: [
+				{
+					id: "7F0AE4C8D2B6F237"
+					item: "beachparty:cocoa_juice"
+					type: "item"
+				}
+				{
+					id: "593F13A73A05E666"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Clasica para dias de calor"
+			tasks: [{
+				id: "44D7E1F3A5B8C904"
+				item: "beachparty:lemonade"
+				type: "item"
+			}]
+			title: "Limonada"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "6F1AF4955BD0093B"
+			rewards: [
+				{
+					id: "2165F3102D51F133"
+					item: "beachparty:pumpkin_juice"
+					type: "item"
+				}
+				{
+					id: "35478BF169A8F3E6"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Sabor tropical de temporada"
+			tasks: [{
+				id: "55E8F2A4B6C9D015"
+				item: "beachparty:melon_juice"
+				type: "item"
+			}]
+			title: "Zumo de melon"
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			id: "7BBE9648C0578818"
+			rewards: [
+				{
+					id: "1220F1767A14E7F2"
+					item: "beachparty:melon_juice"
+					type: "item"
+				}
+				{
+					id: "6A90009D8F2C3E67"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Dulce, frio y perfecto para la playa"
+			tasks: [{
+				id: "66F9A3B5C7D1E126"
+				item: "beachparty:ice_cream"
+				type: "item"
+			}]
+			title: "Helado"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			id: "0B7E3C9D4A1F6528"
+			rewards: [
+				{
+					id: "47410F9EF4368691"
+					item: "beachparty:ice_cream"
+					type: "item"
+				}
+				{
+					id: "326F7D2B02F31D7C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Tu bebida estrella para la fiesta"
+			tasks: [{
+				id: "770AB4C6D8E2F237"
+				item: "beachparty:milkshake"
+				type: "item"
+			}]
+			title: "Batido"
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			id: "1C8A5F2E9D7346B0"
+			rewards: [
+				{
+					id: "4DD04208A35B7EE2"
+					item: "beachparty:beach_towel"
+					type: "item"
+				}
+				{
+					id: "029D14F8C2E6B126"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Comodidad total bajo el sol"
+			tasks: [{
+				id: "29A4B588FA92D6CF"
+				item: "beachparty:deck_chair"
+				type: "item"
+			}]
+			title: "Tumbona"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1C8A5F2E9D7346B0"]
+			id: "2D9F6A3C8E1B7540"
+			rewards: [
+				{
+					id: "13AE25A9D3F7C237"
+					item: "beachparty:palm_torch"
+					type: "item"
+				}
+				{
+					id: "24BF36BAC4E8D348"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Sombra y estilo para tu zona chill"
+			tasks: [{
+				id: "185C8EA381DABF1B"
+				item: "beachparty:beach_umbrella"
+				type: "item"
+			}]
+			title: "Sombrilla"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2D9F6A3C8E1B7540"]
+			id: "3EA7C1D95B2F6480"
+			rewards: [
+				{
+					id: "35C047CBD5F9E459"
+					item: "beachparty:palm_torch"
+					type: "item"
+				}
+				{
+					id: "46D158DCE1A2F560"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Centro de operaciones de toda fiesta"
+			tasks: [{
+				id: "28B610E3848B06F4"
+				item: "beachparty:tiki_bar"
+				type: "item"
+			}]
+			title: "Barra tiki"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3EA7C1D95B2F6480"]
+			id: "4FB8D2A6C3E17590"
+			rewards: [
+				{
+					id: "57E269EDF2B3A671"
+					item: "beachparty:sand_bucket"
+					type: "item"
+				}
+				{
+					id: "68F37AF1A4C5B782"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Bebidas frias listas para servir"
+			tasks: [{
+				id: "64972AC6093C7D76"
+				item: "beachparty:mini_fridge"
+				type: "item"
+			}]
+			title: "Mini nevera"
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			id: "5AC9E3B7D4F28610"
+			optional: true
+			rewards: [
+				{
+					id: "79048B12B5D6C893"
+					item: "beachparty:swim_trunks"
+					type: "item"
+				}
+				{
+					id: "7F900DFADAD4312B"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Look playero completo"
+			tasks: [{
+				id: "28775673BB43011A"
+				item: {
+					Count: 1
+					id: "beachparty:sunglasses"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Gafas de sol"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5AC9E3B7D4F28610"]
+			id: "6BD1F4C8A5E39720"
+			optional: true
+			rewards: [
+				{
+					id: "68DF233DF8FA2AA6"
+					item: {
+						Count: 1
+						id: "beachparty:bikini"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "596A6946B63ECF62"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Decoracion cozy para tumbarte al sol"
+			tasks: [{
+				id: "23A086583E87E124"
+				item: "beachparty:beach_towel"
+				type: "item"
+			}]
+			title: "Toalla de playa"
+			x: 1.8d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5AC9E3B7D4F28610"]
+			id: "7CE2A5D9B6F4A830"
+			optional: true
+			rewards: [
+				{
+					id: "270E9C10FBFCF265"
+					item: "beachparty:coconut"
+					type: "item"
+				}
+				{
+					id: "34EF44CBDC5B88AD"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Si, tambien sirve para repartir golpes"
+			tasks: [{
+				id: "30E8F3B9D0506571"
+				item: {
+					Count: 1
+					id: "beachparty:pool_noodle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Churro de piscina"
+			x: -1.8d
+			y: 4.0d
+		}
+	]
+	title: " &eF&fiesta en la &eP&flaya"
+}

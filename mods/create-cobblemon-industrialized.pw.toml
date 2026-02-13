@@ -1,0 +1,13 @@
+name = "Create: Cobblemon Industrialized"
+filename = "Create-Cobblemon-Fabric-v0.5.02HOTFIX.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "73d368a587eb6ae9b2c4bda2248b965d6e6bc55c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6009090
+project-id = 873856

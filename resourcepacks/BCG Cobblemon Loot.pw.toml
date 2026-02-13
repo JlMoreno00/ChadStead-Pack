@@ -1,0 +1,8 @@
+name = "BCG Cobblemon Loot"
+filename = "BCG Cobblemon Loot.zip"
+side = "client"
+
+[download]
+mode = "file"
+hash-format = "sha256"
+hash = "57cb2815b2d808fca2ed907165d5aede08da6fd4ee59c57a68c43dbd5af66323"

@@ -1,0 +1,8 @@
+name = "Joe's Comfy UI"
+filename = "Joe's Comfy UI.zip"
+side = "client"
+
+[download]
+mode = "file"
+hash-format = "sha256"
+hash = "6f46c4b77736711f4c870c56a848ab85f556db3945f45500a23a5c277488576b"

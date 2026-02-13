@@ -1,0 +1,13 @@
+name = "Selling Bin"
+filename = "SellingBin-mc1.20.1-v1.0.9-fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "00370248b155a68047eb255a95f1347cf82d68e3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5801904
+project-id = 922334

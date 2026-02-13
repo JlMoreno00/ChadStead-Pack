@@ -1,0 +1,13 @@
+name = "Cobblemon Delight"
+filename = "cobbledelight-0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c6e7dfadd68f2a7ac7c4d3428af3fbe6425423f3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6621735
+project-id = 1281347

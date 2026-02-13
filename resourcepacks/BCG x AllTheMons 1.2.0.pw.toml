@@ -1,0 +1,8 @@
+name = "BCG x AllTheMons 1.2.0"
+filename = "BCG x AllTheMons 1.2.0.zip"
+side = "client"
+
+[download]
+mode = "file"
+hash-format = "sha256"
+hash = "5c49696555b9b1282321f13b4bf1851e0316f82b31108db383a8ac64ae5df73d"

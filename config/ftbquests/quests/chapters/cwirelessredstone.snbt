@@ -1,0 +1,225 @@
+{
+	autofocus_id: "7A8B9C0D1E2F3A48"
+	default_hide_dependency_lines: true
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "cwirelessredstone"
+	group: "3B98949C49CF0198"
+	icon: "wirelessredstone:redstone_transmitter"
+	id: "246265FEF995F06F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&cWireless Redstone&r te deja transmitir senales de redstone sin cables usando frecuencias."
+				""
+				"Cada dispositivo puede configurarse con clic derecho para cambiar su frecuencia."
+				""
+				"Si el transmisor y el receptor comparten la misma frecuencia, la senal viaja al instante."
+			]
+			icon: "ftbquests:book"
+			id: "7A8B9C0D1E2F3A48"
+			optional: true
+			rewards: [
+				{
+					id: "1F2E3D4C5B6A7980"
+					item: "wirelessredstone:circuit"
+					type: "item"
+				}
+				{
+					id: "2A3B4C5D6E7F8091"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.5d
+			subtitle: "Haz clic para empezar"
+			tasks: [{
+				id: "3C4D5E6F7A8B9012"
+				title: "Entendi el sistema de frecuencias"
+				type: "checkmark"
+			}]
+			title: "Introduccion"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A8B9C0D1E2F3A48"]
+			description: [
+				"El &cCircuito&r es el componente base de todo el mod."
+				""
+				"Sin esto no puedes fabricar ni transmisores ni herramientas de frecuencia."
+			]
+			id: "28D44432C41334D3"
+			rewards: [
+				{
+					id: "4D5E6F7A8B9C0123"
+					item: "wirelessredstone:circuit"
+					type: "item"
+				}
+				{
+					id: "5E6F7A8B9C0D1234"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Componente base"
+			tasks: [{
+				id: "6F7A8B9C0D1E2345"
+				item: "wirelessredstone:circuit"
+				type: "item"
+			}]
+			title: "Circuito"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7A8B9C0D1E2F3A48"]
+			description: [
+				"El &cTransmisor&r envia energia de redstone de forma inalambrica."
+				""
+				"Alimentalo con cualquier entrada de redstone y usa clic derecho para cambiar frecuencia."
+			]
+			id: "19CA5E1ACA44A98E"
+			rewards: [
+				{
+					count: 4
+					id: "7A8B9C0D1E2F3456"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "7C387A79998533AB"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Envia la senal"
+			tasks: [{
+				id: "714BAE8B3110458D"
+				item: "wirelessredstone:redstone_transmitter"
+				type: "item"
+			}]
+			title: "Transmisor"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7A8B9C0D1E2F3A48"]
+			description: [
+				"El &cReceptor&r recibe la energia del transmisor cuando comparten frecuencia."
+				""
+				"Tambien se ajusta con clic derecho para emparejarlo rapido."
+			]
+			id: "16D0345E50B5DEE7"
+			rewards: [
+				{
+					id: "06445AF86283F327"
+					item: "minecraft:redstone_torch"
+					type: "item"
+				}
+				{
+					id: "377D87B8FACEA040"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Recibe la senal"
+			tasks: [{
+				id: "73F972F23CA44199"
+				item: "wirelessredstone:redstone_receiver"
+				type: "item"
+			}]
+			title: "Receptor"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7A8B9C0D1E2F3A48"]
+			description: [
+				"Con el &cControl remoto&r activas transmisores desde cualquier lugar."
+				""
+				"Haz shift + clic derecho para fijar frecuencia y clic derecho para activar."
+			]
+			id: "6251A90BA7478295"
+			rewards: [
+				{
+					count: 2
+					id: "3F8E003D2CEF0155"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "31FEC1A7FB0A98FD"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Activa a distancia"
+			tasks: [{
+				id: "30FD8F63D20622A4"
+				item: "wirelessredstone:remote"
+				type: "item"
+			}]
+			title: "Control remoto"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7A8B9C0D1E2F3A48"]
+			description: [
+				"El &cRastreador de frecuencia&r te ayuda a encontrar transmisores en una frecuencia concreta."
+				""
+				"Los marca en rojo durante 10 segundos para que ubiques rapido tu red."
+			]
+			id: "4E35200FCA0FB850"
+			rewards: [
+				{
+					count: 4
+					id: "03748596A7B8CEF4"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					id: "148596A7B8C9DF05"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Localiza transmisores"
+			tasks: [{
+				id: "2596A7B8C9DAE016"
+				item: "wirelessredstone:frequency_sniffer"
+				type: "item"
+			}]
+			title: "Rastreador de frecuencia"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7A8B9C0D1E2F3A48"]
+			description: [
+				"La &cHerramienta de frecuencia&r copia y pega frecuencias entre dispositivos."
+				""
+				"Haz shift + clic derecho para copiar y clic derecho para pegar. Ideal para redes grandes."
+			]
+			id: "0718A9B2C3D4E5F6"
+			rewards: [{
+				id: "36A7B8C9DAEBF127"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Bonus final de capitulo"
+			tasks: [{
+				id: "47B8C9DAEBFC0238"
+				item: "wirelessredstone:frequency_tool"
+				type: "item"
+			}]
+			title: "Herramienta de frecuencia"
+			x: 3.0d
+			y: 1.5d
+		}
+	]
+	title: " &cR&fedstone &cI&fnalámbrica"
+}

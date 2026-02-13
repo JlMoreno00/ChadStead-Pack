@@ -1,0 +1,16 @@
+# Exclude all mod jars by default
+mods/*.jar
+
+# But include the manually-hosted ones (no CurseForge/Modrinth URL)
+!mods/sophisticatedbackpacks-*.jar
+!mods/sophisticatedcore-*.jar
+!mods/sophisticatedstorage-*.jar
+!mods/wirelessredstone-*.jar
+!mods/remove-terralith-intro-message-*.jar
+
+# Include all resource packs (hosted from repo)
+# resourcepacks/*.zip is tracked
+
+# OS files
+.DS_Store
+**/.DS_Store

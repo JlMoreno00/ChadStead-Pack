@@ -1,0 +1,339 @@
+{
+	autofocus_id: "A1B2C3D4E5F60718"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "ctools"
+	group: "3B98949C49CF0198"
+	icon: {
+		Count: 1
+		id: "constructionwand:diamond_wand"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "5017393BFD6CB6D5"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Este capitulo te da herramientas para construir mas rapido y moverte con carga sin complicarte."
+				""
+				"&bConstruction Wand&r acelera muros, suelos y lineas usando bloques de tu inventario."
+				""
+				"&bNiftyCarts&r te permite tirar carritos o engancharlos al caballo para transportar materiales, animales y hasta arar campos."
+			]
+			icon: "ftbquests:book"
+			id: "3A44C7A50F00A54A"
+			rewards: [{
+				id: "56746220511B6A84"
+				item: {
+					Count: 1
+					id: "constructionwand:stone_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Haz click para empezar"
+			tasks: [{
+				id: "0A1B2C3D4E5F6071"
+				title: "&6Bienvenido a Herramientas de Construccion"
+				type: "checkmark"
+			}]
+			title: "&6Inicio"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"La &6Varita de piedra&r es tu entrada al mod."
+				""
+				"Apunta a una superficie y haz click derecho para extenderla."
+				""
+				"La varita consume bloques de tu inventario, asi que lleva siempre material suficiente."
+			]
+			icon: {
+				Count: 1
+				id: "constructionwand:stone_wand"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "11AA22BB33CC44DD"
+			rewards: [
+				{
+					count: 32
+					id: "5C65913C50D80697"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "2944B39599CDB315"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "1B2C3D4E5F607182"
+				item: {
+					Count: 1
+					id: "constructionwand:stone_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Varita de piedra"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["11AA22BB33CC44DD"]
+			description: [
+				"La &6Varita de hierro&r tiene mejor alcance y mas usos."
+				""
+				"Perfecta para levantar paredes largas sin repetir bloques uno por uno."
+			]
+			icon: {
+				Count: 1
+				id: "constructionwand:iron_wand"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "22BB33CC44DD55EE"
+			rewards: [
+				{
+					count: 32
+					id: "56263723FE84A80C"
+					item: "minecraft:stone_bricks"
+					type: "item"
+				}
+				{
+					id: "46CF838462673A90"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [{
+				id: "2C3D4E5F60718293"
+				item: {
+					Count: 1
+					id: "constructionwand:iron_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Varita de hierro"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["22BB33CC44DD55EE"]
+			description: [
+				"La &6Varita de diamante&r es para proyectos grandes."
+				""
+				"Con ella puedes extender superficies enormes en segundos si tienes bloques en inventario."
+			]
+			icon: {
+				Count: 1
+				id: "constructionwand:diamond_wand"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "33CC44DD55EE66FF"
+			rewards: [
+				{
+					count: 16
+					id: "79DD886C3EC1BB0F"
+					item: "minecraft:quartz_block"
+					type: "item"
+				}
+				{
+					id: "0789012ABC3D4E5F"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "3D4E5F60718293A4"
+				item: {
+					Count: 1
+					id: "constructionwand:diamond_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Varita de diamante"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33CC44DD55EE66FF"]
+			description: [
+				"La &6Varita infinita&r es una herramienta de endgame."
+				""
+				"No se rompe y es ideal para mega construcciones."
+			]
+			icon: "constructionwand:infinity_wand"
+			id: "44DD55EE66FF7700"
+			optional: true
+			rewards: [{
+				id: "189012AB3C4D5E6F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4E5F60718293A4B5"
+				item: "constructionwand:infinity_wand"
+				type: "item"
+			}]
+			title: "&6Varita infinita"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["11AA22BB33CC44DD"]
+			description: [
+				"Con &bShift + rueda del raton&r cambias el modo de colocacion de la varita."
+				""
+				"&aLinea&r: extiende en una direccion (modo por defecto)."
+				"&aPared&r: rellena una superficie vertical."
+				"&aSuelo&r: expande una superficie plana horizontal."
+			]
+			icon: "minecraft:paper"
+			id: "55EE66FF77001122"
+			subtitle: "Click para aprender modos"
+			tasks: [{
+				id: "5F60718293A4B5C6"
+				title: "&bModos de colocacion"
+				type: "checkmark"
+			}]
+			title: "&bModos de colocacion"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"El &6Carrito de suministros&r guarda materiales para construir lejos de tu base."
+				""
+				"Puedes abrir su inventario con click derecho cuando este en el suelo o enganchado."
+			]
+			icon: "niftycarts:supply_cart"
+			id: "66FF770011223344"
+			rewards: [
+				{
+					id: "29012AB3C4D5E6F7"
+					item: "minecraft:lead"
+					type: "item"
+				}
+				{
+					id: "3A12BC34D5E6F708"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "60718293A4B5C6D7"
+				item: "niftycarts:supply_cart"
+				type: "item"
+			}]
+			title: "&eCarrito de suministros"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["66FF770011223344"]
+			description: [
+				"El &6Carrito de animales&r te ayuda a transportar mobs sin empujarlos a mano."
+				""
+				"Ideal para mover ganado de forma segura entre establos."
+			]
+			icon: "niftycarts:animal_cart"
+			id: "7700112233445566"
+			rewards: [
+				{
+					id: "4B23CD45E6F70819"
+					item: "minecraft:hay_block"
+					type: "item"
+				}
+				{
+					id: "5C34DE56F708192A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "718293A4B5C6D7E8"
+				item: "niftycarts:animal_cart"
+				type: "item"
+			}]
+			title: "&eCarrito de animales"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["66FF770011223344"]
+			description: [
+				"El &6Arado&r prepara tierra en una franja de 3 bloques de ancho detras del caballo."
+				""
+				"Es perfecto para hacer campos largos en poco tiempo."
+			]
+			icon: "niftycarts:plow"
+			id: "1B58EFB95B66075E"
+			rewards: [
+				{
+					count: 2
+					id: "6D45EF6708192A3B"
+					item: "minecraft:lead"
+					type: "item"
+				}
+				{
+					id: "7E56F078192A3B4C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "3519E5EE808694A9"
+				item: "niftycarts:plow"
+				type: "item"
+			}]
+			title: "&eArado"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66FF770011223344"]
+			description: [
+				"Para enganchar un carrito, haz click derecho al caballo con el carrito en la mano."
+				""
+				"Haz click derecho al carrito para montarte o abrir inventario (segun el tipo)."
+				""
+				"Tambien puedes tirar del carrito a pie para mudanzas cortas."
+			]
+			icon: "minecraft:saddle"
+			id: "5E4769261BDDFFB1"
+			subtitle: "Click para ver uso rapido"
+			tasks: [{
+				id: "39C17EF93ECBA201"
+				title: "&bComo usar los carritos"
+				type: "checkmark"
+			}]
+			title: "&bComo usar los carritos"
+			x: 2.0d
+			y: 1.0d
+		}
+	]
+	title: " &6H&ferramientas de &6C&fonstrucción"
+}

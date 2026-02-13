@@ -1,0 +1,8 @@
+name = "Create Simple Storage 2.1"
+filename = "Create Simple Storage 2.1.zip"
+side = "client"
+
+[download]
+mode = "file"
+hash-format = "sha256"
+hash = "fc1cd2ae6ffc55248544e44e64bf7231321a768c5a677fd47169bd7cf1639218"

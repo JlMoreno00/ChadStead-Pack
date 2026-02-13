@@ -1,0 +1,8 @@
+name = "BCG Sounds"
+filename = "BCG Sounds.zip"
+side = "client"
+
+[download]
+mode = "file"
+hash-format = "sha256"
+hash = "e45c8952dac27de85c201677a4721869a18520f83d1ec1022fa090cb0ebcd81e"
