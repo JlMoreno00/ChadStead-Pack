@@ -3,6 +3,6 @@ filename = "FA+All_Extensions-v1.6.zip"
 side = "client"
 
 [download]
-mode = "file"
+url = "https://jlmoreno00.github.io/ChadStead-Pack/resourcepacks/FA%2BAll_Extensions-v1.6.zip"
 hash-format = "sha256"
 hash = "63186dc000c0e10c890e8826ac2c058964f56304c4655be0d286ec2b87c3ff2e"

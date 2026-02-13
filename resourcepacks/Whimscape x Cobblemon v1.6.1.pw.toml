@@ -3,6 +3,6 @@ filename = "Whimscape x Cobblemon v1.6.1.zip"
 side = "client"
 
 [download]
-mode = "file"
+url = "https://jlmoreno00.github.io/ChadStead-Pack/resourcepacks/Whimscape%20x%20Cobblemon%20v1.6.1.zip"
 hash-format = "sha256"
 hash = "4a5905b85ddffdfadbe8b3de028d0b97baab3534a287b2c88ec22fc428b7c8f6"

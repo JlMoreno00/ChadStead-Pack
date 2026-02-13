@@ -3,6 +3,6 @@ filename = "SimplySwordsWhimscape_v1.1.zip"
 side = "client"
 
 [download]
-mode = "file"
+url = "https://jlmoreno00.github.io/ChadStead-Pack/resourcepacks/SimplySwordsWhimscape_v1.1.zip"
 hash-format = "sha256"
 hash = "60a4f88132cf8d9d1927e13bf927da7e6452fa239d5c081ba241edc5f09ae321"

@@ -3,6 +3,6 @@ filename = "FreshAnimations_v1.10.1.zip"
 side = "client"
 
 [download]
-mode = "file"
+url = "https://jlmoreno00.github.io/ChadStead-Pack/resourcepacks/FreshAnimations_v1.10.1.zip"
 hash-format = "sha256"
 hash = "2e2f0152469fcaac19c46f2959e0232f9b2c12a255e0481d85f845ecba003692"

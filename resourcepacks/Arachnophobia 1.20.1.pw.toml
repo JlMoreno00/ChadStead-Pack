@@ -3,6 +3,6 @@ filename = "Arachnophobia 1.20.1.zip"
 side = "client"
 
 [download]
-mode = "file"
+url = "https://jlmoreno00.github.io/ChadStead-Pack/resourcepacks/Arachnophobia%201.20.1.zip"
 hash-format = "sha256"
 hash = "daa6bd952f0aabc545dcc267699fb58695030f1d1f6a585630637700dc8ba30f"

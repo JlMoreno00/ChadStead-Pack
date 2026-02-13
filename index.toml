@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "README.md"
+hash = "65edf67bd84c0f31c927e396b5f701d0f7e234bffe9fe8a303f1d0cd596f1970"
+
+[[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "b0680814ef6e6ecd42d8759efa5a0f92a9a5af93b27f69f24a0f4e23091c7e90"
 
@@ -1691,7 +1695,7 @@ hash = "736eb249103ebba9a90fe313731c67d7817b37263ad74b3400b5b4084cae7cdf"
 
 [[files]]
 file = "mods/remove-terralith-intro-message-1.0.pw.toml"
-hash = "22eb1d07989521228f74b447a4618596f95c5cc7313e9b015b65dc683d494543"
+hash = "91dbee25de757378dfe6eec77385e4737f40b415841e9b944a4c2cd7dad41c1f"
 metafile = true
 
 [[files]]
@@ -1815,7 +1819,7 @@ hash = "1e4e268d079ebef8a21f41f6a7a35528435733a124a134e3ef240389f3aa87c1"
 
 [[files]]
 file = "mods/sophisticatedbackpacks-1.20.1-3.23.4.5.110.pw.toml"
-hash = "4ab4be1615fb76dbb778e4b47653c18890202c900a35305a4aeae3e644c18e3b"
+hash = "04d5803699ca2e470a9be182116fd61d2492c058f779053e26563437469672ea"
 metafile = true
 
 [[files]]
@@ -1824,7 +1828,7 @@ hash = "dafca4311f94ed5eff18f34077e7ab91a169863a4bde2cc82ae525d869ee9396"
 
 [[files]]
 file = "mods/sophisticatedcore-1.20.1-1.2.7.15.166.pw.toml"
-hash = "919ff0791f29ce4f807a25e0bdccac4cb78c59a4359ec575968b74595eee1f65"
+hash = "10410bde32faaee7457680a00f946ffc48abc89ed79a58d44e0dfc99660e9afa"
 metafile = true
 
 [[files]]
@@ -1833,7 +1837,7 @@ hash = "84df29112f6a17227a117ea1799df5882f48236a8c661a58bd7824c6341edb64"
 
 [[files]]
 file = "mods/sophisticatedstorage-1.20.1-1.3.5.9.136.pw.toml"
-hash = "7fa4526685d626c1870b4ed57dbed3e1b071904e843f388ee05b02581e7b2509"
+hash = "a6d6e5fe6803420bf37480a83c93f8b6f4c2e8162c1857ec811118bb9ce509aa"
 metafile = true
 
 [[files]]
@@ -2036,7 +2040,7 @@ hash = "3ee13941ade53ea1b1ab826ae0b9a3bc368a65433370ba6c8d55433cc7a714a2"
 
 [[files]]
 file = "mods/wirelessredstone-fabric-1.20.1-1.1.2.pw.toml"
-hash = "7bd7a077036937ab28309d969e495010d60f646a8b2d0385bdd884f44fe8711e"
+hash = "9ddbbfc99327adc9c95a449698ce398526583a5768d05e75bb8fd28f2660048e"
 metafile = true
 
 [[files]]
@@ -2096,7 +2100,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/AlphabetSoup-v2.1.pw.toml"
-hash = "ee297d4b9f33fa1c8e6a7163eb7f8d5a4612421accc2e0a42843b2d342de0739"
+hash = "27708a37844ea0c475e070b2a96abe6607c7eb054b393ca86e183a5c1fc4e91a"
 metafile = true
 
 [[files]]
@@ -2105,7 +2109,7 @@ hash = "4e0aa4a80c75fbcb54c55cb98fb94392b05cae5a20fc6e75fa7a74ef8641fa1d"
 
 [[files]]
 file = "resourcepacks/Arachnophobia 1.20.1.pw.toml"
-hash = "5559483b5344c672e1d19ab2f454fecfda35cad6f0cb0b782c7405a25fd7f958"
+hash = "adb4862eb0dac40725d561250c0c8ffe6e4afb1446e70594ffa8e70686c3d51d"
 metafile = true
 
 [[files]]
@@ -2114,7 +2118,7 @@ hash = "daa6bd952f0aabc545dcc267699fb58695030f1d1f6a585630637700dc8ba30f"
 
 [[files]]
 file = "resourcepacks/BCG Cobblemon Loot.pw.toml"
-hash = "9bcdcc8cfafbb874c5750b44ffa37ec18df505d61044b1f426229a93c8acaf55"
+hash = "3f841cb12693fe503ba1b0a33e61c39935015b3377bb9e3f3a27c9f8258d4d5f"
 metafile = true
 
 [[files]]
@@ -2123,7 +2127,7 @@ hash = "57cb2815b2d808fca2ed907165d5aede08da6fd4ee59c57a68c43dbd5af66323"
 
 [[files]]
 file = "resourcepacks/BCG Compatibility.pw.toml"
-hash = "ae3dfaca4074b47c7bca12474c9b870cf55aa6c3d3a6e5011e833f1c14154889"
+hash = "8e8670a21cbbae863d8b3bf41f8173c35705b03a418ceb3213ea712650fb7cac"
 metafile = true
 
 [[files]]
@@ -2132,7 +2136,7 @@ hash = "5f01402b89292d6a7368f33813d9e8ab56a2e7ea24baff548a7166fb974b84c4"
 
 [[files]]
 file = "resourcepacks/BCG Datapack.pw.toml"
-hash = "4bad6356ca4d136ac778e50722361a43bd7972504df070cda135e0b1e625d69d"
+hash = "ff4541cd4547c29e25f2de6a4d65b6cc9e8fc1c8f291e8356dcb01677c80bec7"
 metafile = true
 
 [[files]]
@@ -2141,7 +2145,7 @@ hash = "2d2066df88b34a8c6a132d3b559e8e98ac75b873433056e5abc4a927b83881c8"
 
 [[files]]
 file = "resourcepacks/BCG Sounds.pw.toml"
-hash = "e18996c80d99097d3fd124e73ed537ea26691caa2dba22f6d46d840328a41dce"
+hash = "60d1f185285a7808ea6a944f29b86b4d4d4c8c979a86b21801ae7fdd9b209254"
 metafile = true
 
 [[files]]
@@ -2150,7 +2154,7 @@ hash = "e45c8952dac27de85c201677a4721869a18520f83d1ec1022fa090cb0ebcd81e"
 
 [[files]]
 file = "resourcepacks/BCG x AllTheMons 1.2.0.pw.toml"
-hash = "912286795f7b08f5872e7d5eef5952e98b984f5f62bd12babcfb47c9bd1d5115"
+hash = "75b255a16a99d542fcdb893db6052ce7793cfe4882b21fa66a77289029d6b53c"
 metafile = true
 
 [[files]]
@@ -2159,7 +2163,7 @@ hash = "5c49696555b9b1282321f13b4bf1851e0316f82b31108db383a8ac64ae5df73d"
 
 [[files]]
 file = "resourcepacks/BCG x Whimscape.pw.toml"
-hash = "575a56f32af959921d244f96ec214e8bf2d47fcfc595b775e6f9005d1848f486"
+hash = "2c31e717d624c8a575832adafa179edc333e8a17cacd8215d0cd3e9223acb4dc"
 metafile = true
 
 [[files]]
@@ -2168,7 +2172,7 @@ hash = "5475ad031c9fefff18d79c3ec951dfdeec61bbf64327b5279a94b89ab6da5274"
 
 [[files]]
 file = "resourcepacks/CobblemonIcons WithMobs v3.3.1.pw.toml"
-hash = "fe43401a8163a59009a1219ebe8e4753b1dfb0ebb360b506291c348ffa035b04"
+hash = "2ed319e22c76732c8bf84c154dc1655aff54904ddfb88bfc519d0dd09c2745f5"
 metafile = true
 
 [[files]]
@@ -2177,7 +2181,7 @@ hash = "cfee260d352922005be20c406145f1ca29b99f0b8644d3ae94e7ac7667b8ac71"
 
 [[files]]
 file = "resourcepacks/Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.pw.toml"
-hash = "e593a4c5493855342d80dd83d1b387be78bfd23329aeb34ba61b59013d5a2a1c"
+hash = "0b178162e06ef64f4e93b901f59464818224d40b6123362481a9b1baedb99ba2"
 metafile = true
 
 [[files]]
@@ -2186,7 +2190,7 @@ hash = "5cea67204fb10f4c1b41b1d43b4638074d746cdbff4a90c96e80d20386ea3cb8"
 
 [[files]]
 file = "resourcepacks/Create Simple Storage 2.1.pw.toml"
-hash = "0c2aff74ed84ab4c68674ab1dade86db0fb650d19dcc0689328d456ceb38e92c"
+hash = "b60a8a02bc3220862da56f684e76d3f3a8540a6845dd50b0fecceb4297770d20"
 metafile = true
 
 [[files]]
@@ -2195,7 +2199,7 @@ hash = "fc1cd2ae6ffc55248544e44e64bf7231321a768c5a677fd47169bd7cf1639218"
 
 [[files]]
 file = "resourcepacks/FA+All_Extensions-v1.6.pw.toml"
-hash = "30437afdc32bf213c9c1f9301879a0d307671a3e65253c64e5208c3cb0c11c5a"
+hash = "0543dfd9149840f3fe96c21709421473045b4cc49517ed268165ee1f291e00ee"
 metafile = true
 
 [[files]]
@@ -2204,7 +2208,7 @@ hash = "63186dc000c0e10c890e8826ac2c058964f56304c4655be0d286ec2b87c3ff2e"
 
 [[files]]
 file = "resourcepacks/FreshAnimations_v1.10.1.pw.toml"
-hash = "1314699488e3e9ab09315a5160649754bde5f6778b9c82e56647159e76e59cbb"
+hash = "ac5d5391efbade9a1ef8f2146f82408305488336fc111dcfcac9780c5b33037c"
 metafile = true
 
 [[files]]
@@ -2213,7 +2217,7 @@ hash = "2e2f0152469fcaac19c46f2959e0232f9b2c12a255e0481d85f845ecba003692"
 
 [[files]]
 file = "resourcepacks/Incendium_Optional_Resourcepack_1.20.1_v5.3.7.pw.toml"
-hash = "6d4e96531b1da8baefd142aab5c4666efa7774fb56954cb98fc23fdd4afaec7b"
+hash = "054b73611f46b3c84a1e807c8fd1e7f12f12a754b78ae415437a52bbbfded6d1"
 metafile = true
 
 [[files]]
@@ -2222,7 +2226,7 @@ hash = "6d12fb6d13d365387928317c6687a56cdec539ec217d1e7e1793b62f58d78c65"
 
 [[files]]
 file = "resourcepacks/Joe's Comfy UI.pw.toml"
-hash = "d624f49644df1375ebf3bd226e4c486e4c8734ad03650dae691ae71168e84068"
+hash = "335074fa80927206ff3dbcc2d4c5e92257559d902eeab204b66dd6f5c3d32dc1"
 metafile = true
 
 [[files]]
@@ -2231,7 +2235,7 @@ hash = "6f46c4b77736711f4c870c56a848ab85f556db3945f45500a23a5c277488576b"
 
 [[files]]
 file = "resourcepacks/Rainbow Legendaries v1.3.pw.toml"
-hash = "153d3c98e346b76ff5e655fffe5aae171e00043fd85b0d209a993516bdaa0b67"
+hash = "3add11c29956f23f235835edc99943bebaaf62578b7fa0907233a29492f4a58a"
 metafile = true
 
 [[files]]
@@ -2240,7 +2244,7 @@ hash = "049106f360cb7c4bb82737a0155df6f2e6b77fa13c38b141266b886a1ddff05c"
 
 [[files]]
 file = "resourcepacks/Serified Font v1.2.pw.toml"
-hash = "70c1d762dbcfd0ca1fabaf2a0a54ebdbd1e658965049e64de38a7936dca7e89a"
+hash = "d62e11abd0c1e303971d31ed9e96180c7b56eac6d63115080a70bcb0a11d78d9"
 metafile = true
 
 [[files]]
@@ -2249,7 +2253,7 @@ hash = "289f8ca25a02e4f01d1014de35c85fe0e73f4cc9a83133cbc12dc249bbf953c5"
 
 [[files]]
 file = "resourcepacks/SimplySwordsWhimscape_v1.1.pw.toml"
-hash = "0a39a81f2adfd0dabbbb3ff02de591453bfdce996f40a4ea71cb3836028ffdfb"
+hash = "1351d3c07e07e5ee4a06d55827d8bf13b0cbb414dcd80dc6f1c6dfa7a6aa697e"
 metafile = true
 
 [[files]]
@@ -2258,7 +2262,7 @@ hash = "60a4f88132cf8d9d1927e13bf927da7e6452fa239d5c081ba241edc5f09ae321"
 
 [[files]]
 file = "resourcepacks/Vivillon Pride Patterns v1.0.pw.toml"
-hash = "d32dd6d4fb7aac7c7b701075e51179a3265e30b4df268bead05c21411dafad4b"
+hash = "1709c59a123e43b4615d5aa944e90bb465a70a7f0a5d74cd95a531675fab3560"
 metafile = true
 
 [[files]]
@@ -2267,7 +2271,7 @@ hash = "2115e21fe0b4be79e73dc9aee382ed77a0c4e43f6ad4224501f482259836f865"
 
 [[files]]
 file = "resourcepacks/Whimscape x Cobblemon v1.6.1.pw.toml"
-hash = "1ee5d3bd5bbb04e5a40dac56ba4da2be9c5acb66a0a90ece37e07fcc833ed26b"
+hash = "8b5a20f1f084b26716b006dde6cb7ad29502d7281e73b30b43ad1958c865776c"
 metafile = true
 
 [[files]]
@@ -2276,7 +2280,7 @@ hash = "4a5905b85ddffdfadbe8b3de028d0b97baab3534a287b2c88ec22fc428b7c8f6"
 
 [[files]]
 file = "resourcepacks/Whimscape x Exploration v1.0.pw.toml"
-hash = "b57a9f9a019e8dc2951164f13e302f2c6a0953cde8855042e568eaf7cfc6b888"
+hash = "059a386e6f63b607964b64bb17cce09d69a89a9190348b1d5df24aa961952a0f"
 metafile = true
 
 [[files]]
@@ -2285,7 +2289,7 @@ hash = "0c7cd7485fd2a90b894fd6d98ab834373b7ed79cb182ee8a0baa728c5588fee3"
 
 [[files]]
 file = "resourcepacks/Whimscape_1.20-1.20.1_r6.pw.toml"
-hash = "496e64d713dc16b13677e772f3c76911d35fc789e463d657aed5711763d7d94c"
+hash = "c7569b7ebc9ffce9c7dfe53e3fe3e4ac23b60956a3a3dd97983ca7a932822fe4"
 metafile = true
 
 [[files]]

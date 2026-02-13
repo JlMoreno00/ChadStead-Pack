@@ -3,6 +3,6 @@ filename = "wirelessredstone-fabric-1.20.1-1.1.2.jar"
 side = "both"
 
 [download]
-mode = "file"
+url = "https://jlmoreno00.github.io/ChadStead-Pack/mods/wirelessredstone-fabric-1.20.1-1.1.2.jar"
 hash-format = "sha256"
 hash = "3ee13941ade53ea1b1ab826ae0b9a3bc368a65433370ba6c8d55433cc7a714a2"

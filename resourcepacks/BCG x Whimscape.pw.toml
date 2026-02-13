@@ -3,6 +3,6 @@ filename = "BCG x Whimscape.zip"
 side = "client"
 
 [download]
-mode = "file"
+url = "https://jlmoreno00.github.io/ChadStead-Pack/resourcepacks/BCG%20x%20Whimscape.zip"
 hash-format = "sha256"
 hash = "5475ad031c9fefff18d79c3ec951dfdeec61bbf64327b5279a94b89ab6da5274"

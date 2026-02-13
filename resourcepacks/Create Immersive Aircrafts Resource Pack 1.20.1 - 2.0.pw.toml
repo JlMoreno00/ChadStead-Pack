@@ -3,6 +3,6 @@ filename = "Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip"
 side = "client"
 
 [download]
-mode = "file"
+url = "https://jlmoreno00.github.io/ChadStead-Pack/resourcepacks/Create%20Immersive%20Aircrafts%20Resource%20Pack%201.20.1%20-%202.0.zip"
 hash-format = "sha256"
 hash = "5cea67204fb10f4c1b41b1d43b4638074d746cdbff4a90c96e80d20386ea3cb8"

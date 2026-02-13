@@ -3,6 +3,6 @@ filename = "Rainbow Legendaries v1.3.zip"
 side = "client"
 
 [download]
-mode = "file"
+url = "https://jlmoreno00.github.io/ChadStead-Pack/resourcepacks/Rainbow%20Legendaries%20v1.3.zip"
 hash-format = "sha256"
 hash = "049106f360cb7c4bb82737a0155df6f2e6b77fa13c38b141266b886a1ddff05c"

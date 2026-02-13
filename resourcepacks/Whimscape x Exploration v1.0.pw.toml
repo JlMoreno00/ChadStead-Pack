@@ -3,6 +3,6 @@ filename = "Whimscape x Exploration v1.0.zip"
 side = "client"
 
 [download]
-mode = "file"
+url = "https://jlmoreno00.github.io/ChadStead-Pack/resourcepacks/Whimscape%20x%20Exploration%20v1.0.zip"
 hash-format = "sha256"
 hash = "0c7cd7485fd2a90b894fd6d98ab834373b7ed79cb182ee8a0baa728c5588fee3"

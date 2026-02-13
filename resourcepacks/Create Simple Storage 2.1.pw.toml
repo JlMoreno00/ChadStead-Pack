@@ -3,6 +3,6 @@ filename = "Create Simple Storage 2.1.zip"
 side = "client"
 
 [download]
-mode = "file"
+url = "https://jlmoreno00.github.io/ChadStead-Pack/resourcepacks/Create%20Simple%20Storage%202.1.zip"
 hash-format = "sha256"
 hash = "fc1cd2ae6ffc55248544e44e64bf7231321a768c5a677fd47169bd7cf1639218"

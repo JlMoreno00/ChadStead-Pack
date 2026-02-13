@@ -3,6 +3,6 @@ filename = "CobblemonIcons WithMobs v3.3.1.zip"
 side = "client"
 
 [download]
-mode = "file"
+url = "https://jlmoreno00.github.io/ChadStead-Pack/resourcepacks/CobblemonIcons%20WithMobs%20v3.3.1.zip"
 hash-format = "sha256"
 hash = "cfee260d352922005be20c406145f1ca29b99f0b8644d3ae94e7ac7667b8ac71"

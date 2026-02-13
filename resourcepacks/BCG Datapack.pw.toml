@@ -3,6 +3,6 @@ filename = "BCG Datapack.zip"
 side = "client"
 
 [download]
-mode = "file"
+url = "https://jlmoreno00.github.io/ChadStead-Pack/resourcepacks/BCG%20Datapack.zip"
 hash-format = "sha256"
 hash = "2d2066df88b34a8c6a132d3b559e8e98ac75b873433056e5abc4a927b83881c8"

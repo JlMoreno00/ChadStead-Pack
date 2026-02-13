@@ -3,6 +3,6 @@ filename = "BCG Sounds.zip"
 side = "client"
 
 [download]
-mode = "file"
+url = "https://jlmoreno00.github.io/ChadStead-Pack/resourcepacks/BCG%20Sounds.zip"
 hash-format = "sha256"
 hash = "e45c8952dac27de85c201677a4721869a18520f83d1ec1022fa090cb0ebcd81e"

@@ -3,6 +3,6 @@ filename = "Serified Font v1.2.zip"
 side = "client"
 
 [download]
-mode = "file"
+url = "https://jlmoreno00.github.io/ChadStead-Pack/resourcepacks/Serified%20Font%20v1.2.zip"
 hash-format = "sha256"
 hash = "289f8ca25a02e4f01d1014de35c85fe0e73f4cc9a83133cbc12dc249bbf953c5"
