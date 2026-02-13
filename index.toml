@@ -1971,7 +1971,7 @@ hash = "0904c89525bc3de1090de2bbf3d423cfd4199ea568344fbf31d019ee40d12e71"
 
 [[files]]
 file = "mods/trashslot.pw.toml"
-hash = "1179c5b407f94d13cd1e86b1c74a1c324ddafb212a3c1e72dba3ec4679858c91"
+hash = "169f6955bb69e0d3378b0876070a17f4396fb2aae26b11849b11d1960675315a"
 metafile = true
 
 [[files]]
@@ -2097,6 +2097,10 @@ metafile = true
 file = "mods/yungs-extras-fabric.pw.toml"
 hash = "c61d03ecba29f1d678c110b37010eabeb207006c7d00966b379b92edbd69f773"
 metafile = true
+
+[[files]]
+file = "packwiz-installer-bootstrap.jar"
+hash = "a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c"
 
 [[files]]
 file = "resourcepacks/AlphabetSoup-v2.1.pw.toml"
