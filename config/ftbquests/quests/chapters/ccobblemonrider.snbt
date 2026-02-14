@@ -1,0 +1,158 @@
+{
+	autofocus_id: "B1C2D3E4F5A6B7C8"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "ccobblemonrider"
+	group: "257DC2A7DFE41B29"
+	icon: "minecraft:saddle"
+	id: "396B47950D820ACB"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&bCobblemon Rider&r te permite montar tus Pokemon para explorar el mundo mas rapido."
+				""
+				"Solo necesitas una montura (silla) y un Pokemon que sea lo bastante grande como para llevarte."
+				""
+				"Cada Pokemon tiene su propia velocidad y capacidad de salto."
+			]
+			icon: "minecraft:saddle"
+			id: "633B5D6732649053"
+			rewards: [{
+				id: "2AA8B4E1638C1E74"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.5d
+			subtitle: "Haz clic para empezar"
+			tasks: [{
+				id: "7FF22681BE8728CF"
+				title: "Entendi como montar Pokemon"
+				type: "checkmark"
+			}]
+			title: "&bIntroduccion"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Para montar un Pokemon:"
+				""
+				"1. Asegurate de que tu Pokemon esta fuera de la Pokeball."
+				"2. &bHaz clic derecho&r sobre el Pokemon con la mano vacia."
+				"3. Si el Pokemon es lo bastante grande, te montaras automaticamente."
+				""
+				"Usa &bW/A/S/D&r para moverte y &bEspacio&r para saltar."
+				""
+				"Para bajarte, pulsa &bShift (agacharse)&r."
+			]
+			icon: "cobblemon:poke_ball"
+			id: "4CEB689DE5C4AAEF"
+			rewards: [{
+				id: "7E6E4CB50D674A05"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Tu primer paseo"
+			tasks: [{
+				id: "27FD505DCCE668FF"
+				title: "Monta tu primer Pokemon"
+				type: "checkmark"
+			}]
+			title: "&bTu primer paseo"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"No todos los Pokemon se pueden montar."
+				""
+				"&cPokemon grandes&r como Arcanine, Rapidash, Gyarados o Charizard son ideales."
+				""
+				"Prueba con tus Pokemon mas grandes y descubre cuales te llevan."
+				""
+				"Los Pokemon voladores pueden planear, y los acuaticos nadar contigo."
+			]
+			icon: "cobblemon:ultra_ball"
+			id: "09201035C89D5E99"
+			rewards: [{
+				id: "253F08F36882FDD4"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Descubre las monturas"
+			tasks: [{
+				id: "5A0E5169828087C0"
+				title: "Prueba 3 Pokemon distintos como montura"
+				type: "checkmark"
+			}]
+			title: "&bMonturas compatibles"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Mientras montas, tu Pokemon consume &6estamina&r."
+				""
+				"Cuando se agota, el Pokemon se cansa y va mas lento."
+				""
+				"Deja descansar a tu Pokemon un momento y la estamina se recupera sola."
+				""
+				"Los Pokemon con mas nivel tienen mas estamina."
+			]
+			icon: "minecraft:golden_carrot"
+			id: "7E23E9BACF3ECA86"
+			rewards: [
+				{
+					count: 8
+					id: "39015E2A06368ADD"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					id: "39384892B44AE1DD"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Gestion de estamina"
+			tasks: [{
+				id: "300C171A7C4ADBEC"
+				title: "Entiende la barra de estamina"
+				type: "checkmark"
+			}]
+			title: "&6Estamina"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Explora al menos &c500 bloques&r en linea recta montado en un Pokemon."
+				""
+				"Usa F3 para ver coordenadas y medir la distancia."
+				""
+				"Bonus: hazlo en un Pokemon volador para admirar las vistas de Tectonic."
+			]
+			icon: "minecraft:compass"
+			id: "620E0FC20CD0B684"
+			optional: true
+			rewards: [{
+				id: "16F0F35DCBAF7B5C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Desafio de exploracion"
+			tasks: [{
+				id: "3AEEAB206DDA3741"
+				title: "Recorre 500 bloques montado en Pokemon"
+				type: "checkmark"
+			}]
+			title: "&dGran expedicion"
+			x: 2.0d
+			y: 1.5d
+		}
+	]
+	title: " &bC&fobblemon &bR&fider"
+}

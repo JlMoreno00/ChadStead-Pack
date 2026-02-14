@@ -8,6 +8,7 @@ mods/*.jar
 !mods/wirelessredstone-*.jar
 !mods/remove-terralith-intro-message-*.jar
 !mods/trashslot-*.jar
+!mods/cobblemonridingfabric-*.jar
 
 # Include all resource packs (hosted from repo)
 # resourcepacks/*.zip is tracked

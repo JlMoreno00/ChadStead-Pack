@@ -1,0 +1,1029 @@
+{
+	autofocus_id: "A70212A3DE14DDD6"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "cae2"
+	group: "66AEB5F2A2BD23EB"
+	icon: "ae2:controller"
+	id: "22C26376FF76E334"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Bienvenido a &bApplied Energistics 2&r."
+				""
+				"AE2 te deja guardar miles de items, buscarlos al instante y automatizar crafteos sin dolor."
+				""
+				"Si quieres una base ordenada y tecnica, este capitulo es tu mapa."
+			]
+			icon: "ae2:controller"
+			id: "2BC5E8BB31E5D945"
+			rewards: [
+				{
+					id: "543C1C97A6786175"
+					item: "ae2:meteorite_compass"
+					type: "item"
+				}
+				{
+					id: "0A622127914213FD"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.5d
+			subtitle: "Haz click para empezar"
+			tasks: [{
+				id: "7AE9804224D37DFC"
+				title: "Leer introduccion AE2"
+				type: "checkmark"
+			}]
+			title: "&bAE2: Inicio"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"La &6Brujula de Meteorito&r te apunta a los meteoritos de Sky Stone."
+				""
+				"Sin meteorito no hay presses, y sin presses no hay procesadores."
+				""
+				"Fabricala y sal a explorar."
+			]
+			icon: "ae2:meteorite_compass"
+			id: "012E9B4A1F48EC81"
+			rewards: [
+				{
+					count: 16
+					id: "421B7DDDD9EB2601"
+					item: "ae2:sky_stone_block"
+					type: "item"
+				}
+				{
+					id: "72D8855BA822A897"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "793C82859A9B6B7E"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			title: "&6Brujula de Meteorito"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["012E9B4A1F48EC81"]
+			description: [
+				"Rompe meteoritos y junta &7Sky Stone&r."
+				""
+				"Este bloque es clave para varias recetas iniciales de AE2."
+				""
+				"Llevate bastante, luego siempre hace falta."
+			]
+			icon: "ae2:sky_stone_block"
+			id: "7FE115D23CBD5312"
+			rewards: [
+				{
+					count: 8
+					id: "7A6480A9410F4546"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "26D5DEE7BDB5268C"
+					type: "xp"
+					xp: 12
+				}
+			]
+			tasks: [{
+				id: "04BC99AA89E794E4"
+				item: "ae2:sky_stone_block"
+				type: "item"
+			}]
+			title: "&7Sky Stone Block"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"El &bCertus Quartz Crystal&r es la base de casi todo AE2."
+				""
+				"Minando o procesando, vas a necesitar montones."
+				""
+				"Empieza a hacer reserva desde ya."
+			]
+			icon: "ae2:certus_quartz_crystal"
+			id: "6EA2A02C40CE0E38"
+			rewards: [
+				{
+					count: 4
+					id: "353B7B9307A2565A"
+					item: "ae2:charged_certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "7FAD528DE13B865C"
+					type: "xp"
+					xp: 12
+				}
+			]
+			tasks: [{
+				id: "324A92878E72CA36"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			title: "&bCertus Quartz Crystal"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6EA2A02C40CE0E38"]
+			description: [
+				"Carga el certus para obtener &bCharged Certus&r."
+				""
+				"Lo puedes cargar en un Charger para avanzar mas rapido."
+				""
+				"Este material abre la puerta a Fluix."
+			]
+			icon: "ae2:charged_certus_quartz_crystal"
+			id: "6A813B441A12DE39"
+			rewards: [
+				{
+					count: 8
+					id: "528F23D9F474BD9D"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+				{
+					id: "66ACB5A0020365CB"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [{
+				id: "6CFBF50F7591499F"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			title: "&bCharged Certus"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7FE115D23CBD5312"
+				"6A813B441A12DE39"
+			]
+			description: [
+				"Mezcla certus cargado, redstone y quartz en agua para crear &dFluix Crystals&r."
+				""
+				"Fluix es el corazon de cables, maquinas y terminales."
+				""
+				"Si te falta, tu red se frena."
+			]
+			icon: "ae2:fluix_crystal"
+			id: "27DF2354208596E0"
+			rewards: [
+				{
+					id: "425D30A5A73B91C7"
+					item: "ae2:charger"
+					type: "item"
+				}
+				{
+					id: "18222EB186D271A3"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [{
+				id: "0661A0448CCFEE2F"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			title: "&dFluix Crystal"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Construye un &6Charger&r propio."
+				""
+				"Te evita depender de hallazgos y acelera todo el early de AE2."
+				""
+				"Ponlo cerca de tu zona de crafteo."
+			]
+			icon: "ae2:charger"
+			id: "41A548D1C8FEE10E"
+			rewards: [
+				{
+					id: "5BC99BA7282DB648"
+					item: "ae2:inscriber"
+					type: "item"
+				}
+				{
+					id: "562AC3DC7030580D"
+					type: "xp"
+					xp: 18
+				}
+			]
+			tasks: [{
+				id: "09C42DF7C45D8B24"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			title: "&6Charger"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"El &6Inscriber&r fabrica circuitos y procesadores."
+				""
+				"Es una de las maquinas mas importantes de todo el mod."
+				""
+				"Sin Inscriber no hay sistema ME serio."
+			]
+			icon: "ae2:inscriber"
+			id: "5BA641B10CDC9F76"
+			rewards: [
+				{
+					count: 2
+					id: "15391490C0FD62B2"
+					item: "ae2:printed_silicon"
+					type: "item"
+				}
+				{
+					id: "7171C48FC8E24F29"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "0B5256D980C9EF0A"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			title: "&6Inscriber"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5BA641B10CDC9F76"
+				"012E9B4A1F48EC81"
+			]
+			description: [
+				"En meteoritos encuentras 4 presses esenciales:"
+				""
+				"&bCalculation, Engineering, Logic y Silicon&r."
+				""
+				"Guardalos bien, son piezas unicas para arrancar AE2."
+			]
+			icon: "ae2:inscriber"
+			id: "30C6CDE80A8845B0"
+			rewards: [
+				{
+					id: "318285E6271DEC16"
+					item: "ae2:printed_calculation_processor"
+					type: "item"
+				}
+				{
+					id: "6CE67078715E3B0F"
+					type: "xp"
+					xp: 18
+				}
+			]
+			subtitle: "Haz click para revisar"
+			tasks: [{
+				id: "1F9A1600BF21603D"
+				title: "Ya tengo los 4 presses"
+				type: "checkmark"
+			}]
+			title: "&ePresses de Meteorito"
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["30C6CDE80A8845B0"]
+			description: [
+				"Usa el Inscriber para hacer los 4 impresos."
+				""
+				"Necesitas los impresos de Calculation, Engineering, Logic y Silicon."
+				""
+				"Este paso prepara la produccion de procesadores."
+			]
+			icon: "ae2:printed_logic_processor"
+			id: "7EE631172AE5E4EB"
+			rewards: [
+				{
+					count: 2
+					id: "39B41B0DB99711AF"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "4D728EC2AA8A54A0"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "5E8554F3FAE98F52"
+					item: "ae2:printed_calculation_processor"
+					type: "item"
+				}
+				{
+					id: "37C11B9F733F62AB"
+					item: "ae2:printed_engineering_processor"
+					type: "item"
+				}
+				{
+					id: "7E5FECA6D5ACF908"
+					item: "ae2:printed_logic_processor"
+					type: "item"
+				}
+				{
+					id: "71B3B2790BB5B851"
+					item: "ae2:printed_silicon"
+					type: "item"
+				}
+			]
+			title: "&6Printed Circuits"
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Combina los impresos para fabricar los 3 procesadores de AE2."
+				""
+				"Calculation, Engineering y Logic son el cuello de botella clasico."
+				""
+				"Cuando dominas esto, despega tu red."
+			]
+			icon: "ae2:logic_processor"
+			id: "7405DBD1F56CCC5A"
+			rewards: [
+				{
+					id: "53DE26A7947B7F83"
+					item: "ae2:controller"
+					type: "item"
+				}
+				{
+					id: "21514BC7847CB301"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "51D47667BAA6AACF"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "38D5728FE856F845"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+				{
+					id: "5032C198D5ECFCB0"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+			]
+			title: "&6Processors"
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7405DBD1F56CCC5A"]
+			description: [
+				"El &6ME Controller&r define canales y estabilidad de la red."
+				""
+				"Para bases serias, controlador obligatorio."
+				""
+				"Colocalo donde vayas a expandir."
+			]
+			icon: "ae2:controller"
+			id: "47E2AF9D78C2364B"
+			rewards: [
+				{
+					id: "6A3C92D008F56B9C"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					id: "0C0BA28146F33758"
+					type: "xp"
+					xp: 35
+				}
+			]
+			tasks: [{
+				id: "38D3044974FB2EB0"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			title: "&6ME Controller"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["47E2AF9D78C2364B"]
+			description: [
+				"El &6ME Drive&r guarda tus celdas de almacenamiento."
+				""
+				"Es la caja fuerte del sistema ME."
+				""
+				"Sin drive no hay almacen central."
+			]
+			icon: "ae2:drive"
+			id: "446D5FBDF0BCF574"
+			rewards: [
+				{
+					id: "1DE240380C340528"
+					item: "ae2:item_storage_cell_1k"
+					type: "item"
+				}
+				{
+					id: "62758A3B4E605782"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "76E0F4231916B3D2"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			title: "&6ME Drive"
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Craftea una celda &b1k&r para empezar."
+				""
+				"Despues podras escalar a &b4k, 16k y 64k&r segun tu base."
+				""
+				"Planifica espacio antes de quedarte corto."
+			]
+			icon: "ae2:item_storage_cell_1k"
+			id: "6ABC4EB238AF8422"
+			rewards: [
+				{
+					id: "7A2661A71E6A3873"
+					item: "ae2:terminal"
+					type: "item"
+				}
+				{
+					id: "1A84797E36F0BDC8"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "319448FF85A529B9"
+				item: "ae2:item_storage_cell_1k"
+				type: "item"
+			}]
+			title: "&6Storage Cells"
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Coloca un &6ME Terminal&r para acceder a tu red."
+				""
+				"Buscar y sacar items en un solo bloque cambia la vida."
+				""
+				"Aqui empieza el orden real."
+			]
+			icon: "ae2:terminal"
+			id: "6CEE8D9C2BF04E0E"
+			rewards: [
+				{
+					id: "77893E4C3EAF198D"
+					item: "ae2:crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "1ECF95E0B86F67B4"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "420526F516EEE6D2"
+				item: "ae2:terminal"
+				type: "item"
+			}]
+			title: "&6ME Terminal"
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Mejora al &6Crafting Terminal&r para craftear sin salir de la red."
+				""
+				"Menos cofres abiertos, mas velocidad."
+				""
+				"Una vez lo pruebas, no vuelves atras."
+			]
+			icon: "ae2:crafting_terminal"
+			id: "2E7614CD7840FA3D"
+			rewards: [
+				{
+					count: 24
+					id: "7359EEB9411B41B4"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+				{
+					id: "14AA11A4928AD759"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "65262F8CE09D2CFF"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			title: "&6Crafting Terminal"
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["47E2AF9D78C2364B"]
+			description: [
+				"El &bFluix Glass Cable&r conecta dispositivos de tu red ME."
+				""
+				"Aprende rutas limpias y evita cableado caotico."
+				""
+				"Buena red, buena base."
+			]
+			icon: "ae2:fluix_glass_cable"
+			id: "789EE0E5731E7CCB"
+			rewards: [
+				{
+					count: 16
+					id: "11B1E737EE0C2BC5"
+					item: "ae2:quartz_fiber"
+					type: "item"
+				}
+				{
+					id: "63152CBF9C61471D"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [{
+				id: "4D0B6710DC7056EA"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			title: "&bFluix Glass Cable"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["789EE0E5731E7CCB"]
+			description: [
+				"El &bQuartz Fiber&r pasa energia sin llevar canales."
+				""
+				"Te sirve para alimentar segmentos sin romper la logica de red."
+				""
+				"Perfecto para distribuir energia con cabeza."
+			]
+			icon: "ae2:quartz_fiber"
+			id: "7C7B43357F5E4192"
+			rewards: [
+				{
+					id: "7B1BE13A8D0BE451"
+					item: "ae2:import_bus"
+					type: "item"
+				}
+				{
+					id: "74383C4B46AE1365"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [{
+				id: "17BB814DE1ACD7E1"
+				item: "ae2:quartz_fiber"
+				type: "item"
+			}]
+			title: "&bQuartz Fiber"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2E7614CD7840FA3D"
+				"7C7B43357F5E4192"
+			]
+			description: [
+				"Con &6Import Bus&r y &6Export Bus&r automatizas entrada y salida de items."
+				""
+				"Conecta hornos, maquinas o cofres para mover recursos solos."
+				""
+				"Aqui empieza la automatizacion real."
+			]
+			icon: "ae2:import_bus"
+			id: "286697A74CEBCDCC"
+			rewards: [
+				{
+					id: "390025FBE872DA43"
+					item: "ae2:interface"
+					type: "item"
+				}
+				{
+					id: "2FFB821BD99BCC12"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "5008DA6BE6EFCB6E"
+					item: "ae2:import_bus"
+					type: "item"
+				}
+				{
+					id: "5B0478AE5B5EBDB2"
+					item: "ae2:export_bus"
+					type: "item"
+				}
+			]
+			title: "&6Import/Export Bus"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"El &6ME Interface&r es un bloque multiuso para integraciones."
+				""
+				"Sirve para autocrafteo, maquinas externas y flujo de items."
+				""
+				"Es una pieza central en setups avanzados."
+			]
+			icon: "ae2:interface"
+			id: "0BB24F8A8F7E43B9"
+			rewards: [
+				{
+					id: "441B8881BA086E14"
+					item: "ae2:storage_bus"
+					type: "item"
+				}
+				{
+					id: "7D373B5A9FCB8898"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [{
+				id: "049781EE69CDEC66"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			title: "&6ME Interface"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BB24F8A8F7E43B9"]
+			description: [
+				"El &6Storage Bus&r conecta almacenamientos externos a la red ME."
+				""
+				"Perfecto para cajones, cofres gigantes o sistemas heredados."
+				""
+				"AE2 ve todo desde un solo terminal."
+			]
+			icon: "ae2:storage_bus"
+			id: "210A981582C1B19C"
+			rewards: [
+				{
+					id: "75DC346D386F2C24"
+					item: "ae2:level_emitter"
+					type: "item"
+				}
+				{
+					id: "13CF33F9B20DC779"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "783CD459144F68EE"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			title: "&6Storage Bus"
+			x: 20.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0BB24F8A8F7E43B9"]
+			description: [
+				"El &6Level Emitter&r lanza senales de redstone por cantidad de items."
+				""
+				"Con esto controlas granjas y procesos de forma inteligente."
+				""
+				"Automatizacion con limites, no con suerte."
+			]
+			icon: "ae2:level_emitter"
+			id: "2292800BCCD8B202"
+			rewards: [
+				{
+					id: "4AC35F9150352E03"
+					item: "ae2:growth_accelerator"
+					type: "item"
+				}
+				{
+					id: "4432F3B0D62FA5D5"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "5EBC8CE2CDC68077"
+				item: "ae2:level_emitter"
+				type: "item"
+			}]
+			title: "&6Level Emitter"
+			x: 20.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7C7B43357F5E4192"]
+			description: [
+				"El &6Growth Accelerator&r acelera el crecimiento de semillas de certus."
+				""
+				"Mas certus, menos espera."
+				""
+				"Ideal para mantener produccion constante."
+			]
+			icon: "ae2:growth_accelerator"
+			id: "6A12A0620E675D27"
+			rewards: [
+				{
+					id: "7A88B08E8B1049D4"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+				{
+					id: "744D5C2CBD401CBC"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "031F5D8781DCD25B"
+				item: "ae2:growth_accelerator"
+				type: "item"
+			}]
+			title: "&6Growth Accelerator"
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0BB24F8A8F7E43B9"
+				"7405DBD1F56CCC5A"
+			]
+			description: [
+				"El &6Molecular Assembler&r ejecuta crafteos automaticos."
+				""
+				"Es la maquina que realmente fabrica cuando pides algo."
+				""
+				"Sin assembler no hay autocrafteo completo."
+			]
+			icon: "ae2:molecular_assembler"
+			id: "037EB495ECB72C47"
+			rewards: [
+				{
+					id: "4C853BF72F47902F"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					id: "3B1DD38DDE524237"
+					type: "xp"
+					xp: 35
+				}
+			]
+			tasks: [{
+				id: "38F5CEDABEB4A144"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			title: "&6Molecular Assembler"
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["037EB495ECB72C47"]
+			description: [
+				"El &6Pattern Provider&r entrega patrones y items al sistema."
+				""
+				"Trabaja junto al assembler para resolver recetas."
+				""
+				"Colocalo pensando en expansion futura."
+			]
+			icon: "ae2:pattern_provider"
+			id: "30C2AF336639A9C4"
+			rewards: [
+				{
+					id: "689C2BA421DB7C42"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+				{
+					id: "29A6BDD9D2988F57"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [{
+				id: "7B5768D4AD8D0012"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			title: "&6Pattern Provider"
+			x: 20.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"30C2AF336639A9C4"
+				"2E7614CD7840FA3D"
+			]
+			description: [
+				"En el &6Pattern Encoding Terminal&r creas los patrones de crafteo."
+				""
+				"Define recetas claras y evita loops raros."
+				""
+				"Patrones limpios igual a autocrafteo feliz."
+			]
+			icon: "ae2:pattern_encoding_terminal"
+			id: "740F50D9FBFD8D72"
+			rewards: [
+				{
+					id: "18B148D29E5CBBD2"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+				{
+					id: "1D7C12A40501CAE8"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [{
+				id: "3D286FDCB5AA9265"
+				item: "ae2:pattern_encoding_terminal"
+				type: "item"
+			}]
+			title: "&6Pattern Encoding Terminal"
+			x: 22.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"037EB495ECB72C47"
+				"30C2AF336639A9C4"
+			]
+			description: [
+				"Formula magica de AE2:"
+				""
+				"&bMolecular Assembler + Pattern Provider + Patrones&r."
+				""
+				"Cuando entiendes esta triada, tienes autocrafteo completo."
+			]
+			icon: "ae2:molecular_assembler"
+			id: "721D8D42C6963698"
+			rewards: [
+				{
+					count: 2
+					id: "4102A83B41500DBC"
+					item: "ae2:item_p2p_tunnel"
+					type: "item"
+				}
+				{
+					id: "75C0756AD110434B"
+					type: "xp"
+					xp: 120
+				}
+			]
+			subtitle: "Haz click para confirmar"
+			tasks: [{
+				id: "2E7F28F236FD0236"
+				title: "Entiendo el autocrafteo de AE2"
+				type: "checkmark"
+			}]
+			title: "&aSistema de Autocrafteo"
+			x: 24.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Los &6P2P Tunnels&r son networking avanzado."
+				""
+				"Multiplican capacidad y te ayudan a ordenar redes grandes."
+				""
+				"Para megabases, son oro puro."
+			]
+			icon: "ae2:item_p2p_tunnel"
+			id: "24E96D9B7D0CB0A8"
+			rewards: [
+				{
+					id: "73ED61F2D7A69A01"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+				{
+					id: "657FB30070740FDA"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "7EE71E140126C7CD"
+				item: "ae2:item_p2p_tunnel"
+				type: "item"
+			}]
+			title: "&5P2P Tunnels"
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"El &6Wireless Access Point&r habilita acceso remoto a tu red."
+				""
+				"Configuralo bien para cubrir tu base sin cortes."
+				""
+				"Comodidad total para construir y organizar."
+			]
+			icon: "ae2:wireless_access_point"
+			id: "06B940B918DCB379"
+			rewards: [
+				{
+					id: "0CE7D70C3DE7E5F6"
+					item: "ae2:wireless_terminal"
+					type: "item"
+				}
+				{
+					id: "05670D8043DC90FD"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [{
+				id: "7672ADD14D7524C8"
+				item: "ae2:wireless_access_point"
+				type: "item"
+			}]
+			title: "&9Wireless Access Point"
+			x: 24.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Consigue el &6Wireless Terminal&r para usar tu red desde cualquier lado."
+				""
+				"Esto es AE2 endgame: almacenamiento y crafteo en tu bolsillo."
+				""
+				"Tu base ya juega en otra liga."
+			]
+			icon: "ae2:wireless_terminal"
+			id: "77C427E29DDB9E16"
+			rewards: [
+				{
+					id: "6757B66143F307F8"
+					item: "ae2:wireless_terminal"
+					type: "item"
+				}
+				{
+					id: "05546A0E9BD36253"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				id: "72F67C43CC9B4793"
+				item: "ae2:wireless_terminal"
+				type: "item"
+			}]
+			title: "&9Wireless Terminal"
+			x: 26.0d
+			y: 1.5d
+		}
+	]
+	title: " &9A&fpplied &9E&fnergistics"
+}

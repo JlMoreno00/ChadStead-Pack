@@ -41,8 +41,16 @@ file = "config/ftbquests/quests/chapters/building_the_portal.snbt"
 hash = "cd45dc16ee83eec63a3b5706038ce34c79fcbf1cfbc72354c9bf94906e23d7e9"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/cae2.snbt"
+hash = "3be8a1f2d571431e9cabfee2a0a76ac120288ae65c6a95e062da3c39b064cced"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/cbeachparty.snbt"
 hash = "12dd9acde7abeb754d3fb41a64e4934f30d53944c34de96c2733f5f886cb8ffd"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/ccobblemonrider.snbt"
+hash = "519613fb2e1b758fc81a0a679e749d1c04ce2094b259c24a8bb104c061baec27"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cfarmcharm.snbt"
@@ -87,6 +95,10 @@ hash = "c8b7645a21caeabed09ea064b3c73d4f9780eaa40d4ca7afdaed5da22cac1ba8"
 [[files]]
 file = "config/ftbquests/quests/chapters/cwirelessredstone.snbt"
 hash = "5ed24dacbd823cb08f9a9b2cfc5b095ecc033daebccda0fd7f448d138b5c92e9"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/cxaeromaps.snbt"
+hash = "3f8c02373c238b4e951569bc52c222f0b1530ab416dd28aef74ea7db1bb6eb33"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/faccessories.snbt"
@@ -259,6 +271,11 @@ hash = "d02d9aa2ccf091264b0fcef07644128b823b3421a02bfc40391a01aa1ccd0a24"
 [[files]]
 file = "mods/a-man-with-plushies.pw.toml"
 hash = "2d8b5791aa6e84aa64dee2ebc9166852472855ee26dda5b08b158b23a6dc7dbc"
+metafile = true
+
+[[files]]
+file = "mods/ae2.pw.toml"
+hash = "ddb73a24312769d0023e70d764db13e2de3cfe271c1e7e7c6ae9bd4e1201cd20"
 metafile = true
 
 [[files]]
@@ -487,6 +504,11 @@ hash = "83eeb853e25dbc170868cb1c4d7893512f4e755eec073c77dde260963a8ed7cd"
 metafile = true
 
 [[files]]
+file = "mods/chipped-x-create-fabric.pw.toml"
+hash = "5e744e05446b1cf72416c034eae174827ad62f3db55f29600306d8b183b37ba5"
+metafile = true
+
+[[files]]
 file = "mods/chipped.pw.toml"
 hash = "b00f404689c1c4a502c779cd7d8d5a06f9bcfd33c62b70f224eb4b86bd9c3ada"
 metafile = true
@@ -570,6 +592,15 @@ metafile = true
 file = "mods/cobblemon.pw.toml"
 hash = "c1242b80aea0726aae08e0cfdb220266960d62e41ab4db60403bdbcd854d6a7d"
 metafile = true
+
+[[files]]
+file = "mods/cobblemonrider.pw.toml"
+hash = "cc977fc9850f26861e3a7aa40fb9c604139d30fb6fe63773f186cfa54508bcc5"
+metafile = true
+
+[[files]]
+file = "mods/cobblemonridingfabric-1.2.6a.jar"
+hash = "1e18f4f246aa8f9cc0624311cf0fda1898dcde8cc6d154d4e102f637d4602edc"
 
 [[files]]
 file = "mods/cobblepedia.pw.toml"
@@ -868,7 +899,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "b64a246a2066d6b8eb1cd7b9ab0e306412275ee2b3fae33ac5958c89b7f89f86"
+hash = "7eefb0f3d1b793f7dc57ee7cf368d055c9b1bf3556f61179f38f1c49c163c1bd"
 metafile = true
 
 [[files]]
@@ -1466,7 +1497,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "93d496f6c25652cf7cca21aac860641ec337d2d6cf00b32cfb52091a1478ee20"
+hash = "0d438cc5a467aae6a9aa439a4547f990dfbaa4dc4e7bf5dbabf6d6e839411e83"
 metafile = true
 
 [[files]]
@@ -2041,6 +2072,16 @@ hash = "3ee13941ade53ea1b1ab826ae0b9a3bc368a65433370ba6c8d55433cc7a714a2"
 [[files]]
 file = "mods/wirelessredstone-fabric-1.20.1-1.1.2.pw.toml"
 hash = "9ddbbfc99327adc9c95a449698ce398526583a5768d05e75bb8fd28f2660048e"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "f186401be01f7216a7bbd73c8e3e7cff96ab9db76d19029ee3be92f407b1b207"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "9d9ab7248c5a9ed01ce3e23fba5c60139065e31d94452e3179b263ac4be535aa"
 metafile = true
 
 [[files]]
