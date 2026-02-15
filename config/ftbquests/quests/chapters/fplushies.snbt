@@ -739,7 +739,7 @@
 			}]
 			tasks: [{
 				id: "343D21DD3FAA9CEC"
-				item: "a_man_with_plushies:heavy_plush"
+				item: "a_man_with_plushies:heavy_plush_sitting"
 				type: "item"
 			}]
 			x: 4.0d

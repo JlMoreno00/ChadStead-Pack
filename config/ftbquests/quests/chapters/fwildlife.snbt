@@ -2531,7 +2531,7 @@
 			y: 6.0d
 		}
 		{
-			icon: "crittersandcompanions:jumping_spider_spawn_egg"
+			icon: "crittersandcompanions:jumping_"
 			id: "45D11540ED89B4E7"
 			rewards: [
 				{

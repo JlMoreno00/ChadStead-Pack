@@ -650,7 +650,7 @@
 				id: "13410CBABC48E66B"
 				item: {
 					Count: 1
-					id: "travelersbackpack:melon"
+					id: "travelersbackpack:standard"
 					tag: { }
 				}
 				type: "item"

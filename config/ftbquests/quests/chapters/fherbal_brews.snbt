@@ -197,7 +197,7 @@
 			subtitle: "Leave the green tea leaf block to dry, and then break it."
 			tasks: [{
 				id: "4AA154EBEF6B714C"
-				item: "herbalbrews:dried_green_tea"
+				item: "herbalbrews:green_tea"
 				type: "item"
 			}]
 			x: -1.0d

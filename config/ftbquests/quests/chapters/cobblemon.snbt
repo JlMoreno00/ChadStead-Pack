@@ -1634,7 +1634,7 @@
 			}]
 			tasks: [{
 				id: "573335D8C364EEF0"
-				item: "cobblemon:green_apricorn_seed"
+				item: "cobblemon:green_apricorn"
 				type: "item"
 			}]
 			x: 10.0d

@@ -5,7 +5,7 @@
 	disable_toast: true
 	filename: "cfarmcharm"
 	group: "28F2E5AC1C6F81F3"
-	icon: "farm_and_charm:pizza"
+	icon: "farm_and_charm:farmers_breakfast"
 	id: "66B296014ED938C2"
 	order_index: 0
 	quest_links: [ ]
@@ -290,7 +290,7 @@
 			rewards: [
 				{
 					id: "422DD9DA914E126D"
-					item: "farm_and_charm:dough"
+					item: "farm_and_charm:raw_pasta"
 					type: "item"
 				}
 				{
@@ -302,7 +302,7 @@
 			subtitle: "Masa lista para meterte de lleno en la cocina"
 			tasks: [{
 				id: "682A918FA07FF7A4"
-				item: "farm_and_charm:dough"
+				item: "farm_and_charm:raw_pasta"
 				type: "item"
 			}]
 			title: "&6Cocina: &aMasa"
@@ -315,7 +315,7 @@
 			rewards: [
 				{
 					id: "4C2CAD77393213D0"
-					item: "farm_and_charm:tomato_sauce"
+					item: "farm_and_charm:simple_tomato_soup"
 					type: "item"
 				}
 				{
@@ -327,7 +327,7 @@
 			subtitle: "Salsa de tomate casera, clave para recetas potentes"
 			tasks: [{
 				id: "02E4A1377B902D16"
-				item: "farm_and_charm:tomato_sauce"
+				item: "farm_and_charm:simple_tomato_soup"
 				type: "item"
 			}]
 			title: "&6Cocina: &aSalsa de tomate"
@@ -343,7 +343,7 @@
 			rewards: [
 				{
 					id: "56F9712F344933CE"
-					item: "farm_and_charm:pasta"
+					item: "farm_and_charm:raw_pasta"
 					type: "item"
 				}
 				{
@@ -355,7 +355,7 @@
 			subtitle: "Pasta fresca preparada en casa"
 			tasks: [{
 				id: "14C5C353D8E1DA77"
-				item: "farm_and_charm:pasta"
+				item: "farm_and_charm:raw_pasta"
 				type: "item"
 			}]
 			title: "&6Cocina: &aPasta"
@@ -371,7 +371,7 @@
 			rewards: [
 				{
 					id: "3BA2E4A16ADC0735"
-					item: "farm_and_charm:spaghetti"
+					item: "farm_and_charm:pasta_with_onion_sauce"
 					type: "item"
 				}
 				{
@@ -383,7 +383,7 @@
 			subtitle: "&6Hito&r: ya dominas una receta estrella"
 			tasks: [{
 				id: "043076AB7C52867A"
-				item: "farm_and_charm:spaghetti"
+				item: "farm_and_charm:pasta_with_onion_sauce"
 				type: "item"
 			}]
 			title: "&6Cocina: &6Espaguetis"
@@ -396,7 +396,7 @@
 			rewards: [
 				{
 					id: "7C1751215FBA3E43"
-					item: "farm_and_charm:pizza"
+					item: "farm_and_charm:farmers_breakfast"
 					type: "item"
 				}
 				{
@@ -408,7 +408,7 @@
 			subtitle: "&6Hito&r: plato final de Farm \\& Charm"
 			tasks: [{
 				id: "0F63636CEC8C8929"
-				item: "farm_and_charm:pizza"
+				item: "farm_and_charm:farmers_breakfast"
 				type: "item"
 			}]
 			title: "&6Cocina: &6Pizza"
@@ -424,7 +424,7 @@
 			rewards: [
 				{
 					id: "05A5188237B48306"
-					item: "farm_and_charm:farmers_salad"
+					item: "farm_and_charm:farmer_salad"
 					type: "item"
 				}
 				{
@@ -436,7 +436,7 @@
 			subtitle: "Comida ligera para el dia a dia"
 			tasks: [{
 				id: "4B555FA82F6024DE"
-				item: "farm_and_charm:farmers_salad"
+				item: "farm_and_charm:farmer_salad"
 				type: "item"
 			}]
 			title: "&6Cocina: &aEnsalada del granjero"
@@ -483,7 +483,7 @@
 			rewards: [
 				{
 					id: "261DFE3C49897882"
-					item: "farm_and_charm:silo"
+					item: "farm_and_charm:silo_wood"
 					type: "item"
 				}
 				{
@@ -495,7 +495,7 @@
 			subtitle: "Almacenamiento util para una granja grande"
 			tasks: [{
 				id: "5308EDACB9C0943F"
-				item: "farm_and_charm:silo"
+				item: "farm_and_charm:silo_wood"
 				type: "item"
 			}]
 			title: "&aExtra: Silo"

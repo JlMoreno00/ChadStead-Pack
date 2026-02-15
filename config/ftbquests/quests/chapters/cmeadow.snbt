@@ -5,7 +5,7 @@
 	disable_toast: true
 	filename: "cmeadow"
 	group: "3453313E23B8AB3B"
-	icon: "meadow:cheese_wheel"
+	icon: "meadow:cheese_block"
 	id: "7C91E4B2A5D63F18"
 	order_index: 7
 	quest_links: [ ]
@@ -26,7 +26,7 @@
 					id: "5D2A7C1F8E3B4A90"
 					item: {
 						Count: 8
-						id: "meadow:grain"
+						id: "minecraft:wheat"
 					}
 					type: "item"
 				}
@@ -53,7 +53,7 @@
 			rewards: [
 				{
 					id: "7A1E5D3C9B2F4C80"
-					item: "meadow:grain"
+					item: "minecraft:wheat"
 					type: "item"
 				}
 				{
@@ -102,7 +102,7 @@
 			rewards: [
 				{
 					id: "1D102CCA6DAA044F"
-					item: "meadow:cheese_slice"
+					item: "meadow:piece_of_cheese"
 					type: "item"
 				}
 				{
@@ -114,7 +114,7 @@
 			subtitle: "Deja madurar tu primera rueda de queso alpino."
 			tasks: [{
 				id: "5887E525380F11EB"
-				item: "meadow:cheese_wheel"
+				item: "meadow:cheese_block"
 				type: "item"
 			}]
 			title: "Rueda de queso"
@@ -138,7 +138,7 @@
 			subtitle: "Corta la rueda y sirve porciones para tus recetas."
 			tasks: [{
 				id: "3F9B5D7A2E4C1F80"
-				item: "meadow:cheese_slice"
+				item: "meadow:piece_of_cheese"
 				type: "item"
 			}]
 			title: "Porcion de queso"
@@ -237,7 +237,7 @@
 			subtitle: "Recolecta grano para preparar harina y masa."
 			tasks: [{
 				id: "4A7D1F5B8E3C4BD0"
-				item: "meadow:grain"
+				item: "minecraft:wheat"
 				type: "item"
 			}]
 			title: "Grano"
@@ -250,7 +250,7 @@
 			rewards: [
 				{
 					id: "01A7D216533F8960"
-					item: "meadow:dough"
+					item: "minecraft:bread"
 					type: "item"
 				}
 				{
@@ -262,7 +262,7 @@
 			subtitle: "Muele el grano y obten harina para tus recetas."
 			tasks: [{
 				id: "61DE6B1EF6897F29"
-				item: "meadow:flour"
+				item: "meadow:alpine_salt"
 				type: "item"
 			}]
 			title: "Harina"
@@ -275,7 +275,7 @@
 			rewards: [
 				{
 					id: "6E0CDD0D8E527A35"
-					item: "meadow:cheese_slice"
+					item: "meadow:piece_of_cheese"
 					type: "item"
 				}
 				{
@@ -287,7 +287,7 @@
 			subtitle: "Prepara una comida caliente para sobrevivir en altura."
 			tasks: [{
 				id: "1628C2044CC817A1"
-				item: "meadow:alpine_salt_stew"
+				item: "meadow:cheese_sandwich"
 				type: "item"
 			}]
 			title: "Estofado alpino"
@@ -312,7 +312,7 @@
 			subtitle: "Corta madera de forma eficiente para construir en grande."
 			tasks: [{
 				id: "1A4D8F3B6E9C17A0"
-				item: "meadow:woodcutter"
+				item: "meadow:wooden_cauldron"
 				type: "item"
 			}]
 			title: "Lenador"
@@ -324,7 +324,7 @@
 			rewards: [
 				{
 					id: "6F9C4E8A2D5B6CF0"
-					item: "meadow:cheese_wheel"
+					item: "meadow:cheese_block"
 					type: "item"
 				}
 				{
@@ -348,7 +348,7 @@
 			rewards: [
 				{
 					id: "1B1FD9CF9AD35C62"
-					item: "meadow:wooden_flower_pot"
+					item: "meadow:wooden_flower_pot_small"
 					type: "item"
 				}
 				{

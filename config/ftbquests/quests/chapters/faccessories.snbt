@@ -102,7 +102,7 @@
 			subtitle: "I love microplastics!"
 			tasks: [{
 				id: "6318AB064B4842BF"
-				item: "artifacts:plastic_drinking_hat"
+				item: "artifacts:novelty_drinking_hat"
 				title: "Plastic Drinking Hat"
 				type: "item"
 			}]
@@ -1267,7 +1267,7 @@
 			id: "2C67B725F3C8BDE1"
 			rewards: [{
 				id: "31F05602D076B9C8"
-				item: "herbalbrews:feral_flask_big"
+				item: "herbalbrews:flask"
 				type: "item"
 			}]
 			size: 1.5d

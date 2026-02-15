@@ -24,7 +24,7 @@
 			rewards: [
 				{
 					id: "3D419B364C72E111"
-					item: "farmersknives:iron_knife"
+					item: "farmersknives:copper_knife_mm"
 					type: "item"
 				}
 				{
@@ -61,7 +61,7 @@
 			subtitle: "Paso base: sin cuchillo no hay cortes ni cocina avanzada"
 			tasks: [{
 				id: "38F56E26CF845CF6"
-				item: "farmersknives:iron_knife"
+				item: "farmersknives:copper_knife_mm"
 				type: "item"
 			}]
 			title: "&6Cuchillo de hierro"
@@ -85,7 +85,7 @@
 			subtitle: "Ligero y rapido: ideal para cocina y farmeo temprano"
 			tasks: [{
 				id: "1ED02ADB20FB6F16"
-				item: "farmersknives:golden_knife"
+				item: "farmersknives:bronze_knife"
 				type: "item"
 			}]
 			title: "&6Cuchillo de oro"
@@ -109,7 +109,7 @@
 			subtitle: "Mas durabilidad para sesiones largas de crafteo"
 			tasks: [{
 				id: "78D06B0BFBA01BAC"
-				item: "farmersknives:diamond_knife"
+				item: "farmersknives:steel_knife_mm"
 				type: "item"
 			}]
 			title: "&6Cuchillo de diamante"
@@ -121,7 +121,7 @@
 			rewards: [
 				{
 					id: "12968F51D0315716"
-					item: "farmersknives:emerald_knife"
+					item: "farmersknives:mythril_knife"
 					type: "item"
 				}
 				{
@@ -133,7 +133,7 @@
 			subtitle: "&6Hito&r: el cuchillo final para dominar todas las recetas"
 			tasks: [{
 				id: "70E70DA04764FAC2"
-				item: "farmersknives:netherite_knife"
+				item: "farmersknives:star_platinum_knife"
 				type: "item"
 			}]
 			title: "&6Cuchillo de netherite"
@@ -357,7 +357,7 @@
 			rewards: [
 				{
 					id: "48E652A4CB88F1E8"
-					item: "nethersdelight:mimicream"
+					item: "nethersdelight:mimicarnation"
 					type: "item"
 				}
 				{
@@ -369,7 +369,7 @@
 			subtitle: "Extra opcional: conoce como funciona este drop especial"
 			tasks: [{
 				id: "39829D361874AF5B"
-				item: "nethersdelight:mimicream"
+				item: "nethersdelight:mimicarnation"
 				type: "item"
 			}]
 			title: "&cExtra: Mimetismo"

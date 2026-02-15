@@ -4,7 +4,7 @@
 	default_quest_shape: ""
 	filename: "6cfreate"
 	group: "66AEB5F2A2BD23EB"
-	icon: "kubejs:create_guide"
+	icon: "minecraft:book"
 	id: "1F656FED233BB50F"
 	order_index: 0
 	quest_links: [ ]
@@ -19,7 +19,7 @@
 				""
 				"Don't hesitate to ask questions! The mod is well-documented, so anything you're curious about is just a search away."
 			]
-			icon: "kubejs:create_guide"
+			icon: "minecraft:book"
 			id: "0C5A75DD4C276B70"
 			optional: true
 			rewards: [{
@@ -173,7 +173,7 @@
 				{
 					advancement: "create:water_wheel"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "4D4723C7E5FA4830"
 					title: "&6Use a Water Wheel"
 					type: "advancement"
@@ -281,7 +281,7 @@
 			tasks: [{
 				advancement: "create:shifting_gears"
 				criterion: ""
-				icon: "kubejs:create_guide"
+				icon: "minecraft:book"
 				id: "4A2F4D3C2B822003"
 				title: "&6Successfully increase Cogwheel speed&r"
 				type: "advancement"
@@ -311,7 +311,7 @@
 			rewards: [{
 				count: 2
 				id: "7678F1D41828BB21"
-				item: "minecraft:slime_ball"
+				item: "minecraft:slime_block"
 				type: "item"
 			}]
 			subtitle: "Uses rotational force to press items into Sheets."
@@ -331,7 +331,7 @@
 				{
 					advancement: "create:mechanical_press"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "0AF33958ACAA8D34"
 					title: "&6Create some Sheets with a Mechanical Press"
 					type: "advancement"
@@ -419,7 +419,7 @@
 				{
 					advancement: "create:wrench_goggles"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "7BF8168DFC3BABDE"
 					title: "&6Use the Wrench and Engineer's Goggles together"
 					type: "advancement"
@@ -475,7 +475,7 @@
 				{
 					advancement: "create:spout"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "2365745C190E70C0"
 					title: "&6Fill an item using a Spout&r"
 					type: "advancement"
@@ -562,7 +562,7 @@
 				{
 					advancement: "create:hose_pulley"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "00D3BD93F808D16C"
 					title: "&6Observe an active Hose Pulley&r"
 					type: "advancement"
@@ -635,7 +635,7 @@
 				{
 					advancement: "create:steam_engine"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "5EC3753F4DADB315"
 					title: "&6Generate torque with a Steam Engine&r"
 					type: "advancement"
@@ -686,7 +686,7 @@
 				{
 					advancement: "create:mechanical_pump_0"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "5A11DC9FA051EEFD"
 					title: "&6Power a Mechanical Pump&r"
 					type: "advancement"
@@ -764,7 +764,7 @@
 				{
 					advancement: "create:super_glue"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "526E4F5DDC1EDA0B"
 					title: "&6Use Super Glue to connect blocks&r"
 					type: "advancement"
@@ -881,7 +881,7 @@
 				{
 					advancement: "create:belt"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "154D0A0F2C572B1A"
 					title: "&6Set up a Mechanical Belt&r"
 					type: "advancement"
@@ -917,7 +917,7 @@
 				{
 					advancement: "create:funnel"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "1CF3D52A58AA3A78"
 					title: "&6Extract or insert items using an Andesite Funnel&r"
 					type: "advancement"
@@ -1008,7 +1008,7 @@
 				{
 					advancement: "create:chute"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "0A1537D3F7989652"
 					title: "&6Move items through Chutes&r"
 					type: "advancement"
@@ -1046,7 +1046,7 @@
 				{
 					advancement: "create:portable_storage_interface"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "15872AC97740647D"
 					title: "&6Extract or insert items into a Contraption&r"
 					type: "advancement"
@@ -1123,7 +1123,7 @@
 				{
 					advancement: "create:ejector_maxed"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "0439012A49F5F300"
 					title: "&6Launch yourself 30x blocks&r"
 					type: "advancement"
@@ -1206,7 +1206,7 @@
 				{
 					advancement: "create:mechanical_mixer"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "780428D8BD6C4DB6"
 					title: "&6Successfully operate a Mixer and Basin&r"
 					type: "advancement"
@@ -1344,7 +1344,7 @@
 				{
 					advancement: "create:mechanical_crafter"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "688A34E3EB993D1C"
 					title: "&6Place and power some Mechanical Crafters&r"
 					type: "advancement"
@@ -1393,7 +1393,7 @@
 				{
 					advancement: "create:crushing_wheel"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "7110DCB7520B62C7"
 					title: "&6Place and power a pair of Crushing Wheels&r"
 					type: "advancement"
@@ -1404,7 +1404,7 @@
 		}
 		{
 			dependencies: ["31C8767E1AD34337"]
-			icon: "kubejs:create_guide"
+			icon: "minecraft:book"
 			id: "0B9A4040AFD8A3EF"
 			rewards: [{
 				id: "36565BE234359001"
@@ -1517,7 +1517,7 @@
 				{
 					advancement: "create:deployer"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "3AC9748FA269CE62"
 					title: "&6Activate a Deployer&r"
 					type: "advancement"
@@ -1540,7 +1540,7 @@
 				""
 				"Remember, if you’re ever unsure about something, make use of the &aPonder&r tool provided by &6Create&r, as well as the &6Create&r Wiki."
 			]
-			icon: "kubejs:create_guide"
+			icon: "minecraft:book"
 			id: "0F973DDF31289379"
 			rewards: [{
 				count: 2
@@ -1669,7 +1669,7 @@
 		}
 		{
 			dependencies: ["597FDDB36D19A4C1"]
-			icon: "kubejs:create_guide"
+			icon: "minecraft:book"
 			id: "61D40DA7D8A3BFB2"
 			rewards: [{
 				count: 8
@@ -1725,7 +1725,7 @@
 				{
 					advancement: "create:encased_fan"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "7FBC2C264E840ABA"
 					title: "&6Place and power an Encased Fan"
 					type: "advancement"
@@ -1733,7 +1733,7 @@
 				{
 					advancement: "create:fan_processing"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "7D3F70682802E3D9"
 					title: "&6Process materials with an Encased Fan&r"
 					type: "advancement"
@@ -1870,7 +1870,7 @@
 				{
 					advancement: "create:diving_suit"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "128137DD0FB6A8EA"
 					title: "&6Wear a Copper Diving Set and dive into Water&r"
 					type: "advancement"
@@ -1940,7 +1940,7 @@
 				{
 					advancement: "create:diving_suit_lava"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "33ADF682BAB83CC0"
 					title: "&6Wear a Netherite Diving Set and dive into Lava&r"
 					type: "advancement"
@@ -1952,7 +1952,7 @@
 		}
 		{
 			dependencies: ["6E3C1037571CB92E"]
-			icon: "kubejs:create_guide"
+			icon: "minecraft:book"
 			id: "4D52DEC4EEDEEC0D"
 			rewards: [{
 				count: 2
@@ -1973,7 +1973,7 @@
 		}
 		{
 			dependencies: ["7BF848EF09142D32"]
-			icon: "kubejs:create_guide"
+			icon: "minecraft:book"
 			id: "4D8CAD708E7BCB8B"
 			rewards: [{
 				id: "76E1FBF5A182A26C"
@@ -2018,7 +2018,7 @@
 				{
 					advancement: "create:windmill_maxed"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "737A42AA1CBE6061"
 					title: "&6Assemble a Windmill with maximum strength&r"
 					type: "advancement"
@@ -2169,7 +2169,7 @@
 				{
 					advancement: "create_enchantment_industry:blazes_new_job"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "5B0A1B79AFC1764B"
 					title: "&6Transform a Blaze Burner"
 					type: "advancement"
@@ -2177,7 +2177,7 @@
 				{
 					advancement: "create_enchantment_industry:first_order"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "69D71F5A00A9E595"
 					title: "&6Enchant an item with a Blaze Enchanter"
 					type: "advancement"
@@ -2216,7 +2216,7 @@
 				{
 					advancement: "create_enchantment_industry:gone_with_the_foil"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "09E5770A0A2913B5"
 					title: "&6Observe an item being disenchanted"
 					type: "advancement"
@@ -2224,7 +2224,7 @@
 				{
 					advancement: "create_enchantment_industry:spirit_taking"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "091FBCE665806C0A"
 					title: "&6Sacrifice a portion of your experience"
 					type: "advancement"
@@ -2263,7 +2263,7 @@
 				{
 					advancement: "create_enchantment_industry:copiable_mystery"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "29D6806DEB52C92A"
 					title: "&6Duplicate an Enchanted Book with a Printer"
 					type: "advancement"
@@ -2636,7 +2636,7 @@
 				""
 				"For example, you can give &bShafts&r the texture of &bOak Logs&r or make &bCogwheels&r look like &bObsidian&r!"
 			]
-			icon: "kubejs:create_guide"
+			icon: "minecraft:book"
 			id: "58A89F92669A29B6"
 			rewards: [
 				{
@@ -2731,7 +2731,7 @@
 				{
 					advancement: "create:mechanical_arm"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "08B78D6065762033"
 					title: "&6Transfer items with a Mechanical Arm&r"
 					type: "advancement"
@@ -2806,7 +2806,7 @@
 				{
 					advancement: "create:extendo_grip"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "26E571DBD41AB73E"
 					title: "&6Use an Extendo Grip&r"
 					type: "advancement"
@@ -3003,7 +3003,7 @@
 				{
 					advancement: "create:track_signal"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "1DD444DEF9CF5BC6"
 					title: "&6Place a Train Signal&r"
 					type: "advancement"
@@ -3118,7 +3118,7 @@
 				{
 					advancement: "create:conductor"
 					criterion: ""
-					icon: "kubejs:create_guide"
+					icon: "minecraft:book"
 					id: "5FB10C4484B8110B"
 					title: "&6Give a Mob or Blaze Burner a Train Schedule&r"
 					type: "advancement"

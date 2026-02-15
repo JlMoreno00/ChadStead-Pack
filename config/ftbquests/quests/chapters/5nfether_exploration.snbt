@@ -148,7 +148,7 @@
 			]
 			tasks: [{
 				biome: "incendium:toxic_heap"
-				icon: "minecraft:slime_ball"
+				icon: "minecraft:slime_block"
 				id: "48DEB3FB7FF7885F"
 				title: "&4Toxic Heap"
 				type: "biome"

@@ -72,7 +72,7 @@
 				id: "0120324FD1420E43"
 				item: {
 					Count: 1
-					id: "sellingbin:selling_bin"
+					id: "minecraft:barrel"
 					tag: {
 						material: "wood"
 					}
@@ -98,7 +98,7 @@
 				id: "12D923232ECA9C63"
 				item: {
 					Count: 1
-					id: "sellingbin:selling_bin"
+					id: "minecraft:barrel"
 					tag: {
 						material: "iron"
 					}
@@ -128,7 +128,7 @@
 				id: "3E31D52013456607"
 				item: {
 					Count: 1
-					id: "sellingbin:selling_bin"
+					id: "minecraft:barrel"
 					tag: {
 						material: "diamond"
 					}
@@ -154,7 +154,7 @@
 				id: "2473A856EE37DAE1"
 				item: {
 					Count: 1
-					id: "sellingbin:selling_bin"
+					id: "minecraft:barrel"
 					tag: {
 						material: "netherite"
 					}
@@ -180,7 +180,7 @@
 				id: "6CDD0B4C19F80494"
 				item: {
 					Count: 1
-					id: "sellingbin:selling_bin"
+					id: "minecraft:barrel"
 					tag: {
 						material: "redstone"
 					}
@@ -210,7 +210,7 @@
 			subtitle: "Click to learn more!"
 			tasks: [{
 				id: "7284657728D4970C"
-				item: "kubejs:wallet"
+				item: "minecraft:emerald"
 				type: "item"
 			}]
 			x: 1.5d

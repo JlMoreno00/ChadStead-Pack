@@ -67,7 +67,7 @@
 			}]
 			tasks: [{
 				id: "7F175094F50F5FD4"
-				item: "oceansdelight:baked_tentacle_on_a_stick"
+				item: "oceansdelight:baked_tentacl"
 				type: "item"
 			}]
 			x: -3.0d
@@ -1765,7 +1765,7 @@
 			}]
 			tasks: [{
 				id: "2A7F2ADFEA993937"
-				item: "farmersdelight:egg_sandwich"
+				item: "farmersdelight:chicken_sandwich"
 				type: "item"
 			}]
 			x: -3.0d

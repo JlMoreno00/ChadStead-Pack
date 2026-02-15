@@ -229,7 +229,7 @@
 				""
 				"Puedes abrir su inventario con click derecho cuando este en el suelo o enganchado."
 			]
-			icon: "niftycarts:supply_cart"
+			icon: "minecraft:chest_minecart"
 			id: "66FF770011223344"
 			rewards: [
 				{
@@ -245,7 +245,7 @@
 			]
 			tasks: [{
 				id: "60718293A4B5C6D7"
-				item: "niftycarts:supply_cart"
+				item: "minecraft:chest_minecart"
 				type: "item"
 			}]
 			title: "&eCarrito de suministros"
@@ -259,7 +259,7 @@
 				""
 				"Ideal para mover ganado de forma segura entre establos."
 			]
-			icon: "niftycarts:animal_cart"
+			icon: "minecraft:lead"
 			id: "7700112233445566"
 			rewards: [
 				{
@@ -275,7 +275,7 @@
 			]
 			tasks: [{
 				id: "718293A4B5C6D7E8"
-				item: "niftycarts:animal_cart"
+				item: "minecraft:lead"
 				type: "item"
 			}]
 			title: "&eCarrito de animales"
@@ -289,7 +289,7 @@
 				""
 				"Es perfecto para hacer campos largos en poco tiempo."
 			]
-			icon: "niftycarts:plow"
+			icon: "minecraft:iron_hoe"
 			id: "1B58EFB95B66075E"
 			rewards: [
 				{
@@ -306,7 +306,7 @@
 			]
 			tasks: [{
 				id: "3519E5EE808694A9"
-				item: "niftycarts:plow"
+				item: "minecraft:iron_hoe"
 				type: "item"
 			}]
 			title: "&eArado"

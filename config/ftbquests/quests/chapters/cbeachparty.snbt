@@ -55,7 +55,7 @@
 			rewards: [
 				{
 					id: "3BC6A9E4D7F2B803"
-					item: "beachparty:coconut_half"
+					item: "beachparty:coconut_open"
 					type: "item"
 				}
 				{
@@ -79,7 +79,7 @@
 			rewards: [
 				{
 					id: "5DE8C2A6B9F4D015"
-					item: "beachparty:sweetberries_juice"
+					item: "beachparty:sweetberries_cocktail"
 					type: "item"
 				}
 				{
@@ -91,7 +91,7 @@
 			subtitle: "Refrescante y cremosa"
 			tasks: [{
 				id: "33C6D9E2F4A7B803"
-				item: "beachparty:coconut_milk"
+				item: "beachparty:coconut_cocktail"
 				type: "item"
 			}]
 			title: "Leche de coco"
@@ -103,7 +103,7 @@
 			rewards: [
 				{
 					id: "7F0AE4C8D2B6F237"
-					item: "beachparty:cocoa_juice"
+					item: "beachparty:cocoa_cocktail"
 					type: "item"
 				}
 				{
@@ -115,7 +115,7 @@
 			subtitle: "Clasica para dias de calor"
 			tasks: [{
 				id: "44D7E1F3A5B8C904"
-				item: "beachparty:lemonade"
+				item: "beachparty:sweetberries_cocktail"
 				type: "item"
 			}]
 			title: "Limonada"
@@ -127,7 +127,7 @@
 			rewards: [
 				{
 					id: "2165F3102D51F133"
-					item: "beachparty:pumpkin_juice"
+					item: "beachparty:pumpkin_cocktail"
 					type: "item"
 				}
 				{
@@ -139,7 +139,7 @@
 			subtitle: "Sabor tropical de temporada"
 			tasks: [{
 				id: "55E8F2A4B6C9D015"
-				item: "beachparty:melon_juice"
+				item: "beachparty:melon_cocktail"
 				type: "item"
 			}]
 			title: "Zumo de melon"
@@ -151,7 +151,7 @@
 			rewards: [
 				{
 					id: "1220F1767A14E7F2"
-					item: "beachparty:melon_juice"
+					item: "beachparty:melon_cocktail"
 					type: "item"
 				}
 				{
@@ -163,7 +163,7 @@
 			subtitle: "Dulce, frio y perfecto para la playa"
 			tasks: [{
 				id: "66F9A3B5C7D1E126"
-				item: "beachparty:ice_cream"
+				item: "beachparty:coconut_cocktail"
 				type: "item"
 			}]
 			title: "Helado"
@@ -175,7 +175,7 @@
 			rewards: [
 				{
 					id: "47410F9EF4368691"
-					item: "beachparty:ice_cream"
+					item: "beachparty:coconut_cocktail"
 					type: "item"
 				}
 				{
@@ -187,7 +187,7 @@
 			subtitle: "Tu bebida estrella para la fiesta"
 			tasks: [{
 				id: "770AB4C6D8E2F237"
-				item: "beachparty:milkshake"
+				item: "beachparty:honey_cocktail"
 				type: "item"
 			}]
 			title: "Batido"
@@ -211,7 +211,7 @@
 			subtitle: "Comodidad total bajo el sol"
 			tasks: [{
 				id: "29A4B588FA92D6CF"
-				item: "beachparty:deck_chair"
+				item: "beachparty:beach_chair"
 				type: "item"
 			}]
 			title: "Tumbona"
@@ -224,7 +224,7 @@
 			rewards: [
 				{
 					id: "13AE25A9D3F7C237"
-					item: "beachparty:palm_torch"
+					item: "beachparty:palm_torch_item"
 					type: "item"
 				}
 				{
@@ -236,7 +236,7 @@
 			subtitle: "Sombra y estilo para tu zona chill"
 			tasks: [{
 				id: "185C8EA381DABF1B"
-				item: "beachparty:beach_umbrella"
+				item: "beachparty:beach_parasol"
 				type: "item"
 			}]
 			title: "Sombrilla"
@@ -249,7 +249,7 @@
 			rewards: [
 				{
 					id: "35C047CBD5F9E459"
-					item: "beachparty:palm_torch"
+					item: "beachparty:palm_torch_item"
 					type: "item"
 				}
 				{
@@ -261,7 +261,7 @@
 			subtitle: "Centro de operaciones de toda fiesta"
 			tasks: [{
 				id: "28B610E3848B06F4"
-				item: "beachparty:tiki_bar"
+				item: "beachparty:palm_bar"
 				type: "item"
 			}]
 			title: "Barra tiki"
@@ -274,7 +274,7 @@
 			rewards: [
 				{
 					id: "57E269EDF2B3A671"
-					item: "beachparty:sand_bucket"
+					item: "beachparty:sand_bucket_filled"
 					type: "item"
 				}
 				{
@@ -299,7 +299,7 @@
 			rewards: [
 				{
 					id: "79048B12B5D6C893"
-					item: "beachparty:swim_trunks"
+					item: "beachparty:trunks"
 					type: "item"
 				}
 				{
