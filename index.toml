@@ -18,15 +18,15 @@ hash = "e6e07897496765a807f7c7baa0838ccc19277ba79373ecfe368381bb7dc7dbc1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/5nfether_exploration.snbt"
-hash = "5d0993a1dd76ab5d2ffdf69a1a9a686ce7c3d1f7db8373f47be98a39880876e2"
+hash = "9a857f03b018d1cd69172bb2471dc8e5af5484f93c1601cc7e2a11cfa16c84d4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6cfreate.snbt"
-hash = "c9cfc156fd21b1464a08c4ce959e14d47266eb5934821449e874d814ad3ab8bb"
+hash = "08b4ecb4fa503792233c739872e0237fb19448a3ebb673fffd15a92857925528"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6efconomy.snbt"
-hash = "ff1c955a4366f5c981242a460fb66a4a65305298836b766692ea0412d9b5b75a"
+hash = "1ae132f511339bd733b185be00ff55d6e0076b92e4b4abd52b0205414720a675"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bibntroduction.snbt"
@@ -46,7 +46,7 @@ hash = "3be8a1f2d571431e9cabfee2a0a76ac120288ae65c6a95e062da3c39b064cced"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cbeachparty.snbt"
-hash = "12dd9acde7abeb754d3fb41a64e4934f30d53944c34de96c2733f5f886cb8ffd"
+hash = "3a1c9b51cc453ce5a98bb0f7d9eb039133bd660bd7f6ad25e77d425552d5a701"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ccobblemonrider.snbt"
@@ -54,19 +54,19 @@ hash = "519613fb2e1b758fc81a0a679e749d1c04ce2094b259c24a8bb104c061baec27"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cfarmcharm.snbt"
-hash = "7e535ea0bc802b9230eaa525d7790946485e2b45754ccd33f18b0d3edbf950e9"
+hash = "60d6d0baa595c856d6a0f98466adcfee012217e7877314365c649f828a0a53b3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cmeadow.snbt"
-hash = "fe7c4d55f10381fce7450c040f4a68aca066b331a8687044f040346ee4bb0cc6"
+hash = "e826d61ad1ff67461d73bf492abaa70caf2b01ee08351118db70612adfca4250"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cnethersdelight.snbt"
-hash = "5f8b32060d48206c3b93b30180e4739db683712d72c5c11afa0bd207f64f8bba"
+hash = "1a3c7aeaeff084429b2a3637e2ae7c768f330f3ef79f2c5927f41ad812705235"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cobblemon.snbt"
-hash = "6c004be4370aa61111f0e1c03b1aa5b41058a2630a7fd74c1efe1d5400ebf0a0"
+hash = "d517ef617840c669d1c8a22a3ab8b2e8487111199a99b83e105f7a539de77523"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/compact_storage.snbt"
@@ -90,7 +90,7 @@ hash = "76fe692db583942bbe9a979fed1673a6135b9a856bebc7e2aa3e2cfca82120e2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ctools.snbt"
-hash = "c8b7645a21caeabed09ea064b3c73d4f9780eaa40d4ca7afdaed5da22cac1ba8"
+hash = "1f6cfbf28a0ccbfaf8e33a36c3cd7b4c2b8e6c3f5c28022cd84876db363958b9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cwirelessredstone.snbt"
@@ -102,11 +102,11 @@ hash = "3f8c02373c238b4e951569bc52c222f0b1530ab416dd28aef74ea7db1bb6eb33"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/faccessories.snbt"
-hash = "cef202dd6baab9d54c567d384c1a1c3b1e8e79ef75033d26aa0a18b3f991abcc"
+hash = "38647908ce5d45df8c4a08915349cb197510a19ada411409f4d02a956625138f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/faircraft.snbt"
-hash = "d02e91a128ae5634d8215b3e4ddf05dc5b4c0c679cc7e213af63817cc24ff193"
+hash = "94907e58a25c4b02fdda00d478d2007f508484dcdff6316fc6addd7508f2a9c6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fautomobiles.snbt"
@@ -114,7 +114,7 @@ hash = "b7d12568abb17de921cc7943079f5a43337b4b8717eb260cd92fb3e8c9a25c18"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fbackpacks.snbt"
-hash = "dff9b83f2a2a78e4444a317e90723ed0db80be8f55a640a91376be75c765896a"
+hash = "e80a1e81825bea0c0a5e342686b0dba0bb1e7a5dce82e05fa20f79d00cdeff3e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fbakery.snbt"
@@ -122,7 +122,7 @@ hash = "fab1dd063d51351fe11f12b6bceaec84c0421bf597beec7a46bdb36dcecff40f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fboats.snbt"
-hash = "09abcff61196b0ddc653e6f1728f2cda7f9c33209d2eb7f123b927fc5be468c5"
+hash = "d22aa514ced4dd7fb03221a6135c68cb35d24940017d8e9c82127d6f0c7ff1fc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fbrewery.snbt"
@@ -138,15 +138,15 @@ hash = "547702fb92f8e2d94162bb3235cafe1edea7e317e6d3e19b4576dc17754d9db4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ffarmers_delight.snbt"
-hash = "22e1d58e2bfb76694abd2516c6d76f59451843bec72f85b9ea01737dba9786b8"
+hash = "31b91f9965f8df58e72b8997bb1e6a34ee55fd43a6d439d22736c220e0dfe027"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fhats.snbt"
-hash = "144d02ce78e8a5dcbe387a4c365ba16a1d5cead824ca71dbdb37ca3f1b9395c8"
+hash = "432b628d6839765e1c40a9f95ee835c7134c9387e58ca31cbbcd3b737d64e54d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fherbal_brews.snbt"
-hash = "88399de63082b8d10a7c517a122d4e6d092ef666fcf325a02269ba544d6d42b2"
+hash = "1db05dfb00ca13db81776b13cf1fffd5bd2770ee6598553d1137efa706f3f00f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fish.snbt"
@@ -154,7 +154,7 @@ hash = "01124448564afa2c3fe204762cf9dc329dda1226edf18c6732ada468097b8850"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fplushies.snbt"
-hash = "e27db2ce839ed32488e3f188dd27c0bb22e52b339f0cec8e1f9c05cf7cd1172a"
+hash = "7500be48db5cef561f88b3232a3e594f98f44a4bef6344c1c91cf8e5764d8d12"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ftoms_simple_storage.snbt"
@@ -174,7 +174,7 @@ hash = "c41bc47e2f798c86f9c11ae8821ee8691b7a1f1cdeae4a6c52928c9d77d9e8b9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fwildlife.snbt"
-hash = "e37f7ddb1630fd8bb5231698b937ba78e2adc6a6df285ec2eb35e46334b9190a"
+hash = "8d66c131de6747d49728ca1f7871fbef732c5505651899efd59278630ec8095d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fwings.snbt"
@@ -186,7 +186,7 @@ hash = "4043110487eb90bbc6bf1c1423af657dca84ffe08b7ec5449dcf0a320e97fede"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ore_collection.snbt"
-hash = "9b2ecadf32ae59d8d0bff54ea5ab1ef69cd5e8f5abc47f6ab6de8edfd21b83da"
+hash = "8971ab31d0bbcf4bc1c0737307637cc98c44af11e314c985057d25b4d0839336"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/painting.snbt"
@@ -1142,11 +1142,6 @@ hash = "4d126f78c43ca759abfae9b23bfa1cc24a05aaea89923007ad7382f128417b57"
 metafile = true
 
 [[files]]
-file = "mods/hold-my-items.pw.toml"
-hash = "e848d17092a61b91d0198361cc333fb5d3912cdb5bb561f0520f2f87a75db6e6"
-metafile = true
-
-[[files]]
 file = "mods/horse-expert.pw.toml"
 hash = "d2190eb055a48c2011d0c986602997097bb94dab5e07f8b97f4bdb92b58445b8"
 metafile = true
@@ -2082,16 +2077,6 @@ hash = "3ee13941ade53ea1b1ab826ae0b9a3bc368a65433370ba6c8d55433cc7a714a2"
 [[files]]
 file = "mods/wirelessredstone-fabric-1.20.1-1.1.2.pw.toml"
 hash = "9ddbbfc99327adc9c95a449698ce398526583a5768d05e75bb8fd28f2660048e"
-metafile = true
-
-[[files]]
-file = "mods/xaeros-minimap.pw.toml"
-hash = "f186401be01f7216a7bbd73c8e3e7cff96ab9db76d19029ee3be92f407b1b207"
-metafile = true
-
-[[files]]
-file = "mods/xaeros-world-map.pw.toml"
-hash = "9d9ab7248c5a9ed01ce3e23fba5c60139065e31d94452e3179b263ac4be535aa"
 metafile = true
 
 [[files]]
