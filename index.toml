@@ -1142,6 +1142,11 @@ hash = "4d126f78c43ca759abfae9b23bfa1cc24a05aaea89923007ad7382f128417b57"
 metafile = true
 
 [[files]]
+file = "mods/hold-my-items.pw.toml"
+hash = "e848d17092a61b91d0198361cc333fb5d3912cdb5bb561f0520f2f87a75db6e6"
+metafile = true
+
+[[files]]
 file = "mods/horse-expert.pw.toml"
 hash = "d2190eb055a48c2011d0c986602997097bb94dab5e07f8b97f4bdb92b58445b8"
 metafile = true
@@ -1822,6 +1827,11 @@ metafile = true
 [[files]]
 file = "mods/skin-layers-3d.pw.toml"
 hash = "3d01b105cdbee7fe7f533358f66030e2dcd4b268306b1ed65ee8270edcc90cdd"
+metafile = true
+
+[[files]]
+file = "mods/sleep.pw.toml"
+hash = "86ab8bb190e6a7d7fdb03388bc20472ca6233749895a42e48f4a4425477c887c"
 metafile = true
 
 [[files]]
