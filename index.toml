@@ -414,11 +414,6 @@ hash = "b7341a1189b8650d38d0336718a36b06cf48e91e988ffc247f36a7ef7439e1fd"
 metafile = true
 
 [[files]]
-file = "mods/better-third-person.pw.toml"
-hash = "9cefb6bce20863fb1803a19a8bb15e949298a8b552f1ff0d8d235786d501e222"
-metafile = true
-
-[[files]]
 file = "mods/betterend.pw.toml"
 hash = "4b8ffbe47270effb2da83ff2fba6e5dea0158a515033b61a484a21aae6146a76"
 metafile = true
@@ -1013,7 +1008,7 @@ metafile = true
 
 [[files]]
 file = "mods/forge-config-api-port.pw.toml"
-hash = "8fe2cb6a509cd81553bd5b20f19585decf8ca2beb3ae6098ce8b65517873e6b7"
+hash = "adea09f1e1b05da68cf7407992a9391b15985acf5465a888e54ae076dbd543ab"
 metafile = true
 
 [[files]]
@@ -1189,6 +1184,11 @@ metafile = true
 [[files]]
 file = "mods/indium.pw.toml"
 hash = "60adfc1ee75f10a7290e18f3e2b82601a3d3915db0c53dabe08dd17daf1c7d76"
+metafile = true
+
+[[files]]
+file = "mods/inertia!.pw.toml"
+hash = "590e34c307df07359d7c5c8d7b955b4552e2fc948fa1525273da0fd45bc7fe83"
 metafile = true
 
 [[files]]
@@ -1591,6 +1591,11 @@ hash = "5553f08402ff3f277f68bf132463f187d14e2b12275ae319f934e4672f4b9288"
 metafile = true
 
 [[files]]
+file = "mods/no-screen-bobbing.pw.toml"
+hash = "2bb40160d8c98dcfc609bd46353ea47a3a773ae313457acc4e8b220ba95ff902"
+metafile = true
+
+[[files]]
 file = "mods/noisium.pw.toml"
 hash = "86828cf8fca8cb61bff61e63729932430a8c5c230ccbf35e83c41f90c0f9981e"
 metafile = true
@@ -1696,6 +1701,11 @@ hash = "e4b2672d1d76918a2b4ec98b122daf2f7aff6a645f32bb1649add0dd6c206ab0"
 metafile = true
 
 [[files]]
+file = "mods/punchy-fpa.pw.toml"
+hash = "48c4f764ea60edc04779fb7cc3955ab8f53e5ccdee26a50d4562a4803199483c"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "ead2bfc6e6fa3d1f1d82a7f4968ab2c8a712866d635d1875f02936f9ad8aef02"
 metafile = true
@@ -1787,6 +1797,11 @@ metafile = true
 [[files]]
 file = "mods/server-redirect.pw.toml"
 hash = "c3a54616ea276562895b1a2ec9757def243cf017d5557d75499f4f4b8762d608"
+metafile = true
+
+[[files]]
+file = "mods/shoulder-surfing-reloaded.pw.toml"
+hash = "e23aad4e6f98020d3ed413d16baf672531c42f89bf4460631799de9963c46935"
 metafile = true
 
 [[files]]

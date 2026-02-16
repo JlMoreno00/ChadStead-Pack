@@ -1,0 +1,13 @@
+name = "No Screen Bobbing"
+filename = "viewbobbingmod-1.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6a6273001e0d7e298845416ae875f40853ffd485"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7488243
+project-id = 446804

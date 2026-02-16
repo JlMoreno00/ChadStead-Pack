@@ -1,0 +1,13 @@
+name = "Inertia!"
+filename = "inertia-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Qn9xxmFt/versions/kJiMFB0q/inertia-1.0.0.jar"
+hash-format = "sha512"
+hash = "3068fcc562dab37eb2067b9ee6dfc8d8005f5e5f865186f3e0cb10acc4543786eff41eda8fbe2f0be01994819628c73a70ac462382d0427836fba52a5cf9db68"
+
+[update]
+[update.modrinth]
+mod-id = "Qn9xxmFt"
+version = "kJiMFB0q"
