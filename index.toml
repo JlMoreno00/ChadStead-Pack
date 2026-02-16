@@ -2263,12 +2263,12 @@ hash = "63186dc000c0e10c890e8826ac2c058964f56304c4655be0d286ec2b87c3ff2e"
 
 [[files]]
 file = "resourcepacks/FA+Player-v1.0.pw.toml"
-hash = "09c742a61db867b92940e2f3b2ce6f2f88f066b5c2afb18698538b86f2fcf726"
+hash = "93bda32d51ced1c505202421e92a7814be87fdb48aa37b039395f931d5889c64"
 metafile = true
 
 [[files]]
 file = "resourcepacks/FA+Player-v1.0.zip"
-hash = "b1f0c3cbcb77cdf2ad0c59e0f405f7da84f9c07f4ecd90cbb94a40bef70ca70b"
+hash = "dc78c3db2017f255db8ed68bf9578cbcead7a6d6f1ba9a4a8e5690afdc24b60d"
 
 [[files]]
 file = "resourcepacks/FreshAnimations_v1.10.1.pw.toml"
