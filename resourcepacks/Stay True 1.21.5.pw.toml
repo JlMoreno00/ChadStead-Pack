@@ -1,0 +1,8 @@
+name = "Stay True 1.21.5"
+filename = "Stay True 1.21.5.zip"
+side = "client"
+
+[download]
+url = "https://jlmoreno00.github.io/ChadStead-Pack/resourcepacks/Stay%20True%201.21.5.zip"
+hash-format = "sha256"
+hash = "c61397d8e9d1f15e069f718c0bd61c5c347be1f3e18603ea576dccb570302c82"

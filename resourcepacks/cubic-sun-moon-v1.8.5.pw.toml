@@ -1,0 +1,8 @@
+name = "cubic-sun-moon-v1.8.5"
+filename = "cubic-sun-moon-v1.8.5.zip"
+side = "client"
+
+[download]
+url = "https://jlmoreno00.github.io/ChadStead-Pack/resourcepacks/cubic-sun-moon-v1.8.5.zip"
+hash-format = "sha256"
+hash = "c3712a3ba511d35201d44bafce16c9d36e7185d6743aab02207bda0d5d109ede"

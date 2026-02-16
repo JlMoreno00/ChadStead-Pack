@@ -1,0 +1,8 @@
+name = "Stay True Compats v7 [1.19]"
+filename = "Stay True Compats v7 [1.19].zip"
+side = "client"
+
+[download]
+url = "https://jlmoreno00.github.io/ChadStead-Pack/resourcepacks/Stay%20True%20Compats%20v7%20%5B1.19%5D.zip"
+hash-format = "sha256"
+hash = "dcc0a354a0ba9bf029843a58bbd1fd6285832f1c65866dcf6311bd0ea6e8fcc3"

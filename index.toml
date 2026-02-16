@@ -2262,6 +2262,15 @@ file = "resourcepacks/FA+All_Extensions-v1.6.zip"
 hash = "63186dc000c0e10c890e8826ac2c058964f56304c4655be0d286ec2b87c3ff2e"
 
 [[files]]
+file = "resourcepacks/FA+Player-v1.0.pw.toml"
+hash = "09c742a61db867b92940e2f3b2ce6f2f88f066b5c2afb18698538b86f2fcf726"
+metafile = true
+
+[[files]]
+file = "resourcepacks/FA+Player-v1.0.zip"
+hash = "b1f0c3cbcb77cdf2ad0c59e0f405f7da84f9c07f4ecd90cbb94a40bef70ca70b"
+
+[[files]]
 file = "resourcepacks/FreshAnimations_v1.10.1.pw.toml"
 hash = "ac5d5391efbade9a1ef8f2146f82408305488336fc111dcfcac9780c5b33037c"
 metafile = true
@@ -2316,6 +2325,24 @@ file = "resourcepacks/SimplySwordsWhimscape_v1.1.zip"
 hash = "60a4f88132cf8d9d1927e13bf927da7e6452fa239d5c081ba241edc5f09ae321"
 
 [[files]]
+file = "resourcepacks/Stay True 1.21.5.pw.toml"
+hash = "43d1c29c6797a2010ece613293b28b05ceff1f551953137f17e30877b21b98d1"
+metafile = true
+
+[[files]]
+file = "resourcepacks/Stay True 1.21.5.zip"
+hash = "c61397d8e9d1f15e069f718c0bd61c5c347be1f3e18603ea576dccb570302c82"
+
+[[files]]
+file = "resourcepacks/Stay True Compats v7 [1.19].pw.toml"
+hash = "f14f4067978f9a585d7f2f34cf57904e9df63f13902a7db87dea3a9d3ace9e77"
+metafile = true
+
+[[files]]
+file = "resourcepacks/Stay True Compats v7 [1.19].zip"
+hash = "dcc0a354a0ba9bf029843a58bbd1fd6285832f1c65866dcf6311bd0ea6e8fcc3"
+
+[[files]]
 file = "resourcepacks/Vivillon Pride Patterns v1.0.pw.toml"
 hash = "1709c59a123e43b4615d5aa944e90bb465a70a7f0a5d74cd95a531675fab3560"
 metafile = true
@@ -2350,3 +2377,12 @@ metafile = true
 [[files]]
 file = "resourcepacks/Whimscape_1.20-1.20.1_r6.zip"
 hash = "1e4d138d4a7519f132c1e74c6e62c5ab5ea23463ed3c559ae598a46738500a43"
+
+[[files]]
+file = "resourcepacks/cubic-sun-moon-v1.8.5.pw.toml"
+hash = "362f8b35235f155a1047989748dc1a4a37b2d6ece6533b9d996ed81e5eca6702"
+metafile = true
+
+[[files]]
+file = "resourcepacks/cubic-sun-moon-v1.8.5.zip"
+hash = "c3712a3ba511d35201d44bafce16c9d36e7185d6743aab02207bda0d5d109ede"
