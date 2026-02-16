@@ -1592,7 +1592,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-screen-bobbing.pw.toml"
-hash = "2bb40160d8c98dcfc609bd46353ea47a3a773ae313457acc4e8b220ba95ff902"
+hash = "1050d45429b27949e9e18f744547c157f81162a03b77e16b81326bd105089c09"
 metafile = true
 
 [[files]]
