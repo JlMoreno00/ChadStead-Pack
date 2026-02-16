@@ -574,6 +574,11 @@ hash = "bfecef20d3daf89b31c797dda471ed0fefb0a889965cf68c2a4f18e757ed6e2b"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-simple-pokecenters.pw.toml"
+hash = "d297eedec9f76a2c22992979f72adc263f657d925853c8d4832feb4c4d1199de"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-spawn-notification.pw.toml"
 hash = "53bbd26f09fd4f4b52501d5aaf60016f0e66d8f44b3c73fc68e9efe5c7d88faa"
 metafile = true
@@ -713,6 +718,11 @@ hash = "210a2ac7359605a83b8601e29fb8a16ea15420db1b2f70ae068941d12daf9f50"
 metafile = true
 
 [[files]]
+file = "mods/create-structures-overhaul.pw.toml"
+hash = "f3667deee35ab10680dcc44f014eca8deacc82b2d1613d451761b92c0d89e6c6"
+metafile = true
+
+[[files]]
 file = "mods/createaddition.pw.toml"
 hash = "7e310e12b5d5a2225025c90d4f5f1ad613581b3219bab49bc2b09bcd0670272f"
 metafile = true
@@ -735,6 +745,11 @@ metafile = true
 [[files]]
 file = "mods/critters-and-companions.pw.toml"
 hash = "39a7d87812f57983ac99fe18e491a4a47f174dc0497a91f676ef0c39d0cedd2c"
+metafile = true
+
+[[files]]
+file = "mods/ct-overhaul-village.pw.toml"
+hash = "630b6d667264f8f5a580af52952ca9ef031d4f6db81a41e22d78738dcc53b154"
 metafile = true
 
 [[files]]
@@ -820,6 +835,11 @@ metafile = true
 [[files]]
 file = "mods/drippy-loading-screen.pw.toml"
 hash = "2a10043a275ca7b0004d474a3fa7b7062009504500605f1a05d16728bcb193d9"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns.pw.toml"
+hash = "0bcc0df994ebbe98efc2f87c653cd0ae0a81bb0ca47b5adacba0974c5c6406c5"
 metafile = true
 
 [[files]]
@@ -1740,6 +1760,11 @@ hash = "91dbee25de757378dfe6eec77385e4737f40b415841e9b944a4c2cd7dad41c1f"
 metafile = true
 
 [[files]]
+file = "mods/repurposed-structures-fabric.pw.toml"
+hash = "63273748b9bbadcfefedc5bc5fddfe367d637abd094c1f931b7ab9e720dd58b2"
+metafile = true
+
+[[files]]
 file = "mods/resource-pack-overrides.pw.toml"
 hash = "1bacd98dcaa4a12d3f4eee49c7fdd513dfe8da5b034585149bb417308a67c9f5"
 metafile = true
@@ -2088,6 +2113,11 @@ metafile = true
 [[files]]
 file = "mods/what-are-they-up-to.pw.toml"
 hash = "4ff185e2004890b8859b2ea1be2a7ecc9e923fde8702073f8c19ac1a299b5caa"
+metafile = true
+
+[[files]]
+file = "mods/when-dungeons-arise.pw.toml"
+hash = "a4f596b65b72b0c718e35cfb2e1a36e1887438b44a39daeec75a1c725a0441c4"
 metafile = true
 
 [[files]]

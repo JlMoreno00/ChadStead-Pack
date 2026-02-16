@@ -1,0 +1,13 @@
+name = "Cobblemon : Simple Pokecenter's"
+filename = "cobblemon_simple_center-1.0.0-fabric-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9U50uRY3/versions/LQBt6uJv/cobblemon_simple_center-1.0.0-fabric-1.20.1.jar"
+hash-format = "sha512"
+hash = "ff48010af59e756aa6387ae8679196169ecaba0b1ede517d70580772946a3e164084550eb7c4fa22baa28c54c9d2c4283da0e1f4582701207f2e9518c9bf3572"
+
+[update]
+[update.modrinth]
+mod-id = "9U50uRY3"
+version = "LQBt6uJv"
