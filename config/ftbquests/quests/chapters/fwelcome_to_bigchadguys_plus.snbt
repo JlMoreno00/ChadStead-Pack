@@ -46,13 +46,13 @@
 	quests: [
 		{
 			description: [
-				"Welcome to the world of &6BigChadGuys Plus&r, a project that began for my friends but has since grown into something I'm proud to share with you!"
+				"¡Bienvenido al mundo de &6BigChadGuys Plus&r, un proyecto que empezó para mis amigos y que desde entonces ha crecido hasta convertirse en algo que me enorgullece compartir contigo!"
 				""
-				"You're holding your &9Diary&r, a helpful tool that will track what you've collected on your journey. The &9Diary&r is constantly being updated, so don't forget to periodically check your progress!"
+				"Tienes en tus manos tu &9Diario&r, una herramienta muy util que hará seguimiento de lo que has recolectado en tu viaje. El &9Diario&r se actualiza constantemente, así que no olvides revisar tu progreso de vez en cuando."
 				""
-				"If you ever get lost in your travels, take a look at your &9Diary&r and pursue whatever interests you! There is no \"correct\" way to play. Do what makes your heart happy."
+				"Si alguna vez te pierdes en tus aventuras, echa un vistazo a tu &9Diario&r y sigue lo que más te interese. No hay una forma \"correcta\" de jugar. Haz lo que te haga feliz."
 				""
-				"&bYour next steps should involve looking at the other entries in this chapter; some of the information might help you tremendously!&r &9But you don't have to, I would recommend it. It might be helpful, but ultimately, it's your decision. I'm not trying to come off as controlling; I just think it might be in your best interest. It's just my personal opinion; I do think it's best to look at them.&r"
+				"&bTus siguientes pasos deberían incluir revisar las otras entradas de este capítulo; parte de esa información puede ayudarte muchísimo.&r &9Pero no estás obligado, solo te lo recomiendo. Puede serte útil, aunque al final la decisión es tuya. No quiero sonar mandón; simplemente creo que podría venirte bien. Es solo mi opinión personal: para mí, merece la pena echarles un vistazo.&r"
 			]
 			icon: "bakery:strawberry_cake"
 			id: "7F9AC8931E4A610F"
@@ -70,10 +70,10 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Click for more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "6A96F431D77E1ADA"
-				title: "&6Welcome to BigChadGuys Plus!"
+				title: "&6¡Bienvenido a BigChadGuys Plus!"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -81,13 +81,13 @@
 		}
 		{
 			description: [
-				"&bUltimine&r allows for breaking multiple blocks simultaneously in a variety of patterns. If you want to dig a vein of ores, use &bUltimine&r!"
+				"&bUltimine&r te permite romper múltiples bloques a la vez con distintos patrones. Si quieres picar una veta de minerales, usa &bUltimine&r."
 				""
-				"Using &bUltimine&r is as simple as pressing its keybind (Default: '&b~&r') and breaking a block!"
+				"Usar &bUltimine&r es tan simple como pulsar su tecla (por defecto: '&b~&r') y romper un bloque."
 				""
-				"Holding down &bUltimine&r, pressing '&bShift&r', and scrolling will allow you to change the pattern in which &bUltimine&r destroys blocks."
+				"Si mantienes pulsado &bUltimine&r, presionas '&bShift&r' y haces scroll, podrás cambiar el patrón con el que &bUltimine&r destruye bloques."
 				""
-				"&4Be careful&r! &bUltimine&r can quick deplete your food or break your tools!"
+				"¡&4Ten cuidado&r! &bUltimine&r puede vaciar tu barra de hambre muy rápido o romper tus herramientas."
 			]
 			icon: {
 				Count: 1
@@ -98,7 +98,7 @@
 			}
 			id: "00ABFB0F22459983"
 			optional: true
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "007F01507E98D70F"
 				title: "Ultimine"
@@ -109,19 +109,19 @@
 		}
 		{
 			description: [
-				"&bEMI&r is a recipe browser that enables you to view every single item and its recipes."
+				"&bEMI&r es un visor de recetas que te permite ver cada objeto y sus crafteos."
 				""
-				"A key mechanic &bEMI&r gives you is the ability to search and filter by specific mods. For example, in the search bar, typing \"&b@Automobility&r\" will allow you to see every item related to Automobility: its frames, wheels, attachments, etc. This is an incredibly useful tool when exploring mods."
+				"Una función clave de &bEMI&r es que puedes buscar y filtrar por mods específicos. Por ejemplo, en la barra de búsqueda, escribir \"&b@Automobility&r\" te mostrará todos los objetos relacionados con Automobility: chasis, ruedas, accesorios, etc. Es una herramienta súper útil cuando exploras mods."
 				""
-				"If you're unsure which mod an item comes from, pressing '&bF3 + H&r' allows you to see each item's identifiers!"
+				"Si no estás seguro de qué mod viene un objeto, pulsa '&bF3 + H&r' para ver los identificadores de cada ítem."
 				""
-				"Play around with it, customize it however you would like, and if you have any questions, ask us in the &dDiscord&r!"
+				"Trastea con él, configúralo como quieras y, si te surge alguna duda, pregúntanos en el &dDiscord&r."
 			]
 			hide_until_deps_visible: true
 			icon: "minecraft:paper"
 			id: "2842A1F4485DA210"
 			optional: true
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "1F433CC6404E1101"
 				title: "EMI"
@@ -133,17 +133,17 @@
 		}
 		{
 			description: [
-				"Whether you have a question, need to report a bug, or want to share your builds, the &6BigChadGuys&r &dDiscord&r is the place to do it!"
+				"Ya sea que tengas una pregunta, necesites reportar un bug o quieras enseñar tus construcciones, el &dDiscord&r de &6BigChadGuys&r es el lugar ideal para hacerlo."
 				""
-				"Join us at: &ddiscord.gg/bigchadguys&r"
+				"Únete aquí: &ddiscord.gg/bigchadguys&r"
 			]
 			icon: "ftbquests:book"
 			id: "7F347C5E52359E01"
 			optional: true
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "60ECBF11019AFA6B"
-				title: "Need Help?"
+				title: "¿Necesitas ayuda?"
 				type: "checkmark"
 			}]
 			x: 1.0d
@@ -151,19 +151,19 @@
 		}
 		{
 			description: [
-				"&bHost with &lBisectHosting&r (Paid)&r"
-				"Premium and budget hosting with 24/7 support. Use code &6BigChadGuys&r for 25% off your first month."
+				"&bAloja con &lBisectHosting&r (De pago)&r"
+				"Hosting premium y económico con soporte 24/7. Usa el código &6BigChadGuys&r para obtener 25% de descuento en tu primer mes."
 				""
-				"&cHost with &lOracle Cloud&r (Free)&r"
-				"Consider Oracle Cloud as a free and dedicated alternative. However, please note that Oracle has recently been randomly closing accounts, so use with caution."
+				"&cAloja con &lOracle Cloud&r (Gratis)&r"
+				"Considera Oracle Cloud como una alternativa gratuita y dedicada. Sin embargo, ten en cuenta que últimamente Oracle ha estado cerrando cuentas al azar, así que úsalo con precaución."
 				""
-				"&2Host with &le4mc&r (Free)&r"
-				"Automatically included in BCG modpacks. Access multiplayer by entering a singleplayer world, opening your game menu, and selecting \"&bStart Co-op&r\"."
+				"&2Aloja con &le4mc&r (Gratis)&r"
+				"Se incluye automáticamente en los modpacks de BCG. Entra a un mundo de un jugador, abre el menú del juego y selecciona \"&bStart Co-op&r\" para activar el multijugador."
 			]
 			icon: "minecraft:villager_spawn_egg"
 			id: "384105BFD8CAD66D"
 			optional: true
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "0786E128134803D9"
 				title: "Opciones Multijugador"
@@ -174,25 +174,25 @@
 		}
 		{
 			description: [
-				"Aside from armor, accessories, enchantments, and more, there is another way to boost your stats in &6BigChadGuys Plus&r! A handful of the Collection Milestones offer permanent stat boosts. Here's what you can expect from each one:"
+				"Además de armadura, accesorios, encantamientos y más, hay otra forma de mejorar tus estadísticas en &6BigChadGuys Plus&r. Algunos Hitos de Colección otorgan mejoras permanentes. Esto es lo que puedes esperar de cada uno:"
 				""
-				"{ \"text\": \"Mob Collection - Attack Damage\", \"underlined\": \"true\", \"color\": \"dark_red\",  \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3731A9890D5811CC\" } }"
+				"{ \"text\": \"Colección de Mobs - Daño de Ataque\", \"underlined\": \"true\", \"color\": \"dark_red\",  \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3731A9890D5811CC\" } }"
 				""
-				"{ \"text\": \"Log Collection - Max Health\", \"underlined\": \"true\", \"color\": \"red\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"76AB52FE499A836F\" } }"
+				"{ \"text\": \"Colección de Troncos - Vida Máxima\", \"underlined\": \"true\", \"color\": \"red\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"76AB52FE499A836F\" } }"
 				""
-				"{ \"text\": \"Exploration - Movement Speed\", \"underlined\": \"true\", \"color\": \"yellow\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0C16AD35A6E01EE7\" } }"
+				"{ \"text\": \"Exploración - Velocidad de Movimiento\", \"underlined\": \"true\", \"color\": \"yellow\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0C16AD35A6E01EE7\" } }"
 				""
-				"{ \"text\": \"Ore Collection - Armor Toughness\", \"underlined\": \"true\", \"color\": \"gold\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"46EDB9DC0F5AC44C\" } }"
+				"{ \"text\": \"Colección de Minerales - Dureza de Armadura\", \"underlined\": \"true\", \"color\": \"gold\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"46EDB9DC0F5AC44C\" } }"
 				""
-				"{ \"text\": \"Fish Collection - Luck\", \"underlined\": \"true\", \"color\": \"green\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"673ABD4569E4C55E\" } }"
+				"{ \"text\": \"Colección de Peces - Suerte\", \"underlined\": \"true\", \"color\": \"green\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"673ABD4569E4C55E\" } }"
 				""
-				"{ \"text\": \"Wildlife Collection - Attack Speed\", \"underlined\": \"true\", \"color\": \"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"55D01CEB1D098B67\" } }"
+				"{ \"text\": \"Colección de Vida Salvaje - Velocidad de Ataque\", \"underlined\": \"true\", \"color\": \"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"55D01CEB1D098B67\" } }"
 				""
-				"{ \"text\": \"Crop Collection - Armor\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"606B8E7912784AC4\" } }"
+				"{ \"text\": \"Colección de Cultivos - Armadura\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"606B8E7912784AC4\" } }"
 				""
-				"Once you've completed a collection, you can start advancing through &6Mastery&r, an infinitely repeatable method of granting permanent stats."
+				"Una vez completes una colección, puedes avanzar en &6Mastery&r, un sistema repetible de forma infinita para obtener estadísticas permanentes."
 				""
-				"&9NUMBER GO BIGGER.&r"
+				"&9LOS NÚMEROS SUBEN Y SUBEN.&r"
 			]
 			icon: {
 				Count: 1
@@ -203,10 +203,10 @@
 			}
 			id: "08935F23101FE389"
 			optional: true
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "0D05C6FBFED4D3F1"
-				title: "Skills"
+				title: "Habilidades"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -214,46 +214,46 @@
 		}
 		{
 			description: [
-				"To My Discord Staff: &6Kurisu&r, &dBlacknewt&r, &dHarold&r, &dHolland&r, &dSinnamoth&r, and &cLion&r,"
+				"Para mi staff de Discord: &6Kurisu&r, &dBlacknewt&r, &dHarold&r, &dHolland&r, &dSinnamoth&r y &cLion&r,"
 				""
-				"Thank you so much for everything you do! Your assistance in maintaining a helpful and safe community makes my life much easier. I could not do it without you."
+				"¡Mil gracias por todo lo que hacéis! Vuestra ayuda para mantener una comunidad útil y segura me hace la vida muchísimo más fácil. No podría hacerlo sin vosotros."
 				""
-				"To &eMod Developers&r:"
+				"Para los &edesarrolladores de mods&r:"
 				""
-				"A big thank you to the backbone of the modding community, your creations help expand on the greatest game ever made."
+				"Un enorme gracias a la columna vertebral de la comunidad modding; vuestras creaciones ayudan a expandir el mejor juego jamás hecho."
 				""
-				"To &9Craft Down Under&r:"
+				"Para &9Craft Down Under&r:"
 				""
-				"Thank you for being with me since day one! Sauramel and Olivia, our partnership has meant the most, and I'm so thankful you two reached out when you did. It was a wonderful introduction to the modded Minecraft community!"
+				"¡Gracias por estar conmigo desde el primer día! Sauramel y Olivia, nuestra colaboración ha significado muchísimo para mí, y agradezco de corazón que me contactaseis cuando lo hicisteis. Fue una presentación maravillosa a la comunidad de Minecraft modeado."
 				""
-				"To My &bLuna Pixel&r Buddies:"
+				"Para mis colegas de &bLuna Pixel&r:"
 				""
-				"Your guidance and kindness have been invaluable during my journey as a modpack developer. I am deeply grateful for our friendship."
+				"Vuestra guía y amabilidad han sido invaluables durante mi camino como desarrollador de modpacks. Os agradezco muchísimo nuestra amistad."
 				""
-				"To &aV4lk&r:"
+				"Para &aV4lk&r:"
 				""
-				"Thank you for your contributions to BCG's art! Your work has played a significant role in bringing joy to thousands of people!"
+				"¡Gracias por tus contribuciones al arte de BCG! Tu trabajo ha tenido un papel clave en llevar alegría a miles de personas."
 				""
-				"To &5KaptainWutax&r:"
+				"Para &5KaptainWutax&r:"
 				""
-				"Your expertise in mod development has taken BCG to a whole new level, I sincerely thank you for everything you've helped build."
+				"Tu experiencia en desarrollo de mods ha llevado BCG a otro nivel. Te agradezco sinceramente todo lo que has ayudado a construir."
 				""
-				"To &9Ardy&r, &9Baguette&r, and &9Tom&r:"
+				"Para &9Ardy&r, &9Baguette&r y &9Tom&r:"
 				""
-				"Thank you for the assistance with quests! You know I absolutely love doing them LOL."
+				"¡Gracias por la ayuda con las quests! Sabéis que me encanta hacerlas, jaja."
 				""
-				"To &cbndf88&r:"
+				"Para &cbndf88&r:"
 				""
-				"Thanks for the music, sucker."
+				"Gracias por la música, crack."
 				""
-				"To &2George Cooper&r: A devoted husband to Mary, a loving father to Sheldon, George Jr., and Missy, and a passionate football coach who inspired many. He was known for his love of brisket and his unwavering support for his family. His legacy of love, dedication, and strength will forever be remembered."
+				"Para &2George Cooper&r: un esposo devoto de Mary, un padre cariñoso de Sheldon, George Jr. y Missy, y un entrenador de fútbol apasionado que inspiró a muchos. Fue conocido por su amor al brisket y por su apoyo incondicional a su familia. Su legado de amor, dedicación y fortaleza será recordado para siempre."
 				""
-				"And finally, thank &6YOU&r for playing! Your support means the world, and I'm so blessed to be in a position where I can do this full-time. Seriously, I suck at thank-yous, but genuinely, from the bottom of my heart, thank you."
+				"Y por último, gracias a &6TI&r por jugar. Tu apoyo significa muchísimo, y me siento afortunadísimo de estar en una posición en la que puedo dedicarme a esto a tiempo completo. En serio, se me dan fatal los agradecimientos, pero de corazón: gracias."
 			]
 			icon: "bcg_smp:joe_coin"
 			id: "02AF54D55FF5C84F"
 			optional: true
-			subtitle: "Click to see everyone involved!"
+			subtitle: "¡Haz clic para ver a todos los involucrados!"
 			tasks: [{
 				id: "7A69F1CD5D900539"
 				title: "&dCréditos"
@@ -264,9 +264,9 @@
 		}
 		{
 			description: [
-				"The &bDiet Journal&r is a helpful book that tracks every food you've eaten. You can craft it by combining a &bBook and Quill&r with an &bApple&r, or by accepting this quest! That was easy."
+				"El &bDiet Journal&r es un libro útil que registra cada comida que has comido. Puedes craftearlo combinando un &bBook and Quill&r con una &bApple&r, o simplemente aceptando esta misión. Fácil, ¿no?"
 				""
-				"You might be wondering, why is it important to know what foods I've eaten? Well, each unique food you eat increases your &cMax Health&r! It may take a bit of munching before you start feeling different, but rest assured, you'll grow stronger!"
+				"Quizá te preguntes: ¿por qué es importante saber qué comidas he probado? Pues porque cada comida única que comes aumenta tu &cMax Health&r. Puede que tardes un poco en notarlo, pero te aseguro que te volverás más fuerte."
 			]
 			icon: {
 				Count: 1
@@ -298,7 +298,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "5E4CA664778DB07D"
 				title: "Diario de Dieta"
@@ -309,26 +309,26 @@
 		}
 		{
 			description: [
-				"&6BigChadGuys Plus&r lets you claim chunks! This means you can keep your base safe from other players, Creeper explosions, and even keep chunks loaded."
+				"&6BigChadGuys Plus&r te permite claimear chunks. Esto significa que puedes proteger tu base de otros jugadores, explosiones de Creepers e incluso mantener chunks cargados."
 				""
-				"To claim a chunk, open your inventory and click on &bFTB Chunks: Claim Manager&r in the top-left corner. Then just left-click the chunks you want to claim. The number of claims you get depends on the server."
+				"Para claimear un chunk, abre tu inventario y haz clic en &bFTB Chunks: Claim Manager&r en la esquina superior izquierda. Después, haz clic izquierdo en los chunks que quieras reclamar. El número de claims disponibles depende del servidor."
 				""
-				"To force-load a chunk, shift-click it after claiming. You'll see a visual change showing that the chunk is now force-loaded."
+				"Para hacer force-load a un chunk, haz shift + clic después de reclamarlo. Verás un cambio visual que indica que ese chunk quedó forzado."
 				""
-				"And to unclaim chunks, just right-click!"
+				"Y para quitar un claim, solo haz clic derecho."
 			]
 			icon: "minecraft:pillager_spawn_egg"
 			id: "06080C64F7F740C7"
 			optional: true
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "083AED7ED47A0E8C"
-				title: "Multiplayer Tips (Claims)"
+				title: "Consejos multijugador (Claims)"
 				type: "checkmark"
 			}]
 			x: 0.5d
 			y: -2.5d
 		}
 	]
-	title: " &6I&fntroduction"
+	title: " &6I&fntroducción"
 }
