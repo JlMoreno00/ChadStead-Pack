@@ -11,11 +11,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"&4The Nether&r is a dangerous place, filled with evil creatures, dungeons, bosses, and more! Before exploring, make sure to check the &4Nether Tips&r section to properly prepare yourself."
-				""
-				"Exploring all &4Nether&r structures and biomes will reward you with permanent increased &eMovement Speed&r!"
-			]
+		description: [
+			"&4The Nether&r es un lugar peligroso, lleno de criaturas malvadas, mazmorras, jefes y mucho más. ¡Antes de explorar, asegúrate de revisar la sección de &4Consejos del Nether&r para prepararte bien!"
+			""
+			"¡Explorar todas las estructuras y biomas del &4Nether&r te recompensará con un aumento permanente de &eVelocidad de Movimiento&r!"
+		]
 			icon: "ftbquests:book"
 			id: "0C16AD35A6E01EE7"
 			optional: true
@@ -26,13 +26,13 @@
 				type: "item"
 			}]
 			size: 1.5d
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
-				id: "1645858D91D07076"
-				title: "Accept Rewards"
-				type: "checkmark"
+			id: "1645858D91D07076"
+			title: "Aceptar Recompensas"
+			type: "checkmark"
 			}]
-			title: "&4Nether Exploration"
+			title: "&4Exploración del Nether"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -54,7 +54,7 @@
 				biome: "incendium:ash_barrens"
 				icon: "supplementaries:ash"
 				id: "0AC26AB0BD69B08C"
-				title: "&4Ash Barrens"
+				title: "&4Páramos de Ceniza"
 				type: "biome"
 			}]
 			x: -2.0d
@@ -78,7 +78,7 @@
 				biome: "incendium:infernal_dunes"
 				icon: "minecraft:fire_charge"
 				id: "77DD5067FA3A7DEA"
-				title: "&4Infernal Dunes"
+				title: "&4Dunas Infernales"
 				type: "biome"
 			}]
 			x: -1.0d
@@ -102,7 +102,7 @@
 				biome: "incendium:inverted_forest"
 				icon: "minecraft:warped_fungus"
 				id: "0CE8E440EC22CF07"
-				title: "&4Inverted Forest"
+				title: "&4Bosque Invertido"
 				type: "biome"
 			}]
 			x: 1.0d
@@ -126,7 +126,7 @@
 				biome: "incendium:quartz_flats"
 				icon: "minecraft:quartz"
 				id: "2E8F7D4E3C7FB4E3"
-				title: "&4Quartz Flats"
+				title: "&4Llanuras de Cuarzo"
 				type: "biome"
 			}]
 			x: 2.0d
@@ -150,7 +150,7 @@
 				biome: "incendium:toxic_heap"
 				icon: "minecraft:slime_block"
 				id: "48DEB3FB7FF7885F"
-				title: "&4Toxic Heap"
+				title: "&4Montón Tóxico"
 				type: "biome"
 			}]
 			x: 2.0d
@@ -174,7 +174,7 @@
 				biome: "incendium:volcanic_deltas"
 				icon: "minecraft:lava_bucket"
 				id: "4CCC4299BA8EB4B3"
-				title: "&4Volcanic Deltas"
+				title: "&4Deltas Volcánicas"
 				type: "biome"
 			}]
 			x: 1.0d
@@ -198,7 +198,7 @@
 				biome: "incendium:weeping_valley"
 				icon: "minecraft:weeping_vines"
 				id: "4E30D5ACD670CD4A"
-				title: "&4Weeping Valley"
+				title: "&4Valle Llorón"
 				type: "biome"
 			}]
 			x: -2.0d
@@ -222,7 +222,7 @@
 				biome: "incendium:withered_forest"
 				icon: "minecraft:wither_rose"
 				id: "73DE85CCFF04D2DE"
-				title: "&4Withered Forest"
+				title: "&4Bosque Marchito"
 				type: "biome"
 			}]
 			x: -1.0d
@@ -246,7 +246,7 @@
 				icon: "minecraft:skeleton_spawn_egg"
 				id: "1061C84E6B341DCA"
 				structure: "incendium:abandoned_tower"
-				title: "&4Abandoned Tower"
+				title: "&4Torre Abandonada"
 				type: "structure"
 			}]
 			x: -1.0d
@@ -270,7 +270,7 @@
 				icon: "minecraft:blackstone"
 				id: "16A4DEBA29B589D4"
 				structure: "incendium:forbidden_castle"
-				title: "&4Forbidden Castle"
+				title: "&4Castillo Prohibido"
 				type: "structure"
 			}]
 			x: 4.0d
@@ -294,7 +294,7 @@
 				icon: "minecraft:lectern"
 				id: "23B88DF1220C538F"
 				structure: "incendium:infernal_altar"
-				title: "&4Infernal Altar"
+				title: "&4Altar Infernal"
 				type: "structure"
 			}]
 			x: -3.5d
@@ -318,7 +318,7 @@
 				icon: "minecraft:ghast_spawn_egg"
 				id: "1E108C41E2CAB093"
 				structure: "incendium:nether_reactor"
-				title: "&4Nether Reactor"
+				title: "&4Reactor del Nether"
 				type: "structure"
 			}]
 			x: 1.0d
@@ -342,7 +342,7 @@
 				icon: "minecraft:piglin_spawn_egg"
 				id: "133AFB106F11C6E0"
 				structure: "incendium:piglin_village"
-				title: "&4Piglin Village"
+				title: "&4Aldea de Piglins"
 				type: "structure"
 			}]
 			x: 0.0d
@@ -366,7 +366,7 @@
 				icon: "minecraft:blaze_spawn_egg"
 				id: "236B116A319E29E7"
 				structure: "incendium:pipeline"
-				title: "&4Pipeline"
+				title: "&4Tubería"
 				type: "structure"
 			}]
 			x: 4.0d
@@ -390,7 +390,7 @@
 				icon: "candlelight:quartz_kitchen_sink"
 				id: "684565B0684F464E"
 				structure: "incendium:quartz_kitchen"
-				title: "&4Quartz Kitchen"
+				title: "&4Cocina de Cuarzo"
 				type: "structure"
 			}]
 			x: -4.0d
@@ -414,7 +414,7 @@
 				icon: "minecraft:nether_bricks"
 				id: "38EE84130D35D2C4"
 				structure: "incendium:ruined_lab"
-				title: "&4Ruined Lab"
+				title: "&4Laboratorio en Ruinas"
 				type: "structure"
 			}]
 			x: 3.5d
@@ -438,7 +438,7 @@
 				icon: "minecraft:pillager_spawn_egg"
 				id: "2DB9AE2A7B380EA1"
 				structure: "incendium:sanctum"
-				title: "&4Sanctum"
+				title: "&4Santuario"
 				type: "structure"
 			}]
 			x: -4.0d
@@ -472,21 +472,21 @@
 				id: "44258EBA9257AD16"
 				name: "Quest Reward"
 				operation: "add"
-				title: "&e+0.02 Movement Speed"
+				title: "&e+0.02 Velocidad de Movimiento"
 				type: "bcgutil:attribute"
 				value: 0.02d
 			}]
 			size: 1.25d
 			tasks: [{
-				id: "1BB54DB60E39E48B"
-				title: "Accept Rewards"
-				type: "checkmark"
+			id: "1BB54DB60E39E48B"
+			title: "Aceptar Recompensas"
+			type: "checkmark"
 			}]
-			title: "&4Nether Exploration Progress"
+			title: "&4Progreso de Exploración del Nether"
 			x: 0.0d
 			y: -3.5d
 		}
 	]
-	subtitle: ["&eMovement Speed"]
-	title: " &4N&fether Exploration"
+	subtitle: ["&eVelocidad de Movimiento"]
+	title: " &4Exploración del Nether"
 }

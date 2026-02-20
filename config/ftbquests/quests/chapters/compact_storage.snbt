@@ -23,7 +23,7 @@
 			subtitle: "Click to learn more!"
 			tasks: [{
 				id: "6612328150D29531"
-				title: "Accept Rewards"
+				title: "Aceptar Recompensas"
 				type: "checkmark"
 			}]
 			title: "&bCompact Storage"
@@ -91,7 +91,7 @@
 						value: "compact_storage:compact_chest"
 					}
 				}
-				title: "Any Compact Chest"
+				title: "Cualquier Cofre Compacto"
 				type: "item"
 			}]
 			x: -1.5d
@@ -114,7 +114,7 @@
 						value: "compact_storage:compact_barrel"
 					}
 				}
-				title: "Any Compact Barrel"
+				title: "Cualquier Barril Compacto"
 				type: "item"
 			}]
 			x: 1.5d
@@ -137,7 +137,7 @@
 						value: "compact_storage:drum"
 					}
 				}
-				title: "Any Compact Drum"
+				title: "Cualquier Tambor Compacto"
 				type: "item"
 			}]
 			x: 3.0d

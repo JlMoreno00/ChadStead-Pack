@@ -7,7 +7,7 @@
 	group: "257DC2A7DFE41B29"
 	icon: "smallships:oak_cog"
 	id: "51930B643693CF94"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -170,16 +170,16 @@
 			id: "20CC2B81B58D09F7"
 			optional: true
 			size: 1.5d
-			subtitle: "Click to learn more!"
-			tasks: [{
-				id: "122EC2745F3C91C0"
-				title: "Accept Rewards"
-				type: "checkmark"
-			}]
-			title: "&aBoats"
-			x: 0.0d
-			y: 0.0d
-		}
-	]
-	title: " &aB&foats"
+		subtitle: "¡Haz clic para saber más!"
+		tasks: [{
+			id: "122EC2745F3C91C0"
+			title: "Aceptar Recompensas"
+			type: "checkmark"
+		}]
+		title: "&aBarcos"
+		x: 0.0d
+		y: 0.0d
+	}
+]
+	title: " &aB&farcos"
 }

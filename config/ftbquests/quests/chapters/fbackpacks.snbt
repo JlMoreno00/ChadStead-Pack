@@ -141,10 +141,10 @@
 		{
 			id: "4C4DCEA3243648A5"
 			optional: true
-			subtitle: "The Standard Traveler's Backpack has no unique abilities and serves as the base for upgrading into various types of backpacks."
+			subtitle: "La Standard Traveler's Backpack no tiene habilidades únicas y sirve de base para mejorarla en distintos tipos de mochilas."
 			tasks: [{
 				id: "60E4E735FF273DDB"
-				title: "Standard Backpacks"
+				title: "Mochilas Estándar"
 				type: "checkmark"
 			}]
 			x: -3.0d
@@ -242,7 +242,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Grants the player +4 armor when worn."
+			subtitle: "Otorga +4 puntos de armadura al llevarlo puesto."
 			tasks: [{
 				id: "034906AD0FCB825F"
 				item: {
@@ -263,7 +263,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Grants the player +3 armor when worn."
+			subtitle: "Otorga +3 puntos de armadura al llevarlo puesto."
 			tasks: [{
 				id: "1E17EF528F898BDA"
 				item: {
@@ -284,7 +284,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Grants the player +2 armor when worn."
+			subtitle: "Otorga +2 puntos de armadura al llevarlo puesto."
 			tasks: [{
 				id: "52D9FA8679332949"
 				item: {
@@ -305,7 +305,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "When worn, it spawns happy villager particles around the player!"
+			subtitle: "¡Al llevarlo puesto, genera partículas de aldeano feliz alrededor del jugador!"
 			tasks: [{
 				id: "0C80FECBB6534FFC"
 				item: {
@@ -326,7 +326,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Grants the player +2 armor when worn."
+			subtitle: "Otorga +2 puntos de armadura al llevarlo puesto."
 			tasks: [{
 				id: "7C2718C0C7ADDE81"
 				item: {
@@ -347,7 +347,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "While worn, there's a chance for bonus XP (0-1 additional XP whenever a player picks up XP)."
+			subtitle: "Al llevarlo puesto, hay probabilidad de obtener XP adicional (0-1 XP extra cada vez que recoges XP)."
 			tasks: [{
 				id: "778CD283C3CA946F"
 				item: {
@@ -368,7 +368,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "When placed in the world, it acts as a redstone block, emitting a signal strength of 15."
+			subtitle: "Al colocarlo en el mundo, actúa como un bloque de redstone emitiendo una señal de fuerza 15."
 			tasks: [{
 				id: "31F32659A0310386"
 				item: {
@@ -389,7 +389,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "No unique ability."
+			subtitle: "Sin habilidad única."
 			tasks: [{
 				id: "6CBA958544907EDD"
 				item: {
@@ -410,7 +410,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "No unique ability."
+			subtitle: "Sin habilidad única."
 			tasks: [{
 				id: "11AA7D79FA5C9A1A"
 				item: {
@@ -426,10 +426,10 @@
 		{
 			id: "71C8792B19119B91"
 			optional: true
-			subtitle: "Backpacks crafted with minerals!"
+			subtitle: "¡Mochilas fabricadas con minerales!"
 			tasks: [{
 				id: "4F4A25C502A26B6F"
-				title: "Mineral Backpack"
+				title: "Mochila Mineral"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -443,7 +443,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "When placed near an enchantment table, it acts as if there are 5 bookshelves condensed into one block."
+			subtitle: "Al colocarlo cerca de una mesa de encantamientos, actúa como si hubiera 5 estanterías condensadas en un bloque."
 			tasks: [{
 				id: "5E94AF388F2AC317"
 				item: {
@@ -464,7 +464,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "No unique ability."
+			subtitle: "Sin habilidad única."
 			tasks: [{
 				id: "5070FA59255C3FBB"
 				item: {
@@ -485,7 +485,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "No unique ability."
+			subtitle: "Sin habilidad única."
 			tasks: [{
 				id: "74BDE6F433E74F1F"
 				item: {
@@ -506,7 +506,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "No unique ability."
+			subtitle: "Sin habilidad única."
 			tasks: [{
 				id: "07E00285D9C14F00"
 				item: {
@@ -527,7 +527,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "No unique ability."
+			subtitle: "Sin habilidad única."
 			tasks: [{
 				id: "63DC6239D7F5B9DA"
 				item: {
@@ -548,7 +548,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "When placed, it functions like a sponge, filling the fluid tank with every source block collected."
+			subtitle: "Al colocarlo, funciona como una esponja, llenando el depósito de fluido con cada bloque fuente recogido."
 			tasks: [{
 				id: "2DC96CF64D89F23B"
 				item: {
@@ -564,13 +564,13 @@
 		{
 			id: "2D8BFFD0F99AD368"
 			optional: true
-			subtitle: "Backpacks crafted with materials from across the world and dimensions!"
+			subtitle: "¡Mochilas fabricadas con materiales de todo el mundo y distintas dimensiones!"
 			tasks: [{
 				id: "0F05BD975DBA85B3"
-				title: "Explorer Backpacks"
+				title: "Mochilas Exploradoras"
 				type: "checkmark"
 			}]
-			title: "Explorer Backpacks"
+			title: "Mochilas Exploradoras"
 			x: 0.0d
 			y: -2.0d
 		}
@@ -582,7 +582,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "While worn, it grants 2 hunger points and a small amount of saturation. When fed, it goes on cooldown for a period of time."
+			subtitle: "Al llevarlo puesto, otorga 2 puntos de hambre y algo de saturación. Tras activarse, entra en enfriamiento por un tiempo."
 			tasks: [{
 				id: "75E84CC421215D0B"
 				item: {
@@ -603,7 +603,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "When placed or worn in rain, it will slowly fill the internal tank with water (1ml per 5 ticks). While worn underwater, it will slowly fill the tank with water (2ml per 5 ticks)."
+			subtitle: "Al colocarlo o llevarlo bajo la lluvia, llenará lentamente el depósito interno con agua (1ml cada 5 ticks). Bajo el agua, lo llenará más rápido (2ml cada 5 ticks)."
 			tasks: [{
 				id: "478F385F833E4B03"
 				item: {
@@ -624,7 +624,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "No unique ability."
+			subtitle: "Sin habilidad única."
 			tasks: [{
 				id: "5A6C200B19A07D7C"
 				item: {
@@ -645,7 +645,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "When placed and then broken, it has a chance to drop 0 to 2 melon slices. (Cooldown range: 120 seconds to 480 seconds)"
+			subtitle: "Al colocarlo y romperlo, tiene probabilidad de soltar 0-2 rodajas de melón. (Enfriamiento: 120-480 segundos)"
 			tasks: [{
 				id: "13410CBABC48E66B"
 				item: {
@@ -666,7 +666,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "While worn, Endermen no longer get angry at you when you stare them down."
+			subtitle: "Al llevarlo puesto, los Endermen ya no se enojan contigo si los miras directamente."
 			tasks: [{
 				id: "3D43EA778119D0CB"
 				item: {
@@ -682,10 +682,10 @@
 		{
 			id: "3F89B2B26F2CAA43"
 			optional: true
-			subtitle: "Backpacks crafted using farmable materials."
+			subtitle: "Mochilas fabricadas con materiales de la granja."
 			tasks: [{
 				id: "6EDC89DA307BC2B3"
-				title: "Foodie Backpacks"
+				title: "Mochilas Gastronómicas"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -699,7 +699,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "When worn, this item prevents death by leaving you with 1 heart, grants various effects, and causes an explosion that damages everything around you. (Cooldown: 600-900 seconds)"
+			subtitle: "Al llevarlo puesto, evita la muerte dejándote con 1 corazón, otorga varios efectos y causa una explosión dañina. (Enfriamiento: 600-900 segundos)"
 			tasks: [{
 				id: "1F2299E6CC63DEA9"
 				item: {
@@ -720,7 +720,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "While worn, this item grants a variety of potion effects."
+			subtitle: "Al llevarlo puesto, otorga una variedad de efectos de poción."
 			tasks: [{
 				id: "3F7607ED96831250"
 				item: {
@@ -741,7 +741,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "While worn, this item increases your reach by 1 block."
+			subtitle: "Al llevarlo puesto, aumenta tu alcance en 1 bloque."
 			tasks: [{
 				id: "742B67979EBBE11A"
 				item: {
@@ -762,7 +762,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "While worn, this item prevents fall damage and makes you immune to blaze fireballs."
+			subtitle: "Al llevarlo puesto, evita el daño de caída e inmuniza contra las bolas de fuego de los Blazes."
 			tasks: [{
 				id: "6034AC46CCE21620"
 				item: {
@@ -783,7 +783,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "While worn, Ghasts will see you as an ally and won't attack you unless you attack them first."
+			subtitle: "Al llevarlo puesto, los Ghasts te verán como aliado y no atacarán salvo que los ataques primero."
 			tasks: [{
 				id: "128B2CCDB6B8E3EF"
 				item: {
@@ -804,7 +804,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "While worn, this item grants you Fire Resistance I."
+			subtitle: "Al llevarlo puesto, otorga Resistencia al Fuego I."
 			tasks: [{
 				id: "1B82DFFD28D7FEAB"
 				item: {
@@ -825,7 +825,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "No unique ability."
+			subtitle: "Sin habilidad única."
 			tasks: [{
 				id: "56E77B397FB534BC"
 				item: {
@@ -846,7 +846,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "While worn, this item allows you to climb walls like a spider!"
+			subtitle: "¡Al llevarlo puesto, puedes escalar paredes como una araña!"
 			tasks: [{
 				id: "581B6E862D3E4625"
 				item: {
@@ -867,7 +867,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "When worn, this item removes the inflicted Wither effect."
+			subtitle: "Al llevarlo puesto, elimina el efecto Wither."
 			tasks: [{
 				id: "71C7B16D4CDE4F5F"
 				item: {
@@ -883,10 +883,10 @@
 		{
 			id: "683FEAE66A5A684A"
 			optional: true
-			subtitle: "Backpacks crafted from the drops of your enemies."
+			subtitle: "Mochilas fabricadas con los drops de tus enemigos."
 			tasks: [{
 				id: "525528C874DBEB38"
-				title: "Hostile Backpacks"
+				title: "Mochilas Hostiles"
 				type: "checkmark"
 			}]
 			x: -3.0d
@@ -895,10 +895,10 @@
 		{
 			id: "24E5F598458FD361"
 			optional: true
-			subtitle: "Backpacks made with the drops of innocent animals, some obtained through trade and some found."
+			subtitle: "Mochilas hechas con drops de animales pacíficos, algunas obtenidas por comercio y otras encontradas."
 			tasks: [{
 				id: "226E993A035473C6"
-				title: "Peaceful Backpacks"
+				title: "Mochilas Pacíficas"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -912,7 +912,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "While worn, it gives you Night Vision I."
+			subtitle: "Al llevarlo puesto, otorga Visión Nocturna I."
 			tasks: [{
 				id: "061A08B6A316D240"
 				item: {
@@ -933,7 +933,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "While worn, when you attack a creature or player, it will poison them for 4 seconds."
+			subtitle: "Al atacar a una criatura o jugador mientras lo llevas, los envenenas durante 4 segundos."
 			tasks: [{
 				id: "4FC3BC2174FAF327"
 				item: {
@@ -954,7 +954,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "No unique ability."
+			subtitle: "Sin habilidad única."
 			tasks: [{
 				id: "2ADC5EB1AB9F4299"
 				item: {
@@ -975,7 +975,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "No unique ability."
+			subtitle: "Sin habilidad única."
 			tasks: [{
 				id: "7622543D2A90AF55"
 				item: {
@@ -996,7 +996,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "While worn, it grants Speed I while you are near hostile mobs."
+			subtitle: "Al llevarlo puesto, otorga Velocidad I cuando estás cerca de mobs hostiles."
 			tasks: [{
 				id: "119D4B5D3188B469"
 				item: {
@@ -1017,7 +1017,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "No unique ability."
+			subtitle: "Sin habilidad única."
 			tasks: [{
 				id: "2F18641023DC9B1A"
 				item: {
@@ -1038,7 +1038,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "While worn, it removes all negative effects. (Cooldown: 450 seconds to 600 seconds)"
+			subtitle: "Al llevarlo puesto, elimina todos los efectos negativos. (Enfriamiento: 450-600 segundos)"
 			tasks: [{
 				id: "4E7A09FD64BB7839"
 				item: {
@@ -1059,7 +1059,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "No unique ability."
+			subtitle: "Sin habilidad única."
 			tasks: [{
 				id: "3734ACB42D5AF902"
 				item: {
@@ -1080,7 +1080,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "When worn, you will spawn eggs every 360-600 seconds."
+			subtitle: "Al llevarlo puesto, pones huevos cada 360-600 segundos."
 			tasks: [{
 				id: "21B0B67EF95EA52D"
 				item: {
@@ -1101,7 +1101,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "No unique ability."
+			subtitle: "Sin habilidad única."
 			tasks: [{
 				id: "48DDD08EA00F6327"
 				item: {
@@ -1122,7 +1122,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "While worn, it grants water breathing and Night Vision I while in water."
+			subtitle: "Al llevarlo puesto, otorga Respiración Acuática y Visión Nocturna I bajo el agua."
 			tasks: [{
 				id: "551752C8908B462C"
 				item: {
@@ -1143,7 +1143,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "No unique ability."
+			subtitle: "Sin habilidad única."
 			tasks: [{
 				id: "2FFC1DBD698162D8"
 				item: {
@@ -1164,7 +1164,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "No unique ability."
+			subtitle: "Sin habilidad única."
 			tasks: [{
 				id: "1213EF6138E72978"
 				item: {
@@ -1179,30 +1179,30 @@
 		}
 		{
 			description: [
-				"Traveler's Backpacks is a unique mod that adds in many variants and types of backpacks, some boasting unique abilities!"
+				"¡Traveler's Backpacks es un mod único que añade muchas variantes y tipos de mochilas, algunas con habilidades especiales!"
 				""
-				"The backpacks themselves have quite a few functionalities, including:"
+				"Las mochilas tienen varias funcionalidades, entre ellas:"
 				""
-				"&bThe ability to sleep anywhere using the backpack.&r"
+				"&bLa capacidad de dormir en cualquier lugar usando la mochila.&r"
 				""
-				"&bThe ability to store and move fluids around using their internal tanks and a hose.&r"
+				"&bLa capacidad de almacenar y mover fluidos con sus depósitos internos y una manguera.&r"
 				""
-				"&bThe ability to toggle on and off abilities (in case you don't want them active).&r"
+				"&bLa capacidad de activar y desactivar habilidades (por si no quieres que estén activas).&r"
 				""
-				"Pressing '&bB&r' will open your backpack. To place the backpack on your back, either shift right-click while holding it to place it on the ground and then shift right-click with an empty hand, OR open the backpack and click the bottom left button to put it on. Clicking it again will take it off."
+				"Pulsa '&bB&r' para abrir tu mochila. Para ponértela, haz Shift+clic derecho sujetándola para colocarla en el suelo y luego Shift+clic derecho con la mano vacía, O abre la mochila y pulsa el botón inferior izquierdo. Vuelve a pulsarlo para quitártela."
 			]
 			icon: "ftbquests:book"
 			id: "3CB2B7116AA3D780"
 			optional: true
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "2B5D54AA356555D7"
-				title: "Accept Rewards"
+				title: "Aceptar Recompensas"
 				type: "checkmark"
 			}]
-			title: "&bBackpacks"
+			title: "&bMochilas"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -1210,10 +1210,10 @@
 			dependencies: ["3CB2B7116AA3D780"]
 			id: "6F2AA1A76FA133F3"
 			optional: true
-			subtitle: "Carrying too many of these backpacks on your player will inflict multiple negative debuffs, including slowness and mining fatigue!"
+			subtitle: "¡Llevar demasiadas mochilas encima te aplicará varios debuffs negativos, como lentitud y fatiga minera!"
 			tasks: [{
 				id: "0F7CCBE104DB07E0"
-				title: "Warning!"
+				title: "¡Advertencia!"
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -1222,32 +1222,32 @@
 		{
 			dependencies: ["3CB2B7116AA3D780"]
 			description: [
-				"The hose is a tool that has three functionalities:"
+				"La manguera es una herramienta con tres modos:"
 				""
-				"&bSuck Mode:&r"
-				"Allows you to pick up fluid from the world or, if clicked on a tank, transfer it into the backpack's internal tank buffer."
+				"&bModo Absorber:&r"
+				"Permite recoger fluido del mundo o, si haces clic en un depósito, transferirlo al depósito interno de la mochila."
 				""
-				"&bSpill Mode:&r"
-				"Allows you to spill the fluid into the world or, if clicked on a tank, store it within the tank (similar to a bucket)."
+				"&bModo Verter:&r"
+				"Permite verter el fluido al mundo o, si haces clic en un depósito, almacenarlo dentro (similar a un cubo)."
 				""
-				"&bDrink Mode:&r"
-				"Allows the player to drink the contents of the backpack's tanks. Not all fluids are drinkable; some may give special effects. "
+				"&bModo Beber:&r"
+				"Permite al jugador beber el contenido de los depósitos de la mochila. No todos los fluidos son bebibles; algunos pueden dar efectos especiales. "
 				""
-				"To swap between these modes, hold '&bZ&r' and scroll up or down to change the mode."
+				"Para cambiar entre modos, mantén '&bZ&r' y desplaza la rueda del ratón arriba o abajo."
 				""
-				"Pressing '&bN&r' while holding a hose and wearing a backpack will swap it to the secondary tank within the backpack!"
+				"¡Pulsar '&bN&r' mientras sostienes la manguera con una mochila puesta la cambiará al depósito secundario!"
 			]
 			id: "733D249EF34F497B"
 			optional: true
-			subtitle: "Information on the Hose"
+			subtitle: "Información sobre la Manguera"
 			tasks: [{
 				id: "6A8EDFAA07987A2F"
-				title: "The Hose"
+				title: "La Manguera"
 				type: "checkmark"
 			}]
 			x: 1.5d
 			y: 0.0d
 		}
 	]
-	title: " &bB&fackpacks"
+	title: " &bM&fochilas"
 }

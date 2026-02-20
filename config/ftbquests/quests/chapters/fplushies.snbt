@@ -11,7 +11,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Throughout your adventure, you'll come across some cute collectibles! You can find Plushies through crafting, loot boxes, or the &6Daily Shop&r. Plushies come in various rarities, and some even have different variants!"]
+			description: ["¡A lo largo de tu aventura encontrarás algunos coleccionables adorables! Puedes encontrar Peluches mediante crafteo, cajas de botín o la &6Daily Shop&r. Los Peluches vienen en distintas rarezas, ¡e incluso algunos tienen variantes diferentes!"]
 			icon: "ftbquests:book"
 			id: "1E196D2DBA49A7D0"
 			optional: true
@@ -30,10 +30,10 @@
 				type: "item"
 			}]
 			size: 1.5d
-			subtitle: "Click to learn more!"
-			tasks: [{
-				id: "6704CC0248BE7EF7"
-				title: "&dPlushie Collection"
+		subtitle: "¡Haz clic para saber más!"
+		tasks: [{
+			id: "6704CC0248BE7EF7"
+			title: "&dColección de Peluches"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -46,7 +46,7 @@
 				item: "a_man_with_plushies:plush_box"
 				type: "item"
 			}]
-			subtitle: "Not Sponsored by EA!"
+			subtitle: "¡Sin patrocinio de EA!"
 			tasks: [{
 				id: "202B7E82CCCCD329"
 				item: "a_man_with_plushies:plush_box"
@@ -62,7 +62,7 @@
 				item: "a_man_with_plushies:golden_plush_box"
 				type: "item"
 			}]
-			subtitle: "Sponsored by EA!"
+			subtitle: "¡Patrocinado por EA!"
 			tasks: [{
 				id: "55A23FE0C1A18CF6"
 				item: "a_man_with_plushies:golden_plush_box"
@@ -890,5 +890,5 @@
 			y: -2.0d
 		}
 	]
-	title: " &dP&flushie Collection"
+	title: " &dC&folección de Peluches"
 }

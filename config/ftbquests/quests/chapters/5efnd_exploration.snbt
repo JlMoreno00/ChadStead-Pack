@@ -11,7 +11,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Welcome to &5The End&r! There are many biomes, creatures, trees, and much more to explore! Use this chapter to keep track of the biomes you've visited. Exploring every biome will reward you with a permanent &eMovement Speed&r boost!"]
+			description: ["¡Bienvenido/a a &5The End&r! Hay muchos biomas, criaturas, árboles y mucho más por explorar. ¡Usa este capítulo para llevar la cuenta de los biomas que has visitado! Explorar todos los biomas te recompensará con un aumento permanente de &eVelocidad de Movimiento&r."]
 			icon: "ftbquests:book"
 			id: "44397D6BEAF25251"
 			optional: true
@@ -21,13 +21,13 @@
 				type: "item"
 			}]
 			size: 1.5d
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
-				id: "4AD553037DBFFC1E"
-				title: "Accept Rewards"
-				type: "checkmark"
+			id: "4AD553037DBFFC1E"
+			title: "Aceptar Recompensas"
+			type: "checkmark"
 			}]
-			title: "&5End Exploration"
+			title: "&5Exploración del End"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -49,7 +49,7 @@
 				biome: "betterend:amber_land"
 				icon: "betterend:amber_gem"
 				id: "242815048D373B71"
-				title: "&5Amber Land"
+				title: "&5Tierra de Ámbar"
 				type: "biome"
 			}]
 			x: 2.0d
@@ -73,7 +73,7 @@
 				biome: "betterend:blossoming_spires"
 				icon: "betterend:blossom_berry"
 				id: "26D91B4EDAFC69CB"
-				title: "&5Blossoming Spires"
+				title: "&5Torres Florecientes"
 				type: "biome"
 			}]
 			x: 2.5d
@@ -97,7 +97,7 @@
 				biome: "betterend:chorus_forest"
 				icon: "minecraft:chorus_fruit"
 				id: "508B4B6A9C2A81D5"
-				title: "&5Chorus Forest"
+				title: "&5Bosque de Chorus"
 				type: "biome"
 			}]
 			x: 2.5d
@@ -121,7 +121,7 @@
 				biome: "betterend:crystal_mountains"
 				icon: "betterend:eternal_crystal"
 				id: "4F424806F10FBF5D"
-				title: "&5Crystal Mountains"
+				title: "&5Montañas de Cristal"
 				type: "biome"
 			}]
 			x: 3.0d
@@ -145,7 +145,7 @@
 				biome: "betterend:dragon_graveyards"
 				icon: "minecraft:dragon_head"
 				id: "05B08BAAB39F966E"
-				title: "&5Dragon Graveyards"
+				title: "&5Cementerio de Dragones"
 				type: "biome"
 			}]
 			x: -2.5d
@@ -169,7 +169,7 @@
 				biome: "betterend:dry_shrubland"
 				icon: "betterend:rutiscus"
 				id: "4F3BFB704BB9D878"
-				title: "&5Dry Shrubland"
+				title: "&5Matorral Seco"
 				type: "biome"
 			}]
 			x: 0.0d
@@ -193,7 +193,7 @@
 				biome: "betterend:dust_wastelands"
 				icon: "betterend:endstone_dust"
 				id: "22656AF873D507F9"
-				title: "&5Dust Wastelands"
+				title: "&5Tierras Yermas de Polvo"
 				type: "biome"
 			}]
 			x: -0.5d
@@ -217,7 +217,7 @@
 				biome: "betterend:foggy_mushroomland"
 				icon: "betterend:chorus_mushroom_raw"
 				id: "77B3BB14A7F7B23A"
-				title: "&5Foggy Mushroomland"
+				title: "&5Tierra de Hongos Brumosa"
 				type: "biome"
 			}]
 			x: 1.5d
@@ -241,7 +241,7 @@
 				biome: "betterend:glowing_grasslands"
 				icon: "betterend:creeping_moss"
 				id: "00004F63A209AD27"
-				title: "&5Glowing Grasslands"
+				title: "&5Praderas Luminosas"
 				type: "biome"
 			}]
 			x: 0.0d
@@ -265,7 +265,7 @@
 				biome: "betterend:lantern_woods"
 				icon: "betterend:lucernia_sapling"
 				id: "2B69307DACE3303D"
-				title: "&5Lantern Woods"
+				title: "&5Bosques de Linternas"
 				type: "biome"
 			}]
 			x: 0.5d
@@ -289,7 +289,7 @@
 				biome: "betterend:umbrella_jungle"
 				icon: "betterend:umbrella_tree_sapling"
 				id: "3178D27CA606B2E0"
-				title: "&5Umbrella Jungle"
+				title: "&5Jungla Paraguas"
 				type: "biome"
 			}]
 			x: -0.5d
@@ -313,7 +313,7 @@
 				biome: "betterend:umbra_valley"
 				icon: "betterend:pallidium_full"
 				id: "44C1F851497C2901"
-				title: "&5Umbra Valley"
+				title: "&5Valle de la Umbra"
 				type: "biome"
 			}]
 			x: -3.0d
@@ -337,7 +337,7 @@
 				biome: "betterend:sulphur_springs"
 				icon: "betterend:sulphuric_rock"
 				id: "71785372B12242C4"
-				title: "&5Sulphur Springs"
+				title: "&5Manantiales de Azufre"
 				type: "biome"
 			}]
 			x: -1.5d
@@ -361,7 +361,7 @@
 				biome: "betterend:shadow_forest"
 				icon: "betterend:shadow_grass"
 				id: "59EFAE420764D503"
-				title: "&5Shadow Forest"
+				title: "&5Bosque de las Sombras"
 				type: "biome"
 			}]
 			x: -2.5d
@@ -385,7 +385,7 @@
 				biome: "betterend:painted_mountains"
 				icon: "betterend:violecite"
 				id: "6A046F720642A7B7"
-				title: "&5Painted Mountains"
+				title: "&5Montañas Pintadas"
 				type: "biome"
 			}]
 			x: -2.0d
@@ -409,7 +409,7 @@
 				biome: "betterend:neon_oasis"
 				icon: "betterend:neon_cactus_block"
 				id: "7CAE9CDDBDA10656"
-				title: "&5Neon Oasis"
+				title: "&5Oasis de Neón"
 				type: "biome"
 			}]
 			x: 0.5d
@@ -433,7 +433,7 @@
 				biome: "betterend:megalake_grove"
 				icon: "betterend:bucket_end_fish"
 				id: "3B60DF94C15A2BA6"
-				title: "&5Megalake Grove"
+				title: "&5Arboleda del Megalago"
 				type: "biome"
 			}]
 			x: 1.0d
@@ -457,7 +457,7 @@
 				biome: "betterend:megalake"
 				icon: "betterend:bucket_cubozoa"
 				id: "702BB549ED04280D"
-				title: "&5Megalake"
+				title: "&5Megalago"
 				type: "biome"
 			}]
 			x: -1.0d
@@ -492,21 +492,21 @@
 				id: "5165921143B61AC5"
 				name: "Quest Reward"
 				operation: "add"
-				title: "&e+0.02 Movement Speed"
+				title: "&e+0.02 Velocidad de Movimiento"
 				type: "bcgutil:attribute"
 				value: 0.02d
 			}]
 			size: 1.25d
 			tasks: [{
-				id: "2C6F1AA494687787"
-				title: "Accept Rewards"
-				type: "checkmark"
+			id: "2C6F1AA494687787"
+			title: "Aceptar Recompensas"
+			type: "checkmark"
 			}]
-			title: "&6End Exploration Progress"
+			title: "&6Progreso de Exploración del End"
 			x: 0.0d
 			y: -4.0d
 		}
 	]
-	subtitle: ["&eMovement Speed"]
-	title: " &5E&fnd Exploration"
+	subtitle: ["&eVelocidad de Movimiento"]
+	title: " &5Exploración del End"
 }

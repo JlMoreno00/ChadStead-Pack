@@ -688,7 +688,7 @@
 					id: "6D8F22B033020798"
 					name: "Quest Reward"
 					operation: "add"
-					title: "&9+2 Armor"
+					title: "&9+2 Armadura"
 					type: "bcgutil:attribute"
 					value: 2.0d
 				}
@@ -696,10 +696,10 @@
 			size: 1.25d
 			tasks: [{
 				id: "1AC4EE03C29FFAF5"
-				title: "Accept Rewards"
+				title: "Aceptar Recompensas"
 				type: "checkmark"
 			}]
-			title: "&2Crop Collection Milestone I"
+			title: "&2Hito de Colección de Cultivos I"
 			x: -3.0d
 			y: -1.5d
 		}
@@ -963,7 +963,7 @@
 					id: "544CF2FC53EFCF3E"
 					name: "Quest Reward"
 					operation: "add"
-					title: "&9+3 Armor"
+					title: "&9+3 Armadura"
 					type: "bcgutil:attribute"
 					value: 3.0d
 				}
@@ -971,10 +971,10 @@
 			size: 1.25d
 			tasks: [{
 				id: "3C44AE6BBA7DF256"
-				title: "Accept Rewards"
+				title: "Aceptar Recompensas"
 				type: "checkmark"
 			}]
-			title: "&2Crop Collection Milestone II"
+			title: "&2Hito de Colección de Cultivos II"
 			x: -1.0d
 			y: -1.5d
 		}
@@ -1046,7 +1046,7 @@
 					id: "651128B80F6415B0"
 					name: "Quest Reward"
 					operation: "add"
-					title: "&9+4 Armor"
+					title: "&9+4 Armadura"
 					type: "bcgutil:attribute"
 					value: 4.0d
 				}
@@ -1054,10 +1054,10 @@
 			size: 1.25d
 			tasks: [{
 				id: "516D9A219448CA6B"
-				title: "Accept Rewards"
+				title: "Aceptar Recompensas"
 				type: "checkmark"
 			}]
-			title: "&2Crop Collection Milestone III"
+			title: "&2Hito de Colección de Cultivos III"
 			x: 1.0d
 			y: -1.5d
 		}
@@ -1145,7 +1145,7 @@
 					id: "320FE892DB609205"
 					name: "Quest Reward"
 					operation: "add"
-					title: "&9+5 Armor"
+					title: "&9+5 Armadura"
 					type: "bcgutil:attribute"
 					value: 5.0d
 				}
@@ -1153,42 +1153,42 @@
 			size: 1.25d
 			tasks: [{
 				id: "44D3640CF8A75F8B"
-				title: "Accept Rewards"
+				title: "Aceptar Recompensas"
 				type: "checkmark"
 			}]
-			title: "&6Crop Collection Milestone IV"
+			title: "&6Hito de Colección de Cultivos IV"
 			x: 3.0d
 			y: -1.5d
 		}
 		{
 			description: [
-				"A vast array of foods awaits you! The foundation of many of these dishes lies in the fields, with each entry in the &2Crop Collection&r rewarding you with &2Rich Soil&r."
+				"¡Te espera una gran variedad de alimentos! La base de muchos de estos platos está en los campos, y cada entrada en la &2Colección de Cultivos&r te recompensará con &2Tierra Fértil&r."
 				""
-				"Unlike its vanilla counterpart, &2Rich Soil&r is notably faster and impervious to trampling."
+				"A diferencia de su equivalente vanilla, la &2Tierra Fértil&r es notablemente más rápida e impermeable al pisoteo."
 				""
-				"While these quests should provide an ample supply of &2Rich Soil&r, if you require more, you'll first need to craft some &2Organic Compost&r. Placing it near water, with mushrooms atop, will expedite the process even further. Before long, you'll have an abundant supply of your own."
+				"Aunque estas misiones deberían proporcionarte suficiente &2Tierra Fértil&r, si necesitas más, primero tendrás que fabricar &2Compost Orgánico&r. Colocarlo cerca del agua, con setas encima, acelerará aún más el proceso. En poco tiempo tendrás tu propio suministro abundante."
 				""
-				"Working in the fields toughens you up. Progressing through the &2Crop Collection Milestones&r will reward you with permanent &9Armor&r!"
+				"¡Trabajar en los campos te endurece. Avanzar por los &2Hitos de Colección de Cultivos&r te recompensará con &9Armadura&r permanente!"
 			]
 			icon: "ftbquests:book"
 			id: "606B8E7912784AC4"
 			optional: true
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "6A726DBDDCC378B9"
-				title: "Accept Rewards"
+				title: "Aceptar Recompensas"
 				type: "checkmark"
 			}]
-			title: "&2Crop Collection"
+			title: "&2Colección de Cultivos"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["63E18323BF6615AC"]
-			description: ["To unlock &6Mastery&r, you must complete all previous milestones."]
+			description: ["Para desbloquear la &6Maestría&r, debes completar todos los hitos anteriores."]
 			id: "2D82949D4A1DFD7E"
 			optional: true
 			rewards: [{
@@ -1197,12 +1197,12 @@
 				id: "51E7C5FD210DF8B7"
 				name: "Quest Reward"
 				operation: "add"
-				title: "&9+2 Armor"
+				title: "&9+2 Armadura"
 				type: "bcgutil:attribute"
 				value: 2.0d
 			}]
 			size: 1.5d
-			subtitle: "Sacrifice items for a permanent boost!"
+			subtitle: "¡Sacrifica objetos para un aumento permanente!"
 			tasks: [
 				{
 					consume_items: true
@@ -1215,7 +1215,7 @@
 							value: "c:seeds"
 						}
 					}
-					title: "Any Seeds"
+					title: "Cualquier Semilla"
 					type: "item"
 				}
 				{
@@ -1229,11 +1229,11 @@
 							value: "c:crops"
 						}
 					}
-					title: "Any Crops"
+					title: "Cualquier Cultivo"
 					type: "item"
 				}
 			]
-			title: "&6Crop Collection Mastery"
+			title: "&6Maestría de Colección de Cultivos"
 			x: 0.0d
 			y: -3.0d
 		}
@@ -1568,6 +1568,6 @@
 			y: 4.0d
 		}
 	]
-	subtitle: ["&9Armor"]
-	title: " &2C&frop Collection"
+	subtitle: ["&9Armadura"]
+	title: " &2C&folección de Cultivos"
 }

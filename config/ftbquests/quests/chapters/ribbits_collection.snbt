@@ -105,7 +105,7 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "You can finally make that farm prettier!"
+			subtitle: "¡Por fin puedes hacer esa granja más bonita!"
 			tasks: [{
 				id: "4D17E2DD7BA60134"
 				item: "ribbits:giant_lilypad"
@@ -122,27 +122,27 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "For trading with &bMerchant Ribbits&r."
+			subtitle: "Para comerciar con &bMerchantes Ribbits&r."
 			tasks: [{
 				count: 64L
 				id: "00C60D76103E4AB7"
 				item: "minecraft:amethyst_shard"
 				type: "item"
 			}]
-			title: "They Like Purple Rocks"
+			title: "Les Gustan las Rocas Moradas"
 			x: -1.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["6D4E73FD4E5BE2D3"]
-			description: ["Hold right-click to commence vigorous shaking."]
+			description: ["Mantén clic derecho para comenzar a sacudir vigorosamente."]
 			id: "7E4845A5144B72CE"
 			rewards: [{
 				id: "54AD78BEB3E63BF8"
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Sold by &bMerchant Ribbits&r."
+			subtitle: "Vendido por &bMerchantes Ribbits&r."
 			tasks: [{
 				id: "0020DC41DF3976B1"
 				item: "ribbits:maraca"
@@ -168,21 +168,21 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Trudge through the mud, it's good for you!"
+			subtitle: "¡Camina por el barro, te hace bien!"
 			tasks: [{
 				icon: "ribbits:red_toadstool"
 				id: "4216F3E7121D2066"
 				structure: "ribbits:ribbit_village"
-				title: "&fEnter a &bRibbit Village"
+				title: "&fEntra a una &bAldea Ribbit"
 				type: "structure"
 			}]
-			title: "&bRibbit Village"
+			title: "&bAldea Ribbit"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6D4E73FD4E5BE2D3"]
-			description: ["Wait around long enough, and they might even play you a song!"]
+			description: ["¡Espera el tiempo suficiente y puede que hasta te toquen una canción!"]
 			icon: {
 				Count: 1
 				id: "ribbits:ribbit_nitwit_spawn_egg"
@@ -196,7 +196,7 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Even cuter when it’s raining!"
+			subtitle: "¡Incluso más adorable cuando llueve!"
 			tasks: [{
 				id: "13AAFBCC57618CEE"
 				observe_type: 5
@@ -205,7 +205,7 @@
 				to_observe: "ribbits:ribbit"
 				type: "observation"
 			}]
-			title: "Find a Ribbit"
+			title: "Encuentra un Ribbit"
 			x: 0.0d
 			y: -1.5d
 		}
@@ -508,7 +508,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Temperate Frog"
+			subtitle: "Rana Templada"
 			tasks: [{
 				id: "33A9E1E4ADB0CEE6"
 				item: "minecraft:ochre_froglight"
@@ -531,7 +531,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Cold Frog"
+			subtitle: "Rana Fría"
 			tasks: [{
 				id: "3CE5472CC62F60AA"
 				item: "minecraft:verdant_froglight"
@@ -554,7 +554,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Warm Frog"
+			subtitle: "Rana Cálida"
 			tasks: [{
 				id: "1C4385F0225D6224"
 				item: "minecraft:pearlescent_froglight"
@@ -817,7 +817,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "This would go perfectly in my Mush&broom&r."
+			subtitle: "¡Esto quedaría perfecto en mi &bCuarto de Setas&r!"
 			tasks: [{
 				id: "5C22A1DA3FE66A91"
 				item: "luphieclutteredmod:luphie_mushroom_bed"
@@ -840,7 +840,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "This would go perfectly in my Mush&broom&r."
+			subtitle: "¡Esto quedaría perfecto en mi &bCuarto de Setas&r!"
 			tasks: [{
 				id: "7B616AF687F5FC3A"
 				item: "luphieclutteredmod:luphie_mushroom_tv"
@@ -863,7 +863,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "This would go perfectly in my Mush&broom&r."
+			subtitle: "¡Esto quedaría perfecto en mi &bCuarto de Setas&r!"
 			tasks: [{
 				id: "3B2B5FA5B8F85DED"
 				item: "luphieclutteredmod:luphie_mushroom_terrarium"
@@ -886,7 +886,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "This would go perfectly in my Mush&broom&r."
+			subtitle: "¡Esto quedaría perfecto en mi &bCuarto de Setas&r!"
 			tasks: [{
 				id: "34864C25E64A5849"
 				item: "luphieclutteredmod:luphie_mushroom_chest"
@@ -909,7 +909,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "This would go perfectly in my Mush&broom&r."
+			subtitle: "¡Esto quedaría perfecto en mi &bCuarto de Setas&r!"
 			tasks: [{
 				id: "06E3ECA2483F4F64"
 				item: "luphieclutteredmod:luphie_mushroom_lamp"
@@ -932,7 +932,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "This would go perfectly in my Mush&broom&r."
+			subtitle: "¡Esto quedaría perfecto en mi &bCuarto de Setas&r!"
 			tasks: [{
 				id: "6ACF9D35792C6E99"
 				item: "luphieclutteredmod:luphie_mushroom_table"
@@ -955,7 +955,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "This would go perfectly in my Mush&broom&r."
+			subtitle: "¡Esto quedaría perfecto en mi &bCuarto de Setas&r!"
 			tasks: [{
 				id: "5BD368C1196ECEB1"
 				item: "luphieclutteredmod:luphie_mushroom_wardrobe"
@@ -965,14 +965,14 @@
 			y: -4.0d
 		}
 		{
-			description: ["A &bFroglight&r drops from a &4Magma Cube&r when it's killed by a &bFrog&r. The type of &bFroglight&r that drops depends on the type of &bFrog&r."]
+			description: ["Una &bLuz de Rana&r cae de un &4Cubo de Magma&r cuando es matado por una &bRana&r. El tipo de &bLuz de Rana&r que cae depende del tipo de &bRana&r."]
 			icon: "ftbquests:book"
 			id: "73C4BF145A20C5E7"
 			optional: true
-			subtitle: "Wait, you have to do WHAT?"
+			subtitle: "¿Espera, tienes que hacer QUÉ?"
 			tasks: [{
 				id: "289AD70D4A0CE786"
-				title: "Froglights"
+				title: "Luces de Rana"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -982,10 +982,10 @@
 			can_repeat: false
 			icon: "ftbquests:book"
 			id: "66B06ACF57618387"
-			subtitle: "You need slime to craft these? I wonder what they feel like..."
+			subtitle: "¿Necesitas slime para fabricarlos? Me pregunto cómo se sentirán..."
 			tasks: [{
 				id: "0B27E63DB6ADF3FB"
-				title: "Frog Plushies"
+				title: "Peluches de Rana"
 				type: "checkmark"
 			}]
 			x: -3.0d
@@ -1007,7 +1007,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "A scary poison dart frog... with claws?!"
+			subtitle: "¡Una aterradora rana venenosa... con garras?!"
 			tasks: [{
 				action: "obtain"
 				amount: 1L
@@ -1043,7 +1043,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "A scary poison dart frog."
+			subtitle: "Una aterradora rana venenosa."
 			tasks: [{
 				action: "obtain"
 				amount: 1L
@@ -1079,7 +1079,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "They have a mane made of bubbles called \"Frubbles.\""
+			subtitle: "Tienen una melena hecha de burbujas llamada \"Frubbles\"."
 			tasks: [{
 				action: "obtain"
 				amount: 1L
@@ -1116,7 +1116,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Fun fact: it can scale a 2,000-foot building in just one minute!"
+			subtitle: "¡Dato curioso: puede escalar un edificio de 2.000 pies en solo un minuto!"
 			tasks: [{
 				action: "obtain"
 				amount: 1L
@@ -1153,7 +1153,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Wait... that scarf is a TONGUE?!"
+			subtitle: "¿Espera... esa bufanda es una LENGUA?!"
 			tasks: [{
 				action: "obtain"
 				amount: 1L
@@ -1190,7 +1190,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Trading with a &bKing's Rock&r makes &bPoliwhirl&r significantly less angry."
+			subtitle: "Comerciar con una &bRoca Rey&r hace que &bPoliwhirl&r esté considerablemente menos enfadado."
 			tasks: [{
 				action: "obtain"
 				amount: 1L
@@ -1226,7 +1226,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Just a little tadpole!"
+			subtitle: "¡Solo un pequeño renacuajo!"
 			tasks: [{
 				action: "obtain"
 				amount: 1L
@@ -1263,7 +1263,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "The tadpole grew up and now it wants to punch you!"
+			subtitle: "¡El renacuajo creció y ahora quiere darte un puñetazo!"
 			tasks: [{
 				action: "obtain"
 				amount: 1L
@@ -1300,7 +1300,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "A &bWater Stone&r seems to make &bPoliwhirl&r want to hit you even more."
+			subtitle: "Una &bPiedra Agua&r parece hacer que &bPoliwhirl&r quiera golpearte aún más."
 			tasks: [{
 				action: "obtain"
 				amount: 1L
@@ -1336,7 +1336,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "What happens if you electrocute a tadpole?"
+			subtitle: "¿Qué pasa si electrocutas a un renacuajo?"
 			tasks: [{
 				action: "obtain"
 				amount: 1L
@@ -1373,7 +1373,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "A &bThunder Stone&r creates a happy little lightning frog."
+			subtitle: "Una &bPiedra Trueno&r crea una pequeña y feliz rana del rayo."
 			tasks: [{
 				action: "obtain"
 				amount: 1L
@@ -1409,7 +1409,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "This is a lily pad, right?"
+			subtitle: "¿Esto es un nenúfar, verdad?"
 			tasks: [{
 				action: "obtain"
 				amount: 1L
@@ -1445,7 +1445,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "It turns out that the mushrooms on these guys are actually parasitic."
+			subtitle: "Resulta que los hongos de estos tipos son en realidad parasitarios."
 			tasks: [{
 				action: "obtain"
 				amount: 1L
@@ -1482,7 +1482,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "And then the parasitic mushroom took over..."
+			subtitle: "Y entonces el hongo parasitario tomó el control..."
 			tasks: [{
 				action: "obtain"
 				amount: 1L
@@ -1518,7 +1518,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Aw, you got your spores all over me!"
+			subtitle: "¡Vaya, me has puesto esporas por todas partes!"
 			tasks: [{
 				action: "obtain"
 				amount: 1L
@@ -1555,7 +1555,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Ah! It grew legs!"
+			subtitle: "¡Ah! ¡Le salieron patas!"
 			tasks: [{
 				action: "obtain"
 				amount: 1L
@@ -1591,7 +1591,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Poke-shroom!"
+			subtitle: "¡Poke-seta!"
 			tasks: [{
 				action: "obtain"
 				amount: 1L
@@ -1628,7 +1628,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Fungus Amongus!"
+			subtitle: "¡Fungus Amongus!"
 			tasks: [{
 				action: "obtain"
 				amount: 1L
@@ -1665,7 +1665,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Ah! It grew legs!"
+			subtitle: "¡Ah! ¡Le salieron patas!"
 			tasks: [{
 				action: "obtain"
 				amount: 1L
@@ -1702,7 +1702,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "&bLombre&r gets really happy when you give it a &bWater Stone&r."
+			subtitle: "&bLombre&r se pone muy feliz cuando le das una &bPiedra Agua&r."
 			tasks: [{
 				action: "obtain"
 				amount: 1L
@@ -1731,7 +1731,7 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Hey! Put that back!"
+			subtitle: "¡Oye! ¡Devuelve eso!"
 			tasks: [{
 				id: "02F46E00EBE58CFB"
 				item: "ribbits:swamp_lantern"
@@ -1741,5 +1741,5 @@
 			y: 0.0d
 		}
 	]
-	title: " &bF&frogs &7by Dux"
+	title: " &bR&fanas &7por Dux"
 }

@@ -7,31 +7,31 @@
 	group: "257DC2A7DFE41B29"
 	icon: "icarus:white_feathered_wings"
 	id: "26D218F2593A4D96"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"In this chapter, you'll discover five types of wings, each customizable with various colors. Simply combine the wing type with a dye to change its color."
+				"En este capítulo, descubrirás cinco tipos de alas, cada una personalizable con varios colores. Combina el tipo de ala con un tinte para cambiar su color."
 				""
-				"However, there are a few drawbacks to using the basic wings, but they're worth noting:"
+				"Sin embargo, hay algunos inconvenientes al usar las alas básicas, que vale la pena conocer:"
 				""
-				"Flying depletes your hunger while airborne."
+				"Volar consume tu hambre mientras estás en el aire."
 				""
-				"Wearing armor reduces your maximum speed (the more armor you wear, the slower you'll go, up to two-thirds of your maximum speed)."
+				"Llevar armadura reduce tu velocidad máxima (cuanta más armadura uses, más lento irás, hasta dos tercios de tu velocidad máxima)."
 				""
-				"To take flight, begin as you would with an &bElytra&r. Press space while falling or after jumping to activate flight, then use your mouse to steer and W to move forward.\""
+				"Para despegar, hazlo como lo harías con un &bElytra&r. Pulsa espacio mientras caes o tras saltar para activar el vuelo, luego usa el ratón para dirigirte y W para avanzar."
 				""
-				"&9Tip&r: You'll need an &bElytra&r to create wings, which you can obtain by killing the &5Dragon&r."
+				"&9Consejo&r: Necesitarás un &bElytra&r para fabricar alas, que puedes obtener matando al &5Dragón&r."
 			]
 			icon: "ftbquests:book"
 			id: "3865CD6FA59D4EFD"
 			optional: true
 			size: 1.5d
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para aprender más!"
 			tasks: [{
 				id: "1CA0712FB1E4C8F6"
-				title: "Accept Rewards"
+				title: "Aceptar Recompensas"
 				type: "checkmark"
 			}]
 			title: "&aWings"
@@ -55,7 +55,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The Start of the Dragon Wings"
+			subtitle: "El Comienzo de las Alas de Dragón"
 			tasks: [{
 				id: "77797CC73BA1316C"
 				item: {
@@ -65,10 +65,10 @@
 						value: "icarus:dragon_wings"
 					}
 				}
-				title: "Any #icarus:dragon_wings"
+				title: "Cualquier #icarus:dragon_wings"
 				type: "item"
 			}]
-			title: "Dragon Wings"
+			title: "Alas de Dragón"
 			x: 0.0d
 			y: 3.5d
 		}
@@ -89,7 +89,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The Start of the Feathered Wings"
+			subtitle: "El Comienzo de las Alas Emplumadas"
 			tasks: [{
 				id: "5642CB225AF6FEBF"
 				item: {
@@ -99,7 +99,7 @@
 						value: "icarus:feathered_wings"
 					}
 				}
-				title: "Feathered Wings"
+				title: "Alas Emplumadas"
 				type: "item"
 			}]
 			x: 2.0d
@@ -122,7 +122,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The Start of the Mechanical Leather Wings"
+			subtitle: "El Comienzo de las Alas Mecánicas de Cuero"
 			tasks: [{
 				id: "55985B2ECBB39F9C"
 				item: {
@@ -132,10 +132,10 @@
 						value: "icarus:mechanical_leather_wings"
 					}
 				}
-				title: "Any #icarus:mechanical_leather_wings"
+				title: "Cualquier #icarus:mechanical_leather_wings"
 				type: "item"
 			}]
-			title: "Mechanical Leather Wings"
+			title: "Alas Mecánicas de Cuero"
 			x: 1.5d
 			y: 3.0d
 		}
@@ -156,7 +156,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The Start of the Feathered Mechanical Wings"
+			subtitle: "El Comienzo de las Alas Mecánicas Emplumadas"
 			tasks: [{
 				id: "483DB8347C8EDA1E"
 				item: {
@@ -166,10 +166,10 @@
 						value: "icarus:mechanical_feathered_wings"
 					}
 				}
-				title: "Any #icarus:mechanical_feathered_wings"
+				title: "Cualquier #icarus:mechanical_feathered_wings"
 				type: "item"
 			}]
-			title: "Mechanical Feathered Wings"
+			title: "Alas Mecánicas Emplumadas"
 			x: -1.5d
 			y: 3.0d
 		}
@@ -190,7 +190,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The Start of the Light Wings"
+			subtitle: "El Comienzo de las Alas de Luz"
 			tasks: [{
 				id: "183C75A81CDD3851"
 				item: {
@@ -200,10 +200,10 @@
 						value: "icarus:light_wings"
 					}
 				}
-				title: "Any #icarus:light_wings"
+				title: "Cualquier #icarus:light_wings"
 				type: "item"
 			}]
-			title: "Light Wings"
+			title: "Alas de Luz"
 			x: -2.0d
 			y: 1.5d
 		}

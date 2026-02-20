@@ -11,29 +11,29 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"Once you've set up a &bBrewingstation&r and established a silo for drying grains, it's time to start brewing."
-				""
-				"Place water and ingredients in the open slot, and insert fuel into the furnace side to begin crafting. During the crafting process, random events may occur, which require attention to continue crafting:"
-				""
-				"If there's too little heat, add fuel to the oven."
-				""
-				"If there's too much heat, right-click the timer side."
-				""
-				"If there's too little water, add water."
-				""
-				"If there's too much water, remove water with an empty bucket."
-				""
-				"Completing the random events faster and using better brewing stations will result in higher-quality brews."
-			]
+		description: [
+			"Una vez que hayas montado una &bBrewingstation&r y un silo para secar granos, ¡es hora de empezar a elaborar!"
+			""
+			"Coloca agua e ingredientes en la ranura abierta e introduce combustible por el lado del horno para empezar. Durante el proceso, pueden ocurrir eventos aleatorios que requieren tu atención para continuar:"
+			""
+			"Si hay poco calor, añade combustible al horno."
+			""
+			"Si hay demasiado calor, haz clic derecho en el lado del temporizador."
+			""
+			"Si hay poca agua, añade agua."
+			""
+			"Si hay demasiada agua, retira el agua con un cubo vacío."
+			""
+			"Completar los eventos aleatorios más rápido y usar mejores estaciones de elaboración producirá bebidas de mayor calidad."
+		]
 			icon: "ftbquests:book"
-			id: "1671ED82A03930F0"
-			optional: true
-			size: 1.5d
-			subtitle: "Click to learn more!"
+		id: "1671ED82A03930F0"
+		optional: true
+		size: 1.5d
+		subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "747670DCA239BE98"
-				title: "Accept Rewards"
+				title: "Aceptar Recompensas"
 				type: "checkmark"
 			}]
 			title: "&6Brewery"
@@ -47,7 +47,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Basic Brewingstation"
+			subtitle: "Brewingstation Básica"
 			tasks: [{
 				id: "690707937251A1C0"
 				item: "brewery:wooden_brewingstation"
@@ -64,7 +64,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Upgraded Brewingstation, essential for making whiskeys."
+			subtitle: "Brewingstation mejorada, imprescindible para elaborar whiskeys."
 			tasks: [{
 				id: "40B35A4A3B411307"
 				item: "brewery:copper_brewingstation"
@@ -81,7 +81,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Faster and higher quality brews."
+			subtitle: "Elaboración más rápida y de mayor calidad."
 			tasks: [{
 				id: "63EC1733597795EA"
 				item: "brewery:netherite_brewingstation"
@@ -91,7 +91,7 @@
 			y: -4.5d
 		}
 		{
-			description: ["Used to dry grains: place grains inside with a right-click. If the front face is open, items will be shot out. Multiple units can be placed together for more capacity, forming a 2x2 or 3x3 square, up to 9 blocks tall."]
+			description: ["Se usa para secar granos: coloca los granos dentro con clic derecho. Si la cara frontal está abierta, los objetos saldrán disparados. Se pueden colocar varias unidades juntas para más capacidad, formando un cuadrado de 2x2 o 3x3, hasta 9 bloques de alto."]
 			id: "446CAE53FCE9BA74"
 			rewards: [{
 				id: "546C29AE4D74B9FC"
@@ -114,7 +114,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "A faster version of the wooden silo."
+			subtitle: "Una versión más rápida del silo de madera."
 			tasks: [{
 				id: "334039F0B0E15526"
 				item: "brewery:silo_copper"
@@ -349,52 +349,52 @@
 			y: 1.5d
 		}
 		{
-			description: [
-				"&bBrewery&r introduces several potion effects from food and drink. Here's a brief description of them:"
-				""
-				"&bToxic Touch&r: Applies Poison to all hit entities."
-				""
-				"&bRenewing Touch&r: Applies Regeneration to all hit entities."
-				""
-				"&bProtective Touch&r: Applies Absorption to all hit entities."
-				""
-				"&bHealing Touch&r: Heals all hit entities."
-				""
-				"&bHaley&r: Allows you to fly, at least for a short period of time."
-				""
-				"&bHarddrinking&r: Grants immunity to alcohol. A dream come true!"
-				""
-				"&bPint Charisma&r: Provides a 10% discount while trading with villagers."
-				""
-				"&bPartystarter&r: Emits firework particles when hitting entities and deals a small amount of damage."
-				""
-				"&bSnow White&r: Animals flock to your side, enchanted by your presence."
-				""
-				"&bCombustion&r: Sets nearby enemies on fire for a few seconds."
-				""
-				"&bExplosion&r: Attacks have a small chance to launch a fireball at the target."
-				""
-				"&bRepulsion&r: Enemies are pushed away at short intervals."
-				""
-				"&bLightning&r: Attacks have a small chance to strike the target with lightning."
-				""
-				"&bMining&r: The deeper you are, the faster you can mine."
-				""
-				"&bPacify&r: Allows you to safely look an Enderman directly in the eyes and reduces the duration enemies pursue you."
-			]
-			id: "392AF7A8655BF65D"
-			optional: true
-			rewards: [{
-				id: "450C871102AC25DE"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "Click to learn more!"
+		description: [
+			"&bBrewery&r introduce varios efectos de poción a través de comida y bebidas. Aquí tienes una breve descripción de cada uno:"
+			""
+			"&bToque Tóxico&r: Aplica Veneno a todas las entidades golpeadas."
+			""
+			"&bToque Renovador&r: Aplica Regeneración a todas las entidades golpeadas."
+			""
+			"&bToque Protector&r: Aplica Absorción a todas las entidades golpeadas."
+			""
+			"&bToque Sanador&r: Cura a todas las entidades golpeadas."
+			""
+			"&bHaley&r: Te permite volar, al menos por un breve período de tiempo."
+			""
+			"&bHarddrinking&r: Otorga inmunidad al alcohol. ¡Un sueño hecho realidad!"
+			""
+			"&bPint Charisma&r: Ofrece un 10% de descuento al comerciar con aldeanos."
+			""
+			"&bPartystarter&r: Emite partículas de fuegos artificiales al golpear entidades y causa una pequeña cantidad de daño."
+			""
+			"&bSnow White&r: Los animales acuden a tu lado, cautivados por tu presencia."
+			""
+			"&bCombustión&r: Prende fuego a los enemigos cercanos durante unos segundos."
+			""
+			"&bExplosión&r: Los ataques tienen una pequeña probabilidad de lanzar una bola de fuego al objetivo."
+			""
+			"&bRepulsión&r: Los enemigos son empujados a intervalos cortos."
+			""
+			"&bRayo&r: Los ataques tienen una pequeña probabilidad de golpear al objetivo con un rayo."
+			""
+			"&bMinería&r: Cuanto más profundo estés, más rápido puedes minar."
+			""
+			"&bPacificar&r: Te permite mirar a un Enderman directamente a los ojos sin peligro y reduce el tiempo que los enemigos te persiguen."
+		]
+		id: "392AF7A8655BF65D"
+		optional: true
+		rewards: [{
+			id: "450C871102AC25DE"
+			type: "xp"
+			xp: 10
+		}]
+		subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "1CA724F1D5A58942"
 				type: "checkmark"
 			}]
-			title: "Drink Effects"
+			title: "Efectos de Bebidas"
 			x: 2.0d
 			y: 0.0d
 		}

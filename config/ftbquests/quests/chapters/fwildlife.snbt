@@ -12,9 +12,9 @@
 	quests: [
 		{
 			description: [
-				"Everywhere you look, you'll find &2Wildlife&r! Most of them are friendly, but some may be territorial or protective of their young, so be very careful! And remember, don't poke the bear!"
+				"¡Por donde mires, encontrarás &2Fauna Silvestre&r! La mayoría son amigables, pero algunas pueden ser territoriales o proteger a sus crías, ¡así que ten mucho cuidado! Y recuerda, ¡no metas el palo en el oso!"
 				""
-				"Handling wildlife requires fast reflexes in case something were to go wrong. Progressing through &2Wildlife Collection Milestones&r rewards you with permanent &bAttack Speed&r."
+				"Manejar fauna silvestre requiere reflejos rápidos por si algo va mal. Progresar a través de los &2Hitos de Colección de Fauna&r te recompensa con &bVelocidad de Ataque&r permanente."
 			]
 			icon: "ftbquests:book"
 			id: "55D01CEB1D098B67"
@@ -40,13 +40,13 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "2DC766B7676250A9"
-				title: "Accept Rewards"
+				title: "Aceptar recompensas"
 				type: "checkmark"
 			}]
-			title: "&2Wildlife Collection"
+			title: "&2Colección de Fauna"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -70,11 +70,11 @@
 				id: "17E46F4858D4CE89"
 				observe_type: 5
 				timer: 0L
-				title: "Cow"
+				title: "Vaca"
 				to_observe: "minecraft:cow"
 				type: "observation"
 			}]
-			title: "Find a Cow"
+			title: "Encuentra una Vaca"
 			x: -6.0d
 			y: 2.0d
 		}
@@ -98,11 +98,11 @@
 				id: "2F2D96A57314D554"
 				observe_type: 5
 				timer: 0L
-				title: "Pig"
+				title: "Cerdo"
 				to_observe: "minecraft:pig"
 				type: "observation"
 			}]
-			title: "Find a Pig"
+			title: "Encuentra un Cerdo"
 			x: -7.5d
 			y: 2.0d
 		}
@@ -126,11 +126,11 @@
 				id: "0ABF361080FFC001"
 				observe_type: 5
 				timer: 0L
-				title: "Sheep"
+				title: "Oveja"
 				to_observe: "minecraft:sheep"
 				type: "observation"
 			}]
-			title: "Find a Sheep"
+			title: "Encuentra una Oveja"
 			x: -7.5d
 			y: 3.0d
 		}
@@ -154,11 +154,11 @@
 				id: "665BA010DFD3E46B"
 				observe_type: 5
 				timer: 0L
-				title: "Chicken"
+				title: "Pollo"
 				to_observe: "minecraft:chicken"
 				type: "observation"
 			}]
-			title: "Find a Chicken"
+			title: "Encuentra un Pollo"
 			x: -8.5d
 			y: 2.0d
 		}
@@ -182,11 +182,11 @@
 				id: "15D66F38D55A4D83"
 				observe_type: 5
 				timer: 0L
-				title: "Horse"
+				title: "Caballo"
 				to_observe: "minecraft:horse"
 				type: "observation"
 			}]
-			title: "Find a Horse"
+			title: "Encuentra un Caballo"
 			x: 2.5d
 			y: 3.0d
 		}
@@ -210,11 +210,11 @@
 				id: "70365EFF93F3A9EB"
 				observe_type: 5
 				timer: 0L
-				title: "Donkey"
+				title: "Burro"
 				to_observe: "minecraft:donkey"
 				type: "observation"
 			}]
-			title: "Find a Donkey"
+			title: "Encuentra un Burro"
 			x: 6.0d
 			y: 4.0d
 		}
@@ -238,11 +238,11 @@
 				id: "1975EB47E5926AB4"
 				observe_type: 5
 				timer: 0L
-				title: "Mule"
+				title: "Mula"
 				to_observe: "minecraft:mule"
 				type: "observation"
 			}]
-			title: "Find a Mule"
+			title: "Encuentra una Mula"
 			x: 7.5d
 			y: 2.0d
 		}
@@ -266,11 +266,11 @@
 				id: "6A25A6037823770D"
 				observe_type: 5
 				timer: 0L
-				title: "Rabbit"
+				title: "Conejo"
 				to_observe: "minecraft:rabbit"
 				type: "observation"
 			}]
-			title: "Find a Rabbit"
+			title: "Encuentra un Conejo"
 			x: 8.5d
 			y: 2.0d
 		}
@@ -294,11 +294,11 @@
 				id: "038BA4B3438157F4"
 				observe_type: 5
 				timer: 0L
-				title: "Fox"
+				title: "Zorro"
 				to_observe: "minecraft:fox"
 				type: "observation"
 			}]
-			title: "Find a Fox"
+			title: "Encuentra un Zorro"
 			x: 1.0d
 			y: 3.0d
 		}
@@ -322,11 +322,11 @@
 				id: "0FE29F6C80713EE7"
 				observe_type: 5
 				timer: 0L
-				title: "Axolotl"
+				title: "Ajolote"
 				to_observe: "minecraft:axolotl"
 				type: "observation"
 			}]
-			title: "Find an Axolotl"
+			title: "Encuentra un Ajolote"
 			x: 2.5d
 			y: 2.0d
 		}
@@ -350,11 +350,11 @@
 				id: "44737FEDD13C4E15"
 				observe_type: 5
 				timer: 0L
-				title: "Bat"
+				title: "Murciélago"
 				to_observe: "minecraft:bat"
 				type: "observation"
 			}]
-			title: "Find a Bat"
+			title: "Encuentra un Murciélago"
 			x: 3.5d
 			y: 2.0d
 		}
@@ -378,11 +378,11 @@
 				id: "1841BD432608B847"
 				observe_type: 5
 				timer: 0L
-				title: "Bee"
+				title: "Abeja"
 				to_observe: "minecraft:bee"
 				type: "observation"
 			}]
-			title: "Find a Bee"
+			title: "Encuentra una Abeja"
 			x: -5.0d
 			y: 2.0d
 		}
@@ -406,11 +406,11 @@
 				id: "35ADD11B6BAE3E0B"
 				observe_type: 5
 				timer: 0L
-				title: "Cat"
+				title: "Gato"
 				to_observe: "minecraft:cat"
 				type: "observation"
 			}]
-			title: "Find a Cat"
+			title: "Encuentra un Gato"
 			x: -5.0d
 			y: 3.0d
 		}
@@ -434,11 +434,11 @@
 				id: "36560ABDB5C7C6C7"
 				observe_type: 5
 				timer: 0L
-				title: "Camel"
+				title: "Camello"
 				to_observe: "minecraft:camel"
 				type: "observation"
 			}]
-			title: "Find a Camel"
+			title: "Encuentra un Camello"
 			x: -6.0d
 			y: 3.0d
 		}
@@ -462,11 +462,11 @@
 				id: "7C415F21C751E056"
 				observe_type: 5
 				timer: 0L
-				title: "Cod"
+				title: "Bacalao"
 				to_observe: "minecraft:cod"
 				type: "observation"
 			}]
-			title: "Find a Cod"
+			title: "Encuentra un Bacalao"
 			x: -1.0d
 			y: 2.0d
 		}
@@ -490,11 +490,11 @@
 				id: "3AE483DDFFC06E7D"
 				observe_type: 5
 				timer: 0L
-				title: "Dolphin"
+				title: "Delfín"
 				to_observe: "minecraft:dolphin"
 				type: "observation"
 			}]
-			title: "Find a Dolphin"
+			title: "Encuentra un Delfín"
 			x: 6.0d
 			y: 3.0d
 		}
@@ -518,11 +518,11 @@
 				id: "526FFDD0A21FA1F5"
 				observe_type: 5
 				timer: 0L
-				title: "Frog"
+				title: "Rana"
 				to_observe: "minecraft:frog"
 				type: "observation"
 			}]
-			title: "Find a Frog"
+			title: "Encuentra una Rana"
 			x: 6.0d
 			y: 2.0d
 		}
@@ -546,11 +546,11 @@
 				id: "1B05320245B3DDF3"
 				observe_type: 5
 				timer: 0L
-				title: "Glow Squid"
+				title: "Calamar Brillante"
 				to_observe: "minecraft:glow_squid"
 				type: "observation"
 			}]
-			title: "Find a Glow Squid"
+			title: "Encuentra un Calamar Brillante"
 			x: 5.0d
 			y: 2.0d
 		}
@@ -574,11 +574,11 @@
 				id: "10A5F9C5784D8A6A"
 				observe_type: 5
 				timer: 0L
-				title: "Goat"
+				title: "Cabra"
 				to_observe: "minecraft:goat"
 				type: "observation"
 			}]
-			title: "Find a Goat"
+			title: "Encuentra una Cabra"
 			x: -2.5d
 			y: 2.0d
 		}
@@ -606,7 +606,7 @@
 				to_observe: "minecraft:llama"
 				type: "observation"
 			}]
-			title: "Find a Llama"
+			title: "Encuentra una Llama"
 			x: 3.5d
 			y: 3.0d
 		}
@@ -634,7 +634,7 @@
 				to_observe: "minecraft:mooshroom"
 				type: "observation"
 			}]
-			title: "Find a Mooshroom"
+			title: "Encuentra un Mooshroom"
 			x: -8.5d
 			y: 3.0d
 		}
@@ -658,11 +658,11 @@
 				id: "3B88B57429A60219"
 				observe_type: 5
 				timer: 0L
-				title: "Ocelot"
+				title: "Ocelote"
 				to_observe: "minecraft:ocelot"
 				type: "observation"
 			}]
-			title: "Find a Ocelot"
+			title: "Encuentra un Ocelote"
 			x: 0.0d
 			y: 3.0d
 		}
@@ -690,7 +690,7 @@
 				to_observe: "minecraft:panda"
 				type: "observation"
 			}]
-			title: "Find a Panda"
+			title: "Encuentra un Panda"
 			x: 7.5d
 			y: 3.0d
 		}
@@ -714,11 +714,11 @@
 				id: "06AAB0275DF35D25"
 				observe_type: 5
 				timer: 0L
-				title: "Parrot"
+				title: "Loro"
 				to_observe: "minecraft:parrot"
 				type: "observation"
 			}]
-			title: "Find a Parrot"
+			title: "Encuentra un Loro"
 			x: 1.0d
 			y: 2.0d
 		}
@@ -742,11 +742,11 @@
 				id: "15DE451BB27C37E3"
 				observe_type: 5
 				timer: 0L
-				title: "Polar Bear"
+				title: "Oso Polar"
 				to_observe: "minecraft:polar_bear"
 				type: "observation"
 			}]
-			title: "Find a Polar Bear"
+			title: "Encuentra un Oso Polar"
 			x: -1.0d
 			y: 3.0d
 		}
@@ -770,11 +770,11 @@
 				id: "721F7FEACC93F961"
 				observe_type: 5
 				timer: 0L
-				title: "Pufferfish"
+				title: "Pez Globo"
 				to_observe: "minecraft:pufferfish"
 				type: "observation"
 			}]
-			title: "Find a Pufferfish"
+			title: "Encuentra un Pez Globo"
 			x: 8.5d
 			y: 3.0d
 		}
@@ -798,11 +798,11 @@
 				id: "3167E18DC5D7A799"
 				observe_type: 5
 				timer: 0L
-				title: "Salmon"
+				title: "Salmón"
 				to_observe: "minecraft:salmon"
 				type: "observation"
 			}]
-			title: "Find a Salmon"
+			title: "Encuentra un Salmón"
 			x: 8.5d
 			y: 4.0d
 		}
@@ -830,7 +830,7 @@
 				to_observe: "minecraft:sniffer"
 				type: "observation"
 			}]
-			title: "Find a Sniffer"
+			title: "Encuentra un Sniffer"
 			x: 7.5d
 			y: 4.0d
 		}
@@ -854,11 +854,11 @@
 				id: "39BD174435A95B15"
 				observe_type: 5
 				timer: 0L
-				title: "Squid"
+				title: "Calamar"
 				to_observe: "minecraft:squid"
 				type: "observation"
 			}]
-			title: "Find a Squid"
+			title: "Encuentra un Calamar"
 			x: -2.5d
 			y: 3.0d
 		}
@@ -882,11 +882,11 @@
 				id: "444703F1D4F9CC5C"
 				observe_type: 5
 				timer: 0L
-				title: "Tadpole"
+				title: "Renacuajo"
 				to_observe: "minecraft:tadpole"
 				type: "observation"
 			}]
-			title: "Find a Tadpole"
+			title: "Encuentra un Renacuajo"
 			x: 0.0d
 			y: 2.0d
 		}
@@ -910,11 +910,11 @@
 				id: "1F3C62CBFFD7A5A6"
 				observe_type: 5
 				timer: 0L
-				title: "Tropical Fish"
+				title: "Pez Tropical"
 				to_observe: "minecraft:tropical_fish"
 				type: "observation"
 			}]
-			title: "Find a Tropical Fish"
+			title: "Encuentra un Pez Tropical"
 			x: -3.5d
 			y: 2.0d
 		}
@@ -938,11 +938,11 @@
 				id: "78F09E554F633D1E"
 				observe_type: 5
 				timer: 0L
-				title: "Turtle"
+				title: "Tortuga"
 				to_observe: "minecraft:turtle"
 				type: "observation"
 			}]
-			title: "Find a Turtle"
+			title: "Encuentra una Tortuga"
 			x: -3.5d
 			y: 3.0d
 		}
@@ -966,11 +966,11 @@
 				id: "68A2B8662D6E69DB"
 				observe_type: 5
 				timer: 0L
-				title: "Wolf"
+				title: "Lobo"
 				to_observe: "minecraft:wolf"
 				type: "observation"
 			}]
-			title: "Find a Wolf"
+			title: "Encuentra un Lobo"
 			x: 5.0d
 			y: 3.0d
 		}
@@ -994,11 +994,11 @@
 				id: "0D64E14EFF4193E9"
 				observe_type: 5
 				timer: 0L
-				title: "Snail"
+				title: "Caracol"
 				to_observe: "naturalist:snail"
 				type: "observation"
 			}]
-			title: "Find a Snail"
+			title: "Encuentra un Caracol"
 			x: 2.5d
 			y: 5.0d
 		}
@@ -1022,11 +1022,11 @@
 				id: "27272EBD89BBFBC6"
 				observe_type: 5
 				timer: 0L
-				title: "Bear"
+				title: "Oso"
 				to_observe: "naturalist:bear"
 				type: "observation"
 			}]
-			title: "Find a Bear"
+			title: "Encuentra un Oso"
 			x: 3.5d
 			y: 4.0d
 		}
@@ -1050,11 +1050,11 @@
 				id: "3224FE215A5C9FB7"
 				observe_type: 5
 				timer: 0L
-				title: "Butterfly"
+				title: "Mariposa"
 				to_observe: "naturalist:butterfly"
 				type: "observation"
 			}]
-			title: "Find a Butterfly"
+			title: "Encuentra una Mariposa"
 			x: -2.5d
 			y: 4.0d
 		}
@@ -1078,11 +1078,11 @@
 				id: "08620309857873C2"
 				observe_type: 5
 				timer: 0L
-				title: "Firefly"
+				title: "Luciérnaga"
 				to_observe: "naturalist:firefly"
 				type: "observation"
 			}]
-			title: "Find a Firefly"
+			title: "Encuentra una Luciérnaga"
 			x: -8.5d
 			y: 4.0d
 		}
@@ -1106,11 +1106,11 @@
 				id: "7DA0C186EC9F68F1"
 				observe_type: 5
 				timer: 0L
-				title: "Snake"
+				title: "Serpiente"
 				to_observe: "naturalist:snake"
 				type: "observation"
 			}]
-			title: "Find a Snake"
+			title: "Encuentra una Serpiente"
 			x: -8.5d
 			y: 6.0d
 		}
@@ -1134,11 +1134,11 @@
 				id: "1D511B5A4B939BEC"
 				observe_type: 5
 				timer: 0L
-				title: "Coral Snake"
+				title: "Serpiente de Coral"
 				to_observe: "naturalist:coral_snake"
 				type: "observation"
 			}]
-			title: "Find a Coral Snake"
+			title: "Encuentra una Serpiente de Coral"
 			x: 0.0d
 			y: 5.0d
 		}
@@ -1162,11 +1162,11 @@
 				id: "077A221F980A0B80"
 				observe_type: 5
 				timer: 0L
-				title: "Rattlesnake"
+				title: "Serpiente de Cascabel"
 				to_observe: "naturalist:rattlesnake"
 				type: "observation"
 			}]
-			title: "Find a Rattlesnake"
+			title: "Encuentra una Serpiente de Cascabel"
 			x: -6.0d
 			y: 4.0d
 		}
@@ -1190,11 +1190,11 @@
 				id: "73B909ACD46772DD"
 				observe_type: 5
 				timer: 0L
-				title: "Deer"
+				title: "Ciervo"
 				to_observe: "naturalist:deer"
 				type: "observation"
 			}]
-			title: "Find a Deer"
+			title: "Encuentra un Ciervo"
 			x: -3.5d
 			y: 4.0d
 		}
@@ -1218,11 +1218,11 @@
 				id: "2D4307DBDE2FA500"
 				observe_type: 5
 				timer: 0L
-				title: "Bluejay"
+				title: "Arrendajo Azul"
 				to_observe: "naturalist:bluejay"
 				type: "observation"
 			}]
-			title: "Find a Bluejay"
+			title: "Encuentra un Arrendajo Azul"
 			x: 7.5d
 			y: 5.0d
 		}
@@ -1246,11 +1246,11 @@
 				id: "047B4126C738D51C"
 				observe_type: 5
 				timer: 0L
-				title: "Cardinal"
+				title: "Cardenal"
 				to_observe: "naturalist:cardinal"
 				type: "observation"
 			}]
-			title: "Find a Cardinal"
+			title: "Encuentra un Cardenal"
 			x: 0.0d
 			y: 4.0d
 		}
@@ -1274,11 +1274,11 @@
 				id: "65DE1358BDAEB898"
 				observe_type: 5
 				timer: 0L
-				title: "Canary"
+				title: "Canario"
 				to_observe: "naturalist:canary"
 				type: "observation"
 			}]
-			title: "Find a Canary"
+			title: "Encuentra un Canario"
 			x: -7.5d
 			y: 5.0d
 		}
@@ -1302,11 +1302,11 @@
 				id: "329B7C8F096A0BFF"
 				observe_type: 5
 				timer: 0L
-				title: "Robin"
+				title: "Petirrojo"
 				to_observe: "naturalist:robin"
 				type: "observation"
 			}]
-			title: "Find a Robin"
+			title: "Encuentra un Petirrojo"
 			x: -2.5d
 			y: 5.0d
 		}
@@ -1330,11 +1330,11 @@
 				id: "16239A57395BA919"
 				observe_type: 5
 				timer: 0L
-				title: "Finch"
+				title: "Pinzón"
 				to_observe: "naturalist:finch"
 				type: "observation"
 			}]
-			title: "Find a Finch"
+			title: "Encuentra un Pinzón"
 			x: -1.0d
 			y: 5.0d
 		}
@@ -1358,11 +1358,11 @@
 				id: "11906B22154002AC"
 				observe_type: 5
 				timer: 0L
-				title: "Sparrow"
+				title: "Gorrión"
 				to_observe: "naturalist:sparrow"
 				type: "observation"
 			}]
-			title: "Find a Sparrow"
+			title: "Encuentra un Gorrión"
 			x: -6.0d
 			y: 6.0d
 		}
@@ -1386,11 +1386,11 @@
 				id: "0D4F1A4118B65563"
 				observe_type: 5
 				timer: 0L
-				title: "Caterpillar"
+				title: "Oruga"
 				to_observe: "naturalist:caterpillar"
 				type: "observation"
 			}]
-			title: "Find a Caterpillar"
+			title: "Encuentra una Oruga"
 			x: -6.0d
 			y: 5.0d
 		}
@@ -1414,7 +1414,7 @@
 				id: "2DD599B00C3DBEBA"
 				observe_type: 5
 				timer: 0L
-				title: "Find a Rhino"
+				title: "Encuentra un Rinoceronte"
 				to_observe: "naturalist:rhino"
 				type: "observation"
 			}]
@@ -1441,11 +1441,11 @@
 				id: "46C598F2D48DA701"
 				observe_type: 5
 				timer: 0L
-				title: "Lion"
+				title: "León"
 				to_observe: "naturalist:lion"
 				type: "observation"
 			}]
-			title: "Find a Lion"
+			title: "Encuentra un León"
 			x: 8.5d
 			y: 5.0d
 		}
@@ -1469,11 +1469,11 @@
 				id: "29C1FC49B066D230"
 				observe_type: 5
 				timer: 0L
-				title: "Elephant"
+				title: "Elefante"
 				to_observe: "naturalist:elephant"
 				type: "observation"
 			}]
-			title: "Find a Elephant"
+			title: "Encuentra un Elefante"
 			x: 3.5d
 			y: 5.0d
 		}
@@ -1497,11 +1497,11 @@
 				id: "2B4C747F4E39F994"
 				observe_type: 5
 				timer: 0L
-				title: "Zebra"
+				title: "Cebra"
 				to_observe: "naturalist:zebra"
 				type: "observation"
 			}]
-			title: "Find a Zebra"
+			title: "Encuentra una Cebra"
 			x: 2.5d
 			y: 4.0d
 		}
@@ -1525,11 +1525,11 @@
 				id: "2EB4E331E264EA9D"
 				observe_type: 5
 				timer: 0L
-				title: "Giraffe"
+				title: "Jirafa"
 				to_observe: "naturalist:giraffe"
 				type: "observation"
 			}]
-			title: "Find a Giraffe"
+			title: "Encuentra una Jirafa"
 			x: 1.0d
 			y: 4.0d
 		}
@@ -1553,11 +1553,11 @@
 				id: "76A0B6F71AEE6734"
 				observe_type: 5
 				timer: 0L
-				title: "Hippo"
+				title: "Hipopótamo"
 				to_observe: "naturalist:hippo"
 				type: "observation"
 			}]
-			title: "Find a Hippo"
+			title: "Encuentra un Hipopótamo"
 			x: 0.0d
 			y: 6.0d
 		}
@@ -1581,11 +1581,11 @@
 				id: "34F23646F591F4D6"
 				observe_type: 5
 				timer: 0L
-				title: "Vulture"
+				title: "Buitre"
 				to_observe: "naturalist:vulture"
 				type: "observation"
 			}]
-			title: "Find a Vulture"
+			title: "Encuentra un Buitre"
 			x: 1.0d
 			y: 6.0d
 		}
@@ -1609,11 +1609,11 @@
 				id: "7D041AEEA0BA1DDE"
 				observe_type: 5
 				timer: 0L
-				title: "Boar"
+				title: "Jabalí"
 				to_observe: "naturalist:boar"
 				type: "observation"
 			}]
-			title: "Find a Boar"
+			title: "Encuentra un Jabalí"
 			x: 5.0d
 			y: 4.0d
 		}
@@ -1637,11 +1637,11 @@
 				id: "042DD09914F22AF5"
 				observe_type: 5
 				timer: 0L
-				title: "Dragonfly"
+				title: "Libélula"
 				to_observe: "naturalist:dragonfly"
 				type: "observation"
 			}]
-			title: "Find a Dragonfly"
+			title: "Encuentra una Libélula"
 			x: -8.5d
 			y: 5.0d
 		}
@@ -1665,11 +1665,11 @@
 				id: "4136937DDF820904"
 				observe_type: 5
 				timer: 0L
-				title: "Catfish"
+				title: "Pez Gato"
 				to_observe: "naturalist:catfish"
 				type: "observation"
 			}]
-			title: "Find a Catfish"
+			title: "Encuentra un Pez Gato"
 			x: -1.0d
 			y: 6.0d
 		}
@@ -1693,11 +1693,11 @@
 				id: "700F378D6FFFDCB6"
 				observe_type: 5
 				timer: 0L
-				title: "Alligator"
+				title: "Caimán"
 				to_observe: "naturalist:alligator"
 				type: "observation"
 			}]
-			title: "Find an Alligator"
+			title: "Encuentra un Caimán"
 			x: -5.0d
 			y: 6.0d
 		}
@@ -1721,11 +1721,11 @@
 				id: "790CD11EE3C1151C"
 				observe_type: 5
 				timer: 0L
-				title: "Bass"
+				title: "Lubina"
 				to_observe: "naturalist:bass"
 				type: "observation"
 			}]
-			title: "Find a Bass"
+			title: "Encuentra una Lubina"
 			x: -5.0d
 			y: 4.0d
 		}
@@ -1749,11 +1749,11 @@
 				id: "5BAA58BC09392D87"
 				observe_type: 5
 				timer: 0L
-				title: "Lizard"
+				title: "Lagarto"
 				to_observe: "naturalist:lizard"
 				type: "observation"
 			}]
-			title: "Find a Lizard"
+			title: "Encuentra un Lagarto"
 			x: -7.5d
 			y: 4.0d
 		}
@@ -1777,11 +1777,11 @@
 				id: "7A1A083F2A33B851"
 				observe_type: 5
 				timer: 0L
-				title: "Tortoise"
+				title: "Tortuga Terrestre"
 				to_observe: "naturalist:tortoise"
 				type: "observation"
 			}]
-			title: "Find a Tortoise"
+			title: "Encuentra una Tortuga Terrestre"
 			x: 7.5d
 			y: 6.0d
 		}
@@ -1805,11 +1805,11 @@
 				id: "266358EB98F9F010"
 				observe_type: 5
 				timer: 0L
-				title: "Duck"
+				title: "Pato"
 				to_observe: "naturalist:duck"
 				type: "observation"
 			}]
-			title: "Find a Duck"
+			title: "Encuentra un Pato"
 			x: 5.0d
 			y: 5.0d
 		}
@@ -1837,7 +1837,7 @@
 				to_observe: "friendsandfoes:moobloom"
 				type: "observation"
 			}]
-			title: "Find a Moobloom"
+			title: "Encuentra un Moobloom"
 			x: -5.0d
 			y: 5.0d
 		}
@@ -1861,11 +1861,11 @@
 				id: "4721D34C39DEB1F5"
 				observe_type: 5
 				timer: 0L
-				title: "Hamster"
+				title: "Hámster"
 				to_observe: "hamsters:hamster"
 				type: "observation"
 			}]
-			title: "Find a Hamster"
+			title: "Encuentra un Hámster"
 			x: 6.0d
 			y: 5.0d
 		}
@@ -1944,16 +1944,16 @@
 				exclude_from_claim_all: true
 				id: "034079CFCD51408D"
 				table_id: 7242187349708638201L
-				title: "Choose Spawn Eggs"
+				title: "Elegir Huevos de Invocación"
 				type: "choice"
 			}]
 			size: 1.25d
 			tasks: [{
 				id: "69DEDFD529EA4C5E"
-				title: "Accept Rewards"
+				title: "Aceptar recompensas"
 				type: "checkmark"
 			}]
-			title: "&2Wildlife Collection Milestone I"
+			title: "&2Hito de Colección de Fauna I"
 			x: -2.0d
 			y: -2.0d
 		}
@@ -2033,24 +2033,24 @@
 					exclude_from_claim_all: true
 					id: "2F67EB88BE1B6B7B"
 					table_id: 7242187349708638201L
-					title: "Choose Spawn Eggs"
+					title: "Elegir Huevos de Invocación"
 					type: "choice"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "155867DEBB3E4C71"
 					table_id: 7242187349708638201L
-					title: "Choose Spawn Eggs"
+					title: "Elegir Huevos de Invocación"
 					type: "choice"
 				}
 			]
 			size: 1.25d
 			tasks: [{
 				id: "35191FC3AE6777A8"
-				title: "Accept Rewards"
+				title: "Aceptar recompensas"
 				type: "checkmark"
 			}]
-			title: "&2Wildlife Collection Milestone II"
+			title: "&2Hito de Colección de Fauna II"
 			x: 0.0d
 			y: -2.0d
 		}
@@ -2130,31 +2130,31 @@
 					exclude_from_claim_all: true
 					id: "7A21F2DAA9E65DD1"
 					table_id: 7242187349708638201L
-					title: "Choose Spawn Eggs"
+					title: "Elegir Huevos de Invocación"
 					type: "choice"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "46DE416D6093EBFA"
 					table_id: 7242187349708638201L
-					title: "Choose Spawn Eggs"
+					title: "Elegir Huevos de Invocación"
 					type: "choice"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "16ABF6C889D52566"
 					table_id: 7242187349708638201L
-					title: "Choose Spawn Eggs"
+					title: "Elegir Huevos de Invocación"
 					type: "choice"
 				}
 			]
 			size: 1.25d
 			tasks: [{
 				id: "0CB9BC58D79E0E73"
-				title: "Accept Rewards"
+				title: "Aceptar recompensas"
 				type: "checkmark"
 			}]
-			title: "&6Wildlife Collection Milestone III"
+			title: "&6Hito de Colección de Fauna III"
 			x: 2.0d
 			y: -2.0d
 		}
@@ -2173,7 +2173,7 @@
 				type: "stat"
 				value: 1
 			}]
-			title: "&2Animal Breeding I"
+			title: "&2Cría de Animales I"
 			x: -2.5d
 			y: -3.0d
 		}
@@ -2194,7 +2194,7 @@
 				type: "stat"
 				value: 5
 			}]
-			title: "&2Animal Breeding II"
+			title: "&2Cría de Animales II"
 			x: -1.5d
 			y: -3.0d
 		}
@@ -2218,7 +2218,7 @@
 				type: "stat"
 				value: 10
 			}]
-			title: "&2Animal Breeding III"
+			title: "&2Cría de Animales III"
 			x: -0.5d
 			y: -3.0d
 		}
@@ -2243,7 +2243,7 @@
 				type: "stat"
 				value: 25
 			}]
-			title: "&2Animal Breeding IV"
+			title: "&2Cría de Animales IV"
 			x: 0.5d
 			y: -3.0d
 		}
@@ -2269,7 +2269,7 @@
 				type: "stat"
 				value: 50
 			}]
-			title: "&2Animal Breeding V"
+			title: "&2Cría de Animales V"
 			x: 1.5d
 			y: -3.0d
 		}
@@ -2296,13 +2296,13 @@
 				type: "stat"
 				value: 100
 			}]
-			title: "&6Animal Breeding VI"
+			title: "&6Cría de Animales VI"
 			x: 2.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["3736B9DAA11AAC96"]
-			description: ["To unlock &6Mastery&r, you must complete all previous milestones."]
+			description: ["Para desbloquear la &6Maestría&r, debes completar todos los hitos anteriores."]
 			id: "5F6002DFD703F6F6"
 			optional: true
 			rewards: [{
@@ -2311,12 +2311,12 @@
 				id: "1F7F7432EBD65707"
 				name: "Quest Reward"
 				operation: "add"
-				title: "&b+0.5 Attack Speed"
+				title: "&b+0.5 de Velocidad de Ataque"
 				type: "bcgutil:attribute"
 				value: 0.5d
 			}]
 			size: 1.5d
-			subtitle: "Sacrifice items for a permanent boost!"
+			subtitle: "¡Sacrifica objetos para obtener una mejora permanente!"
 			tasks: [{
 				consume_items: true
 				count: 4096L
@@ -2328,10 +2328,10 @@
 						value: "minecraft:wildlife_meat"
 					}
 				}
-				title: "Any Raw Meat"
+				title: "Cualquier Carne Cruda"
 				type: "item"
 			}]
-			title: "&6Wildlife Collection Mastery"
+			title: "&6Maestría de Colección de Fauna"
 			x: 0.0d
 			y: -4.5d
 		}
@@ -2355,11 +2355,11 @@
 				id: "2FD488ED1918CAE0"
 				observe_type: 5
 				timer: 0L
-				title: "Dragonfly"
+				title: "Libélula"
 				to_observe: "crittersandcompanions:dragonfly"
 				type: "observation"
 			}]
-			title: "Find a Dragonfly"
+			title: "Encuentra una Libélula"
 			x: -3.5d
 			y: 5.0d
 		}
@@ -2386,7 +2386,7 @@
 				to_observe: "crittersandcompanions:ferret"
 				type: "observation"
 			}]
-			title: "Find a Ferret"
+			title: "Encuentra un Hurón"
 			x: 1.0d
 			y: 5.0d
 		}
@@ -2410,11 +2410,11 @@
 				id: "7EFCDF0BB6F9D42D"
 				observe_type: 5
 				timer: 0L
-				title: "Koi Fish"
+				title: "Pez Koi"
 				to_observe: "crittersandcompanions:koi_fish"
 				type: "observation"
 			}]
-			title: "Find a Koi Fish"
+			title: "Encuentra un Pez Koi"
 			x: 2.5d
 			y: 6.0d
 		}
@@ -2438,11 +2438,11 @@
 				id: "472603D91C974BC6"
 				observe_type: 5
 				timer: 0L
-				title: "Leaf Insect"
+				title: "Insecto Hoja"
 				to_observe: "crittersandcompanions:leaf_insect"
 				type: "observation"
 			}]
-			title: "Find a Leaf Insect"
+			title: "Encuentra un Insecto Hoja"
 			x: 5.0d
 			y: 6.0d
 		}
@@ -2466,11 +2466,11 @@
 				id: "03C89833B5140782"
 				observe_type: 5
 				timer: 0L
-				title: "Otter"
+				title: "Nutria"
 				to_observe: "crittersandcompanions:otter"
 				type: "observation"
 			}]
-			title: "Find an Otter"
+			title: "Encuentra una Nutria"
 			x: 6.0d
 			y: 6.0d
 		}
@@ -2494,11 +2494,11 @@
 				id: "72FADBFA1615101B"
 				observe_type: 5
 				timer: 0L
-				title: "Red Panda"
+				title: "Panda Rojo"
 				to_observe: "crittersandcompanions:red_panda"
 				type: "observation"
 			}]
-			title: "Find a Red Panda"
+			title: "Encuentra un Panda Rojo"
 			x: 8.5d
 			y: 6.0d
 		}
@@ -2522,11 +2522,11 @@
 				id: "0F88C71B2F6F170C"
 				observe_type: 5
 				timer: 0L
-				title: "Dumbo Octopus"
+				title: "Pulpo Dumbo"
 				to_observe: "crittersandcompanions:dumbo_octopus"
 				type: "observation"
 			}]
-			title: "Find a Dumbo Octopus"
+			title: "Encuentra un Pulpo Dumbo"
 			x: -7.5d
 			y: 6.0d
 		}
@@ -2550,11 +2550,11 @@
 				id: "2F12DDF5FAF44663"
 				observe_type: 5
 				timer: 0L
-				title: "Jumping Spider"
+				title: "Araña Saltadora"
 				to_observe: "crittersandcompanions:jumping_spider"
 				type: "observation"
 			}]
-			title: "Find a Jumping Spider"
+			title: "Encuentra una Araña Saltadora"
 			x: -2.5d
 			y: 6.0d
 		}
@@ -2578,11 +2578,11 @@
 				id: "2FBE635C5C9F2754"
 				observe_type: 5
 				timer: 0L
-				title: "Sea Bunny"
+				title: "Babosa Marina"
 				to_observe: "crittersandcompanions:sea_bunny"
 				type: "observation"
 			}]
-			title: "Find a Sea Bunny"
+			title: "Encuentra una Babosa Marina"
 			x: -3.5d
 			y: 6.0d
 		}
@@ -2610,11 +2610,11 @@
 				to_observe: "crittersandcompanions:shima_enaga"
 				type: "observation"
 			}]
-			title: "Find a Shima Enaga"
+			title: "Encuentra un Shima Enaga"
 			x: 3.5d
 			y: 6.0d
 		}
 	]
-	subtitle: ["&bAttack Speed"]
-	title: " &2W&fildlife Collection"
+	subtitle: ["&bVelocidad de Ataque"]
+	title: " &2C&folección de Fauna"
 }

@@ -998,11 +998,11 @@
 		}
 		{
 			description: [
-				"Welcome to your &cMob Collection&r! This is where you can keep track of the enemies you've encountered and \"handled\" throughout your journey."
+				"¡Bienvenido a tu &cColección de Mobs&r! Aquí podrás llevar el registro de los enemigos que has encontrado y \"gestionado\" a lo largo de tu aventura."
 				""
-				"The &cMob Collection&r milestones start off easy but become progressively more challenging. If you're aiming to complete the collection, you'll definitely want to build some mob farms. Luckily, you can pick up spawners with &bSilk Touch&r! Any spawn egg you might need can be found in the &bDaily Shop&r."
+				"Los hitos de la &cColección de Mobs&r empiezan fácil pero se vuelven cada vez más difíciles. Si quieres completarla, necesitarás construir granjas de mobs. ¡Por suerte, puedes recoger spawners con &bSilk Touch&r! Cualquier huevo de invocación que necesites se puede encontrar en la &bDaily Shop&r."
 				""
-				"You can feel yourself becoming stronger. Death becomes a familiar friend. Progressing through the &cMob Collection Milestones&r will grant you permanent &4Attack Damage&r!"
+				"¡Puedes sentir cómo te haces más fuerte. La muerte se convierte en una vieja conocida. Avanzar en los &cHitos de Colección de Mobs&r te otorgará &4Daño de Ataque&r permanente!"
 			]
 			icon: "ftbquests:book"
 			id: "3731A9890D5811CC"
@@ -1019,10 +1019,10 @@
 				type: "item"
 			}]
 			size: 1.5d
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "3BCDDE51C860BD88"
-				title: "&cMob Collection"
+				title: "&cColección de Mobs"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -1080,7 +1080,7 @@
 					id: "1638AF326E94C1C7"
 					name: "Quest Reward"
 					operation: "add"
-					title: "&40.5+ Attack Damage"
+					title: "&40.5+ Daño de Ataque"
 					type: "bcgutil:attribute"
 					value: 0.5d
 				}
@@ -1088,10 +1088,10 @@
 			size: 1.25d
 			tasks: [{
 				id: "2BD50646A730FAC7"
-				title: "Accept Rewards"
+				title: "Aceptar Recompensas"
 				type: "checkmark"
 			}]
-			title: "&cMob Collection I"
+			title: "&cColección de Mobs I"
 			x: -4.375d
 			y: 0.0d
 		}
@@ -1147,7 +1147,7 @@
 					id: "0BDC2E88A52DE795"
 					name: "Quest Reward"
 					operation: "add"
-					title: "&4+0.5 Attack Damage"
+					title: "&4+0.5 Daño de Ataque"
 					type: "bcgutil:attribute"
 					value: 0.5d
 				}
@@ -1155,10 +1155,10 @@
 			size: 1.25d
 			tasks: [{
 				id: "4BC2F09652655A21"
-				title: "Accept Rewards"
+				title: "Aceptar Recompensas"
 				type: "checkmark"
 			}]
-			title: "&cMob Collection II"
+			title: "&cColección de Mobs II"
 			x: -2.5d
 			y: 0.0d
 		}
@@ -1192,18 +1192,17 @@
 					id: "7450DAF84E9D5E11"
 					name: "Quest Reward"
 					operation: "add"
-					title: "&4+1 Attack Damage"
-					type: "bcgutil:attribute"
-					value: 1.0d
-				}
-			]
+				title: "&4+1 Daño de Ataque"
+				type: "bcgutil:attribute"
+				value: 1.0d
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "55B35C8C2D1232EB"
-				title: "Accept Rewards"
+				title: "Aceptar Recompensas"
 				type: "checkmark"
 			}]
-			title: "&cMob Collection III"
+			title: "&cColección de Mobs III"
 			x: 2.5d
 			y: 0.0d
 		}
@@ -1259,7 +1258,7 @@
 					id: "1047FB653E312806"
 					name: "Quest Reward"
 					operation: "add"
-					title: "&4+2 Attack Damage"
+					title: "&4+2 Daño de Ataque"
 					type: "bcgutil:attribute"
 					value: 2.0d
 				}
@@ -1267,17 +1266,17 @@
 			size: 1.25d
 			tasks: [{
 				id: "523B6DF907D88FCF"
-				title: "Accept Rewards"
+				title: "Aceptar Recompensas"
 				type: "checkmark"
 			}]
-			title: "&cMob Collection IV"
+			title: "&cColección de Mobs IV"
 			x: 4.375d
 			y: 0.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["1AA70F94507E46A0"]
-			description: ["To unlock &6Mastery&r, you must complete all previous milestones."]
+			description: ["Para desbloquear la &6Maestría&r, debes completar todos los hitos anteriores."]
 			hide_dependency_lines: true
 			id: "5D292FD9B134C53A"
 			optional: true
@@ -1287,12 +1286,12 @@
 				id: "710788A3D07661CC"
 				name: "Quest Reward"
 				operation: "add"
-				title: "&4+1 Attack Damage"
+				title: "&4+1 Daño de Ataque"
 				type: "bcgutil:attribute"
 				value: 1.0d
 			}]
 			size: 1.5d
-			subtitle: "Sacrifice items for a permanent boost!"
+			subtitle: "¡Sacrifica mobs por una mejora permanente!"
 			tasks: [
 				{
 					entity: "minecraft:zombie"
@@ -1337,7 +1336,7 @@
 					value: 128L
 				}
 			]
-			title: "&6Mob Collection Mastery"
+			title: "&6Maestría: Colección de Mobs"
 			x: 6.5d
 			y: 0.0d
 		}
@@ -1354,15 +1353,15 @@
 				entity: "minecraft:wither_skeleton"
 				icon: "minecraft:wither_skeleton_spawn_egg"
 				id: "1634F433761F608C"
-				title: "Kill: 20x Wither Skeleton"
+				title: "Matar: 20x Wither Skeleton"
 				type: "kill"
 				value: 20L
 			}]
-			title: "&8Corrupted Bones"
+			title: "&8Huesos Corrompidos"
 			x: -7.5d
 			y: 0.0d
 		}
 	]
-	subtitle: ["&4Attack Damage"]
-	title: " &cM&fob Collection"
+	subtitle: ["&4Daño de Ataque"]
+	title: " &cC&folección de Mobs"
 }

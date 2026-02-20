@@ -10,16 +10,16 @@
 	quest_links: [ ]
 	quests: [{
 		description: [
-			"&4The Nether&r is a dangerous place. If you want to stay alive, make sure you have the following:"
+			"&4El Nether&r es un lugar peligroso. Si quieres sobrevivir, asegúrate de tener lo siguiente:"
 			""
-			"Some form of air travel: The easiest to obtain is the &bGyrodyne&r."
+			"Alguna forma de volar: Lo más fácil de conseguir es el &bGyrodyne&r."
 			""
-			"Respectable armor: Enemies can easily crowd you, and without proper protection, even the most skilled fighter can be"
-			"overwhelmed."
+			"Armadura respetable: Los enemigos pueden rodearte fácilmente, y sin la protección adecuada, incluso el luchador más"
+			"hábil puede ser abrumado."
 			""
-			"Progress in &6Collection Milestones&r: The extra stats on top of your armor will help ensure your safety."
+			"Progreso en los &6Hitos de Colección&r: Las estadísticas extra sobre tu armadura ayudarán a garantizar tu seguridad."
 			""
-			"Intuition: If something looks like it can summon a boss, it probably will. Listen to your gut."
+			"Intuición: Si algo parece que puede invocar un jefe, probablemente lo hará. Hazle caso a tu instinto."
 		]
 		icon: "ftbquests:book"
 		id: "6EF117BCAD9C6558"
@@ -35,15 +35,15 @@
 			type: "item"
 		}]
 		size: 1.5d
-		subtitle: "Click to learn more!"
+		subtitle: "¡Haz clic para saber más!"
 		tasks: [{
 			id: "6CA5A5D7EDDE56A6"
-			title: "Accept Rewards"
+			title: "Aceptar Recompensas"
 			type: "checkmark"
 		}]
-		title: "&4Nether Tips"
+		title: "&4Consejos del Nether"
 		x: 0.0d
 		y: 0.0d
 	}]
-	title: " &4N&fether Tips"
+	title: " &4C&fonsejos del Nether"
 }

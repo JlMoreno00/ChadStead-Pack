@@ -12,7 +12,7 @@
 	grid_scale: 0.5d
 	hide_excluded_quests: false
 	icon: "ftbquests:book"
-	lock_message: "Complete the previous quests!"
+	lock_message: "¡Completa las misiones anteriores!"
 	loot_crate_no_drop: {
 		boss: 0
 		monster: 600
@@ -21,6 +21,6 @@
 	pause_game: false
 	progression_mode: "linear"
 	show_lock_icons: true
-	title: " &fDiary"
+	title: " &fDiario"
 	version: 13
 }

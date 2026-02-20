@@ -12,21 +12,21 @@
 	quests: [
 		{
 			description: [
-				"Welcome to your &3Fish Collection&r! A space designated to keeping track of how much fish you've caught."
+				"¡Bienvenido a tu &3Colección de Peces&r! Un espacio dedicado a registrar todo el pescado que has capturado."
 				""
-				"Some fish have unique requirements. Water pools must be 5x4x5 in size to be valid."
+				"Algunos peces tienen requisitos únicos. Los estanques de agua deben medir 5x4x5 bloques para ser válidos."
 				""
-				"A bad day fishing is better than a good day at the office! Keep those bad days away. Progressing through &3Fish Collection Milestones&r rewards you with permanent &2Luck&r."
+				"¡Un mal día pescando es mejor que un buen día en la oficina! Aleja esos días malos. Progresar en los &3Hitos de Colección de Peces&r te recompensa con &2Suerte&r permanente."
 				""
-				"&9Let any fish who meets my gaze learn the true meaning of fear; for I am the harbinger of death.&r"
+				"&9Que todo pez que cruce mi mirada aprenda el verdadero significado del miedo; pues soy el heraldo de la muerte.&r"
 				""
-				"&9The bane of creatures sub-aqueous, my rod is true and unwavering as I cast into the aquatic abyss.&r"
+				"&9Azote de las criaturas subacuáticas, mi caña es firme e implacable al lanzarla hacia el abismo acuático.&r"
 				""
-				"&9A man, scorned by this uncaring Earth, finds solace in the sea.&r"
+				"&9Un hombre, despreciado por esta indiferente Tierra, encuentra consuelo en el mar.&r"
 				""
-				"&9My only friend, the worm upon my hook.&r"
+				"&9Mi único amigo, el gusano en mi anzuelo.&r"
 				""
-				"&9Wriggling, writhing, struggling to surmount the mortal pointlessness that permeates this barren world. I am alone. I am empty. And yet, I fish.&r"
+				"&9Retorciéndose, revolviéndose, luchando por superar la inutilidad mortal que impregna este mundo yermo. Estoy solo. Estoy vacío. Y aun así, pesco.&r"
 			]
 			icon: "ftbquests:book"
 			id: "673ABD4569E4C55E"
@@ -45,13 +45,13 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Click to learn more!"
-			tasks: [{
-				id: "270E8F66D1B5ADD4"
-				title: "Accept Rewards"
-				type: "checkmark"
-			}]
-			title: "&3Fish Collection"
+		subtitle: "¡Haz clic para saber más!"
+		tasks: [{
+			id: "270E8F66D1B5ADD4"
+			title: "Aceptar Recompensas"
+			type: "checkmark"
+		}]
+		title: "&3Colección de Peces"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -71,10 +71,10 @@
 						value: "minecraft:cod"
 					}
 				}
-				title: "Obtain 1x Cod"
+				title: "Obtén 1x Cod"
 				type: "item"
 			}]
-			title: "Obtain 1x Cod"
+			title: "Obtén 1x Cod"
 			x: -4.5d
 			y: -1.0d
 		}
@@ -94,10 +94,10 @@
 						value: "minecraft:salmon"
 					}
 				}
-				title: "Obtain 1x Salmon"
+				title: "Obtén 1x Salmon"
 				type: "item"
 			}]
-			title: "Obtain 1x Salmon"
+			title: "Obtén 1x Salmon"
 			x: -2.5d
 			y: -1.0d
 		}
@@ -153,8 +153,8 @@
 				}
 				id: "5F8B4FB443BF25C7"
 				stat: "minecraft:fish_caught"
-				title: "Catch 1x Fish"
-				type: "stat"
+			title: "Pesca 1x pez"
+			type: "stat"
 				value: 1
 			}]
 			x: -3.0d
@@ -190,8 +190,8 @@
 				}
 				id: "63E2747CEE1051A4"
 				stat: "minecraft:fish_caught"
-				title: "Catch 32x Fish"
-				type: "stat"
+			title: "Pesca 32x peces"
+			type: "stat"
 				value: 32
 			}]
 			x: -1.0d
@@ -228,8 +228,8 @@
 				}
 				id: "6D6ECE10F01B1615"
 				stat: "minecraft:fish_caught"
-				title: "Catch 64x Fish"
-				type: "stat"
+			title: "Pesca 64x peces"
+			type: "stat"
 				value: 64
 			}]
 			x: 1.0d
@@ -265,8 +265,8 @@
 				}
 				id: "669160237441FABB"
 				stat: "minecraft:fish_caught"
-				title: "Catch 128x Fish"
-				type: "stat"
+			title: "Pesca 128x peces"
+			type: "stat"
 				value: 128
 			}]
 			x: 3.0d
@@ -290,10 +290,10 @@
 						value: "minecraft:cod"
 					}
 				}
-				title: "Obtain 16x Raw Cod"
+				title: "Obtén 16x Cod crudo"
 				type: "item"
 			}]
-			title: "Obtain 16x Cod"
+			title: "Obtén 16x Cod"
 			x: -4.5d
 			y: -3.0d
 		}
@@ -315,10 +315,10 @@
 						value: "minecraft:salmon"
 					}
 				}
-				title: "Obtain 16x Raw Salmon"
+				title: "Obtén 16x Salmon crudo"
 				type: "item"
 			}]
-			title: "Obtain 16x Salmon"
+			title: "Obtén 16x Salmon"
 			x: -2.5d
 			y: -3.0d
 		}
@@ -334,8 +334,8 @@
 				count: 16L
 				id: "1B36C6B7350CF69E"
 				item: "minecraft:pufferfish"
-				title: "Obtain 16x Pufferfish"
-				type: "item"
+			title: "Obtén 16x Pufferfish"
+			type: "item"
 			}]
 			x: 2.5d
 			y: -3.0d
@@ -352,8 +352,8 @@
 				count: 16L
 				id: "5C225AD8A6E46730"
 				item: "minecraft:tropical_fish"
-				title: "Obtain 16x Tropical Fish"
-				type: "item"
+			title: "Obtén 16x Tropical Fish"
+			type: "item"
 			}]
 			x: 4.5d
 			y: -3.0d
@@ -376,10 +376,10 @@
 						value: "minecraft:cod"
 					}
 				}
-				title: "Obtain 64x Raw Cod"
+				title: "Obtén 64x Cod crudo"
 				type: "item"
 			}]
-			title: "Obtain 64x Cod"
+			title: "Obtén 64x Cod"
 			x: -4.5d
 			y: -5.0d
 		}
@@ -401,10 +401,10 @@
 						value: "minecraft:salmon"
 					}
 				}
-				title: "Obtain 64x Raw Salmon"
+				title: "Obtén 64x Salmon crudo"
 				type: "item"
 			}]
-			title: "Obtain 64x Salmon"
+			title: "Obtén 64x Salmon"
 			x: -2.5d
 			y: -5.0d
 		}
@@ -420,8 +420,8 @@
 				count: 256L
 				id: "34CF9DB0A23AE6F9"
 				item: "minecraft:pufferfish"
-				title: "Obtain 256x Pufferfish"
-				type: "item"
+			title: "Obtén 256x Pufferfish"
+			type: "item"
 			}]
 			x: 2.5d
 			y: -7.0d
@@ -438,8 +438,8 @@
 				count: 64L
 				id: "052DA03069AEDC10"
 				item: "minecraft:tropical_fish"
-				title: "Obtain 64x Tropical Fish"
-				type: "item"
+			title: "Obtén 64x Tropical Fish"
+			type: "item"
 			}]
 			x: 4.5d
 			y: -5.0d
@@ -456,8 +456,8 @@
 				count: 256L
 				id: "65E79DD8F2920382"
 				item: "minecraft:tropical_fish"
-				title: "Obtain 256x Tropical Fish"
-				type: "item"
+			title: "Obtén 256x Tropical Fish"
+			type: "item"
 			}]
 			x: 4.5d
 			y: -7.0d
@@ -474,8 +474,8 @@
 				count: 64L
 				id: "07C33308C906A9B8"
 				item: "minecraft:pufferfish"
-				title: "Obtain 64x Pufferfish"
-				type: "item"
+			title: "Obtén 64x Pufferfish"
+			type: "item"
 			}]
 			x: 2.5d
 			y: -5.0d
@@ -498,10 +498,10 @@
 						value: "minecraft:salmon"
 					}
 				}
-				title: "Obtain 256x Raw Salmon"
+				title: "Obtén 256x Salmon crudo"
 				type: "item"
 			}]
-			title: "Obtain 256x Salmon"
+			title: "Obtén 256x Salmon"
 			x: -2.5d
 			y: -7.0d
 		}
@@ -523,10 +523,10 @@
 						value: "minecraft:cod"
 					}
 				}
-				title: "Obtain 256x Raw Cod"
+				title: "Obtén 256x Cod crudo"
 				type: "item"
 			}]
-			title: "Obtain 256x Cod"
+			title: "Obtén 256x Cod"
 			x: -4.5d
 			y: -7.0d
 		}
@@ -546,12 +546,12 @@
 				type: "item"
 			}]
 			size: 1.25d
-			tasks: [{
-				id: "56CE028C1AF7FB29"
-				title: "Accept Rewards"
-				type: "checkmark"
-			}]
-			title: "&3Fish Collection I"
+		tasks: [{
+			id: "56CE028C1AF7FB29"
+			title: "Aceptar Recompensas"
+			type: "checkmark"
+		}]
+		title: "&3Hito de Colección de Peces I"
 			x: 0.0d
 			y: -1.875d
 		}
@@ -600,12 +600,12 @@
 				}
 			]
 			size: 1.25d
-			tasks: [{
-				id: "69930D267460F3E4"
-				title: "Accept Rewards"
-				type: "checkmark"
-			}]
-			title: "&3Fish Collection II"
+		tasks: [{
+			id: "69930D267460F3E4"
+			title: "Aceptar Recompensas"
+			type: "checkmark"
+		}]
+		title: "&3Hito de Colección de Peces II"
 			x: 0.625d
 			y: -3.125d
 		}
@@ -651,12 +651,12 @@
 				type: "item"
 			}]
 			size: 1.25d
-			tasks: [{
-				id: "3FC15ADEC03459B4"
-				title: "Accept Rewards"
-				type: "checkmark"
-			}]
-			title: "&3Fish Collection III"
+		tasks: [{
+			id: "3FC15ADEC03459B4"
+			title: "Aceptar Recompensas"
+			type: "checkmark"
+		}]
+		title: "&3Hito de Colección de Peces III"
 			x: -0.625d
 			y: -3.125d
 		}
@@ -710,19 +710,19 @@
 				type: "item"
 			}]
 			size: 1.25d
-			tasks: [{
-				id: "75DC92328AD90C6B"
-				title: "Accept Rewards"
-				type: "checkmark"
-			}]
-			title: "&6Fish Collection IV"
+		tasks: [{
+			id: "75DC92328AD90C6B"
+			title: "Aceptar Recompensas"
+			type: "checkmark"
+		}]
+		title: "&6Hito de Colección de Peces IV"
 			x: 0.0d
 			y: -4.375d
 		}
 		{
 			can_repeat: true
 			dependencies: ["53AC16A349A073B2"]
-			description: ["To unlock &6Mastery&r, you must complete all previous milestones."]
+			description: ["Para desbloquear la &6Maestría&r, debes completar todos los hitos anteriores."]
 			hide_dependency_lines: true
 			id: "02F363B8FB9F2557"
 			optional: true
@@ -737,7 +737,7 @@
 				value: 0.5d
 			}]
 			size: 1.5d
-			subtitle: "Sacrifice items for a permanent boost!"
+			subtitle: "¡Sacrifica objetos por un aumento permanente!"
 			tasks: [{
 				consume_items: true
 				count: 2048L
@@ -749,10 +749,10 @@
 						value: "c:raw_fish"
 					}
 				}
-				title: "Any Basic Fish"
-				type: "item"
+			title: "Cualquier pez básico"
+			type: "item"
 			}]
-			title: "&6Fish Collection Mastery"
+			title: "&6Maestría de Colección de Peces"
 			x: 0.0d
 			y: -6.0d
 		}
@@ -787,8 +787,8 @@
 				}
 				id: "499B2DCAAFED22B9"
 				stat: "minecraft:fish_caught"
-				title: "Catch 256x Fish"
-				type: "stat"
+			title: "Pesca 256x peces"
+			type: "stat"
 				value: 256
 			}]
 			x: 3.0d
@@ -824,8 +824,8 @@
 				}
 				id: "77CD40AE19B38D01"
 				stat: "minecraft:fish_caught"
-				title: "Catch 512x Fish"
-				type: "stat"
+			title: "Pesca 512x peces"
+			type: "stat"
 				value: 512
 			}]
 			x: 1.0d
@@ -862,8 +862,8 @@
 				}
 				id: "2955696B5CB570E9"
 				stat: "minecraft:fish_caught"
-				title: "Catch 1024x Fish"
-				type: "stat"
+			title: "Pesca 1024x peces"
+			type: "stat"
 				value: 1024
 			}]
 			x: -1.0d
@@ -918,8 +918,8 @@
 				}
 				id: "12729D3BC16A786D"
 				stat: "minecraft:fish_caught"
-				title: "Catch 2048x Fish"
-				type: "stat"
+			title: "Pesca 2048x peces"
+			type: "stat"
 				value: 2048
 			}]
 			x: -3.0d
@@ -927,5 +927,5 @@
 		}
 	]
 	subtitle: ["&2Luck"]
-	title: " &3F&fish Collection"
+	title: " &3C&folección de Peces"
 }

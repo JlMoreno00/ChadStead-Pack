@@ -20,10 +20,10 @@
 				type: "item"
 			}]
 			size: 1.5d
-			subtitle: "\"Candlelight\" is an expansion in the \"Let's Do\" series, which introduces additional cooking stations and decorative blocks."
+			subtitle: "\"Candlelight\" es una expansión de la serie \"Let's Do\" que introduce nuevas estaciones de cocina y bloques decorativos."
 			tasks: [{
 				id: "38B18C409DE64A64"
-				title: "Accept Rewards"
+				title: "Aceptar Recompensas"
 				type: "checkmark"
 			}]
 			title: "&6Candlelight"
@@ -69,17 +69,17 @@
 		{
 			id: "7B116878F71790FB"
 			optional: true
-			subtitle: "These cooking stations can be kept hot using any stove or the brick oven from &bBakery&r."
+			subtitle: "Estas estaciones de cocina se pueden mantener calientes con cualquier estufa o con el horno de ladrillos de &bBakery&r."
 			tasks: [{
 				id: "2AC10EA2D8EA1D27"
-				title: "Heat"
+				title: "Calor"
 				type: "checkmark"
 			}]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
-			description: ["A table set or a bowl can be placed in the world, allowing any food to be eaten from it to provide more hunger and saturation."]
+			description: ["Un table set o un bowl se pueden colocar en el mundo; comer desde ellos proporciona más hambre y saturación."]
 			id: "53B07A1BFA694C66"
 			rewards: [
 				{
@@ -99,7 +99,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [
 				{
 					id: "30A74C11F14AE40A"
@@ -128,10 +128,10 @@
 		{
 			id: "630932C3FDBB1000"
 			optional: true
-			subtitle: "Any food or drink with a potion effect will transfer its effect to the crafted dish in these stations."
+			subtitle: "Cualquier comida o bebida con efecto de poción transferirá su efecto al plato preparado en estas estaciones."
 			tasks: [{
 				id: "62FC5349AC424D08"
-				title: "Potions"
+				title: "Pociones"
 				type: "checkmark"
 			}]
 			x: 0.0d

@@ -11,11 +11,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"Aircraft are formidable vehicles and essential for navigating treacherous terrain! They boast a plethora of upgrades that are well worth exploring, along with an array of potent weaponry."
-				""
-				"You can exit any aircraft by pressing '&bZ&r'."
-			]
+		description: [
+			"¡Las aeronaves son vehículos formidables e imprescindibles para navegar por terrenos peligrosos! Cuentan con una gran variedad de mejoras que merece la pena explorar, además de un arsenal de armamento potente."
+			""
+			"Puedes salir de cualquier aeronave pulsando '&bZ&r'."
+		]
 			icon: "ftbquests:book"
 			id: "2D92B9A145392017"
 			optional: true
@@ -35,7 +35,7 @@
 			subtitle: "Click to learn more!"
 			tasks: [{
 				id: "2C4E428E6FA2B0BE"
-				title: "Accept Rewards"
+				title: "Aceptar Recompensas"
 				type: "checkmark"
 			}]
 			title: "&aAircraft"
@@ -133,7 +133,7 @@
 			subtitle: "All aircraft, except the cargo airship, feature a weapon slot that can be utilized with a right-click."
 			tasks: [{
 				id: "5077ED44DD85F838"
-				title: "Weapons"
+				title: "Armas"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -150,7 +150,7 @@
 			subtitle: "These items can enhance the stats of your aircraft."
 			tasks: [{
 				id: "7CB4F793E6BE60B6"
-				title: "Upgrades"
+				title: "Mejoras"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -227,7 +227,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "&a-75% Air Friction"
+			subtitle: "&a-75% Fricción Aérea"
 			tasks: [{
 				id: "0738869CD2185ECB"
 				item: "immersive_aircraft:enhanced_propeller"
@@ -243,7 +243,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "&4-20% Engine Power&r, &a-75% Fuel Requirement"
+			subtitle: "&4-20% Potencia del Motor&r, &a-75% Consumo de Combustible"
 			tasks: [{
 				id: "7EF0E1738B775FCB"
 				item: "immersive_aircraft:eco_engine"
@@ -259,7 +259,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "&4+30% Fuel Requirement&r, &a+40% Engine Power"
+			subtitle: "&4+30% Consumo de Combustible&r, &a+40% Potencia del Motor"
 			tasks: [{
 				id: "7D8D2D9B0193B9D2"
 				item: "immersive_aircraft:nether_engine"
@@ -275,7 +275,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "&4+50% Fuel Requirement&r, &a+25% Engine Power"
+			subtitle: "&4+50% Consumo de Combustible&r, &a+25% Potencia del Motor"
 			tasks: [{
 				id: "1C335F5092D168D8"
 				item: "immersive_aircraft:steel_boiler"
@@ -291,7 +291,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "&a-20% Fuel Requirement"
+			subtitle: "&a-20% Consumo de Combustible"
 			tasks: [{
 				id: "3439586F06CBDA13"
 				item: "immersive_aircraft:industrial_gears"
@@ -307,7 +307,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "&a+10% Engine Power"
+			subtitle: "&a+10% Potencia del Motor"
 			tasks: [{
 				id: "6C8440E1214AF862"
 				item: "immersive_aircraft:sturdy_pipes"
@@ -323,7 +323,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "&a+3% Stabilizing&r, &a-100% Wind Effect"
+			subtitle: "&a+3% Estabilización&r, &a-100% Efecto del Viento"
 			tasks: [{
 				id: "1B62AE7BBC36323F"
 				item: "immersive_aircraft:gyroscope"
@@ -339,7 +339,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "&a+100% Durability"
+			subtitle: "&a+100% Durabilidad"
 			tasks: [{
 				id: "1395AA01B5134C46"
 				item: "immersive_aircraft:hull_reinforcement"
@@ -355,7 +355,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "&a+50% Takeoff Speed"
+			subtitle: "&a+50% Velocidad de Despegue"
 			tasks: [{
 				id: "75FE5E1A70F67313"
 				item: "immersive_aircraft:improved_landing_gear"

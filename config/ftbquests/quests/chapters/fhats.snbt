@@ -12,13 +12,13 @@
 	quests: [
 		{
 			description: [
-				"Hat Grab-Bags can be found inside loot chests or dropped by hostile mobs! Gotta collect 'em all!"
+				"¡Las Bolsas de Sombrero se pueden encontrar en cofres de botín o las sueltan los mobs hostiles! ¡Hay que coleccionarlos todos!"
 				""
-				"There are four tiers of bags: Common, Uncommon, Rare, and Epic!"
+				"¡Hay cuatro niveles de bolsas: Common, Uncommon, Rare y Epic!"
 				""
-				"Some hats have variant styles that can be cycled by crafting, while others are dyeable, and some are RGB!"
+				"¡Algunos sombreros tienen variantes de estilo que se pueden cambiar crafteando, otros son tinturables y algunos son RGB!"
 				""
-				"&9My personal favorite is the Fishing Hat.&r"
+				"&9Mi favorito personal es el Fishing Hat.&r"
 			]
 			icon: "ftbquests:book"
 			id: "10227DDB3E33B428"
@@ -29,10 +29,10 @@
 				type: "item"
 			}]
 			size: 1.5d
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "4256E4F0955805B7"
-				title: "&dHat Collection"
+				title: "&dColección de Sombreros"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -85,7 +85,7 @@
 		}
 		{
 			id: "69B21D947864A043"
-			subtitle: "Hats can be crafted together with Shears to create Hat Scraps!"
+			subtitle: "¡Los sombreros se pueden combinar con Tijeras para crear Hat Scraps!"
 			tasks: [{
 				id: "7C44CAB463D94611"
 				item: {
@@ -97,7 +97,7 @@
 				}
 				type: "item"
 			}]
-			title: "Hat Recycling"
+			title: "Reciclaje de Sombreros"
 			x: 0.0d
 			y: -1.5d
 		}
@@ -3135,5 +3135,5 @@
 			y: 7.5d
 		}
 	]
-	title: " &dH&fat Collection"
+	title: " &dC&folección de Sombreros"
 }

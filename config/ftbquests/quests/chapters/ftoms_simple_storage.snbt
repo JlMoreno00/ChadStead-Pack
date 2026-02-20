@@ -23,7 +23,7 @@
 			subtitle: "Click to learn more!"
 			tasks: [{
 				id: "7F46B2793A157491"
-				title: "Accept Rewards"
+				title: "Aceptar Recompensas"
 				type: "checkmark"
 			}]
 			title: "&bTom's Simple Storage"
@@ -39,7 +39,7 @@
 				item: "toms_storage:ts.inventory_connector"
 				type: "item"
 			}]
-			title: "Connecting Inventories"
+			title: "Conectando Inventarios"
 			x: -1.5d
 			y: 1.5d
 		}
@@ -53,7 +53,7 @@
 				item: "toms_storage:ts.storage_terminal"
 				type: "item"
 			}]
-			title: "Accessing the Inventories"
+			title: "Accediendo a los Inventarios"
 			x: 0.0d
 			y: 1.5d
 		}
@@ -310,7 +310,7 @@
 				title: "Tip"
 				type: "checkmark"
 			}]
-			title: "Inventory Tips"
+			title: "Consejos de Inventario"
 			x: -1.5d
 			y: 0.0d
 		}

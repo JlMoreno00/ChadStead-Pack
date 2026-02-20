@@ -10,26 +10,26 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"Before venturing into &5The End&r, you'll need to make some preparations."
-				""
-				"During your travels, you might have come across some intriguing &bEyes&r! Make sure to hold onto them, as they are the key to opening the &5End Portal&r."
-				""
-				"&bEyes&r can be crafted, found in structures, dropped by bosses, and more! You'll only need 12 of them, so if you're missing a couple, there's no need to worry!"
-				""
-				"&9Tip&r: Double-check that you're collecting the &bEnd Remastered&r eyes!"
-			]
+		description: [
+			"Antes de aventurarte en &5The End&r, necesitarás hacer algunos preparativos."
+			""
+			"¡Durante tus viajes puede que hayas encontrado unos misteriosos &bOjos&r! Asegúrate de guardarlos, ya que son la clave para abrir el &5End Portal&r."
+			""
+			"¡Los &bOjos&r se pueden craftear, encontrar en estructuras, obtener de jefes y mucho más! Solo necesitas 12, así que si te faltan un par, ¡no te preocupes!"
+			""
+			"&9Consejo&r: Comprueba bien que estás recolectando los ojos de &bEnd Remastered&r."
+		]
 			icon: "ftbquests:book"
 			id: "625B8EA232032139"
 			optional: true
 			size: 1.5d
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "46E9DAF34F4F6412"
-				title: "Accept Rewards"
+				title: "Aceptar Recompensas"
 				type: "checkmark"
 			}]
-			title: "&5Preparing the Portal"
+			title: "&5Preparando el Portal"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -48,7 +48,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found in Desert Pyramids."
+			subtitle: "Se encuentra en Pirámides del Desierto."
 			tasks: [{
 				id: "41889953DAFF580E"
 				item: "endrem:old_eye"
@@ -72,7 +72,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found in Nether Fortresses."
+			subtitle: "Se encuentra en Fortalezas del Nether."
 			tasks: [{
 				id: "3FDBDDCF70AFFCFF"
 				item: "endrem:nether_eye"
@@ -96,7 +96,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found in Igloos."
+			subtitle: "Se encuentra en Iglús."
 			tasks: [{
 				id: "74C29B5B0D0A63CD"
 				item: "endrem:cold_eye"
@@ -120,7 +120,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found in Jungle Pyramids."
+			subtitle: "Se encuentra en Pirámides de la Jungla."
 			tasks: [{
 				id: "3B0EAEBBF6CBAC33"
 				item: "endrem:rogue_eye"
@@ -144,7 +144,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found in Buried Chests."
+			subtitle: "Se encuentra en Cofres Enterrados."
 			tasks: [{
 				id: "501F64F8931248B9"
 				item: "endrem:black_eye"
@@ -168,7 +168,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Dropped by Evokers."
+			subtitle: "Lo dejan caer los Evocadores."
 			tasks: [{
 				id: "61830A648ADDC542"
 				item: "endrem:magical_eye"
@@ -192,7 +192,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found in Mineshafts."
+			subtitle: "Se encuentra en Minas Abandonadas."
 			tasks: [{
 				id: "566EB43761C87FBE"
 				item: "endrem:lost_eye"
@@ -216,7 +216,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found in Pillager Outposts."
+			subtitle: "Se encuentra en Puestos de Saqueadores."
 			tasks: [{
 				id: "3BECCCD3AAFF5DE5"
 				item: "endrem:corrupted_eye"
@@ -240,7 +240,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Dropped by The Wither."
+			subtitle: "Lo deja caer el Wither."
 			tasks: [{
 				id: "6F82EF304DF20F7D"
 				item: "endrem:wither_eye"
@@ -264,7 +264,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Dropped by The Elder Guardian."
+			subtitle: "Lo deja caer el Elder Guardian."
 			tasks: [{
 				id: "690DC50CA28076F7"
 				item: "endrem:guardian_eye"
@@ -288,7 +288,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Crafted using a Witch Pupil."
+			subtitle: "Se craftea con un Pupilo de Bruja."
 			tasks: [{
 				id: "50EB90536E0A00D3"
 				item: "endrem:witch_eye"
@@ -312,7 +312,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found in Bastion chests."
+			subtitle: "Se encuentra en cofres de Bastiones."
 			tasks: [{
 				id: "1910C7D875B47CE4"
 				item: "endrem:cursed_eye"
@@ -336,7 +336,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Crafted using aquatic items."
+			subtitle: "Se craftea con objetos acuáticos."
 			tasks: [{
 				id: "1A27EFA4568185E1"
 				item: "endrem:exotic_eye"
@@ -360,7 +360,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Sold by a master cleric."
+			subtitle: "Lo vende un clérigo maestro."
 			tasks: [{
 				id: "1672750608FC8B4A"
 				item: "endrem:evil_eye"
@@ -384,7 +384,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Crafted using an Undead Soul."
+			subtitle: "Se craftea con un Alma No-Muerta."
 			tasks: [{
 				id: "57F57002D8624695"
 				item: "endrem:undead_eye"
@@ -408,7 +408,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Small chance to drop when enchanting."
+			subtitle: "Pequeña probabilidad de obtenerlo al encantar."
 			tasks: [{
 				id: "55FC20C73A3D30F1"
 				item: "endrem:cryptic_eye"
@@ -418,5 +418,5 @@
 			y: 2.5d
 		}
 	]
-	title: " &5P&freparing the Portal"
+	title: " &5Preparando el Portal"
 }

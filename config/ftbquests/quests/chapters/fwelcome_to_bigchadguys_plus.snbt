@@ -166,7 +166,7 @@
 			subtitle: "Click to learn more!"
 			tasks: [{
 				id: "0786E128134803D9"
-				title: "Multiplayer Options"
+				title: "Opciones Multijugador"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -256,7 +256,7 @@
 			subtitle: "Click to see everyone involved!"
 			tasks: [{
 				id: "7A69F1CD5D900539"
-				title: "&dCredits"
+				title: "&dCréditos"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -301,7 +301,7 @@
 			subtitle: "Click to learn more!"
 			tasks: [{
 				id: "5E4CA664778DB07D"
-				title: "Diet Journal"
+				title: "Diario de Dieta"
 				type: "checkmark"
 			}]
 			x: 0.5d

@@ -41,7 +41,7 @@
 			subtitle: "Click to learn more!"
 			tasks: [{
 				id: "7E7E43825A91D4C1"
-				title: "Bits and Chisels"
+				title: "Bits y Cinceles"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -72,7 +72,7 @@
 			subtitle: "Click to learn more!"
 			tasks: [{
 				id: "000BDEF410BE561A"
-				title: "Building Wands"
+				title: "Varitas de Construcción"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -428,7 +428,7 @@
 			subtitle: "Click to learn more!"
 			tasks: [{
 				id: "433A29F720296AE8"
-				title: "Permanent Sponges"
+				title: "Esponjas Permanentes"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -554,13 +554,13 @@
 			subtitle: "Click to learn more!"
 			tasks: [{
 				id: "56F7B374BE161905"
-				title: "Useful Tools"
+				title: "Herramientas Útiles"
 				type: "checkmark"
 			}]
-			title: "&9Useful Tools"
+			title: "&9Herramientas Útiles"
 			x: 0.0d
 			y: 0.0d
 		}
 	]
-	title: " &9U&fseful Tools"
+	title: " &9H&ferramientas Útiles"
 }

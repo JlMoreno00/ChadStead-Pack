@@ -16,14 +16,14 @@
 	quests: [
 		{
 			description: [
-				"&bJoy of Painting&r is a fun slice-of-life mod that allows you to paint in Minecraft. You can import and export paintings using the following commands:"
+				"&bJoy of Painting&r es un divertido mod de vida cotidiana que te permite pintar en Minecraft. Puedes importar y exportar pinturas con los siguientes comandos:"
 				""
 				"/paintexport <name>"
 				"/paintimport <name>"
 				""
-				"To import, ensure the paintings are inside the \"Paintings\" folder in your Minecraft directory."
+				"Para importar, asegúrate de que las pinturas estén dentro de la carpeta \"Paintings\" en tu directorio de Minecraft."
 				""
-				"For the import of a painting in survival mode, you need to hold an empty canvas and a full &bPalette&r in your hands."
+				"Para importar una pintura en modo supervivencia, necesitas sostener un lienzo vacío y una &bPaleta&r llena en tus manos."
 			]
 			id: "231D77060442F837"
 			optional: true
@@ -56,10 +56,10 @@
 				type: "item"
 			}]
 			size: 1.0d
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "4910E26950315E12"
-				title: "Joy of Painting"
+				title: "El Placer de Pintar"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -73,7 +73,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "The Small Piece"
+			subtitle: "La Pieza Pequeña"
 			tasks: [{
 				id: "6825A7D38CD50B00"
 				item: "xercapaint:item_canvas"
@@ -90,7 +90,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "The Large Piece"
+			subtitle: "La Pieza Grande"
 			tasks: [{
 				id: "3E8A3B89EA5D5F4C"
 				item: "xercapaint:item_canvas_large"
@@ -107,7 +107,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "The Long Piece"
+			subtitle: "La Pieza Larga"
 			tasks: [{
 				id: "047348372AC3B6EB"
 				item: "xercapaint:item_canvas_long"
@@ -124,7 +124,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Hold my Canvas"
+			subtitle: "Sujeta mi Lienzo"
 			tasks: [{
 				id: "14F2AAB91E72E81E"
 				item: "xercapaint:item_easel"
@@ -141,7 +141,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "The Tall Piece"
+			subtitle: "La Pieza Alta"
 			tasks: [{
 				id: "2A293F3816CE886C"
 				item: "xercapaint:item_canvas_tall"
@@ -156,10 +156,10 @@
 				count: 16
 				id: "684594CA3353096C"
 				item: "minecraft:lime_concrete"
-				title: "Did someone say green screen?"
+				title: "¿Alguien dijo pantalla verde?"
 				type: "item"
 			}]
-			subtitle: "Say 'Cheese!'"
+			subtitle: "¡Di 'Cheese!'"
 			tasks: [{
 				id: "78C7597DAC95069A"
 				item: "exposure:camera"
@@ -170,7 +170,7 @@
 		}
 		{
 			description: [
-				"The light room requires the following items to function:"
+				"La sala de revelado necesita los siguientes materiales para funcionar:"
 				""
 				"&bPaper&r"
 				"&bCyan Dye&r"
@@ -178,9 +178,9 @@
 				"&bYellow Dye&r"
 				"&bBlack Dye&r"
 				""
-				"Once all five of those are in the table, you can insert your film and view the negatives of the photographs. Clicking on the left and right negatives will allow you to scroll along the film roll. Clicking on the middle picture will let you zoom in to see the photo."
+				"Una vez que los cinco elementos estén en la mesa, puedes insertar tu película y ver los negativos de las fotografías. Hacer clic en los negativos de la izquierda y derecha te permite desplazarte por el rollo. Hacer clic en la imagen central te permite hacer zoom para ver la foto."
 				""
-				"Once you've selected the photo you like, hit print to print the photo and wait! Pretty soon you'll have your very own photograph!"
+				"¡Una vez que hayas seleccionado la foto que te gusta, haz clic en imprimir y espera! ¡Pronto tendrás tu propia fotografía!"
 			]
 			icon: "exposure:lightroom"
 			id: "241425F79B9CDF6D"
@@ -189,7 +189,7 @@
 				item: "exposure:color_film"
 				type: "item"
 			}]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [
 				{
 					id: "4F74E6A90C22A5B5"
@@ -227,12 +227,12 @@
 		}
 		{
 			description: [
-				"After you've taken the photos you want with the black and white film, begin developing it by combining it with a bottle of water to get the developed film roll."
+				"Después de tomar las fotos que quieras con la película en blanco y negro, empieza a revelarla combinándola con una botella de agua para obtener el rollo revelado."
 				""
-				"Once you have the developed roll, move on to the light room!"
+				"¡Una vez que tengas el rollo revelado, pasa a la sala de revelado!"
 			]
 			id: "27427A42EA7BE650"
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [
 				{
 					id: "421E8DA2BD2867D9"
@@ -250,12 +250,12 @@
 		}
 		{
 			description: [
-				"After you've taken the photos you want with the color film, begin developing it by combining it with a &bMundane Potion&r, &bAwkward Potion&r, and &bThick Potion&r to get the developed film roll."
+				"Después de tomar las fotos que quieras con la película a color, empieza a revelarla combinándola con una &bMundane Potion&r, una &bAwkward Potion&r y una &bThick Potion&r para obtener el rollo revelado."
 				""
-				"Once you have the developed roll, move on to the light room!"
+				"¡Una vez que tengas el rollo revelado, pasa a la sala de revelado!"
 			]
 			id: "70A627EADC8BFAC6"
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [
 				{
 					id: "2BCFA8EB745D91FB"
@@ -272,14 +272,14 @@
 			y: 1.0d
 		}
 		{
-			description: ["The &bPhoto Album&r allows you to store photos and sign them to sell to others if you wish to do so, or to hand out one-of-a-kind copies of photos you take! Always remember to make a copy of your photos before you sign the album away!"]
+			description: ["¡El &bPhoto Album&r te permite guardar fotos y firmarlas para venderlas a otros si quieres, o para repartir copias únicas de las fotos que tomes! ¡Recuerda siempre hacer una copia de tus fotos antes de firmar el álbum!"]
 			id: "35D3FE612F5E0B77"
 			rewards: [{
 				id: "7678899E2FDA1AEA"
 				item: "exposure:color_film"
 				type: "item"
 			}]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "3FC0069395FBBCA4"
 				item: "exposure:album"
@@ -289,14 +289,14 @@
 			y: 0.0d
 		}
 		{
-			description: ["These photos can be copied; if you hold shift on the photo, it will tell you how. You are also able to place them in the world directly onto blocks to create a photo exhibit. Additionally, you can store them in a &bPhoto Album&r."]
+			description: ["Estas fotos se pueden copiar; si mantienes Shift sobre la foto, te explicará cómo. También puedes colocarlas directamente sobre bloques en el mundo para crear una exposición fotográfica. Además, puedes guardarlas en un &bPhoto Album&r."]
 			id: "042313B4411102D4"
 			rewards: [{
 				id: "265030B4A786DCFC"
 				item: "exposure:black_and_white_film"
 				type: "item"
 			}]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "08F926D9A031ABA8"
 				item: "exposure:photograph"
@@ -307,17 +307,17 @@
 		}
 		{
 			description: [
-				"When inserting the film roll into the &bCamera&r, you'll notice three additional slots on the right side. They are designated for the following:"
+				"Al insertar el rollo de película en la &bCamera&r, notarás tres ranuras adicionales a la derecha. Están designadas para lo siguiente:"
 				""
 				"Flash: Redstone Lantern"
 				"Zoom: Spyglass"
-				"Color Filter: Any Colored Glass Pane"
+				"Filtro de Color: cualquier Glass Pane de color"
 				""
-				"The Flash emits light as you capture the photo, illuminating images in darkness."
+				"El Flash emite luz al capturar la foto, iluminando imágenes en la oscuridad."
 				""
-				"The Zoom feature enables you to switch from a wide-angle to a telephoto lens. The lower your focal length, the wider the camera's field of view becomes."
+				"El Zoom te permite cambiar de gran angular a teleobjetivo. Cuanto menor sea la longitud focal, más amplio se vuelve el campo de visión de la cámara."
 				""
-				"The Color Filter applies a filter of the chosen colored glass pane over the photo, adding a tint or hue to the image."
+				"El Filtro de Color aplica el filtro del Glass Pane de color elegido sobre la foto, añadiendo un tinte o matiz a la imagen."
 			]
 			id: "22C2805FB91F6B4C"
 			optional: true
@@ -326,7 +326,7 @@
 				item: "exposure:black_and_white_film"
 				type: "item"
 			}]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "64CA079DCB6A7059"
 				title: "Exposure"
@@ -343,18 +343,18 @@
 				item: "xercamusic:music_sheet"
 				type: "item"
 			}]
-			subtitle: "Have you heard this one? *Plays Wonderwall*"
+			subtitle: "¿Has escuchado esta? *Toca Wonderwall*"
 			tasks: [{
 				id: "4A4EE08941F741AD"
 				item: "xercamusic:guitar"
-				title: "Obtain a Guitar"
+				title: "Consigue una Guitarra"
 				type: "item"
 			}]
 			x: 0.0d
 			y: -4.0d
 		}
 		{
-			description: ["Once you're holding your instrument, you can familiarize yourself with it by clicking on each note. Additionally, you can cycle through octaves and play notes by pressing keys '&bQ&r' through '&b]&r'."]
+			description: ["Una vez que sostengas tu instrumento, puedes familiarizarte con él haciendo clic en cada nota. Además, puedes cambiar de octava y tocar notas presionando las teclas '&bQ&r' hasta '&b]&r'."]
 			id: "6AC66550640E7631"
 			optional: true
 			rewards: [{
@@ -362,19 +362,19 @@
 				item: "xercamusic:music_sheet"
 				type: "item"
 			}]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "41145DCE426B04DB"
-				title: "How to Play"
+				title: "Cómo Tocar"
 				type: "checkmark"
 			}]
-			title: "How to Play"
+			title: "Cómo Tocar"
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["6AC66550640E7631"]
-			description: ["Using your mouse or pressing keys can feel a bit primitive. Fortunately, if you have a MIDI device, you can use that input to play instead!"]
+			description: ["Usar el ratón o presionar teclas puede parecer un poco primitivo. ¡Por suerte, si tienes un dispositivo MIDI, puedes usarlo para tocar en su lugar!"]
 			id: "30B6EF9CB0C81E1B"
 			optional: true
 			rewards: [{
@@ -382,23 +382,23 @@
 				item: "xercamusic:music_sheet"
 				type: "item"
 			}]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "53801A2017B3C16B"
-				title: "How to Play"
+				title: "Cómo Tocar"
 				type: "checkmark"
 			}]
-			title: "Other Methods"
+			title: "Otros Métodos"
 			x: -1.0d
 			y: -2.5d
 		}
 		{
 			id: "48322F5414D1F69B"
-			subtitle: "Metronomes are a must-have for musicians, ensuring precise rhythm and timing in practice and performance."
+			subtitle: "Los metrónomes son imprescindibles para músicos: garantizan ritmo y tiempo exactos en la práctica y la actuación."
 			tasks: [{
 				id: "46E600E20C3BEA71"
 				item: "xercamusic:metronome"
-				title: "Obtain a Metronome"
+				title: "Consigue un Metrónomo"
 				type: "item"
 			}]
 			x: 1.0d
@@ -406,11 +406,11 @@
 		}
 		{
 			id: "31CE3E5B96E5CF9A"
-			subtitle: "To play recordings, use a Music Box. Insert an instrument, a signed Music Sheet, activate with a Redstone signal, and enjoy your masterpiece!"
+			subtitle: "¡Para reproducir grabaciones, usa una Music Box. Inserta un instrumento, una Music Sheet firmada, actívala con señal de Redstone y disfruta tu obra maestra!"
 			tasks: [{
 				id: "52F0693C9C433883"
 				item: "xercamusic:music_box"
-				title: "Obtain a Music Box"
+				title: "Consigue una Music Box"
 				type: "item"
 			}]
 			x: -1.0d
@@ -418,11 +418,11 @@
 		}
 		{
 			id: "01FD5DA21F3F003C"
-			subtitle: "This is how you craft melodies—hold an instrument in your offhand and piece together your composition."
+			subtitle: "Así es como creas melodías: sostén un instrumento en la mano secundaria y construye tu composición."
 			tasks: [{
 				id: "030B0EEE049156B5"
 				item: "xercamusic:music_sheet"
-				title: "Obtain a Music Sheet"
+				title: "Consigue una Music Sheet"
 				type: "item"
 			}]
 			x: 0.0d
@@ -435,11 +435,11 @@
 				item: "xercamusic:music_sheet"
 				type: "item"
 			}]
-			subtitle: "Slap it."
+			subtitle: "Dásele duro."
 			tasks: [{
 				id: "540B6E6074B35F13"
 				item: "xercamusic:bass_guitar"
-				title: "Obtain a Bass Guitar"
+				title: "Consigue un Bajo"
 				type: "item"
 			}]
 			x: 3.0d
@@ -452,11 +452,11 @@
 				item: "xercamusic:music_sheet"
 				type: "item"
 			}]
-			subtitle: "A band nerd's go-to."
+			subtitle: "El favorito del friki de la banda."
 			tasks: [{
 				id: "4B992253B1C12734"
 				item: "xercamusic:french_horn"
-				title: "Obtain a French Horn"
+				title: "Consigue un Corno Francés"
 				type: "item"
 			}]
 			x: 3.5d
@@ -473,7 +473,7 @@
 			tasks: [{
 				id: "208E3B11ED0979CA"
 				item: "xercamusic:saxophone"
-				title: "Obtain a Saxophone"
+				title: "Consigue un Saxofón"
 				type: "item"
 			}]
 			x: -1.0d
@@ -490,7 +490,7 @@
 			tasks: [{
 				id: "5A7F87825B9715AD"
 				item: "xercamusic:redstone_guitar"
-				title: "Obtain a Redstone Guitar"
+				title: "Consigue una Guitarra de Redstone"
 				type: "item"
 			}]
 			x: 2.0d
@@ -503,11 +503,11 @@
 				item: "xercamusic:music_sheet"
 				type: "item"
 			}]
-			subtitle: "Fictional instrument. (Does not exist outside of Minecraft)"
+			subtitle: "Instrumento ficticio. (No existe fuera de Minecraft)"
 			tasks: [{
 				id: "11510E81FB0144E8"
 				item: "xercamusic:oboe"
-				title: "Obtain an Oboe"
+				title: "Consigue un Oboe"
 				type: "item"
 			}]
 			x: 2.5d
@@ -520,11 +520,11 @@
 				item: "xercamusic:music_sheet"
 				type: "item"
 			}]
-			subtitle: "Billy Joel reference?"
+			subtitle: "¿Referencia a Billy Joel?"
 			tasks: [{
 				id: "34CC34ACD12AFF6B"
 				item: "xercamusic:piano"
-				title: "Obtain a Piano"
+				title: "Consigue un Piano"
 				type: "item"
 			}]
 			x: -2.0d
@@ -537,11 +537,11 @@
 				item: "xercamusic:music_sheet"
 				type: "item"
 			}]
-			subtitle: "A fancy pea shooter."
+			subtitle: "Un lanzaguisantes de lujo."
 			tasks: [{
 				id: "5CCD9493F0F27418"
 				item: "xercamusic:flute"
-				title: "Obtain a Flute"
+				title: "Consigue una Flauta"
 				type: "item"
 			}]
 			x: 0.0d
@@ -558,7 +558,7 @@
 			tasks: [{
 				id: "73D0A67D562DD872"
 				item: "xercamusic:cello"
-				title: "Obtain a Cello"
+				title: "Consigue un Chelo"
 				type: "item"
 			}]
 			x: -2.5d
@@ -571,11 +571,11 @@
 				item: "xercamusic:music_sheet"
 				type: "item"
 			}]
-			subtitle: "Perfect for Itzhak Perlman cosplays."
+			subtitle: "Perfecto para cosplays de Itzhak Perlman."
 			tasks: [{
 				id: "2E62A1CFC830D4FB"
 				item: "xercamusic:violin"
-				title: "Obtain a Violin"
+				title: "Consigue un Violín"
 				type: "item"
 			}]
 			x: -3.5d
@@ -588,11 +588,11 @@
 				item: "xercamusic:music_sheet"
 				type: "item"
 			}]
-			subtitle: "Time for ASMR."
+			subtitle: "Hora del ASMR."
 			tasks: [{
 				id: "7D25152C02FDB9C6"
 				item: "xercamusic:sansula"
-				title: "Obtain a Sansula"
+				title: "Consigue una Sansula"
 				type: "item"
 			}]
 			x: 1.0d
@@ -605,11 +605,11 @@
 				item: "xercamusic:music_sheet"
 				type: "item"
 			}]
-			subtitle: "Leave it to the wind."
+			subtitle: "Déjalo al viento."
 			tasks: [{
 				id: "6B92B1411B5F8216"
 				item: "xercamusic:tubular_bell"
-				title: "Obtain some Chimes"
+				title: "Consigue unas Campanas"
 				type: "item"
 			}]
 			x: 2.0d
@@ -622,11 +622,11 @@
 				item: "xercamusic:music_sheet"
 				type: "item"
 			}]
-			subtitle: "I don't have anything witty for a Xylophone."
+			subtitle: "No se me ocurre nada ingenioso para un Xilófono."
 			tasks: [{
 				id: "44F364816A85557A"
 				item: "xercamusic:xylophone"
-				title: "Obtain a Xylophone"
+				title: "Consigue un Xilófono"
 				type: "item"
 			}]
 			x: -3.5d
@@ -639,11 +639,11 @@
 				item: "xercamusic:music_sheet"
 				type: "item"
 			}]
-			subtitle: "Not quite my tempo."
+			subtitle: "No es del todo mi ritmo."
 			tasks: [{
 				id: "489A508AF36C2B64"
 				item: "xercamusic:drum_kit"
-				title: "Obtain a Drum Kit"
+				title: "Consigue una Batería"
 				type: "item"
 			}]
 			x: -3.0d
@@ -660,7 +660,7 @@
 			tasks: [{
 				id: "2DE4D6C88B42F718"
 				item: "xercamusic:drum"
-				title: "Obtain a Drum"
+				title: "Consigue un Tambor"
 				type: "item"
 			}]
 			x: -1.0d
@@ -673,11 +673,11 @@
 				item: "xercamusic:music_sheet"
 				type: "item"
 			}]
-			subtitle: "Hitch a Ride"
+			subtitle: "Pide un Aventón"
 			tasks: [{
 				id: "1073AE82BFA3CC61"
 				item: "xercamusic:cymbal"
-				title: "Obtain a Cymbal"
+				title: "Consigue un Platillo"
 				type: "item"
 			}]
 			x: -2.0d
@@ -690,11 +690,11 @@
 				item: "xercamusic:music_sheet"
 				type: "item"
 			}]
-			subtitle: "I ain't calling you a truther!"
+			subtitle: "¡Yo no te estoy llamando mentiroso!"
 			tasks: [{
 				id: "0D0F1601D68E5717"
 				item: "xercamusic:lyre"
-				title: "Obtain a Lyre"
+				title: "Consigue una Lira"
 				type: "item"
 			}]
 			x: 3.5d
@@ -707,11 +707,11 @@
 				item: "xercamusic:music_sheet"
 				type: "item"
 			}]
-			subtitle: "Channel your inner Little Lion Man."
+			subtitle: "Desata a tu Little Lion Man interior."
 			tasks: [{
 				id: "30EE8EC302AB2388"
 				item: "xercamusic:banjo"
-				title: "Obtain a Banjo"
+				title: "Consigue un Banjo"
 				type: "item"
 			}]
 			x: 1.0d
@@ -764,10 +764,10 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "Having mastered the language of the divine, command the heavens."
+			subtitle: "Habiendo dominado el lenguaje de lo divino, comanda los cielos."
 			tasks: [{
 				id: "6B0C702892A4E30D"
-				title: "Take on the Voice of God"
+				title: "Adopta la Voz de Dios"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -776,15 +776,15 @@
 		{
 			dependencies: ["6AC66550640E7631"]
 			description: [
-				"&4&lWarning&r: We do not assume responsibility for downloading third-party software. Use caution and ensure the safety and legitimacy of any software obtained from external sources.&r"
+				"&4&lAdvertencia&r: No nos hacemos responsables por la descarga de software de terceros. Sé cauteloso y asegúrate de la seguridad y legitimidad de cualquier software obtenido de fuentes externas.&r"
 				""
-				"To play .midi files inside of Minecraft using &bMusic Maker Mod&r, download &bMidi Editor&r and &bloopMidi&r:"
+				"Para reproducir archivos .midi en Minecraft usando &bMusic Maker Mod&r, descarga &bMidi Editor&r y &bloopMidi&r:"
 				""
-				"In l&boopMidi&r, add a new port by clicking the \"&b+&r\" at the bottom left. In the advanced tab, uncheck \"&bDetects Feedback&r\"."
+				"En l&boopMidi&r, añade un nuevo puerto haciendo clic en \"&b+&r\" en la parte inferior izquierda. En la pestaña avanzada, desmarca \"&bDetects Feedback&r\"."
 				""
-				"In &bMidi Editor&r, access settings by hovering over the Midi dropdown at the top. Ensure only \"&bloopMidi Port 1&r\" is selected for Midi Output."
+				"En &bMidi Editor&r, accede a la configuración pasando el cursor sobre el menú desplegable Midi en la parte superior. Asegúrate de que solo \"&bloopMidi Port 1&r\" esté seleccionado como salida Midi."
 				""
-				"Simply drag any .midi file into &bMidi Editor&r, then in-game, open an instrument and hit play!"
+				"¡Simplemente arrastra cualquier archivo .midi a &bMidi Editor&r y, dentro del juego, abre un instrumento y presiona play!"
 			]
 			id: "599EF2EBEF759FD5"
 			optional: true
@@ -793,36 +793,36 @@
 				item: "xercamusic:music_sheet"
 				type: "item"
 			}]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "078ABB573890530F"
-				title: "How to Play"
+				title: "Cómo Tocar"
 				type: "checkmark"
 			}]
-			title: "Third-Party MIDI Playback"
+			title: "Reproducción MIDI de Terceros"
 			x: 1.0d
 			y: -2.5d
 		}
 		{
 			description: [
-				"No matter what you're into, whether it's music, taking pictures, or painting, &6BigChadGuys Plus&r has something for you! This chapter will guide you through everything you need to know to start creating masterpieces."
+				"¡Ya sea que te guste la música, la fotografía o la pintura, &6BigChadGuys Plus&r tiene algo para ti! Este capítulo te guiará por todo lo que necesitas saber para empezar a crear obras maestras."
 				""
-				"Be sure to share some of your creations on &dDiscord&r! We'd love to see what you come up with."
+				"¡Asegúrate de compartir algunas de tus creaciones en &dDiscord&r! Nos encantaría ver lo que se te ocurre."
 			]
 			icon: "ftbquests:book"
 			id: "571F3A97634D695D"
 			optional: true
 			size: 1.5d
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "176955D1FD28B3B3"
-				title: "Accept Rewards"
+				title: "Aceptar Recompensas"
 				type: "checkmark"
 			}]
-			title: "&eArt"
+			title: "&eArte"
 			x: 0.0d
 			y: 0.0d
 		}
 	]
-	title: " &eM&fusic, Painting, and Photography"
+	title: " &eM&fúsica, Pintura y Fotografía"
 }

@@ -11,13 +11,13 @@
 	quests: [
 		{
 			description: [
-				"&6Create&r is a powerful mod that may seem overwhelming at first, but with some guidance, it will revolutionize how you approach everyday tasks."
+				"&6Create&r es un mod poderoso que puede parecer abrumador al principio, pero con un poco de guía, revolucionará cómo abordas las tareas cotidianas."
 				""
-				"Like &bRedstone&r, &6Create&r introduces a wide range of mechanics from simple to advanced, with the only limit being your imagination."
+				"Al igual que &bRedstone&r, &6Create&r introduce una amplia gama de mecánicas, desde simples hasta avanzadas, con el único límite siendo tu imaginación."
 				""
-				"This quest line will guide you, but don’t forget to use &aPonder&r—an essential tool in &6Create&r that shows you how each item works."
+				"Esta línea de misiones te guiará, pero no olvides usar &aPonder&r—una herramienta esencial en &6Create&r que te muestra cómo funciona cada objeto."
 				""
-				"Don't hesitate to ask questions! The mod is well-documented, so anything you're curious about is just a search away."
+				"¡No dudes en hacer preguntas! El mod está bien documentado, así que cualquier cosa que te preguntes está a solo una búsqueda de distancia."
 			]
 			icon: "minecraft:book"
 			id: "0C5A75DD4C276B70"
@@ -29,22 +29,22 @@
 				type: "item"
 			}]
 			size: 1.5d
-			subtitle: "Click here to learn more!"
+			subtitle: "¡Haz clic aquí para saber más!"
 			tasks: [{
 				id: "56721030133B7124"
-				title: "Introduction"
+				title: "Introducción"
 				type: "checkmark"
 			}]
-			title: "&6The Beginner's Guide to Create"
+			title: "&6La Guía para Principiantes de Create"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			description: [
-				"&6Andesite Alloy&r can be crafted with:"
+				"&6Andesite Alloy&r se puede fabricar con:"
 				""
 				"2x &bAndesite&r"
-				"2x &bIron&f or &bZinc Nuggets&r"
+				"2x &bNuggets de Hierro&f o &bZinc&r"
 			]
 			id: "1DA7EBF4DEB52645"
 			rewards: [{
@@ -53,27 +53,27 @@
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			subtitle: "A key ingredient for early-game recipes."
+			subtitle: "Un ingrediente clave para las recetas del juego temprano."
 			tasks: [{
 				advancement: "create:andesite_alloy"
 				criterion: ""
 				id: "1EEE514C2E5C054A"
-				title: "Obtain an Andesite Alloy"
+				title: "Obtén un Andesite Alloy"
 				type: "advancement"
 			}]
-			title: "The Era of Andesite"
+			title: "La Era de la Andesita"
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["47E665AFF341A50C"]
 			description: [
-				"&6Cogwheels&r can be crafted with:"
+				"&6Cogwheels&r se pueden fabricar con:"
 				""
 				"1x &bShaft&r"
-				"1x &bAny Wooden Plank&r"
+				"1x &bCualquier Tabla de Madera&r"
 				""
-				"&aPondering is recommended.&r"
+				"&aSe recomienda usar Ponder.&r"
 			]
 			id: "6F40D1A39E7939DC"
 			rewards: [{
@@ -81,11 +81,11 @@
 				item: "copycats:copycat_cogwheel"
 				type: "item"
 			}]
-			subtitle: "Adjusts rotational speed or extends contraptions."
+			subtitle: "Ajusta la velocidad rotacional o extiende las contraptions."
 			tasks: [{
 				id: "503692B77161B60A"
 				item: "create:cogwheel"
-				title: "Craft a Cogwheel"
+				title: "Fabrica un Cogwheel"
 				type: "item"
 			}]
 			x: 0.0d
@@ -94,15 +94,15 @@
 		{
 			dependencies: ["6F40D1A39E7939DC"]
 			description: [
-				"&6Large Cogwheels&r can be crafted with:"
+				"&6Large Cogwheels&r se pueden fabricar con:"
 				""
 				"1x &bShaft&r"
-				"2x &bAny Wooden Planks&r"
+				"2x &bCualquier Tabla de Madera&r"
 				""
-				"Alternative recipe:"
+				"Receta alternativa:"
 				""
 				"1x &bCogwheel&r"
-				"1x &bAny Wooden Plank&r"
+				"1x &bCualquier Tabla de Madera&r"
 			]
 			id: "1E8CF9F49F78363C"
 			rewards: [{
@@ -110,11 +110,11 @@
 				item: "copycats:copycat_large_cogwheel"
 				type: "item"
 			}]
-			subtitle: "Similar to the Cogwheel, but larger."
+			subtitle: "Similar al Cogwheel, pero más grande."
 			tasks: [{
 				id: "00B429D42B7118DC"
 				item: "create:large_cogwheel"
-				title: "Craft a Large Cogwheel"
+				title: "Fabrica un Large Cogwheel"
 				type: "item"
 			}]
 			x: 0.0d
@@ -123,7 +123,7 @@
 		{
 			dependencies: ["1DA7EBF4DEB52645"]
 			description: [
-				"&6Shafts&r can be crafted with:"
+				"&6Shafts&r se pueden fabricar con:"
 				""
 				"2x &bAndesite Alloy&r"
 			]
@@ -134,12 +134,12 @@
 				item: "copycats:copycat_shaft"
 				type: "item"
 			}]
-			subtitle: "Transfers rotational force vertically or horizontally."
+			subtitle: "Transfiere fuerza rotacional vertical u horizontalmente."
 			tasks: [{
 				count: 8L
 				id: "0399AB2ED3D50DE7"
 				item: "create:shaft"
-				title: "Craft 8x Shafts"
+				title: "Fabrica 8x Shafts"
 				type: "item"
 			}]
 			x: 0.0d
@@ -148,12 +148,12 @@
 		{
 			dependencies: ["48A75BC9A37CA03E"]
 			description: [
-				"&6Water Wheels&r can be crafted with:"
+				"&6Water Wheels&r se pueden fabricar con:"
 				""
-				"8x &bAny Wooden Planks&r"
+				"8x &bCualquier Tabla de Madera&r"
 				"1x &bShaft&r"
 				""
-				"&aPondering is recommended.&r"
+				"&aSe recomienda usar Ponder.&r"
 			]
 			icon: "create:water_wheel"
 			id: "5C8CB5C24CAB60B1"
@@ -162,20 +162,20 @@
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
-			subtitle: "Produces 256x Stress Units from water streams."
+			subtitle: "Genera 256x Unidades de Estrés a partir de corrientes de agua."
 			tasks: [
 				{
 					id: "2693C288B70C5F3A"
 					item: "create:water_wheel"
-					title: "Craft a Water Wheel"
-					type: "item"
-				}
-				{
-					advancement: "create:water_wheel"
-					criterion: ""
-					icon: "minecraft:book"
-					id: "4D4723C7E5FA4830"
-					title: "&6Use a Water Wheel"
+				title: "Fabrica un Water Wheel"
+				type: "item"
+			}
+			{
+				advancement: "create:water_wheel"
+				criterion: ""
+				icon: "minecraft:book"
+				id: "4D4723C7E5FA4830"
+				title: "&6Usa un Water Wheel"
 					type: "advancement"
 				}
 			]
@@ -185,9 +185,9 @@
 		{
 			dependencies: ["5C8CB5C24CAB60B1"]
 			description: [
-				"&6Large Water Wheels&r can be crafted with:"
+				"&6Large Water Wheels&r se pueden fabricar con:"
 				""
-				"8x &bAny Wooden Planks&r"
+				"8x &bCualquier Tabla de Madera&r"
 				"1x &bWater Wheel&r"
 			]
 			id: "3754912EE2F26E59"
@@ -196,11 +196,11 @@
 				item: "create:stressometer"
 				type: "item"
 			}]
-			subtitle: "Generates 512x Stress Units."
+			subtitle: "Genera 512x Unidades de Estrés."
 			tasks: [{
 				id: "2C31CDE1002A3546"
 				item: "create:large_water_wheel"
-				title: "Craft a Large Water Wheel"
+				title: "Fabrica un Large Water Wheel"
 				type: "item"
 			}]
 			x: 6.0d
@@ -209,9 +209,9 @@
 		{
 			dependencies: ["1DA7EBF4DEB52645"]
 			description: [
-				"&6Andesite Casing&r can be crafted by:"
+				"&6Andesite Casing&r se puede fabricar:"
 				""
-				"Right-clicking a &bStripped Log&r with an &bAndesite Alloy&r."
+				"Haciendo clic derecho en un &bStripped Log&r con un &bAndesite Alloy&r."
 			]
 			id: "62F208B170CCE457"
 			rewards: [{
@@ -220,15 +220,15 @@
 				item: "minecraft:stripped_oak_log"
 				type: "item"
 			}]
-			subtitle: "The cornerstone of early-game automation."
+			subtitle: "La piedra angular de la automatización en el juego temprano."
 			tasks: [{
 				advancement: "create:andesite_casing"
 				criterion: ""
 				id: "3989BCFA438017C8"
-				title: "Craft an Andesite Casing"
+				title: "Fabrica un Andesite Casing"
 				type: "advancement"
 			}]
-			title: "Craft an Andesite Casing"
+			title: "Fabrica un Andesite Casing"
 			x: -2.0d
 			y: -4.0d
 		}
@@ -238,12 +238,12 @@
 				"6F40D1A39E7939DC"
 			]
 			description: [
-				"&6Gearboxes&r can be crafted with:"
+				"&6Gearboxes&r se pueden fabricar con:"
 				""
 				"4x &bCogwheels&r"
 				"1x &bAndesite Casing&r"
 				""
-				"&6Vertical Gearboxes&r can be crafted with:"
+				"&6Vertical Gearboxes&r se pueden fabricar con:"
 				""
 				"1x &bGearbox&r"
 			]
@@ -254,20 +254,20 @@
 				item: "create:vertical_gearbox"
 				type: "item"
 			}]
-			subtitle: "Change the direction of rotation."
+			subtitle: "Cambia la dirección de rotación."
 			tasks: [{
 				id: "6690DAFA9ABAC0CB"
 				item: "create:gearbox"
-				title: "Craft a Gearbox"
+				title: "Fabrica un Gearbox"
 				type: "item"
 			}]
-			title: "Craft a Gearbox"
+			title: "Fabrica un Gearbox"
 			x: -2.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["1E8CF9F49F78363C"]
-			description: ["A &bCogwheel&r and &bLarge Cogwheel&r can connect diagonally, with 1 rotation of the &bLarge Cogwheel&r making the &bCogwheel&r rotate twice as fast."]
+			description: ["Un &bCogwheel&r y un &bLarge Cogwheel&r pueden conectarse diagonalmente; 1 rotación del &bLarge Cogwheel&r hace que el &bCogwheel&r gire el doble de rápido."]
 			icon: "bcg_smp:joe_coin"
 			id: "7E476CE36CBF8187"
 			rewards: [{
@@ -277,34 +277,34 @@
 				type: "item"
 			}]
 			size: 1.25d
-			subtitle: "Higher speeds increase stress proportionally; twice the RPM doubles the stress."
+			subtitle: "Más velocidad aumenta el estrés proporcionalmente; el doble de RPM duplica el estrés."
 			tasks: [{
 				advancement: "create:shifting_gears"
 				criterion: ""
 				icon: "minecraft:book"
 				id: "4A2F4D3C2B822003"
-				title: "&6Successfully increase Cogwheel speed&r"
+				title: "&6Aumenta la velocidad del Cogwheel exitosamente&r"
 				type: "advancement"
 			}]
-			title: "Gear Ratios"
+			title: "Relaciones de Engranajes"
 			x: 2.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["62F208B170CCE457"]
 			description: [
-				"&6Mechanical Presses&r can be crafted with:"
+				"&6Mechanical Presses&r se pueden fabricar con:"
 				""
 				"1x &bShaft&r"
 				"1x &bAndesite Casing&r"
-				"1x &bBlock of Iron&r"
+				"1x &bBloque de Hierro&r"
 				""
-				"&6Depots&r can be crafted with:"
+				"&6Depots&r se pueden fabricar con:"
 				""
 				"1x &bAndesite Alloy&r"
 				"1x &bAndesite Casing&r"
 				""
-				"&aPondering is recommended.&r"
+				"&aSe recomienda usar Ponder.&r"
 			]
 			icon: "create:mechanical_press"
 			id: "6E3C1037571CB92E"
@@ -314,39 +314,39 @@
 				item: "minecraft:slime_block"
 				type: "item"
 			}]
-			subtitle: "Uses rotational force to press items into Sheets."
+			subtitle: "Usa fuerza rotacional para prensar objetos en Sheets."
 			tasks: [
 				{
 					id: "13094A6E1C703D72"
 					item: "create:mechanical_press"
-					title: "Craft a Mechanical Press"
-					type: "item"
-				}
-				{
-					id: "16C0919EC682FEE8"
-					item: "create:depot"
-					title: "Craft a Depot"
-					type: "item"
-				}
-				{
-					advancement: "create:mechanical_press"
-					criterion: ""
-					icon: "minecraft:book"
-					id: "0AF33958ACAA8D34"
-					title: "&6Create some Sheets with a Mechanical Press"
+				title: "Fabrica un Mechanical Press"
+				type: "item"
+			}
+			{
+				id: "16C0919EC682FEE8"
+				item: "create:depot"
+				title: "Fabrica un Depot"
+				type: "item"
+			}
+			{
+				advancement: "create:mechanical_press"
+				criterion: ""
+				icon: "minecraft:book"
+				id: "0AF33958ACAA8D34"
+				title: "&6Crea algunas Sheets con un Mechanical Press"
 					type: "advancement"
 				}
 			]
-			title: "Craft a Mechanical Press and Depot"
+			title: "Fabrica un Mechanical Press y un Depot"
 			x: -4.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["6E3C1037571CB92E"]
 			description: [
-				"&6Sheets&r are crucial, nearly as vital as &bAndesite&r."
+				"&6Sheets&r son cruciales, casi tan vitales como la &bAndesite&r."
 				""
-				"They can be crafted with a &bMechanical Press&r or a &bHammer&r."
+				"Se pueden fabricar con un &bMechanical Press&r o un &bHammer&r."
 			]
 			id: "213FC9EACA169E70"
 			rewards: [{
@@ -355,7 +355,7 @@
 				table_id: 3967290467071030690L
 				type: "random"
 			}]
-			subtitle: "The start of something new!"
+			subtitle: "¡El comienzo de algo nuevo!"
 			tasks: [{
 				id: "7ACA31897166F23C"
 				item: {
@@ -365,7 +365,7 @@
 						value: "c:plates"
 					}
 				}
-				title: "Craft a Sheet"
+				title: "Fabrica una Sheet"
 				type: "item"
 			}]
 			x: -4.0d
@@ -374,24 +374,24 @@
 		{
 			dependencies: ["213FC9EACA169E70"]
 			description: [
-				"The &6Wrench&r"
+				"La &6Wrench&r"
 				""
-				"Right-clicking a component with a &6Wrench&r rotates it. Right-clicking a component, redstone component, or rail dismantles it and places it in your inventory. Sneak while right-clicking to dismantle interactive blocks."
+				"Hacer clic derecho en un componente con una &6Wrench&r lo rota. Hacer clic derecho en un componente, componente de redstone, o raíl lo desmonta y lo coloca en tu inventario. Agáchate mientras haces clic derecho para desmontar bloques interactivos."
 				""
-				"&6Wrenches&r can be crafted with:"
+				"&6Wrenches&r se pueden fabricar con:"
 				""
 				"3x &bGolden Sheets&r"
 				"1x &bCogwheel&r"
-				"1x &bStick&r"
+				"1x &bPalo&r"
 				""
-				"The &6Engineer's Goggles&r"
+				"Las &6Engineer's Goggles&r"
 				""
-				"When worn, the &6Engineer's Goggles&r display the stress impact of a running machine, show numbers and highlight the current rotation when looking at a &bStressometer&r or &bSpeedometer&r, and indicate the fluid level and total capacity of a tank."
+				"Cuando se llevan puestas, las &6Engineer's Goggles&r muestran el impacto de estrés de una máquina en funcionamiento, muestran números y resaltan la rotación actual al mirar un &bStressometer&r o &bSpeedometer&r, e indican el nivel de fluido y la capacidad total de un tanque."
 				""
-				"&6Engineer's Goggles&r can be crafted with:"
+				"&6Engineer's Goggles&r se pueden fabricar con:"
 				""
-				"1x &bString&r"
-				"2x &bAny Glass&r"
+				"1x &bHilo&r"
+				"2x &bCualquier Vidrio&r"
 				"1x &bGolden Sheet&r"
 			]
 			icon: "create:wrench"
@@ -402,47 +402,47 @@
 				table_id: 3967290467071030690L
 				type: "random"
 			}]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [
 				{
 					id: "7CF52FF14E537A87"
 					item: "create:wrench"
-					title: "Craft a Wrench"
-					type: "item"
-				}
-				{
-					id: "20B9F04A3D1B778F"
-					item: "create:goggles"
-					title: "Craft the Engineer's Goggles"
-					type: "item"
-				}
-				{
-					advancement: "create:wrench_goggles"
-					criterion: ""
-					icon: "minecraft:book"
-					id: "7BF8168DFC3BABDE"
-					title: "&6Use the Wrench and Engineer's Goggles together"
+				title: "Fabrica una Wrench"
+				type: "item"
+			}
+			{
+				id: "20B9F04A3D1B778F"
+				item: "create:goggles"
+				title: "Fabrica las Engineer's Goggles"
+				type: "item"
+			}
+			{
+				advancement: "create:wrench_goggles"
+				criterion: ""
+				icon: "minecraft:book"
+				id: "7BF8168DFC3BABDE"
+				title: "&6Usa la Wrench y las Engineer's Goggles juntas"
 					type: "advancement"
 				}
 			]
-			title: "Craft Engineering Tools"
+			title: "Fabrica Herramientas de Ingeniería"
 			x: -2.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["44023B1BEEBD2A9A"]
 			description: [
-				"&6Copper Casing&r can be crafted by:"
+				"&6Copper Casing&r se puede fabricar:"
 				""
-				"Right-clicking a &bStripped Log&r with a &bCopper Ingot&r."
+				"Haciendo clic derecho en un &bStripped Log&r con un &bCopper Ingot&r."
 			]
 			id: "597FDDB36D19A4C1"
-			subtitle: "The primary building block for fluid handling."
+			subtitle: "El bloque de construcción principal para el manejo de fluidos."
 			tasks: [{
 				advancement: "create:copper_casing"
 				criterion: ""
 				id: "7CAA0D7E61FD0F1C"
-				title: "Craft a Copper Casing"
+				title: "Fabrica un Copper Casing"
 				type: "advancement"
 			}]
 			x: 0.0d
@@ -451,7 +451,7 @@
 		{
 			dependencies: ["597FDDB36D19A4C1"]
 			description: [
-				"&6Spouts&r can be crafted with:"
+				"&6Spouts&r se pueden fabricar con:"
 				""
 				"1x &bCopper Casing&r"
 				"1x &bDried Kelp&r"
@@ -464,20 +464,20 @@
 				table_id: 3967290467071030690L
 				type: "random"
 			}]
-			subtitle: "Used for bottling or bucket filling, or crafting with liquids."
+			subtitle: "Sirve para embotellar, llenar cubos o fabricar con líquidos."
 			tasks: [
 				{
 					id: "6776EC66305E7515"
 					item: "create:spout"
-					title: "Craft a Spout"
-					type: "item"
-				}
-				{
-					advancement: "create:spout"
-					criterion: ""
-					icon: "minecraft:book"
-					id: "2365745C190E70C0"
-					title: "&6Fill an item using a Spout&r"
+				title: "Fabrica un Spout"
+				type: "item"
+			}
+			{
+				advancement: "create:spout"
+				criterion: ""
+				icon: "minecraft:book"
+				id: "2365745C190E70C0"
+				title: "&6Llena un objeto usando un Spout&r"
 					type: "advancement"
 				}
 			]
@@ -487,10 +487,10 @@
 		{
 			dependencies: ["597FDDB36D19A4C1"]
 			description: [
-				"&6Fluid Tanks&r can be crafted with:"
+				"&6Fluid Tanks&r se pueden fabricar con:"
 				""
 				"2x &bCopper Sheet&r"
-				"1x &bAny Barrel&r"
+				"1x &bCualquier Barril&r"
 			]
 			id: "05418193499DB652"
 			rewards: [{
@@ -499,11 +499,11 @@
 				table_id: 3967290467071030690L
 				type: "random"
 			}]
-			subtitle: "Fluid storage with a capacity of up to 8x Buckets."
+			subtitle: "Almacenamiento de fluidos con capacidad de hasta 8x cubos."
 			tasks: [{
 				id: "420A6375A1401A54"
 				item: "create:fluid_tank"
-				title: "Craft a Fluid Tank"
+				title: "Fabrica un Fluid Tank"
 				type: "item"
 			}]
 			x: 2.0d
@@ -512,10 +512,10 @@
 		{
 			dependencies: ["597FDDB36D19A4C1"]
 			description: [
-				"&6Item Drains&r can be crafted with:"
+				"&6Item Drains&r se pueden fabricar con:"
 				""
 				"1x &bCopper Casing&r"
-				"1x &bIron Bar&r"
+				"1x &bBarra de Hierro&r"
 			]
 			id: "5261652954F34481"
 			rewards: [{
@@ -524,11 +524,11 @@
 				table_id: 3967290467071030690L
 				type: "random"
 			}]
-			subtitle: "Drains fluid from Bottles and Buckets."
+			subtitle: "Drena fluidos de Botellas y Cubos."
 			tasks: [{
 				id: "5806573745FE311D"
 				item: "create:item_drain"
-				title: "Craft an Item Drain"
+				title: "Fabrica un Item Drain"
 				type: "item"
 			}]
 			x: -2.0d
@@ -537,10 +537,10 @@
 		{
 			dependencies: ["597FDDB36D19A4C1"]
 			description: [
-				"&6Hose Pulleys&r can be crafted with:"
+				"&6Hose Pulleys&r se pueden fabricar con:"
 				""
 				"1x &bCopper Casing&r"
-				"1x &bDried Kelp Block&r"
+				"1x &bBloque de Dried Kelp&r"
 				"1x &bCopper Sheet&r"
 			]
 			icon: "create:hose_pulley"
@@ -551,20 +551,20 @@
 				table_id: 3967290467071030690L
 				type: "random"
 			}]
-			subtitle: "Extends a hose capable of draining bodies of liquids."
+			subtitle: "Extiende una manguera capaz de drenar cuerpos de líquidos."
 			tasks: [
 				{
 					id: "0AE0F8488DC1DD2A"
 					item: "create:hose_pulley"
-					title: "Craft a Hose Pulley"
-					type: "item"
-				}
-				{
-					advancement: "create:hose_pulley"
-					criterion: ""
-					icon: "minecraft:book"
-					id: "00D3BD93F808D16C"
-					title: "&6Observe an active Hose Pulley&r"
+				title: "Fabrica un Hose Pulley"
+				type: "item"
+			}
+			{
+				advancement: "create:hose_pulley"
+				criterion: ""
+				icon: "minecraft:book"
+				id: "00D3BD93F808D16C"
+				title: "&6Observa un Hose Pulley activo&r"
 					type: "advancement"
 				}
 			]
@@ -574,7 +574,7 @@
 		{
 			dependencies: ["4B20AAF81A1DAF1D"]
 			description: [
-				"&6Fluid Pipes&r can be crafted with:"
+				"&6Fluid Pipes&r se pueden fabricar con:"
 				""
 				"2x &bCopper Sheets&r"
 				"1x &bCopper Ingot&r"
@@ -585,12 +585,12 @@
 				item: "create:smart_fluid_pipe"
 				type: "item"
 			}]
-			subtitle: "Easily transport fluids."
+			subtitle: "Transporta fluidos fácilmente."
 			tasks: [{
 				count: 4L
 				id: "4E3CA3ECFE399590"
 				item: "create:fluid_pipe"
-				title: "Craft 4x Fluid Pipes"
+				title: "Fabrica 4x Fluid Pipes"
 				type: "item"
 			}]
 			x: -4.0d
@@ -599,13 +599,13 @@
 		{
 			dependencies: ["05418193499DB652"]
 			description: [
-				"&6Steam Engines&r can be crafted with:"
+				"&6Steam Engines&r se pueden fabricar con:"
 				""
 				"1x &bGolden Sheet&r"
 				"1x &bAndesite Alloy&r"
-				"1x &bBlock of Copper&r"
+				"1x &bBloque de Cobre&r"
 				""
-				"&aPondering is recommended.&r"
+				"&aSe recomienda usar Ponder.&r"
 			]
 			icon: "create:steam_engine"
 			id: "65AE38473D6A6138"
@@ -624,20 +624,20 @@
 					type: "item"
 				}
 			]
-			subtitle: "Generates the highest amount of Stress Unit capacity."
+			subtitle: "Genera la mayor cantidad de capacidad de Unidades de Estrés."
 			tasks: [
 				{
 					id: "4B47B463B56783F4"
 					item: "create:steam_engine"
-					title: "Craft a Steam Engine"
-					type: "item"
-				}
-				{
-					advancement: "create:steam_engine"
-					criterion: ""
-					icon: "minecraft:book"
-					id: "5EC3753F4DADB315"
-					title: "&6Generate torque with a Steam Engine&r"
+				title: "Fabrica un Steam Engine"
+				type: "item"
+			}
+			{
+				advancement: "create:steam_engine"
+				criterion: ""
+				icon: "minecraft:book"
+				id: "5EC3753F4DADB315"
+				title: "&6Genera torque con un Steam Engine&r"
 					type: "advancement"
 				}
 			]
@@ -646,26 +646,26 @@
 		}
 		{
 			id: "44023B1BEEBD2A9A"
-			subtitle: "The main ingredient for contraptions that handle fluids."
+			subtitle: "El ingrediente principal para contraptions que manejan fluidos."
 			tasks: [{
 				id: "5C3B7B056D372A6D"
 				item: "minecraft:copper_ingot"
-				title: "Obtain a Copper Ingot"
+				title: "Obtén un Copper Ingot"
 				type: "item"
 			}]
-			title: "The Era of Copper"
+			title: "La Era del Cobre"
 			x: 0.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["556609BA3F5B1EE9"]
 			description: [
-				"&6Mechanical Pumps&r can be crafted with:"
+				"&6Mechanical Pumps&r se pueden fabricar con:"
 				""
 				"1x &bCogwheel&r"
 				"1x &bFluid Pipe&r"
 				""
-				"&aPondering is recommended.&r"
+				"&aSe recomienda usar Ponder.&r"
 			]
 			icon: "create:mechanical_pump"
 			id: "3A41BC8707C797D1"
@@ -675,20 +675,20 @@
 				table_id: 3967290467071030690L
 				type: "random"
 			}]
-			subtitle: "Uses rotational force to pump liquids through Fluid Pipes."
+			subtitle: "Usa fuerza rotacional para bombear líquidos a través de Fluid Pipes."
 			tasks: [
 				{
 					id: "2094BFDE867003C8"
 					item: "create:mechanical_pump"
-					title: "Craft a Mechanical Pump"
-					type: "item"
-				}
-				{
-					advancement: "create:mechanical_pump_0"
-					criterion: ""
-					icon: "minecraft:book"
-					id: "5A11DC9FA051EEFD"
-					title: "&6Power a Mechanical Pump&r"
+				title: "Fabrica un Mechanical Pump"
+				type: "item"
+			}
+			{
+				advancement: "create:mechanical_pump_0"
+				criterion: ""
+				icon: "minecraft:book"
+				id: "5A11DC9FA051EEFD"
+				title: "&6Alimenta un Mechanical Pump&r"
 					type: "advancement"
 				}
 			]
@@ -698,12 +698,12 @@
 		{
 			dependencies: ["597FDDB36D19A4C1"]
 			description: [
-				"The &6Portable Fluid Interface&r can be crafted with:"
+				"El &6Portable Fluid Interface&r se puede fabricar con:"
 				""
 				"1x &bCopper Casing&r"
 				"1x &bChute&r"
 				""
-				"&aPondering is recommended.&r"
+				"&aSe recomienda usar Ponder.&r"
 			]
 			id: "7E4E88EB2D73FE9F"
 			rewards: [{
@@ -712,11 +712,11 @@
 				table_id: 3967290467071030690L
 				type: "random"
 			}]
-			subtitle: "Used to insert or extract fluid from a contraption."
+			subtitle: "Sirve para insertar o extraer fluidos de una contraption."
 			tasks: [{
 				id: "0A05E495BFC9551E"
 				item: "create:portable_fluid_interface"
-				title: "Craft a Portable Fluid Interface"
+				title: "Fabrica un Portable Fluid Interface"
 				type: "item"
 			}]
 			x: -2.0d
@@ -725,13 +725,13 @@
 		{
 			dependencies: ["213FC9EACA169E70"]
 			description: [
-				"&6Super Glue&r can be crafted with:"
+				"&6Super Glue&r se puede fabricar con:"
 				""
 				"2x &bSlimeballs&r"
-				"1x &bIron Nugget&r"
+				"1x &bNugget de Hierro&r"
 				"1x &bIron Sheet&r"
 				""
-				"&aPondering is recommended.&r"
+				"&aSe recomienda usar Ponder.&r"
 			]
 			icon: {
 				Count: 1
@@ -747,7 +747,7 @@
 				table_id: 3967290467071030690L
 				type: "choice"
 			}]
-			subtitle: "Hold those contraptions together!"
+			subtitle: "¡Mantén esas contraptions unidas!"
 			tasks: [
 				{
 					id: "3E65E02ADBF3E606"
@@ -758,15 +758,15 @@
 							Damage: 0
 						}
 					}
-					title: "Craft Super Glue"
-					type: "item"
-				}
-				{
-					advancement: "create:super_glue"
-					criterion: ""
-					icon: "minecraft:book"
-					id: "526E4F5DDC1EDA0B"
-					title: "&6Use Super Glue to connect blocks&r"
+				title: "Fabrica Super Glue"
+				type: "item"
+			}
+			{
+				advancement: "create:super_glue"
+				criterion: ""
+				icon: "minecraft:book"
+				id: "526E4F5DDC1EDA0B"
+				title: "&6Usa Super Glue para conectar bloques&r"
 					type: "advancement"
 				}
 			]
@@ -776,16 +776,16 @@
 		{
 			dependencies: ["48A75BC9A37CA03E"]
 			description: [
-				"To generate power, a &6Windmill Bearing&r requires at least 8x &bSails&r, &bSail Frames&r, or &bWool&r blocks connected."
+				"Para generar energía, un &6Windmill Bearing&r requiere al menos 8x &bSails&r, &bSail Frames&r, o bloques de &bLana&r conectados."
 				""
-				"By default, the &6Windmill Bearing&r spins clockwise, but this can be switched to counter-clockwise with a &bWrench&r."
+				"Por defecto, el &6Windmill Bearing&r gira en sentido horario, pero se puede cambiar a antihorario con una &bWrench&r."
 				""
-				"&6Windmill Bearings&r can be crafted with:"
-				"1x &bAny Wooden Slab&r"
-				"1x &bAny Stone&r"
+				"&6Windmill Bearings&r se pueden fabricar con:"
+				"1x &bCualquier Losa de Madera&r"
+				"1x &bCualquier Piedra&r"
 				"1x &bShaft&r"
 				""
-				"&aPondering is recommended.&r"
+				"&aSe recomienda usar Ponder.&r"
 			]
 			id: "1A7D1355A923B9BA"
 			rewards: [{
@@ -794,11 +794,11 @@
 				item: "create:white_sail"
 				type: "item"
 			}]
-			subtitle: "The root of any working Windmill."
+			subtitle: "El núcleo de cualquier Windmill funcional."
 			tasks: [{
 				id: "2F6995CC821AA667"
 				item: "create:windmill_bearing"
-				title: "Craft a Windmill Bearing"
+				title: "Fabrica un Windmill Bearing"
 				type: "item"
 			}]
 			x: 4.0d
@@ -807,10 +807,10 @@
 		{
 			dependencies: ["1A7D1355A923B9BA"]
 			description: [
-				"&6Windmill Sails&r can be crafted with:"
+				"&6Windmill Sails&r se pueden fabricar con:"
 				""
-				"1x &bAny Wool&r"
-				"2x &bStick&r"
+				"1x &bCualquier Lana&r"
+				"2x &bPalo&r"
 				"1x &bAndesite Alloy&r"
 			]
 			id: "6C1B5E8D5F82D470"
@@ -820,12 +820,12 @@
 				item: "create:white_sail"
 				type: "item"
 			}]
-			subtitle: "A necessary building block for Windmills."
+			subtitle: "Un bloque de construcción necesario para los Windmills."
 			tasks: [{
 				count: 6L
 				id: "709EEA9038698DC2"
 				item: "create:white_sail"
-				title: "Craft 6x Windmill Sails"
+				title: "Fabrica 6x Windmill Sails"
 				type: "item"
 			}]
 			x: 6.0d
@@ -833,9 +833,9 @@
 		}
 		{
 			description: [
-				"It's &6Dried Kelp&r."
+				"Es &6Dried Kelp&r."
 				""
-				"&9No rewards for this one, sorry.&r"
+				"&9No hay recompensas para este, lo siento.&r"
 			]
 			id: "2635EBF6AEFDC1A9"
 			subtitle: "Dried Kelp."
@@ -843,7 +843,7 @@
 				count: 6L
 				id: "150EBB1F8531A123"
 				item: { Count: 6, id: "minecraft:dried_kelp" }
-				title: "Obtain 6x Dried Kelp"
+				title: "Obtén 6x Dried Kelp"
 				type: "item"
 			}]
 			x: 2.0d
@@ -852,13 +852,13 @@
 		{
 			dependencies: ["2635EBF6AEFDC1A9"]
 			description: [
-				"&6Mechanical Belts&r require at least 2 &bShafts&r."
+				"&6Mechanical Belts&r requieren al menos 2 &bShafts&r."
 				""
-				"Right-click the first shaft, then the second to place the &6Belt&r. This only consumes 1 &6Mechanical Belt&r, no matter the length."
+				"Haz clic derecho en el primer shaft y luego en el segundo para colocar el &6Belt&r. Solo consume 1 &6Mechanical Belt&r, sin importar la longitud."
 				""
-				"Both &bShafts&r must face the same direction."
+				"Ambos &bShafts&r deben apuntar en la misma dirección."
 				""
-				"&6Mechanical Belts&r can be crafted with:"
+				"&6Mechanical Belts&r se pueden fabricar con:"
 				""
 				"6x &bDried Kelp&r"
 			]
@@ -870,20 +870,20 @@
 				table_id: 1383287777062204293L
 				type: "random"
 			}]
-			subtitle: "Move those items!"
+			subtitle: "¡Mueve esos objetos!"
 			tasks: [
 				{
 					id: "2B5DC74AFAD508DB"
 					item: "create:belt_connector"
-					title: "Craft a Mechanical Belt"
-					type: "item"
-				}
-				{
-					advancement: "create:belt"
-					criterion: ""
-					icon: "minecraft:book"
-					id: "154D0A0F2C572B1A"
-					title: "&6Set up a Mechanical Belt&r"
+				title: "Fabrica un Mechanical Belt"
+				type: "item"
+			}
+			{
+				advancement: "create:belt"
+				criterion: ""
+				icon: "minecraft:book"
+				id: "154D0A0F2C572B1A"
+				title: "&6Configura un Mechanical Belt&r"
 					type: "advancement"
 				}
 			]
@@ -893,7 +893,7 @@
 		{
 			dependencies: ["2635EBF6AEFDC1A9"]
 			description: [
-				"&6Andesite Funnels&r can be crafted with:"
+				"&6Andesite Funnels&r se pueden fabricar con:"
 				""
 				"1x &bAndesite Alloy&r"
 				"1x &bDried Kelp&r"
@@ -906,20 +906,20 @@
 				table_id: 1383287777062204293L
 				type: "random"
 			}]
-			subtitle: "Extract or insert items into inventories."
+			subtitle: "Extrae o inserta objetos en inventarios."
 			tasks: [
 				{
 					id: "018E7A17A7B725F9"
 					item: "create:andesite_funnel"
-					title: "Craft an Andesite Funnel"
-					type: "item"
-				}
-				{
-					advancement: "create:funnel"
-					criterion: ""
-					icon: "minecraft:book"
-					id: "1CF3D52A58AA3A78"
-					title: "&6Extract or insert items using an Andesite Funnel&r"
+				title: "Fabrica un Andesite Funnel"
+				type: "item"
+			}
+			{
+				advancement: "create:funnel"
+				criterion: ""
+				icon: "minecraft:book"
+				id: "1CF3D52A58AA3A78"
+				title: "&6Extrae o inserta objetos usando un Andesite Funnel&r"
 					type: "advancement"
 				}
 			]
@@ -932,11 +932,11 @@
 				"47E665AFF341A50C"
 			]
 			description: [
-				"Each machine draws power from the network."
+				"Cada máquina consume energía de la red."
 				""
-				"&6Stress Unit&r capacity increases with &bWater Wheels&r, &bWindmills&r, or other generators."
+				"La capacidad de &6Unidades de Estrés&r aumenta con &bWater Wheels&r, &bWindmills&r u otros generadores."
 				""
-				"If &6Stress Units&r fall below 0x, the network becomes &cOverstressed&r and shuts down."
+				"Si las &6Unidades de Estrés&r caen por debajo de 0x, la red queda &cSobrecargada&r y se apaga."
 			]
 			icon: "bcg_smp:joe_coin"
 			id: "48A75BC9A37CA03E"
@@ -947,10 +947,10 @@
 				type: "item"
 			}]
 			size: 1.25d
-			subtitle: "A mechanical component's impact or capacity in a network."
+			subtitle: "El impacto o capacidad de un componente mecánico en una red."
 			tasks: [{
 				id: "43FBFEA400329FFC"
-				title: "Stress Units"
+				title: "Unidades de Estrés"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -959,10 +959,10 @@
 		{
 			dependencies: ["1DA7EBF4DEB52645"]
 			description: [
-				"&6Hand Cranks&r can be crafted with:"
+				"&6Hand Cranks&r se pueden fabricar con:"
 				""
 				"1x &bAndesite Alloy&r"
-				"3x &bAny Wooden Planks&r"
+				"3x &bCualquier Tabla de Madera&r"
 			]
 			id: "4F6E94BF2C80A4C9"
 			rewards: [{
@@ -971,11 +971,11 @@
 				item: "minecraft:cooked_beef"
 				type: "item"
 			}]
-			subtitle: "The easiest method to generate rotational force."
+			subtitle: "El método más sencillo para generar fuerza rotacional."
 			tasks: [{
 				id: "446ADE409124E980"
 				item: "create:hand_crank"
-				title: "Craft a Hand Crank"
+				title: "Fabrica un Hand Crank"
 				type: "item"
 			}]
 			x: 2.0d
@@ -984,7 +984,7 @@
 		{
 			dependencies: ["213FC9EACA169E70"]
 			description: [
-				"&6Chutes&r can be crafted with:"
+				"&6Chutes&r se pueden fabricar con:"
 				""
 				"2x &bIron Sheets&r"
 				"1x &bIron Ingot&r"
@@ -996,21 +996,21 @@
 				item: "create:smart_chute"
 				type: "item"
 			}]
-			subtitle: "Similar to Belts, but vertical."
+			subtitle: "Similar a los Belts, pero vertical."
 			tasks: [
 				{
 					count: 4L
 					id: "104037F2D21AA416"
 					item: "create:chute"
-					title: "Craft a Chute"
-					type: "item"
-				}
-				{
-					advancement: "create:chute"
-					criterion: ""
-					icon: "minecraft:book"
-					id: "0A1537D3F7989652"
-					title: "&6Move items through Chutes&r"
+				title: "Fabrica un Chute"
+				type: "item"
+			}
+			{
+				advancement: "create:chute"
+				criterion: ""
+				icon: "minecraft:book"
+				id: "0A1537D3F7989652"
+				title: "&6Mueve objetos a través de Chutes&r"
 					type: "advancement"
 				}
 			]
@@ -1020,12 +1020,12 @@
 		{
 			dependencies: ["575C3CA17F9AE70E"]
 			description: [
-				"&6Portable Storage Interface&r can be crafted with:"
+				"&6Portable Storage Interface&r se puede fabricar con:"
 				""
 				"1x &bAndesite Casing&r"
 				"1x &bChute&r"
 				""
-				"&aPondering is recommended.&r"
+				"&aSe recomienda usar Ponder.&r"
 			]
 			icon: "create:portable_storage_interface"
 			id: "10E99F3EC7539501"
@@ -1035,20 +1035,20 @@
 				item: "create:linear_chassis"
 				type: "item"
 			}]
-			subtitle: "Allows Item Transporters to interact directly with Contraptions."
+			subtitle: "Permite a los Transportadores de Objetos interactuar directamente con Contraptions."
 			tasks: [
 				{
 					id: "37E7830B4649331F"
 					item: "create:portable_storage_interface"
-					title: "Craft a Portable Storage Interface"
-					type: "item"
-				}
-				{
-					advancement: "create:portable_storage_interface"
-					criterion: ""
-					icon: "minecraft:book"
-					id: "15872AC97740647D"
-					title: "&6Extract or insert items into a Contraption&r"
+				title: "Fabrica un Portable Storage Interface"
+				type: "item"
+			}
+			{
+				advancement: "create:portable_storage_interface"
+				criterion: ""
+				icon: "minecraft:book"
+				id: "15872AC97740647D"
+				title: "&6Extrae o inserta objetos en una Contraption&r"
 					type: "advancement"
 				}
 			]
@@ -1058,16 +1058,16 @@
 		{
 			dependencies: ["213FC9EACA169E70"]
 			description: [
-				"&6Item Vaults&r are the intended storage system in &6BigChadGuys Plus&r. Each &6Vault&r can hold up to 30x items."
+				"&6Item Vaults&r es el sistema de almacenamiento previsto en &6BigChadGuys Plus&r. Cada &6Vault&r puede contener hasta 30x objetos."
 				""
-				"Make sure to pair your &6Item Vaults&r with:"
+				"Asegúrate de combinar tus &6Item Vaults&r con:"
 				""
 				"{ \"text\": \"Tom's Simple Storage\", \"color\": \"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"74D3F94AF49EECCF\" } }"
 				""
-				"&6Item Vaults&r can be crafted with:"
+				"&6Item Vaults&r se pueden fabricar con:"
 				""
 				"2x &bIron Sheets&r"
-				"1x &bAny Barrel&r"
+				"1x &bCualquier Barril&r"
 			]
 			id: "2E976AB705F26470"
 			rewards: [{
@@ -1076,12 +1076,12 @@
 				item: "create:item_vault"
 				type: "item"
 			}]
-			subtitle: "A great place to store your items!"
+			subtitle: "¡Un gran lugar para guardar tus objetos!"
 			tasks: [{
 				count: 6L
 				id: "086B145E7B315E5A"
 				item: "create:item_vault"
-				title: "Craft 6x Item Vaults"
+				title: "Fabrica 6x Item Vaults"
 				type: "item"
 			}]
 			x: -2.0d
@@ -1090,7 +1090,7 @@
 		{
 			dependencies: ["213FC9EACA169E70"]
 			description: [
-				"&6Weighted Ejectors&r can be crafted with:"
+				"&6Weighted Ejectors&r se pueden fabricar con:"
 				""
 				"1x &bGolden Sheet&r"
 				"1x &bDepot&r"
@@ -1112,20 +1112,20 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Accurately launches items through the air."
+			subtitle: "Lanza objetos con precisión por el aire."
 			tasks: [
 				{
 					id: "6AA36238B9F3C4CC"
 					item: "create:weighted_ejector"
-					title: "Craft a Weighted Ejector"
-					type: "item"
-				}
-				{
-					advancement: "create:ejector_maxed"
-					criterion: ""
-					icon: "minecraft:book"
-					id: "0439012A49F5F300"
-					title: "&6Launch yourself 30x blocks&r"
+				title: "Fabrica un Weighted Ejector"
+				type: "item"
+			}
+			{
+				advancement: "create:ejector_maxed"
+				criterion: ""
+				icon: "minecraft:book"
+				id: "0439012A49F5F300"
+				title: "&6Lánzate 30x bloques&r"
 					type: "advancement"
 				}
 			]
@@ -1135,11 +1135,11 @@
 		{
 			dependencies: ["62F208B170CCE457"]
 			description: [
-				"The &6Mechanical Drill&r is a powerful block that uses rotational force to break other blocks, ideal for &bCobblestone&r generators!"
+				"El &6Mechanical Drill&r es un bloque poderoso que usa fuerza rotacional para romper otros bloques, ¡ideal para generadores de &bCobblestone&r!"
 				""
-				"It can also be connected to &bCart Assemblers&r to create automatic mining machines—get creative!"
+				"¡También se puede conectar a &bCart Assemblers&r para crear máquinas mineras automáticas—sé creativo!"
 				""
-				"&6Mechanical Drills&r can be crafted with:"
+				"&6Mechanical Drills&r se pueden fabricar con:"
 				""
 				"3x &bAndesite Alloy&r"
 				"1x &bIron Ingot&r"
@@ -1158,11 +1158,11 @@
 					type: "item"
 				}
 			]
-			subtitle: "Breaks blocks ahead using rotational force."
+			subtitle: "Rompe bloques al frente usando fuerza rotacional."
 			tasks: [{
 				id: "54DD4DDF680212D7"
 				item: "create:mechanical_drill"
-				title: "Craft a Mechanical Drill"
+				title: "Fabrica un Mechanical Drill"
 				type: "item"
 			}]
 			x: -2.0d
@@ -1171,13 +1171,13 @@
 		{
 			dependencies: ["213FC9EACA169E70"]
 			description: [
-				"&6Mechanical Mixers&r can be crafted with:"
+				"&6Mechanical Mixers&r se pueden fabricar con:"
 				""
 				"1x &bCogwheel&r"
 				"1x &bAndesite Casing&r"
 				"1x &bWhisk&r"
 				""
-				"&6Basins&r can be crafted with:"
+				"&6Basins&r se pueden fabricar con:"
 				""
 				"5x &bAndesite Alloy&r"
 			]
@@ -1189,48 +1189,48 @@
 				table_id: 3967290467071030690L
 				type: "random"
 			}]
-			subtitle: "Unlock Mixing recipes!"
+			subtitle: "¡Desbloquea recetas de Mezcla!"
 			tasks: [
 				{
 					id: "5C74116EBCAE5462"
 					item: "create:mechanical_mixer"
-					title: "Craft a Mechanical Mixer"
-					type: "item"
-				}
-				{
-					id: "3A6B085C25FDFCE9"
-					item: "create:basin"
-					title: "Craft a Basin"
-					type: "item"
-				}
-				{
-					advancement: "create:mechanical_mixer"
-					criterion: ""
-					icon: "minecraft:book"
-					id: "780428D8BD6C4DB6"
-					title: "&6Successfully operate a Mixer and Basin&r"
-					type: "advancement"
-				}
-			]
-			title: "Craft a Mechanical Mixer and Basin"
+				title: "Fabrica un Mechanical Mixer"
+				type: "item"
+			}
+			{
+				id: "3A6B085C25FDFCE9"
+				item: "create:basin"
+				title: "Fabrica un Basin"
+				type: "item"
+			}
+			{
+				advancement: "create:mechanical_mixer"
+				criterion: ""
+				icon: "minecraft:book"
+				id: "780428D8BD6C4DB6"
+				title: "&6Opera un Mixer y Basin exitosamente&r"
+				type: "advancement"
+			}
+		]
+		title: "Fabrica un Mechanical Mixer y un Basin"
 			x: -4.0d
 			y: -12.0d
 		}
 		{
 			dependencies: ["593A6F72F8CC705B"]
 			description: [
-				"&6Blaze Burners&r require &bBlazes&r to function."
+				"&6Blaze Burners&r requieren &bBlazes&r para funcionar."
 				""
-				"To place a &bBlaze&r in an &bEmpty Blaze Burner&r, right-click a &bBlaze&r while holding an &bEmpty Blaze Burner&r. Alternatively, right-clicking an &bEmpty Blaze Burner&r on a &bBlaze Spawner&r will fill it."
+				"Para colocar un &bBlaze&r en un &bEmpty Blaze Burner&r, haz clic derecho en un &bBlaze&r mientras sostienes un &bEmpty Blaze Burner&r. Alternativamente, hacer clic derecho con un &bEmpty Blaze Burner&r en un &bBlaze Spawner&r lo llenará."
 				""
-				"&6Blaze Burners&r are used for &cHeating&r and &cSuper-Heating&r &bBasins&r in Mixing recipes. They are essential for making &bBrass&r and can also serve as a heat source for boilers powering &bSteam Engines&r."
+				"&6Blaze Burners&r se usan para &cCalentar&r y &cSuperCalentar&r &bBasins&r en recetas de Mezcla. Son esenciales para hacer &bBrass&r y también pueden servir como fuente de calor para calderas que alimentan &bSteam Engines&r."
 				""
-				"&6Blaze Burners&r can be crafted with:"
+				"&6Blaze Burners&r se pueden fabricar con:"
 				""
 				"4x &bIron Sheets&r"
 				"1x &bNetherrack&r"
 				""
-				"&aPondering is recommended.&r"
+				"&aSe recomienda usar Ponder.&r"
 			]
 			id: "31C8767E1AD34337"
 			rewards: [
@@ -1253,12 +1253,12 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				advancement: "create:burner"
 				criterion: ""
 				id: "5B95A5B4C1032890"
-				title: "Craft and Capture a Blaze Burner"
+				title: "Fabrica y Captura un Blaze Burner"
 				type: "advancement"
 			}]
 			x: -4.0d
@@ -1270,7 +1270,7 @@
 				"412F7EB8AD3B212D"
 			]
 			description: [
-				"&6Brass Ingots&r can be created in a &bBasin&r with a &bMixer&r and &bBlaze Burner&r using:"
+				"&6Brass Ingots&r se pueden crear en un &bBasin&r con un &bMixer&r y un &bBlaze Burner&r usando:"
 				""
 				"1x &bCopper Ingot&r"
 				"1x &bZinc Ingot&r"
@@ -1281,32 +1281,32 @@
 				item: "create:brass_ingot"
 				type: "item"
 			}]
-			subtitle: "The main ingredient for advanced contraptions."
+			subtitle: "El ingrediente principal para contraptions avanzadas."
 			tasks: [{
 				advancement: "create:brass"
 				criterion: ""
 				id: "7D3038580E9D651B"
-				title: "Obtain a Brass Ingot"
+				title: "Obtén un Brass Ingot"
 				type: "advancement"
 			}]
-			title: "The Era of Brass"
+			title: "La Era del Latón"
 			x: 0.0d
 			y: -14.0d
 		}
 		{
 			dependencies: ["5BD0023532DDEEF8"]
 			description: [
-				"&6Brass Casing&r can be crafted by:"
+				"&6Brass Casing&r se puede fabricar:"
 				""
-				"Right-clicking a &bStripped Log&r with an &bBrass Ingot&r."
+				"Haciendo clic derecho en un &bStripped Log&r con un &bBrass Ingot&r."
 			]
 			id: "01B1D9F128FFC4C9"
-			subtitle: "The primary building block for late-game automation."
+			subtitle: "El bloque de construcción principal para la automatización avanzada."
 			tasks: [{
 				advancement: "create:brass_casing"
 				criterion: ""
 				id: "2317F6F64DA63066"
-				title: "Craft a Brass Casing"
+				title: "Fabrica un Brass Casing"
 				type: "advancement"
 			}]
 			x: 2.0d
@@ -1315,15 +1315,15 @@
 		{
 			dependencies: ["01B1D9F128FFC4C9"]
 			description: [
-				"&6Mechanical Crafters&r are essential blocks required for crafting late-game items like the &dCreative Motor&r and &dCreative Fluid Tank&r."
+				"&6Mechanical Crafters&r son bloques esenciales para fabricar objetos del juego avanzado como el &dCreative Motor&r y el &dCreative Fluid Tank&r."
 				""
-				"&6Mechanical Crafters&r can be crafted with:"
+				"&6Mechanical Crafters&r se pueden fabricar con:"
 				""
 				"1x &bElectron Tube&r"
 				"1x &bBrass Casing&r"
-				"1x &bCrafting Table&r"
+				"1x &bMesa de Fabricación&r"
 				""
-				"&aPondering is recommended.&r"
+				"&aSe recomienda usar Ponder.&r"
 			]
 			icon: "create:mechanical_crafter"
 			id: "0DE477B195CB758E"
@@ -1333,12 +1333,12 @@
 				table_id: 5212314355944484118L
 				type: "random"
 			}]
-			subtitle: "Bigger recipes call for bigger Crafting Tables!"
+			subtitle: "¡Las recetas más grandes requieren Mesas de Fabricación más grandes!"
 			tasks: [
 				{
 					id: "60796EEDF7C99B1B"
 					item: "create:mechanical_crafter"
-					title: "Craft a Mechanical Crafter"
+					title: "Fabrica un Mechanical Crafter"
 					type: "item"
 				}
 				{
@@ -1346,7 +1346,7 @@
 					criterion: ""
 					icon: "minecraft:book"
 					id: "688A34E3EB993D1C"
-					title: "&6Place and power some Mechanical Crafters&r"
+					title: "&6Coloca y alimenta algunos Mechanical Crafters&r"
 					type: "advancement"
 				}
 			]
@@ -1356,13 +1356,13 @@
 		{
 			dependencies: ["0DE477B195CB758E"]
 			description: [
-				"&6Crushing Wheels&r can be &bMechanically Crafted&r with:"
+				"&6Crushing Wheels&r se pueden &bFabricar Mecánicamente&r con:"
 				""
 				"16x &bAndesite Alloy&r"
-				"4x &bAny Planks&r"
-				"1x &bAny Stone&r"
+				"4x &bCualquier Tabla&r"
+				"1x &bCualquier Piedra&r"
 				""
-				"&aPondering is recommended.&r"
+				"&aSe recomienda usar Ponder.&r"
 			]
 			icon: "create:crushing_wheel"
 			id: "529462B466B433C8"
@@ -1381,13 +1381,13 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "The advanced version of Millstones."
+			subtitle: "La versión avanzada de los Millstones."
 			tasks: [
 				{
 					count: 2L
 					id: "1B0F403509DBF2AB"
 					item: "create:crushing_wheel"
-					title: "Craft 2x Crushing Wheels"
+					title: "Fabrica 2x Crushing Wheels"
 					type: "item"
 				}
 				{
@@ -1395,7 +1395,7 @@
 					criterion: ""
 					icon: "minecraft:book"
 					id: "7110DCB7520B62C7"
-					title: "&6Place and power a pair of Crushing Wheels&r"
+					title: "&6Coloca y alimenta un par de Crushing Wheels&r"
 					type: "advancement"
 				}
 			]
@@ -1412,10 +1412,10 @@
 				type: "item"
 			}]
 			size: 1.5d
-			subtitle: "Electric tools!"
+			subtitle: "¡Herramientas eléctricas!"
 			tasks: [{
 				id: "37C794D67E7C7387"
-				title: "Unlock &6Crafts and Additions"
+				title: "Desbloquea &6Crafts and Additions"
 				type: "checkmark"
 			}]
 			x: -4.0d
@@ -1424,25 +1424,25 @@
 		{
 			dependencies: ["213FC9EACA169E70"]
 			description: [
-				"&6Mechanical Harvesters&r can be crafted with:"
+				"&6Mechanical Harvesters&r se pueden fabricar con:"
 				""
 				"4x &bAndesite Alloy&r"
 				"2x &bIron Sheets&r"
 				"1x &bAndesite Casing&r"
 				""
-				"&6Mechanical Saws&r can be crafted with:"
+				"&6Mechanical Saws&r se pueden fabricar con:"
 				""
 				"3x &bIron Sheets&r"
 				"1x &bIron Ingot&r"
 				"1x &bAndesite Casing&r"
 				""
-				"&6Mechanical Ploughs&r can be crafted with:"
+				"&6Mechanical Ploughs&r se pueden fabricar con:"
 				""
 				"3x &bIron Sheets&r"
 				"3x &bAndesite Alloy&r"
 				"1x &bAndesite Casing&r"
 				""
-				"&aPondering is recommended.&r"
+				"&aSe recomienda usar Ponder.&r"
 			]
 			icon: "create:mechanical_saw"
 			id: "6F3390D6034B6C05"
@@ -1452,43 +1452,43 @@
 				table_id: 3967290467071030690L
 				type: "random"
 			}]
-			subtitle: "Automate those farms!"
+			subtitle: "¡Automatiza esas granjas!"
 			tasks: [
 				{
 					id: "61D8C8A4B0DAE4EF"
 					item: "create:mechanical_saw"
-					title: "Craft a Mechanical Saw"
+					title: "Fabrica un Mechanical Saw"
 					type: "item"
 				}
 				{
 					id: "795797D62D5E54EA"
 					item: "create:mechanical_harvester"
-					title: "Craft a Mechanical Harvester"
+					title: "Fabrica un Mechanical Harvester"
 					type: "item"
 				}
 				{
 					id: "4B9A27D19F8AC098"
 					item: "create:mechanical_plough"
-					title: "Craft a Mechanical Plough"
+					title: "Fabrica un Mechanical Plough"
 					type: "item"
 				}
 			]
-			title: "Craft Mechanical Equipment"
+			title: "Fabrica Equipo Mecánico"
 			x: -6.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["5BD0023532DDEEF8"]
 			description: [
-				"&6Deployers&r are essential devices that can be equipped with tools. By default, they simulate right-clicks, but this behavior can be modified using a &bWrench&r."
+				"&6Deployers&r son dispositivos esenciales que se pueden equipar con herramientas. Por defecto, simulan clics derechos, pero este comportamiento se puede modificar con una &bWrench&r."
 				""
-				"&6Deployers&r can be crafted with:"
+				"&6Deployers&r se pueden fabricar con:"
 				""
 				"1x &bElectron Tube&r"
 				"1x &bAndesite Casing&r"
 				"1x &bBrass Hand&r"
 				""
-				"&aPondering is recommended.&r"
+				"&aSe recomienda usar Ponder.&r"
 			]
 			icon: "create:deployer"
 			id: "2EB24D2AB31C1431"
@@ -1506,12 +1506,12 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Simulates player interactions on blocks or entities."
+			subtitle: "Simula interacciones del jugador en bloques o entidades."
 			tasks: [
 				{
 					id: "4D8059CB386C750D"
 					item: "create:deployer"
-					title: "Craft a Deployer"
+					title: "Fabrica un Deployer"
 					type: "item"
 				}
 				{
@@ -1519,7 +1519,7 @@
 					criterion: ""
 					icon: "minecraft:book"
 					id: "3AC9748FA269CE62"
-					title: "&6Activate a Deployer&r"
+					title: "&6Activa un Deployer&r"
 					type: "advancement"
 				}
 			]
@@ -1532,13 +1532,13 @@
 				"072C9D75EF4B7B34"
 			]
 			description: [
-				"For many, &bTrains&r are the most exciting part of &6Create&r."
+				"Para muchos, los &bTrains&r son la parte más emocionante de &6Create&r."
 				""
-				"While they may seem daunting at first, even the most complex logistical systems are built on simple and easy-to-understand mechanics."
+				"Aunque al principio puedan parecer intimidantes, incluso los sistemas logísticos más complejos se basan en mecánicas simples y fáciles de entender."
 				""
-				"Following this questline will provide a solid understanding of the fundamentals and pave the way for tackling more advanced projects."
+				"Seguir esta línea de misiones proporcionará una comprensión sólida de los fundamentos y abrirá el camino para proyectos más avanzados."
 				""
-				"Remember, if you’re ever unsure about something, make use of the &aPonder&r tool provided by &6Create&r, as well as the &6Create&r Wiki."
+				"Recuerda, si alguna vez no estás seguro de algo, usa la herramienta &aPonder&r de &6Create&r, así como la Wiki de &6Create&r."
 			]
 			icon: "minecraft:book"
 			id: "0F973DDF31289379"
@@ -1549,10 +1549,10 @@
 				type: "item"
 			}]
 			size: 1.5d
-			subtitle: "Choo choo!"
+			subtitle: "¡Chuu chuu!"
 			tasks: [{
 				id: "67B336F52F8C5945"
-				title: "Unlock &6Steam 'n' Rails"
+				title: "Desbloquea &6Steam 'n' Rails"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -1561,7 +1561,7 @@
 		{
 			dependencies: ["151DCEA4B6001724"]
 			description: [
-				"&6Straws&r can be crafted in a &bRolling Mill&r using:"
+				"&6Straws&r se pueden fabricar en un &bRolling Mill&r usando:"
 				""
 				"1x &bBamboo&r"
 			]
@@ -1572,12 +1572,12 @@
 				table_id: 3967290467071030690L
 				type: "random"
 			}]
-			subtitle: "Allows Blaze Burners to accept liquid fuel from buckets or pipes."
+			subtitle: "Permite a los Blaze Burners aceptar combustible líquido de cubos o tuberías."
 			tasks: [{
 				count: 4L
 				id: "2B9EB5DE1F1B714A"
 				item: "createaddition:straw"
-				title: "Craft 4x Straws"
+				title: "Fabrica 4x Straws"
 				type: "item"
 			}]
 			x: -2.0d
@@ -1586,13 +1586,13 @@
 		{
 			dependencies: ["31C8767E1AD34337"]
 			description: [
-				"&6Blaze Cakes&r require &bBlaze Cake Base&r which can be crafted with:"
+				"&6Blaze Cakes&r requieren &bBlaze Cake Base&r que se puede fabricar con:"
 				""
-				"1x &bEgg&r"
-				"1x &bSugar&r"
+				"1x &bHuevo&r"
+				"1x &bAzúcar&r"
 				"1x &bCinder Flour&r"
 				""
-				"With the &bBlaze Cake Base&r you must then fill it with &bLava&r using a &bSpout&r."
+				"Con la &bBlaze Cake Base&r, debes rellenarla con &bLava&r usando un &bSpout&r."
 			]
 			id: "412F7EB8AD3B212D"
 			rewards: [{
@@ -1600,12 +1600,12 @@
 				item: "create:blaze_cake"
 				type: "item"
 			}]
-			subtitle: "Used to temporarily make Blaze Burners Super-Heated."
+			subtitle: "Se usa para SuperCalentar temporalmente los Blaze Burners."
 			tasks: [{
 				count: 3L
 				id: "7103DA6BB76CB80D"
 				item: "create:blaze_cake"
-				title: "Craft 3x Blaze Cakes"
+				title: "Fabrica 3x Blaze Cakes"
 				type: "item"
 			}]
 			x: -2.0d
@@ -1614,7 +1614,7 @@
 		{
 			dependencies: ["0E5F195E0423EE12"]
 			description: [
-				"&6Precision Mechanisms&r can be crafted through &bSequenced Assembly&r by following this order:"
+				"&6Precision Mechanisms&r se pueden fabricar mediante &bEnsamblaje Secuencial&r siguiendo este orden:"
 				""
 				"1x &bGolden Sheet&r"
 				"1x &bCogwheel&r"
@@ -1627,12 +1627,12 @@
 				item: "create:cuckoo_clock"
 				type: "item"
 			}]
-			subtitle: "A vital component!"
+			subtitle: "¡Un componente vital!"
 			tasks: [{
 				advancement: "create:precision_mechanism"
 				criterion: ""
 				id: "5BDE29BB6BBBDEAD"
-				title: "Assemble a Precision Mechanism"
+				title: "Ensambla un Precision Mechanism"
 				type: "advancement"
 			}]
 			x: 0.0d
@@ -1644,7 +1644,7 @@
 				"0F6024E497D3DD45"
 			]
 			description: [
-				"&6Brass Funnels&r can be crafted with:"
+				"&6Brass Funnels&r se pueden fabricar con:"
 				""
 				"1x &bElectron Tube&r"
 				"1x &bBrass Ingot&r"
@@ -1657,11 +1657,11 @@
 				table_id: 6419466787380812021L
 				type: "random"
 			}]
-			subtitle: "Similar to Andesite, but capable of filtering and moving items in stacks of 64x."
+			subtitle: "Similar a Andesite, pero capaz de filtrar y mover objetos en pilas de 64x."
 			tasks: [{
 				id: "47831D0547046FB9"
 				item: "create:brass_funnel"
-				title: "Craft a Brass Tunnel"
+				title: "Fabrica un Brass Funnel"
 				type: "item"
 			}]
 			x: 0.0d
@@ -1678,30 +1678,30 @@
 				type: "item"
 			}]
 			size: 1.5d
-			subtitle: "Find your full enchanting potential."
+			subtitle: "Descubre todo tu potencial de encantamiento."
 			tasks: [{
 				id: "745A2E57A709CCA2"
-				title: "Unlock &bEnchantment Industry"
+				title: "Desbloquea &bEnchantment Industry"
 				type: "checkmark"
 			}]
-			title: "Unlock &6Enchantment Industry"
+			title: "Desbloquea &6Enchantment Industry"
 			x: 0.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["62F208B170CCE457"]
 			description: [
-				"When the air stream of an &bEncased Fan&r passes through certain blocks, the downstream air stream applies the corresponding processing to items."
+				"Cuando el flujo de aire de un &bEncased Fan&r pasa por ciertos bloques, el flujo de aire aguas abajo aplica el procesamiento correspondiente a los objetos."
 				""
-				"For &9Washing&r, this occurs when the air passes through &bWater&r or any waterlogged block."
+				"Para &9Lavado&r, esto ocurre cuando el aire pasa por &bAgua&r o cualquier bloque inundado."
 				""
-				"In the case of &8Smoking&r, the air stream interacts with &bFire&r, &bCampfire&r, an empty &bBlaze Burner&r lit with &bFlint and Steel&r, or a &bBlaze Burner&r that is &bsmouldering&r."
+				"En el caso del &8Ahumado&r, el flujo de aire interactúa con &bFuego&r, &bHoguera&r, un &bBlaze Burner&r vacío encendido con &bFlint and Steel&r, o un &bBlaze Burner&r que está &bsmouldering&r."
 				""
-				"For &cBlasting&r, the air stream is affected by &bLava&r or a &bBlaze Burner&r that is &bfueled&r."
+				"Para el &cBlasting&r, el flujo de aire es afectado por &bLava&r o un &bBlaze Burner&r que está &bfueled&r."
 				""
-				"Lastly, &dHaunting&r occurs when the air stream passes through &bSoul Fire&r, &bSoul Campfire&r, or an empty &bBlaze Burner&r lit with &bFlint and Steel&r and right-clicked with &bSoul Sand&r or &bSoul Soil&r."
+				"Por último, el &dHaunting&r ocurre cuando el flujo de aire pasa por &bSoul Fire&r, &bSoul Campfire&r, o un &bBlaze Burner&r vacío encendido con &bFlint and Steel&r y al que se le hizo clic derecho con &bSoul Sand&r o &bSoul Soil&r."
 				""
-				"&6Encased Fans&r can be crafted with:"
+				"&6Encased Fans&r se pueden fabricar con:"
 				"1x &bShaft&r"
 				"1x &bAndesite Casting&r"
 				"1x &bPropeller&r"
@@ -1714,30 +1714,30 @@
 				item: "minecraft:soul_sand"
 				type: "item"
 			}]
-			subtitle: "Pushes or pulls air depending on rotational force direction."
+			subtitle: "Empuja o aspira aire según la dirección de la fuerza rotacional."
 			tasks: [
 				{
 					id: "03BD8BBCBE1E2641"
 					item: "create:encased_fan"
-					title: "Craft an Encased Fan"
-					type: "item"
-				}
-				{
-					advancement: "create:encased_fan"
-					criterion: ""
-					icon: "minecraft:book"
-					id: "7FBC2C264E840ABA"
-					title: "&6Place and power an Encased Fan"
-					type: "advancement"
-				}
-				{
-					advancement: "create:fan_processing"
-					criterion: ""
-					icon: "minecraft:book"
-					id: "7D3F70682802E3D9"
-					title: "&6Process materials with an Encased Fan&r"
-					type: "advancement"
-				}
+				title: "Fabrica un Encased Fan"
+				type: "item"
+			}
+			{
+				advancement: "create:encased_fan"
+				criterion: ""
+				icon: "minecraft:book"
+				id: "7FBC2C264E840ABA"
+				title: "&6Coloca y alimenta un Encased Fan"
+				type: "advancement"
+			}
+			{
+				advancement: "create:fan_processing"
+				criterion: ""
+				icon: "minecraft:book"
+				id: "7D3F70682802E3D9"
+				title: "&6Procesa materiales con un Encased Fan&r"
+				type: "advancement"
+			}
 			]
 			x: -4.0d
 			y: -2.0d
@@ -1748,7 +1748,7 @@
 				"2EFCE5215223E002"
 			]
 			description: [
-				"&6Brass Tunnels&r can be crafted with:"
+				"Los &6Brass Tunnels&r se pueden fabricar con:"
 				""
 				"1x &bElectron Tube&r"
 				"2x &bBrass Ingot&r"
@@ -1761,11 +1761,11 @@
 				table_id: 6419466787380812021L
 				type: "random"
 			}]
-			subtitle: "Similar to Andesite, but with item grouping and filtering capabilities!"
+			subtitle: "¡Similar a Andesite, pero con agrupación y filtrado de objetos!"
 			tasks: [{
 				id: "1F50F112701F1B15"
 				item: "create:brass_tunnel"
-				title: "Craft a Brass Tunnel"
+				title: "Fabrica un Brass Tunnel"
 				type: "item"
 			}]
 			x: 2.0d
@@ -1774,7 +1774,7 @@
 		{
 			dependencies: ["2635EBF6AEFDC1A9"]
 			description: [
-				"&6Andesite Tunnels&r can be crafted with:"
+				"Los &6Andesite Tunnels&r se pueden fabricar con:"
 				""
 				"2x &bAndesite Alloy&r"
 				"2x &bDried Kelp&r"
@@ -1786,11 +1786,11 @@
 				table_id: 1383287777062204293L
 				type: "random"
 			}]
-			subtitle: "Easily split items on Belts."
+			subtitle: "Divide objetos en los Belts fácilmente."
 			tasks: [{
 				id: "7031FB37A5874927"
 				item: "create:andesite_tunnel"
-				title: "Craft an Andesite Tunnel"
+				title: "Fabrica un Andesite Tunnel"
 				type: "item"
 			}]
 			x: 2.0d
@@ -1799,21 +1799,21 @@
 		{
 			dependencies: ["44023B1BEEBD2A9A"]
 			description: [
-				"Placed &6Copper Backtanks&r can be refilled with air using rotational force."
+				"Los &6Copper Backtanks&r colocados se pueden recargar de aire usando fuerza rotacional."
 				""
-				"&6Copper Backtanks&r can be crafted with:"
+				"Los &6Copper Backtanks&r se pueden fabricar con:"
 				""
 				"2x &bAndesite Alloy&r"
 				"1x &bShaft&r"
 				"3x &bCopper Ingots&r"
 				"1x &bCopper Block&r"
 				""
-				"&6Copper Diving Helmets&r can be crafted with:"
+				"Los &6Copper Diving Helmets&r se pueden fabricar con:"
 				""
 				"5x &bCopper Ingots&r"
-				"1x &bAny Glass&r"
+				"1x &bCualquier Vidrio&r"
 				""
-				"&6Copper Diving Boots&r can be crafted with:"
+				"Las &6Copper Diving Boots&r se pueden fabricar con:"
 				""
 				"4x &bCopper Ingots&r"
 				"2x &bAndesite Alloy&r"
@@ -1832,7 +1832,7 @@
 				table_id: 3967290467071030690L
 				type: "random"
 			}]
-			subtitle: "Allows you to breathe underwater and move effortlessly on Belts!"
+			subtitle: "¡Te permite respirar bajo el agua y moverte sin esfuerzo sobre los Belts!"
 			tasks: [
 				{
 					id: "48F53A9DFB16B205"
@@ -1872,18 +1872,18 @@
 					criterion: ""
 					icon: "minecraft:book"
 					id: "128137DD0FB6A8EA"
-					title: "&6Wear a Copper Diving Set and dive into Water&r"
+					title: "&6Ponte un Equipo de Buceo de Cobre y sumérgete en el Agua&r"
 					type: "advancement"
 				}
 			]
-			title: "Craft a Copper Diving Set"
+			title: "Fabrica un Equipo de Buceo de Cobre"
 			x: 2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["4F4FF1A605E7A762"]
 			description: [
-				"&6Netherite Diving Gear&r can be crafted at a &bSmithing Table&r using:  "
+				"El &6Netherite Diving Gear&r se puede fabricar en una &bSmithing Table&r usando:  "
 				""
 				"1x &bCopper Diving Equipment&r"
 				"1x &bNetherite Ingot&r"
@@ -1902,7 +1902,7 @@
 				table_id: 5212314355944484118L
 				type: "random"
 			}]
-			subtitle: "Similar to Copper, but stronger and resistant to Lava!"
+			subtitle: "¡Similar al Cobre, pero más resistente y a prueba de Lava!"
 			tasks: [
 				{
 					id: "6C24BC22E96A7B53"
@@ -1942,11 +1942,11 @@
 					criterion: ""
 					icon: "minecraft:book"
 					id: "33ADF682BAB83CC0"
-					title: "&6Wear a Netherite Diving Set and dive into Lava&r"
+					title: "&6Ponte un Equipo de Buceo de Netherite y sumérgete en la Lava&r"
 					type: "advancement"
 				}
 			]
-			title: "Craft a Netherite Diving Set"
+			title: "Fabrica un Equipo de Buceo de Netherite"
 			x: 4.0d
 			y: 2.0d
 		}
@@ -1961,13 +1961,13 @@
 				type: "item"
 			}]
 			size: 1.5d
-			subtitle: "Those Pokémon don't stand a chance!"
+			subtitle: "¡Esos Pokémon no tienen ninguna oportunidad!"
 			tasks: [{
 				id: "56573E789DEDFC02"
-				title: "Unlock Cobblemon Industrialized"
+				title: "Desbloquea Cobblemon Industrialized"
 				type: "checkmark"
 			}]
-			title: "Unlock &6Cobblemon Industrialized"
+			title: "Desbloquea &6Cobblemon Industrialized"
 			x: -6.0d
 			y: -4.0d
 		}
@@ -1981,10 +1981,10 @@
 				type: "item"
 			}]
 			size: 1.5d
-			subtitle: "Chop chop!"
+			subtitle: "¡Chop chop!"
 			tasks: [{
 				id: "026950B9D4DD5340"
-				title: "Unlock &6Slice and Dice"
+				title: "Desbloquea &6Slice and Dice"
 				type: "checkmark"
 			}]
 			x: 6.0d
@@ -1993,9 +1993,9 @@
 		{
 			dependencies: ["6C1B5E8D5F82D470"]
 			description: [
-				"For every 8x sail-type blocks connected to the &bWindmill Bearing&r, it generates an additional 512x &bStress Units&r."
+				"Por cada 8 bloques tipo vela conectados al &bWindmill Bearing&r, genera 512 &bUnidades de Estrés&r adicionales."
 				""
-				"A &6Windmill&r can produce up to 8192x &bStress Units&r with 128x sail-type blocks."
+				"Un &6Windmill&r puede producir hasta 8192 &bUnidades de Estrés&r con 128 bloques tipo vela."
 			]
 			icon: "create:white_sail"
 			id: "07C8736E3BD0E3C0"
@@ -2005,14 +2005,14 @@
 				table_id: 6419466787380812021L
 				type: "random"
 			}]
-			subtitle: "Use the Bearing and Sails to start generating power!"
+			subtitle: "¡Usa el Bearing y las Velas para empezar a generar energía!"
 			tasks: [
 				{
 					advancement: "create:windmill"
 					criterion: ""
 					icon: "create:white_sail"
 					id: "402FCBD670AFC090"
-					title: "Assemble a Windmill"
+					title: "Ensambla un Windmill"
 					type: "advancement"
 				}
 				{
@@ -2020,7 +2020,7 @@
 					criterion: ""
 					icon: "minecraft:book"
 					id: "737A42AA1CBE6061"
-					title: "&6Assemble a Windmill with maximum strength&r"
+					title: "&6Ensambla un Windmill con la máxima potencia&r"
 					type: "advancement"
 				}
 			]
@@ -2030,9 +2030,9 @@
 		{
 			dependencies: ["4D52DEC4EEDEEC0D"]
 			description: [
-				"&6Poké Ball Lids&r can be crafted via &bMechanical Press&r with:"
+				"Las &6Poké Ball Lids&r se pueden fabricar con la &bMechanical Press&r con:"
 				""
-				"1x &bAny Apricorn&r"
+				"1x &bCualquier Apricorn&r"
 			]
 			id: "4405B63ED7962155"
 			rewards: [{
@@ -2041,7 +2041,7 @@
 				table_id: 1383287777062204293L
 				type: "random"
 			}]
-			subtitle: "Automate those balls!"
+			subtitle: "¡Automatiza esas Poké Balls!"
 			tasks: [{
 				id: "1947DEBD8B5D15DD"
 				item: {
@@ -2051,7 +2051,7 @@
 						value: "create_cobblemon:poke_ball_lids"
 					}
 				}
-				title: "Craft a Poké Ball Lid"
+				title: "Fabrica una Poké Ball Lid"
 				type: "item"
 			}]
 			x: -6.0d
@@ -2060,7 +2060,7 @@
 		{
 			dependencies: ["4D52DEC4EEDEEC0D"]
 			description: [
-				"&6Iron Ball Bases&r can be crafted at a &bSawmill&r with:"
+				"Las &6Iron Ball Bases&r se pueden fabricar en una &bSawmill&r con:"
 				""
 				"1x &bIron Ingot&r"
 			]
@@ -2071,12 +2071,12 @@
 				table_id: 1383287777062204293L
 				type: "random"
 			}]
-			subtitle: "Make sure to set the item filter!"
+			subtitle: "¡No olvides configurar el filtro de objetos!"
 			tasks: [{
 				count: 6L
 				id: "3F3F09690CDF9F42"
 				item: "create_cobblemon:iron_ball_base"
-				title: "Craft 6x Iron Ball Bases"
+				title: "Fabrica 6x Iron Ball Bases"
 				type: "item"
 			}]
 			x: -6.0d
@@ -2085,7 +2085,7 @@
 		{
 			dependencies: ["4D52DEC4EEDEEC0D"]
 			description: [
-				"&6Exp. Quartz&r can be crafted by &bBulk Haunting&r:"
+				"El &6Exp. Quartz&r se puede fabricar mediante &bBulk Haunting&r:"
 				""
 				"1x &bRose Quartz&r"
 			]
@@ -2096,11 +2096,11 @@
 				table_id: 6419466787380812021L
 				type: "random"
 			}]
-			subtitle: "Too hard to eat!"
+			subtitle: "¡Demasiado duro para comer!"
 			tasks: [{
 				id: "0DDA4EA8C9D64393"
 				item: "create_cobblemon:exp_quartz"
-				title: "Craft an Exp. Quartz"
+				title: "Fabrica un Exp. Quartz"
 				type: "item"
 			}]
 			x: -8.0d
@@ -2109,7 +2109,7 @@
 		{
 			dependencies: ["705B545642183CFC"]
 			description: [
-				"&6Crushed Exp. Quartz&r can be crafted by &bCrushing&r:"
+				"El &6Crushed Exp. Quartz&r se puede fabricar mediante &bCrushing&r:"
 				""
 				"1x &bExp. Quartz&r"
 			]
@@ -2121,7 +2121,7 @@
 				random_bonus: 4
 				type: "item"
 			}]
-			subtitle: "Automate Exp. Candies!"
+			subtitle: "¡Automatiza los Caramelos de Exp.!"
 			tasks: [{
 				id: "5B0B360E7B20F559"
 				item: "create_cobblemon:crushed_exp_quartz"
@@ -2133,11 +2133,11 @@
 		{
 			dependencies: ["61D40DA7D8A3BFB2"]
 			description: [
-				"The &6Enchanting Guide&r is used to transform &bBlaze Burners&r into &bBlaze Enchanters&r."
+				"La &6Enchanting Guide&r se usa para transformar &bBlaze Burners&r en &bBlaze Enchanters&r."
 				""
-				"To remove an &6Enchanting Guide&r from a &bBlaze Burner&r, simply right-click it with a &bWrench&r."
+				"Para retirar una &6Enchanting Guide&r de un &bBlaze Burner&r, simplemente haz clic derecho con una &bWrench&r."
 				""
-				"&6Enchanting Guides&r can be crafted with:"
+				"&6Enchanting Guides&r se pueden fabricar con:"
 				""
 				"1x &bSturdy Sheet&r"
 				"1x &bBook&r"
@@ -2158,12 +2158,12 @@
 					type: "random"
 				}
 			]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [
 				{
 					id: "50F3E0D8D42B1BC9"
 					item: "create_enchantment_industry:enchanting_guide"
-					title: "Craft an Enchanting Guide"
+					title: "Fabrica una Enchanting Guide"
 					type: "item"
 				}
 				{
@@ -2171,7 +2171,7 @@
 					criterion: ""
 					icon: "minecraft:book"
 					id: "5B0A1B79AFC1764B"
-					title: "&6Transform a Blaze Burner"
+					title: "&6Transforma un Blaze Burner"
 					type: "advancement"
 				}
 				{
@@ -2179,20 +2179,20 @@
 					criterion: ""
 					icon: "minecraft:book"
 					id: "69D71F5A00A9E595"
-					title: "&6Enchant an item with a Blaze Enchanter"
+					title: "&6Encanta un objeto con un Blaze Enchanter"
 					type: "advancement"
 				}
 			]
-			title: "Craft an Enchanting Guide"
+			title: "Fabrica una Enchanting Guide"
 			x: 2.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["61D40DA7D8A3BFB2"]
 			description: [
-				"The &6Disenchanter&r siphons experience from items and players when stepped on."
+				"El &6Disenchanter&r extrae experiencia de objetos y jugadores cuando se pisa."
 				""
-				"&6Disenchanters&r can be crafted with:"
+				"&6Disenchanters&r se pueden fabricar con:"
 				""
 				"1x &bCopper Casing&r"
 				"1x &bAny Sand Paper&r"
@@ -2205,12 +2205,12 @@
 				table_id: 3967290467071030690L
 				type: "random"
 			}]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [
 				{
 					id: "69AFC3DCFB36321E"
 					item: "create_enchantment_industry:disenchanter"
-					title: "Craft a Disenchanter"
+					title: "Fabrica un Disenchanter"
 					type: "item"
 				}
 				{
@@ -2218,7 +2218,7 @@
 					criterion: ""
 					icon: "minecraft:book"
 					id: "09E5770A0A2913B5"
-					title: "&6Observe an item being disenchanted"
+					title: "&6Observa cómo se desencanta un objeto"
 					type: "advancement"
 				}
 				{
@@ -2226,7 +2226,7 @@
 					criterion: ""
 					icon: "minecraft:book"
 					id: "091FBCE665806C0A"
-					title: "&6Sacrifice a portion of your experience"
+					title: "&6Sacrifica una parte de tu experiencia"
 					type: "advancement"
 				}
 			]
@@ -2236,9 +2236,9 @@
 		{
 			dependencies: ["61D40DA7D8A3BFB2"]
 			description: [
-				"The &6Printer&r allows you to duplicate &bEnchanted Books&r, &bName Tags&r, &bTrain Schedules&r, and more!"
+				"¡La &6Printer&r te permite duplicar &bLibros Encantados&r, &bEtiquetas de Nombre&r, &bHorarios de Tren&r y más!"
 				""
-				"&6Printers&r can be crafted with:"
+				"&6Printers&r se pueden fabricar con:"
 				""
 				"1x &bCopper Casing&r"
 				"1x &bDried Kelp&r"
@@ -2252,12 +2252,12 @@
 				table_id: 3967290467071030690L
 				type: "random"
 			}]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [
 				{
 					id: "26EC7607952281ED"
 					item: "create_enchantment_industry:printer"
-					title: "Craft a Printer"
+					title: "Fabrica una Printer"
 					type: "item"
 				}
 				{
@@ -2265,7 +2265,7 @@
 					criterion: ""
 					icon: "minecraft:book"
 					id: "29D6806DEB52C92A"
-					title: "&6Duplicate an Enchanted Book with a Printer"
+					title: "&6Duplica un Libro Encantado con una Printer"
 					type: "advancement"
 				}
 			]
@@ -2275,7 +2275,7 @@
 		{
 			dependencies: ["5C0C98C2E91CD7E9"]
 			description: [
-				"&6Liquid Hyper Experience&r can be crafted in a &cSuper-Heated&r &bBasin&r by mixing the following ingredients:"
+				"&6Liquid Hyper Experience&r se puede fabricar en una &bBasin&r &cSuperCalentada&r mezclando los siguientes ingredientes:"
 				""
 				"1x &bGlow Ink Sac&r"
 				"1x &bLapis Lazuli&r"
@@ -2288,11 +2288,11 @@
 				table_id: 5212314355944484118L
 				type: "random"
 			}]
-			subtitle: "The key ingredient for enchanting items beyond their limits."
+			subtitle: "El ingrediente clave para encantar objetos más allá de sus límites."
 			tasks: [{
 				id: "44289D8EF295F914"
 				item: "create_enchantment_industry:hyper_experience_bottle"
-				title: "Craft a Bottle O' Hyper Enchanting"
+				title: "Fabrica una Botella de Hyper Enchanting"
 				type: "item"
 			}]
 			x: 0.0d
@@ -2301,13 +2301,13 @@
 		{
 			dependencies: ["4D8CAD708E7BCB8B"]
 			description: [
-				"&6Slicers&r can be crafted with:"
+				"&6Slicers&r se pueden fabricar con:"
 				""
 				"1x &bCogwheel&r"
 				"1x &bAndesite Casing&r"
 				"1x &bTurntable&r"
 				""
-				"&aPondering is recommended.&r"
+				"&aSe recomienda usar Ponder.&r"
 			]
 			id: "41273F81DE055923"
 			rewards: [{
@@ -2316,11 +2316,11 @@
 				table_id: 3967290467071030690L
 				type: "random"
 			}]
-			subtitle: "Slice some food!"
+			subtitle: "¡Corta algo de comida!"
 			tasks: [{
 				id: "0FB763986D5D30E7"
 				item: "sliceanddice:slicer"
-				title: "Craft a Slicer"
+				title: "Fabrica un Slicer"
 				type: "item"
 			}]
 			x: 6.0d
@@ -2329,13 +2329,13 @@
 		{
 			dependencies: ["38F8D9EA234FFB2D"]
 			description: [
-				"&6Sprinklers&r can be crafted with:"
+				"&6Sprinklers&r se pueden fabricar con:"
 				""
 				"4x &bCopper Sheet&r"
 				"1x &bFluid Pipe&r"
 				"1x &bIron Bar&r"
 				""
-				"&aPondering is recommended.&r"
+				"&aSe recomienda usar Ponder.&r"
 			]
 			id: "73DFBBBFEBDA073D"
 			rewards: [{
@@ -2344,12 +2344,12 @@
 				table_id: 3967290467071030690L
 				type: "random"
 			}]
-			subtitle: "Give that farmland some water!"
+			subtitle: "¡Dale agua a esos cultivos!"
 			tasks: [{
 				count: 3L
 				id: "1F38AF46A7F43707"
 				item: "sliceanddice:sprinkler"
-				title: "Craft 3x Sprinklers"
+				title: "Fabrica 3x Sprinklers"
 				type: "item"
 			}]
 			x: 10.0d
@@ -2358,7 +2358,7 @@
 		{
 			dependencies: ["4D8CAD708E7BCB8B"]
 			description: [
-				"&6Liquid Fertilizer&r can be crafted in a &bBasin&r by &bMixing&r the following ingredients:"
+				"&6Liquid Fertilizer&r se puede fabricar en una &bBasin&r mediante &bMezcla&r con los siguientes ingredientes:"
 				""
 				"1x &bOrganic Compost&r"
 				"250mB &bWater&r"
@@ -2370,11 +2370,11 @@
 				table_id: 3967290467071030690L
 				type: "random"
 			}]
-			subtitle: "Anything can be juiced!"
+			subtitle: "¡Todo se puede convertir en jugo!"
 			tasks: [{
 				id: "1C501BF95715DA67"
 				item: "sliceanddice:fertilizer_bucket"
-				title: "Obtain a Bucket of Liquid Fertilizer"
+				title: "Obtén un Cubo de Fertilizante Líquido"
 				type: "item"
 			}]
 			x: 8.0d
@@ -2383,9 +2383,9 @@
 		{
 			dependencies: ["2C812F3D65B6E775"]
 			description: [
-				"The &6Alternator&r converts rotational force into electric energy, requiring at least 32x RPM to operate. Energy output scales with input RPM."
+				"El &6Alternator&r convierte la fuerza rotacional en energía eléctrica, requiriendo al menos 32x RPM para funcionar. La producción de energía escala con las RPM de entrada."
 				""
-				"&6Alternators&r can be &bMechanically Crafted&r with:"
+				"&6Alternators&r se pueden &bFabricar Mecánicamente&r con:"
 				""
 				"1x &bAndesite Alloy&r"
 				"6x &bIron Sheets&r"
@@ -2393,9 +2393,9 @@
 				"1x &bIron Rod&r"
 				"1x &bCapacitor&r"
 				""
-				"The &6Electric Motor&r generates rotational force and can adjust RPM via the back panel. It requires energy to operate, with consumption based on the RPM setting."
+				"El &6Electric Motor&r genera fuerza rotacional y puede ajustar las RPM mediante el panel trasero. Requiere energía para funcionar, con un consumo basado en la configuración de RPM."
 				""
-				"&6Electric Motors&r can be &bMechanically Crafted&r with:"
+				"&6Electric Motors&r se pueden &bFabricar Mecánicamente&r con:"
 				""
 				"1x &bAndesite Alloy&r"
 				"6x &bGold Sheets&r"
@@ -2411,36 +2411,36 @@
 				table_id: 6419466787380812021L
 				type: "random"
 			}]
-			subtitle: "Generate electricity!"
+			subtitle: "¡Genera electricidad!"
 			tasks: [
 				{
 					id: "1DC0FAC6AB6F6938"
 					item: "createaddition:alternator"
-					title: "Craft an Alternator"
+					title: "Fabrica un Alternator"
 					type: "item"
 				}
 				{
 					id: "51CEE1E5464DB44B"
 					item: "createaddition:electric_motor"
-					title: "Craft an Electric Motor"
+					title: "Fabrica un Electric Motor"
 					type: "item"
 				}
 			]
-			title: "Craft an Alternator and Electric Motor"
+			title: "Fabrica un Alternator y un Electric Motor"
 			x: -6.0d
 			y: -20.0d
 		}
 		{
 			dependencies: ["0B9A4040AFD8A3EF"]
 			description: [
-				"&6Rolling Mills&r can be crafted with:"
+				"&6Rolling Mills&r se pueden fabricar con:"
 				""
 				"2x &bIron Sheets&r"
 				"4x &bAndesite Alloy&r"
 				"2x &bShafts&r"
 				"1x &bAndesite Casing&r"
 				""
-				"&a&nPondering is recommended.&r&r"
+				"&a&nSe recomienda usar Ponder.&r&r"
 			]
 			id: "151DCEA4B6001724"
 			rewards: [{
@@ -2449,11 +2449,11 @@
 				table_id: 1383287777062204293L
 				type: "random"
 			}]
-			subtitle: "Uses rotational force to craft Rods and Wires."
+			subtitle: "Usa fuerza rotacional para fabricar Varillas y Cables."
 			tasks: [{
 				id: "04E3F907BBA96A2F"
 				item: "createaddition:rolling_mill"
-				title: "Craft a Rolling Mill"
+				title: "Fabrica un Rolling Mill"
 				type: "item"
 			}]
 			x: -4.0d
@@ -2462,13 +2462,13 @@
 		{
 			dependencies: ["489A9FAFCBD74572"]
 			description: [
-				"&6Small Connectors&r can be crafted with:"
+				"&6Small Connectors&r se pueden fabricar con:"
 				""
 				"1x &bCopper Rod&r"
 				"1x &bAndesite Alloy&r"
 				"1x &bSlimeball&r"
 				""
-				"&6Large Connectors&r can be crafted with:"
+				"&6Large Connectors&r se pueden fabricar con:"
 				""
 				"1x &bGold&r or &bElectrum Rod&r"
 				"2x &bAndesite Alloy&r"
@@ -2482,35 +2482,35 @@
 				table_id: 3967290467071030690L
 				type: "random"
 			}]
-			subtitle: "Transfer power!"
+			subtitle: "¡Transfiere energía!"
 			tasks: [
 				{
 					count: 3L
 					id: "66DF8F3E28D65401"
 					item: "createaddition:connector"
-					title: "Craft 3x Small Connectors"
+					title: "Fabrica 3x Small Connectors"
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "6F1926AB9D649A5C"
 					item: "createaddition:large_connector"
-					title: "Craft 2x Large Connectors"
+					title: "Fabrica 2x Large Connectors"
 					type: "item"
 				}
 			]
-			title: "Craft 5x Connectors"
+			title: "Fabrica 5x Connectors"
 			x: -8.0d
 			y: -18.0d
 		}
 		{
 			dependencies: ["2C812F3D65B6E775"]
 			description: [
-				"&6Accumulators&r are multi-block structures that store large amounts of electric energy."
+				"&6Accumulators&r son estructuras multi-bloque que almacenan grandes cantidades de energía eléctrica."
 				""
-				"Use a &bWrench&r to set an input connector for charging and an output connector for energy distribution."
+				"Usa una &bWrench&r para configurar un conector de entrada para la carga y un conector de salida para la distribución de energía."
 				""
-				"&6Accumulators&r can be crafted with:"
+				"&6Accumulators&r se pueden fabricar con:"
 				""
 				"1x &bCopper Rod&r  "
 				"2x &bCapacitor&r  "
@@ -2524,11 +2524,11 @@
 				item: "createaddition:modular_accumulator"
 				type: "item"
 			}]
-			subtitle: "Store electricity!"
+			subtitle: "¡Almacena electricidad!"
 			tasks: [{
 				id: "45390922EFA97104"
 				item: "createaddition:modular_accumulator"
-				title: "Craft an Accumulator"
+				title: "Fabrica un Accumulator"
 				type: "item"
 			}]
 			x: -4.0d
@@ -2537,7 +2537,7 @@
 		{
 			dependencies: ["340B003A83ADB44C"]
 			description: [
-				"&6Portable Energy Interfaces&r can be crafted with:"
+				"&6Portable Energy Interfaces&r se pueden fabricar con:"
 				""
 				"1x &bBrass Casing&r"
 				"1x &bChute&r"
@@ -2549,11 +2549,11 @@
 				item: "createaddition:chocolate_cake"
 				type: "item"
 			}]
-			subtitle: "Used to insert or extract electricity from a contraption."
+			subtitle: "Se usa para insertar o extraer electricidad de una contraption."
 			tasks: [{
 				id: "5A14AAD4D78D15B4"
 				item: "createaddition:portable_energy_interface"
-				title: "Craft a Portable Energy Interface"
+				title: "Fabrica un Portable Energy Interface"
 				type: "item"
 			}]
 			x: -4.0d
@@ -2568,7 +2568,7 @@
 				table_id: 3967290467071030690L
 				type: "random"
 			}]
-			subtitle: "Craft them, I dare you!"
+			subtitle: "¡Fabrícarlos, si te atreves!"
 			tasks: [{
 				count: 4L
 				id: "2BD19CD247E536CA"
@@ -2579,7 +2579,7 @@
 						value: "c:all_metal_rods"
 					}
 				}
-				title: "Craft 4x Rods"
+				title: "Fabrica 4x Rods"
 				type: "item"
 			}]
 			x: -6.0d
@@ -2594,7 +2594,7 @@
 				item: "create:experience_nugget"
 				type: "item"
 			}]
-			subtitle: "Used in recipes and for transferring power."
+			subtitle: "Se usan en recetas y para transferir energía."
 			tasks: [{
 				count: 8L
 				id: "537050ADCD368B66"
@@ -2605,7 +2605,7 @@
 						value: "createaddition:spools"
 					}
 				}
-				title: "Craft 8x Spools"
+				title: "Fabrica 8x Spools"
 				type: "item"
 			}]
 			x: -4.0d
@@ -2619,11 +2619,11 @@
 				item: "create:zinc_ingot"
 				type: "item"
 			}]
-			subtitle: "A necessary ingredient for Brass and Copycats!"
+			subtitle: "¡Un ingrediente necesario para el Latón y los Copycats!"
 			tasks: [{
 				id: "65AE9C89046D3367"
 				item: "create:zinc_ingot"
-				title: "Obtain a Zinc Ingot"
+				title: "Obtén un Zinc Ingot"
 				type: "item"
 			}]
 			x: -2.0d
@@ -2632,9 +2632,9 @@
 		{
 			dependencies: ["25E7463659C9928F"]
 			description: [
-				"&6Copycats&r is a simple mod that lets you disguise blocks as other blocks!"
+				"¡&6Copycats&r es un mod sencillo que te permite disfrazar bloques como otros bloques!"
 				""
-				"For example, you can give &bShafts&r the texture of &bOak Logs&r or make &bCogwheels&r look like &bObsidian&r!"
+				"¡Por ejemplo, puedes darle a los &bShafts&r la textura de &bTroncos de Roble&r o hacer que los &bCogwheels&r parezcan &bObsidiana&r!"
 			]
 			icon: "minecraft:book"
 			id: "58A89F92669A29B6"
@@ -2659,24 +2659,24 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Cable management!"
+			subtitle: "¡Gestión de cables!"
 			tasks: [{
 				id: "7E70434A990CD6AB"
 				title: "t"
 				type: "checkmark"
 			}]
-			title: "Unlock &6Copycats"
+			title: "Desbloquea &6Copycats"
 			x: -4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2EB24D2AB31C1431"]
 			description: [
-				"&6Sequenced Assembly&r begins with a base item that moves through crafting stages."
+				"El &6Montaje Secuenciado&r comienza con un objeto base que avanza por etapas de fabricación."
 				""
-				"The item passes under or through machines like &bDeployers&r and &bMechanical Saws&r, using &bDepots&r or &bMechanical Belts&r, to form an incomplete item."
+				"El objeto pasa por debajo o a través de máquinas como &bDeployers&r y &bMechanical Saws&r, usando &bDepots&r o &bMechanical Belts&r, para formar un objeto incompleto."
 				""
-				"This item then continues through further stages, repeating the process if needed, depending on its complexity."
+				"Este objeto continúa luego por más etapas, repitiendo el proceso si es necesario, según su complejidad."
 			]
 			icon: "bcg_smp:joe_coin"
 			id: "0E5F195E0423EE12"
@@ -2687,31 +2687,31 @@
 				type: "random"
 			}]
 			size: 1.25d
-			subtitle: "The Factory must grow."
+			subtitle: "La Fábrica debe crecer."
 			tasks: [{
 				id: "15D0766B101F5398"
-				title: "Sequenced Assembly"
+				title: "Montaje Secuenciado"
 				type: "checkmark"
 			}]
-			title: "Sequenced Assembly"
+			title: "Montaje Secuenciado"
 			x: 0.0d
 			y: -18.0d
 		}
 		{
 			dependencies: ["072C9D75EF4B7B34"]
 			description: [
-				"The &6Mechanical Arm&r can take or deposit items within a 5-block radius of its placement."
+				"El &6Mechanical Arm&r puede tomar o depositar objetos en un radio de 5 bloques desde su posición."
 				""
-				"The order of operations is determined by its behavior and the sequence of blocks selected during placement."
+				"El orden de operaciones está determinado por su comportamiento y la secuencia de bloques seleccionados durante la colocación."
 				""
-				"&6Mechanical Arms&r can be crafted with:"
+				"&6Mechanical Arms&r se pueden fabricar con:"
 				""
 				"3x &bBrass Sheets&r"
 				"1x &bAndesite Alloy&r"
 				"1x &bPrecision Mechanism&r"
 				"1x &bBrass Casing&r"
 				""
-				"&aPondering is recommended.&r"
+				"&aSe recomienda usar Ponder.&r"
 			]
 			icon: "create:mechanical_arm"
 			id: "345F3E083F288BC4"
@@ -2720,12 +2720,12 @@
 				item: "minecraft:jukebox"
 				type: "item"
 			}]
-			subtitle: "Easily transfer items!"
+			subtitle: "¡Transfiere objetos fácilmente!"
 			tasks: [
 				{
 					id: "714CE3097C736AC1"
 					item: "create:mechanical_arm"
-					title: "Craft a Mechanical Arm"
+					title: "Fabrica un Mechanical Arm"
 					type: "item"
 				}
 				{
@@ -2733,7 +2733,7 @@
 					criterion: ""
 					icon: "minecraft:book"
 					id: "08B78D6065762033"
-					title: "&6Transfer items with a Mechanical Arm&r"
+					title: "&6Transfiere objetos con un Mechanical Arm&r"
 					type: "advancement"
 				}
 			]
@@ -2743,12 +2743,12 @@
 		{
 			dependencies: ["529462B466B433C8"]
 			id: "2E3C01C71D2B61D8"
-			subtitle: "The core component for logistical machinery!"
+			subtitle: "¡El componente principal de la maquinaria logística!"
 			tasks: [{
 				advancement: "create:train_casing_00"
 				criterion: ""
 				id: "31E7CDEA2267BC82"
-				title: "Craft a Train Casing"
+				title: "Fabrica un Train Casing"
 				type: "advancement"
 			}]
 			x: 2.0d
@@ -2757,9 +2757,9 @@
 		{
 			dependencies: ["072C9D75EF4B7B34"]
 			description: [
-				"The &6Extendo Grip&r increases reach by 4x blocks and enhances knockback."
+				"El &6Extendo Grip&r aumenta el alcance en 4x bloques y mejora el retroceso."
 				""
-				"&6Extendo Grips&r can be &bMechanically Crafted&r using:"
+				"&6Extendo Grips&r se pueden &bFabricar Mecánicamente&r usando:"
 				""
 				"1x &bBrass Ingot&r"
 				"1x &bPrecision Mechanism&r"
@@ -2789,7 +2789,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Increase your reach!"
+			subtitle: "¡Aumenta tu alcance!"
 			tasks: [
 				{
 					id: "45F86FF834119720"
@@ -2800,7 +2800,7 @@
 							Damage: 0
 						}
 					}
-					title: "Craft an Extendo Grip"
+					title: "Fabrica un Extendo Grip"
 					type: "item"
 				}
 				{
@@ -2808,7 +2808,7 @@
 					criterion: ""
 					icon: "minecraft:book"
 					id: "26E571DBD41AB73E"
-					title: "&6Use an Extendo Grip&r"
+					title: "&6Usa un Extendo Grip&r"
 					type: "advancement"
 				}
 			]
@@ -2818,7 +2818,7 @@
 		{
 			dependencies: ["0F973DDF31289379"]
 			description: [
-				"&6Train Stations&r can be crafted with:"
+				"&6Train Stations&r se pueden fabricar con:"
 				""
 				"1x &bTrain Casing&r"
 				"1x &bCompass&r"
@@ -2829,11 +2829,11 @@
 				item: "railways:handcar"
 				type: "item"
 			}]
-			subtitle: "Think of it as a workbench for Trains!"
+			subtitle: "¡Piensa en ello como una mesa de trabajo para Trenes!"
 			tasks: [{
 				id: "3C3BF283D4478491"
 				item: "create:track_station"
-				title: "Craft a Train Station"
+				title: "Fabrica una Train Station"
 				type: "item"
 			}]
 			x: -2.0d
@@ -2842,7 +2842,7 @@
 		{
 			dependencies: ["0F973DDF31289379"]
 			description: [
-				"&6Train Controls&r can be crafted with:"
+				"&6Train Controls&r se pueden fabricar con:"
 				""
 				"1x &bLever&r"
 				"1x &bTrain Casing&r"
@@ -2855,11 +2855,11 @@
 				table_id: 6419466787380812021L
 				type: "random"
 			}]
-			subtitle: "Control that train!"
+			subtitle: "¡Controla ese tren!"
 			tasks: [{
 				id: "5EE2FDAB06201B3E"
 				item: "create:controls"
-				title: "Craft Train Controls"
+				title: "Fabrica los Controles del Tren"
 				type: "item"
 			}]
 			x: 0.0d
@@ -2873,19 +2873,19 @@
 				"12F7AF2514703F4E"
 			]
 			description: [
-				"&6Set Up the Track&r: Place a &bTrack&r and right-click it with a &bStation&r, or place the &bStation&r nearby."
+				"&6Prepara la Vía&r: Coloca una &bVía&r y haz clic derecho con una &bStation&r, o coloca la &bStation&r cerca."
 				""
-				"&6Enter Assembly Mode&r: Right-click the &bStation&r and select \"Create Train\" (blue flag will appear)."
+				"&6Entra en Modo Ensamblaje&r: Haz clic derecho en la &bStation&r y selecciona \"Create Train\" (aparecerá una bandera azul)."
 				""
-				"&6Add Bogeys&r: Place &bTrain Casings&r on the blue-marked areas to turn them into &bBogeys&r."
+				"&6Añade Bogeys&r: Coloca &bTrain Casings&r en las áreas marcadas en azul para convertirlos en &bBogeys&r."
 				""
-				"&6Install Controls&r: Place &bTrain Controls&r facing the station's arrow. For bi-directional trains, add controls facing the opposite direction and a &bSeat&r or &bBlaze Burner&r for the driver."
+				"&6Instala los Controles&r: Coloca los &bTrain Controls&r mirando hacia la flecha de la estación. Para trenes bidireccionales, añade controles mirando en la dirección opuesta y un &bAsiento&r o &bBlaze Burner&r para el conductor."
 				""
-				"&6Connect Parts&r: Use &bSuper Glue&r to attach all &bTrain&r components (green highlight)."
+				"&6Conecta las Piezas&r: Usa &bSuper Glue&r para unir todos los componentes del &bTren&r (resaltado verde)."
 				""
-				"&6Assemble the Train&r: Use the &bStation&r's interface to assemble and name the &bTrain&r. Errors will appear in the interface if assembly fails."
+				"&6Ensambla el Tren&r: Usa la interfaz de la &bStation&r para ensamblar y nombrar el &bTren&r. Los errores aparecerán en la interfaz si el ensamblaje falla."
 				""
-				"&aPondering is recommended.&r"
+				"&aSe recomienda usar Ponder.&r"
 			]
 			icon: "railways:red_conductor_cap"
 			id: "7A6D6E0664DCEFAF"
@@ -2895,13 +2895,13 @@
 				type: "item"
 			}]
 			size: 1.0d
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				advancement: "create:train"
 				criterion: ""
 				icon: "railways:red_conductor_cap"
 				id: "6D4867EC2C01C600"
-				title: "&6Assemble Your First Train&r"
+				title: "&6Ensambla tu Primer Tren&r"
 				type: "advancement"
 			}]
 			x: 0.0d
@@ -2910,7 +2910,7 @@
 		{
 			dependencies: ["0F973DDF31289379"]
 			description: [
-				"&6Train Tracks&r can be crafted through &bSequenced Assembly&r by following this order:"
+				"&6Train Tracks&r se pueden fabricar mediante &bMontaje Secuenciado&r siguiendo este orden:"
 				""
 				"1x &bStone&r or &bAndesite Slab&r"
 				"2x &bIron&r or &bZinc Nuggets&r"
@@ -2922,12 +2922,12 @@
 				item: "create:track"
 				type: "item"
 			}]
-			subtitle: "Try not to derail!"
+			subtitle: "¡Intenta no descarrilar!"
 			tasks: [{
 				advancement: "create:track_0"
 				criterion: ""
 				id: "4428834F05907EE8"
-				title: "Craft Train Tracks"
+				title: "Fabrica Vías de Tren"
 				type: "advancement"
 			}]
 			x: 2.0d
@@ -2935,10 +2935,10 @@
 		}
 		{
 			description: [
-				"&6Seats&r can be crafted with:"
+				"Los &6Seats&r se pueden fabricar con:"
 				""
-				"1x &bAny Wool&r"
-				"1x &bAny Wood Slab&r"
+				"1x &bCualquier Lana&r"
+				"1x &bCualquier Tabla de Madera (Losa)&r"
 			]
 			id: "482422CCF29CF20E"
 			optional: true
@@ -2948,7 +2948,7 @@
 				item: "minecraft:cooked_beef"
 				type: "item"
 			}]
-			subtitle: "You’ll need a place to sit!"
+			subtitle: "¡Necesitarás un lugar donde sentarte!"
 			tasks: [{
 				id: "7E8F0CA6D0B57028"
 				item: {
@@ -2958,7 +2958,7 @@
 						value: "create:seats"
 					}
 				}
-				title: "Craft a Seat"
+				title: "Fabrica un Asiento"
 				type: "item"
 			}]
 			x: -2.0d
@@ -2967,20 +2967,20 @@
 		{
 			dependencies: ["4D5F9E9A9CA701B5"]
 			description: [
-				"&6Placement&r: Right-click a &bTrain Track&r with a &bTrain Signal&r to set its direction, then place the signal within 15 blocks. An arrow will indicate the allowed direction."
+				"&6Colocación&r: Haz clic derecho en una &bVía de Tren&r con una &bTrain Signal&r para establecer su dirección, luego coloca la señal a menos de 15 bloques. Una flecha indicará la dirección permitida."
 				""
-				"&6Two-way Tracks&r: Two &bTrain Signals&r facing opposite directions create a two-way track. Signals facing the same way sync automatically."
+				"&6Vías de Doble Sentido&r: Dos &bTrain Signals&r mirando en direcciones opuestas crean una vía de doble sentido. Las señales que miran en la misma dirección se sincronizan automáticamente."
 				""
-				"&6Track Segments&r: &bTrain Signals&r divide tracks into segments, viewable by holding a &bSignal&r. &bTrains&r avoid segments occupied by others. Circular loops need at least two signals to form segments."
+				"&6Segmentos de Vía&r: Las &bTrain Signals&r dividen las vías en segmentos, visibles al sostener una &bSignal&r. Los &bTrenes&r evitan los segmentos ocupados por otros. Los bucles circulares necesitan al menos dos señales para formar segmentos."
 				""
-				"&6Signal Behavior&r: Red signals stop &bTrains&r until the track clears. Signals turn red when a train passes. Track markers belong to the preceding segment and both directions on two-way tracks."
+				"&6Comportamiento de las Señales&r: Las señales rojas detienen los &bTrenes&r hasta que la vía quede libre. Las señales se vuelven rojas cuando pasa un tren. Los marcadores de vía pertenecen al segmento anterior y a ambas direcciones en vías de doble sentido."
 				""
-				"&6Train Signals&r can be crafted with:"
+				"&6Train Signals&r se pueden fabricar con:"
 				""
 				"1x &bTrain Casing&r"
 				"1x &bElectron Tube&r"
 				""
-				"&aPondering is recommended.&r"
+				"&aSe recomienda usar Ponder.&r"
 			]
 			icon: "create:track_signal"
 			id: "3746F0FE61CD362D"
@@ -2991,13 +2991,13 @@
 				random_bonus: 16
 				type: "item"
 			}]
-			subtitle: "Manage the movement of trains operating autonomously."
+			subtitle: "Gestiona el movimiento de los trenes que operan de forma autónoma."
 			tasks: [
 				{
 					count: 4L
 					id: "3C60F2850844554F"
 					item: "create:track_signal"
-					title: "Craft a Train Signal"
+					title: "Fabrica una Train Signal"
 					type: "item"
 				}
 				{
@@ -3005,7 +3005,7 @@
 					criterion: ""
 					icon: "minecraft:book"
 					id: "1DD444DEF9CF5BC6"
-					title: "&6Place a Train Signal&r"
+					title: "&6Coloca una Train Signal&r"
 					type: "advancement"
 				}
 			]
@@ -3029,13 +3029,13 @@
 					type: "random"
 				}
 			]
-			subtitle: "Tracks can be placed through Portals!"
+			subtitle: "¡Las vías se pueden colocar a través de Portales!"
 			tasks: [{
 				advancement: "create:train_portal"
 				criterion: ""
 				icon: "minecraft:netherrack"
 				id: "298F4B192D9897BB"
-				title: "&6Send a Train to the Nether&r"
+				title: "&6Envía un Tren al Nether&r"
 				type: "advancement"
 			}]
 			x: 2.0d
@@ -3050,12 +3050,12 @@
 				table_id: 6419466787380812021L
 				type: "random"
 			}]
-			subtitle: "No subtitle for this one, I am trying to hit GM 1 on Marvel Rivals."
+			subtitle: "Sin subtítulo para esta, estoy intentando llegar a GM 1 en Marvel Rivals."
 			tasks: [{
 				advancement: "create:long_train"
 				criterion: ""
 				id: "3CA8F12E159B341E"
-				title: "&6Assemble a Train with 6x Bogeys&r"
+				title: "&6Ensambla un Tren con 6x Bogeys&r"
 				type: "advancement"
 			}]
 			x: 2.0d
@@ -3070,12 +3070,12 @@
 				item: "fwaystones:waystone"
 				type: "item"
 			}]
-			subtitle: "Don't forget to stop at Buc-ee's along the way!"
+			subtitle: "¡No olvides parar en Buc-ee's por el camino!"
 			tasks: [{
 				advancement: "create:long_travel"
 				criterion: ""
 				id: "22CF2317D7DC7E06"
-				title: "&6Travel 5000x Blocks While Sitting in a Seat&r"
+				title: "&6Viaja 5000x Bloques Sentado en un Asiento&r"
 				type: "advancement"
 			}]
 			x: -4.0d
@@ -3084,20 +3084,20 @@
 		{
 			dependencies: ["7A6D6E0664DCEFAF"]
 			description: [
-				"To assign a &6Schedule&r, right-click a conductor (&bMob&r or &bBlaze Burner&r at &bTrain Controls&r) with the &6Schedule&r. Right-click the &6Schedule&r to add commands."
+				"Para asignar un &6Horario&r, haz clic derecho en un conductor (&bMob&r o &bBlaze Burner&r en los &bTrain Controls&r) con el &6Horario&r. Haz clic derecho en el &6Horario&r para añadir comandos."
 				""
-				"For station recognition, input a &bStation&r name or use \"&b*&r\" as a wildcard."
+				"Para el reconocimiento de estaciones, introduce el nombre de una &bStation&r o usa \"&b*&r\" como comodín."
 				""
-				"You can set travel conditions for the &6Schedule&r."
+				"Puedes establecer condiciones de viaje para el &6Horario&r."
 				""
-				"&6Schedules&r left at stations will automatically replace the conductor's schedule when stopping."
+				"Los &6Horarios&r dejados en las estaciones reemplazarán automáticamente el horario del conductor al detenerse."
 				""
-				"&6Train Schedules&r can be crafted with:"
+				"&6Train Schedules&r se pueden fabricar con:"
 				""
 				"1x &bSturdy Sheet&r"
 				"1x &bPaper&r"
 				""
-				"&aPondering is recommended.&r"
+				"&aSe recomienda usar Ponder.&r"
 			]
 			icon: "create:schedule"
 			id: "4D5F9E9A9CA701B5"
@@ -3106,13 +3106,13 @@
 				item: "create:blaze_burner"
 				type: "item"
 			}]
-			subtitle: "Use mobs to control your Trains!"
+			subtitle: "¡Usa mobs para controlar tus Trenes!"
 			tasks: [
 				{
 					count: 4L
 					id: "74E8FFA4EAEB70BC"
 					item: "create:schedule"
-					title: "Craft 4x Train Schedules"
+					title: "Fabrica 4x Train Schedules"
 					type: "item"
 				}
 				{
@@ -3120,7 +3120,7 @@
 					criterion: ""
 					icon: "minecraft:book"
 					id: "5FB10C4484B8110B"
-					title: "&6Give a Mob or Blaze Burner a Train Schedule&r"
+					title: "&6Dale a un Mob o Blaze Burner un Train Schedule&r"
 					type: "advancement"
 				}
 			]
@@ -3135,13 +3135,13 @@
 				item: "minecraft:enchanted_golden_apple"
 				type: "item"
 			}]
-			subtitle: "Witness a Train crash as a passenger."
+			subtitle: "Sé testigo de un accidente de Tren como pasajero."
 			tasks: [{
 				advancement: "create:train_crash"
 				criterion: ""
 				icon: "chipped:anguished_carved_pumpkin"
 				id: "7CAE7DB490B08EB4"
-				title: "&6The Horror&r"
+				title: "&6El Horror&r"
 				type: "advancement"
 			}]
 			x: 4.0d
@@ -3156,12 +3156,12 @@
 				item: "brewery:beer_wheat"
 				type: "item"
 			}]
-			subtitle: "Might need to put your beer down for this one."
+			subtitle: "Puede que tengas que dejar la cerveza para esta."
 			tasks: [{
 				advancement: "create:red_signal"
 				criterion: ""
 				id: "095D22B1E2C01AE1"
-				title: "&6Run a Red Light!&r"
+				title: "&6¡Sáltate un Semáforo en Rojo!&r"
 				type: "advancement"
 			}]
 			x: 0.0d
@@ -3176,13 +3176,13 @@
 				random_bonus: 15
 				type: "item"
 			}]
-			subtitle: "Is that a dash cam?"
+			subtitle: "¿Es eso una cámara de salpicadero?"
 			tasks: [{
 				advancement: "create:train_crash_backwards"
 				criterion: ""
 				icon: "exposure:camera"
 				id: "4EBEC9319FBF12C2"
-				title: "&6Commit Insurance Fraud&r"
+				title: "&6Comete Fraude al Seguro&r"
 				type: "advancement"
 			}]
 			x: 4.0d
@@ -3191,11 +3191,11 @@
 		{
 			dependencies: ["072C9D75EF4B7B34"]
 			description: [
-				"When used with a &bCopper Backtank&r, the &6Potato Cannon&r consumes air instead of durability. A full &bCopper Backtank&r allows for 200x shots before durability is affected."
+				"Cuando se usa con un &bCopper Backtank&r, el &6Potato Cannon&r consume aire en lugar de durabilidad. Un &bCopper Backtank&r lleno permite 200x disparos antes de que la durabilidad se vea afectada."
 				""
-				"The &6Potato Cannon&r can be enchanted with &dLooting&r, &dPunch&r, &dPower&r, &dUnbreaking&r, &dCurse of Vanishing&r, &dMending&r, &dFlame&r, and &dPotato Recovery&r."
+				"El &6Potato Cannon&r se puede encantar con &dSaqueo&r, &dGolpe&r, &dPotencia&r, &dIndestructibilidad&r, &dMaldición de Desvanecimiento&r, &dReparación&r, &dLlama&r y &dRecuperación de Patata&r."
 				""
-				"&6Potato Cannons&r can be &bMechanically Crafted&r with:"
+				"&6Potato Cannons&r se pueden &bFabricar Mecánicamente&r con:"
 				""
 				"1x &bAndesite Alloy&r"
 				"1x &bPrecision Mechanism&r"
@@ -3235,7 +3235,7 @@
 							Damage: 0
 						}
 					}
-					title: "Craft a Potato Cannon"
+					title: "Fabrica un Potato Cannon"
 					type: "item"
 				}
 				{
@@ -3243,7 +3243,7 @@
 					criterion: ""
 					icon: "yigd:grave"
 					id: "497C4632B9452A39"
-					title: "&cKILL WITH POTATO CANNON&r"
+					title: "&cMATAR CON EL POTATO CANNON&r"
 					type: "advancement"
 				}
 			]
@@ -3251,5 +3251,5 @@
 			y: -22.0d
 		}
 	]
-	title: " &6B&feginner's Guide"
+	title: " &6G&fuía del Principiante"
 }

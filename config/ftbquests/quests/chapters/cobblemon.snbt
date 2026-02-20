@@ -10,7 +10,7 @@
 	images: [{
 		click: "https://docs.google.com/spreadsheets/d/1bphOi2A7DawLSWsk92Y-welkX48UrBKOfE141xIZgdw/edit?usp=sharing"
 		height: 1.0d
-		hover: ["Spawn Spreadsheet"]
+		hover: ["Hoja de Aparición"]
 		image: "fzzy_config:textures/gui/sprites/widget/decoration/link.png"
 		rotation: 0.0d
 		width: 1.0d
@@ -44,10 +44,10 @@
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
-				title: "Catch a Normal type!"
+				title: "¡Atrapa un tipo Normal!"
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Catch a Normal type!"
+			title: "¡Atrapa un tipo Normal!"
 			x: 0.0d
 			y: -9.0d
 		}
@@ -76,10 +76,10 @@
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
-				title: "Catch a Fire type!"
+				title: "¡Atrapa un tipo Fuego!"
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Catch a Fire type!"
+			title: "¡Atrapa un tipo Fuego!"
 			x: 1.0d
 			y: -8.0d
 		}
@@ -108,10 +108,10 @@
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
-				title: "Catch a Water type!"
+				title: "¡Atrapa un tipo Agua!"
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Catch a Water type!"
+			title: "¡Atrapa un tipo Agua!"
 			x: -2.5d
 			y: -6.5d
 		}
@@ -140,7 +140,7 @@
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
-				title: "Catch a Grass type!"
+				title: "¡Atrapa un tipo Planta!"
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 2.5d
@@ -171,7 +171,7 @@
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
-				title: "Catch an Electric type!"
+				title: "¡Atrapa un tipo Eléctrico!"
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: -1.0d
@@ -202,7 +202,7 @@
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
-				title: "Catch an Ice type!"
+				title: "¡Atrapa un tipo Hielo!"
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 1.0d
@@ -233,7 +233,7 @@
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
-				title: "Catch a Fighting type!"
+				title: "¡Atrapa un tipo Lucha!"
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 0.0d
@@ -264,7 +264,7 @@
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
-				title: "Catch a Poison type!"
+				title: "¡Atrapa un tipo Veneno!"
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: -2.5d
@@ -295,7 +295,7 @@
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
-				title: "Catch a Ground type!"
+				title: "¡Atrapa un tipo Tierra!"
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: -1.5d
@@ -326,7 +326,7 @@
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
-				title: "Catch a Flying type!"
+				title: "¡Atrapa un tipo Volador!"
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: -1.0d
@@ -357,7 +357,7 @@
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
-				title: "Catch a Psychic type!"
+				title: "¡Atrapa un tipo Psíquico!"
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: -1.0d
@@ -388,7 +388,7 @@
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
-				title: "Catch a Bug type!"
+				title: "¡Atrapa un tipo Bicho!"
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 1.5d
@@ -419,7 +419,7 @@
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
-				title: "Catch a Rock type!"
+				title: "¡Atrapa un tipo Roca!"
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 0.0d
@@ -450,7 +450,7 @@
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
-				title: "Catch a Ghost type!"
+				title: "¡Atrapa un tipo Fantasma!"
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: -1.0d
@@ -481,7 +481,7 @@
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
-				title: "Catch a Dragon type!"
+				title: "¡Atrapa un tipo Dragón!"
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 1.0d
@@ -512,7 +512,7 @@
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
-				title: "Catch a Dark type!"
+				title: "¡Atrapa un tipo Siniestro!"
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 2.5d
@@ -543,7 +543,7 @@
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
-				title: "Catch a Steel type!"
+				title: "¡Atrapa un tipo Acero!"
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 0.0d
@@ -574,7 +574,7 @@
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
-				title: "Catch a Fairy type!"
+				title: "¡Atrapa un tipo Hada!"
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 1.0d
@@ -623,7 +623,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "5D9AA6B88A18A175"
-				title: "The Avatar"
+				title: "El Avatar"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -654,7 +654,7 @@
 				shiny: true
 				time_max: 24000L
 				time_min: 0L
-				title: "Catch a Shiny!"
+				title: "¡Atrapa un Shiny!"
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 4.0d
@@ -1599,10 +1599,10 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "You will not complete this."
+			subtitle: "No vas a completar esto."
 			tasks: [{
 				id: "52127124ED1E68D9"
-				title: "Master of All Elements"
+				title: "Maestro de Todos los Elementos"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -1722,13 +1722,13 @@
 		}
 		{
 			description: [
-				"Welcome to &cCobblemon&r!"
+				"¡Bienvenido a &cCobblemon&r!"
 				""
-				"When you're first starting out, you'll be given a &bPoképedia&r. The &bPoképedia&r is an invaluable tool for navigating your &cPokémon&r adventure! Inside, you'll discover recipes, tutorials, machines, and more."
+				"Al comenzar, recibirás una &bPoképedia&r. ¡La &bPoképedia&r es una herramienta indispensable para navegar tu aventura &cPokémon&r! Dentro encontrarás recetas, tutoriales, máquinas y mucho más."
 				""
-				"As you journey through different lands and begin collecting &cPokémon&r, there are a few important points to remember. &cPokémon&r can retaliate if provoked, so be cautious when engaging with them. Additionally, while &cPokémon&r you've caught won't fight against you, they will defend you against hostile mobs. However, it's important to be mindful as &cPokémon&r can faint if they sustain too much damage."
+				"Mientras viajas por distintas tierras y comienzas a capturar &cPokémon&r, hay puntos importantes a recordar. Los &cPokémon&r pueden contraatacar si los provocas, así que ten cuidado al acercarte. Además, los &cPokémon&r que hayas capturado no lucharán contra ti, pero sí te defenderán de los mobs hostiles. Eso sí, ten en cuenta que los &cPokémon&r pueden desmayarse si reciben demasiado daño."
 				""
-				"That's all you need to know for now! Good luck on your adventure! And strive to become the best! Or at the very least, make some cute friends!"
+				"¡Eso es todo lo que necesitas saber por ahora! ¡Buena suerte en tu aventura! ¡Y esfuérzate por ser el mejor! ¡O como mínimo, hazte de unos amigos adorables!"
 			]
 			icon: "ftbquests:book"
 			id: "7EC69292A9779291"
@@ -1740,7 +1740,7 @@
 				type: "item"
 			}]
 			size: 1.5d
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "0BA0F1CDF63E7F91"
 				title: "&cCobblemon"
@@ -1907,14 +1907,14 @@
 				item: "cobblemon:relic_coin_pouch"
 				type: "item"
 			}]
-			subtitle: "Might need an Explorer's Compass!"
+			subtitle: "¡Puede que necesites una Brújula de Explorador!"
 			tasks: [{
 				icon: "cobblemon:gimmighoul_chest"
 				id: "5550CC8357B66AD9"
-				title: "Find a Gimmeghoul Chest!"
+				title: "¡Encuentra un Cofre de Gimmighoul!"
 				type: "custom"
 			}]
-			title: "Find a Gimmighoul Chest!"
+			title: "¡Encuentra un Cofre de Gimmighoul!"
 			x: 4.5d
 			y: 4.5d
 		}
@@ -1927,7 +1927,7 @@
 				item: "cobblemon:relic_coin"
 				type: "item"
 			}]
-			subtitle: "Used to teach Pokémon moves. (Infinite Use)"
+			subtitle: "Se usa para enseñar movimientos a los Pokémon. (Uso infinito)"
 			tasks: [{
 				id: "4EEC22B09998ACF3"
 				item: {
@@ -1950,7 +1950,7 @@
 				item: "cobblemon:relic_coin"
 				type: "item"
 			}]
-			subtitle: "Used to teach Pokémon moves. (Single Use)"
+			subtitle: "Se usa para enseñar movimientos a los Pokémon. (Un solo uso)"
 			tasks: [{
 				id: "59B114D859219653"
 				item: {
@@ -1967,13 +1967,13 @@
 		}
 		{
 			description: [
-				"Legendary &cPokémon&r are incredibly rare and powerful creatures that can be encountered randomly throughout your journey, depending on the biome you're in."
+				"Los &cPokémon&r Legendarios son criaturas increíblemente raras y poderosas que puedes encontrar de forma aleatoria durante tu aventura, según el bioma en el que estés."
 				""
-				"Catching these elusive beings can be quite challenging, so make sure to grab &bMaster Balls&r whenever possible, either through crafting or completing quests."
+				"Capturar a estos escurridizos seres puede ser todo un desafío, así que asegúrate de conseguir &bMaster Balls&r siempre que puedas, ya sea crafteándolas o completando misiones."
 				""
-				"If you're searching for a specific &cPokémon&r, don't forget to use your &bCobbledex&r! It will tell you exactly which biomes to look in."
+				"Si buscas un &cPokémon&r concreto, ¡no te olvides de usar tu &bCobbledex&r! Te dirá exactamente en qué biomas buscarlo."
 				""
-				"&9Legendary Pokémon are added via datapacks. Before playing, make sure you have them installed by running /datapack list. Confirm \"BCG x AllTheMons\" is included. If you need assistance, feel free to join the Discord!&r"
+				"&9Los Pokémon Legendarios se añaden mediante datapacks. Antes de jugar, asegúrate de tenerlos instalados ejecutando /datapack list. Confirma \"BCG x AllTheMons\" está incluido. ¡Si necesitas ayuda, únete al Discord!&r"
 			]
 			icon: "cobblemon:master_ball"
 			id: "01F8BADC30C09DF8"
@@ -1982,10 +1982,10 @@
 				item: "cobblemon:relic_coin"
 				type: "item"
 			}]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "3029080D52BC7C62"
-				title: "Legendary Spawning"
+				title: "Aparición de Legendarios"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -2014,7 +2014,7 @@
 				item: "cobblemon:exp_candy_m"
 				type: "item"
 			}]
-			subtitle: "Used for Mega Evolutions!"
+			subtitle: "¡Se usa para Megaevoluciones!"
 			tasks: [{
 				id: "277467CB2A4CD81A"
 				item: "megamons:mega_cuff"
@@ -2024,14 +2024,14 @@
 			y: -3.0d
 		}
 		{
-			description: ["&bMega Stones&r have the unique ability to transform &cPokémon&r into their Mega counterparts!"]
+			description: ["¡Las &bMega Stones&r tienen la increíble capacidad de transformar a los &cPokémon&r en sus versiones Mega!"]
 			id: "05D7435F597EB1AF"
 			rewards: [{
 				id: "4CD96011434EBAEB"
 				item: "cobblemon:exp_candy_s"
 				type: "item"
 			}]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "3B7F9ED4B6FEDA27"
 				item: {
@@ -2041,10 +2041,10 @@
 						value: "megamons:raw_megastones"
 					}
 				}
-				title: "Any Mega Stone"
+				title: "Cualquier Mega Stone"
 				type: "item"
 			}]
-			title: "Obtain a Mega Stone"
+			title: "Consigue una Mega Stone"
 			x: 4.5d
 			y: -4.5d
 		}
@@ -2056,7 +2056,7 @@
 				item: "cobblemon:exp_candy_m"
 				type: "item"
 			}]
-			subtitle: "Use a Stonecutter!"
+			subtitle: "¡Usa la Cortadora de Piedra!"
 			tasks: [{
 				id: "273DF1A395AAF1A5"
 				item: {
@@ -2066,10 +2066,10 @@
 						value: "megamons:cut_megastones"
 					}
 				}
-				title: "Any Cut Mega Stone"
+				title: "Cualquier Mega Stone Cortada"
 				type: "item"
 			}]
-			title: "Craft a Cut Mega Stone"
+			title: "Fabrica una Mega Stone Cortada"
 			x: 7.0d
 			y: -4.5d
 		}
@@ -2097,10 +2097,10 @@
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
-				title: "Catch a Gimmighoul"
+				title: "Atrapa un Gimmighoul"
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Catch a Gimmighoul!"
+			title: "¡Atrapa un Gimmighoul!"
 			x: 5.0d
 			y: 5.5d
 		}
@@ -2130,7 +2130,7 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Level a Pokémon to 20"
+			title: "Sube un Pokémon al nivel 20"
 			x: 8.5d
 			y: -4.5d
 		}
@@ -2161,7 +2161,7 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Level a Pokémon to 40"
+			title: "Sube un Pokémon al nivel 40"
 			x: 9.0d
 			y: -3.0d
 		}
@@ -2200,7 +2200,7 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Level a Pokémon to 60"
+			title: "Sube un Pokémon al nivel 60"
 			x: 9.5d
 			y: -4.5d
 		}
@@ -2238,7 +2238,7 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Level a Pokémon to 80"
+			title: "Sube un Pokémon al nivel 80"
 			x: 10.0d
 			y: -3.0d
 		}
@@ -2288,7 +2288,7 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Level a Pokémon to 100"
+			title: "Sube un Pokémon al nivel 100"
 			x: 10.5d
 			y: -4.5d
 		}
@@ -2301,7 +2301,7 @@
 				item: "minecraft:wheat"
 				type: "item"
 			}]
-			subtitle: "A block needed to revive Fossils."
+			subtitle: "Un bloque necesario para revivir Fósiles."
 			tasks: [{
 				id: "1231DBEA92F37D29"
 				item: "cobblemon:fossil_analyzer"
@@ -2317,7 +2317,7 @@
 				type: "xp"
 				xp: 150
 			}]
-			subtitle: "You'll need a brush."
+			subtitle: "Necesitarás un pincel."
 			tasks: [{
 				id: "4952E2A52ACCDE58"
 				item: {
@@ -2327,7 +2327,7 @@
 						value: "cobblemon:fossils"
 					}
 				}
-				title: "Obtain a Fossil!"
+				title: "¡Consigue un Fósil!"
 				type: "item"
 			}]
 			x: 9.0d
@@ -2342,7 +2342,7 @@
 				item: "minecraft:wheat"
 				type: "item"
 			}]
-			subtitle: "A block needed to revive Fossils."
+			subtitle: "Un bloque necesario para revivir Fósiles."
 			tasks: [{
 				id: "49394584496A28AB"
 				item: "cobblemon:monitor"
@@ -2360,7 +2360,7 @@
 				item: "minecraft:wheat"
 				type: "item"
 			}]
-			subtitle: "A block needed to revive Fossils."
+			subtitle: "Un bloque necesario para revivir Fósiles."
 			tasks: [{
 				id: "11DEAB634D526519"
 				item: "cobblemon:restoration_tank"
@@ -2377,7 +2377,7 @@
 				item: "cobblemon:luxury_ball"
 				type: "item"
 			}]
-			subtitle: "Used to evolve certain Pokémon!"
+			subtitle: "¡Se usa para evolucionar a ciertos Pokémon!"
 			tasks: [{
 				id: "233AF58C045C313E"
 				item: {
@@ -2387,10 +2387,10 @@
 						value: "cobblemon:evolution_stones"
 					}
 				}
-				title: "Any #cobblemon:evolution_stones"
+				title: "Cualquier #cobblemon:evolution_stones"
 				type: "item"
 			}]
-			title: "Obtain an Evolution Stone!"
+			title: "¡Consigue una Piedra de Evolución!"
 			x: 7.0d
 			y: 0.0d
 		}
@@ -2454,7 +2454,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Feed a Gimmighoul 999 Relic Coins!"
+			subtitle: "¡Dale 999 Monedas Reliquia a un Gimmighoul!"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -2470,10 +2470,10 @@
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
-				title: "Obtain a Gholdengo"
+				title: "Consigue un Gholdengo"
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Obtain a Gholdengo!"
+			title: "¡Consigue un Gholdengo!"
 			x: 5.5d
 			y: 4.5d
 		}

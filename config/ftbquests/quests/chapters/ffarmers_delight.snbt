@@ -81,7 +81,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Obtained by using a bowl on a placed Guardian Soup."
+			subtitle: "Se obtiene usando un cuenco en una Guardian Soup colocada."
 			tasks: [{
 				id: "239AEC658E6E9639"
 				item: "oceansdelight:bowl_of_guardian_soup"
@@ -305,14 +305,14 @@
 			y: 2.5d
 		}
 		{
-			description: ["The Rolling Pin can be enchanted with Unbreaking, Mending, and Fortune (which increases the chance of extra output)."]
+			description: ["El Rolling Pin puede encantarse con Indestructibilidad, Reparación y Fortuna (que aumenta la probabilidad de obtener producción extra)."]
 			id: "1E4B9F7A8A32E96A"
 			rewards: [{
 				id: "23F0BAC07807299B"
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Used to craft food, it can be used in place of other methods for a chance of extra output."
+			subtitle: "Se usa para elaborar comida; puede usarse en lugar de otros métodos con probabilidad de obtener producción extra."
 			tasks: [
 				{
 					id: "22748A39A50097CD"
@@ -1023,7 +1023,7 @@
 			y: 1.5d
 		}
 		{
-			description: ["Farmer's Delight is a wonderful mod that fills the world with delectable treats! With a unique crafting system and plenty of add-ons, you're sure to find something to satisfy any craving."]
+			description: ["¡Farmer's Delight es un mod maravilloso que llena el mundo de deliciosos manjares! Con un sistema de crafteo único y muchos complementos, seguro que encuentras algo para satisfacer cualquier antojo."]
 			icon: "ftbquests:book"
 			id: "51ED1F23CA0FB835"
 			optional: true
@@ -1033,10 +1033,10 @@
 				type: "item"
 			}]
 			size: 1.5d
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "0766A7C470DE54C0"
-				title: "Accept Rewards"
+				title: "Aceptar recompensas"
 				type: "checkmark"
 			}]
 			title: "&6Farmer's Delight"
@@ -1050,7 +1050,7 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Similar to a campfire, but it holds 6 items."
+			subtitle: "Similar a una hoguera, pero puede contener 6 elementos."
 			tasks: [{
 				id: "468F6742C50B015E"
 				item: "farmersdelight:stove"
@@ -1066,7 +1066,7 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Used to make food, it needs to be placed on top of a hot block such as a campfire, stove, or magma block."
+			subtitle: "Se usa para cocinar; debe colocarse sobre un bloque caliente como una hoguera, un stove o un bloque de magma."
 			tasks: [{
 				id: "1130E830F4F9E275"
 				item: "farmersdelight:cooking_pot"
@@ -1076,14 +1076,14 @@
 			y: 1.0d
 		}
 		{
-			description: ["Similar to a campfire, but can hold up to a stack of one item. It needs to be placed on a hot block such as a campfire, stove, or magma block."]
+			description: ["Similar a una hoguera, pero puede contener hasta una pila de un elemento. Debe colocarse sobre un bloque caliente como una hoguera, un stove o un bloque de magma."]
 			id: "7965C616577FBD06"
 			rewards: [{
 				id: "2A42FD6D0EE3943E"
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "6BBF9A3622200A08"
 				item: {
@@ -1106,7 +1106,7 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Used to chop items, place items on it, then right-click with a knife. It can also strip bark from logs."
+			subtitle: "Úsalo para cortar: coloca ingredientes encima y haz clic derecho con un cuchillo. También puede quitar la corteza de los troncos."
 			tasks: [
 				{
 					id: "41169336AD7B3C74"
@@ -1122,7 +1122,7 @@
 							value: "farmersdelight:tools/knives"
 						}
 					}
-					title: "Any #farmersdelight:tools/knives"
+					title: "Cualquier #farmersdelight:tools/knives"
 					type: "item"
 				}
 			]
@@ -1531,7 +1531,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Obtained by killing hoglins with a knife,"
+			subtitle: "Se obtiene matando hoglins con un cuchillo."
 			tasks: [{
 				id: "0384027ED872357B"
 				item: "farmersdelight:ham"
@@ -2289,10 +2289,10 @@
 		{
 			id: "5BAD4B48714E6D83"
 			optional: true
-			subtitle: "Some of the better foods have a nourishment effect, which prevents non-regen hunger drain."
+			subtitle: "Algunos de los mejores alimentos tienen el efecto Nutrición, que evita que el hambre baje sin regeneración."
 			tasks: [{
 				id: "02D61AB173DA66DD"
-				title: "Nourishment"
+				title: "Nutrición"
 				type: "checkmark"
 			}]
 			x: -1.5d

@@ -1505,7 +1505,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "&bAll Biomes"
+			subtitle: "&bTodos los biomas"
 			tasks: [{
 				id: "526293EE68D5F268"
 				item: "cobblemon:oran_berry"
@@ -1528,7 +1528,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "&bPlains"
+			subtitle: "&bLlanuras"
 			tasks: [{
 				id: "539E415CE897C5F2"
 				item: "cobblemon:cheri_berry"
@@ -1551,7 +1551,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "&bForest"
+			subtitle: "&bBosque"
 			tasks: [{
 				id: "585CDD19710DCB22"
 				item: "cobblemon:chesto_berry"
@@ -1574,7 +1574,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "&bArid"
+			subtitle: "&bÁrido"
 			tasks: [{
 				id: "1BEDD6A0A965CFE0"
 				item: "cobblemon:rawst_berry"
@@ -1597,7 +1597,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "&bMountain"
+			subtitle: "&bMontaña"
 			tasks: [{
 				id: "1A5941AE85C78ABF"
 				item: "cobblemon:aspear_berry"
@@ -1620,7 +1620,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "&bAll Biomes"
+			subtitle: "&bTodos los biomas"
 			tasks: [{
 				id: "0423D6FF0648DC29"
 				item: "cobblemon:persim_berry"
@@ -1643,7 +1643,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "&bForest"
+			subtitle: "&bBosque"
 			tasks: [{
 				id: "160C3E1AD4C610A0"
 				item: "cobblemon:razz_berry"
@@ -1666,7 +1666,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "&bPlains"
+			subtitle: "&bLlanuras"
 			tasks: [{
 				id: "4D4CCC871056B613"
 				item: "cobblemon:wepear_berry"
@@ -1689,7 +1689,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "&bArid"
+			subtitle: "&bÁrido"
 			tasks: [{
 				id: "20752CF9B344A740"
 				item: "cobblemon:pinap_berry"
@@ -1712,7 +1712,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "&bJungle, Swamp"
+			subtitle: "&bJungla, Pantano"
 			tasks: [{
 				id: "363E8946084447C8"
 				item: "cobblemon:pecha_berry"
@@ -1735,7 +1735,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "&bMountain, Taiga"
+			subtitle: "&bMontaña, Taiga"
 			tasks: [{
 				id: "5352785AC53D8CDF"
 				item: "cobblemon:bluk_berry"
@@ -1758,7 +1758,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "&bJungle, Swamp"
+			subtitle: "&bJungla, Pantano"
 			tasks: [{
 				id: "7054C3055717A8C5"
 				item: "cobblemon:nanab_berry"
@@ -1781,7 +1781,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "&bJungle, Sandy, Thermal, Volcanic"
+			subtitle: "&bJungla, Arenoso, Termal, Volcánico"
 			tasks: [{
 				id: "7B01B04D649621BB"
 				item: "cobblemon:occa_berry"
@@ -1804,7 +1804,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "&bCoast, Freshwater, Island, Ocean"
+			subtitle: "&bCosta, Agua dulce, Isla, Océano"
 			tasks: [{
 				id: "44DD82DEE882D027"
 				item: "cobblemon:passho_berry"
@@ -1827,7 +1827,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "&bGrassland, Hills, Lush"
+			subtitle: "&bPraderas, Colinas, Exuberante"
 			tasks: [{
 				id: "682B3737EB0F252A"
 				item: "cobblemon:wacan_berry"
@@ -1850,7 +1850,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "&bJungle, Temperate, Lush"
+			subtitle: "&bJungla, Templado, Exuberante"
 			tasks: [{
 				id: "1974799ACAFC1BBE"
 				item: "cobblemon:rindo_berry"
@@ -1873,7 +1873,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "&bFreezing, Taiga"
+			subtitle: "&bHelado, Taiga"
 			tasks: [{
 				id: "12B75A6AEC3E39F9"
 				item: "cobblemon:yache_berry"
@@ -1896,7 +1896,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "&bMountain, Bamboo, Taiga"
+			subtitle: "&bMontaña, Bambú, Taiga"
 			tasks: [{
 				id: "1B6D3099E8B4B5CE"
 				item: "cobblemon:chople_berry"
@@ -1919,7 +1919,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "&bForest, Mushroom, Spooky, Swamp"
+			subtitle: "&bBosque, Champiñones, Inquietante, Pantano"
 			tasks: [{
 				id: "0E38B0C8708D4FF3"
 				item: "cobblemon:kebia_berry"
@@ -1942,7 +1942,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "&bArid, Grassland"
+			subtitle: "&bÁrido, Praderas"
 			tasks: [{
 				id: "7617BB873DF7D798"
 				item: "cobblemon:shuca_berry"
@@ -1965,7 +1965,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "&bPeak, Temperate, Sky"
+			subtitle: "&bCima, Templado, Cielo"
 			tasks: [{
 				id: "40235FBD7ADEFA28"
 				item: "cobblemon:coba_berry"
@@ -1988,7 +1988,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "&bDesert, Floral, Magical, Savanna, Spooky"
+			subtitle: "&bDesierto, Floral, Mágico, Sabana, Inquietante"
 			tasks: [{
 				id: "72826F6C869C2B0F"
 				item: "cobblemon:payapa_berry"
@@ -2011,7 +2011,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "&bForest, Jungle, Swamp"
+			subtitle: "&bBosque, Jungla, Pantano"
 			tasks: [{
 				id: "137BC79D8F905298"
 				item: "cobblemon:tanga_berry"
@@ -2034,7 +2034,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "&bDripstone, Mountain, Sandy, Volcanic"
+			subtitle: "&bPiedra goteante, Montaña, Arenoso, Volcánico"
 			tasks: [{
 				id: "4ABF5C2999DDBF59"
 				item: "cobblemon:charti_berry"
@@ -2057,7 +2057,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "&bDripstone, Lush, Spooky, Swamp, Taiga"
+			subtitle: "&bPiedra goteante, Exuberante, Inquietante, Pantano, Taiga"
 			tasks: [{
 				id: "32579AA1844D0F39"
 				item: "cobblemon:kasib_berry"
@@ -2080,7 +2080,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "&bJungle, Magical, Mountain, Sky, Volcanic"
+			subtitle: "&bJungla, Mágico, Montaña, Cielo, Volcánico"
 			tasks: [{
 				id: "50A7438B61A09879"
 				item: "cobblemon:haban_berry"
@@ -2103,7 +2103,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "&bBadlands, Spooky, Taiga"
+			subtitle: "&bBadlands, Inquietante, Taiga"
 			tasks: [{
 				id: "558C0031386E5C9B"
 				item: "cobblemon:colbur_berry"
@@ -2126,7 +2126,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "&bBamboo, Mountain, Taiga"
+			subtitle: "&bBambú, Montaña, Taiga"
 			tasks: [{
 				id: "7FA51A53138DB6B1"
 				item: "cobblemon:babiri_berry"
@@ -2149,7 +2149,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "&bTemperate, Grassland"
+			subtitle: "&bTemplado, Praderas"
 			tasks: [{
 				id: "2C2772D730BEB5EB"
 				item: "cobblemon:chilan_berry"
@@ -2160,13 +2160,13 @@
 		}
 		{
 			description: [
-				"Usage"
+				"Uso"
 				""
-				"&bMulch&r can be applied to a &bBerry Tree&r one at a time. It can be removed by interacting with the tree using a shovel or by destroying the tree."
+				"El &bMantillo&r se puede aplicar a un &bÁrbol de Bayas&r de uno en uno. Se puede retirar interactuando con el árbol usando una pala o destruyéndolo."
 				""
-				"Mulch Types"
+				"Tipos de Mantillo"
 				""
-				"&bMulch&r is an item used to craft various types of &bMulch&r. It serves as the fundamental component for creating &bMulch&r used to apply modifiers to &bberry trees&r and for mutating &bRevival Herbs&r."
+				"El &bMantillo&r es un objeto que se usa para fabricar varios tipos de &bMantillo&r. Es el componente fundamental para crear el &bMantillo&r que se usa para aplicar modificadores a los &bárboles de bayas&r y para mutar las &bHierbas de Revivir&r."
 			]
 			icon: "cobblemon:mulch_base"
 			id: "4E609BA887E082A1"
@@ -2189,13 +2189,13 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "109E59E8CBDFD1B1"
 				item: "cobblemon:mulch_base"
 				type: "item"
 			}]
-			title: "Mulch?"
+			title: "¿Mulch?"
 			x: 0.0d
 			y: 2.0d
 		}
@@ -2214,7 +2214,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Increases the growth rate of the Berry Tree it is applied to for up to 3 harvests."
+			subtitle: "Aumenta la velocidad de crecimiento del Árbol de Bayas al que se aplica durante hasta 3 cosechas."
 			tasks: [{
 				id: "046308DF537192C4"
 				item: "cobblemon:growth_mulch"
@@ -2238,7 +2238,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Increases the yield of the Berry Tree’s harvest for up to 3 harvests."
+			subtitle: "Aumenta el rendimiento de la cosecha del Árbol de Bayas durante hasta 3 cosechas."
 			tasks: [{
 				id: "29B33D0286AFE277"
 				item: "cobblemon:rich_mulch"
@@ -2249,9 +2249,9 @@
 		}
 		{
 			description: [
-				"Increases the chances of a mutation occurring on the Berry Tree for up to 3 harvests."
+				"Aumenta las probabilidades de que ocurra una mutación en el Árbol de Bayas durante hasta 3 cosechas."
 				""
-				"It can also mutate a fully grown Revival Herb into a Mental Herb, Power Herb, White Herb, or Mirror Herb."
+				"También puede mutar una Hierba de Revivir completamente crecida en una Hierba Mental, Hierba de Poder, Hierba Blanca o Hierba Espejo."
 			]
 			id: "62701AA8050C475E"
 			rewards: [
@@ -2267,7 +2267,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "2B4E25B932C0C011"
 				item: "cobblemon:surprise_mulch"
@@ -2291,7 +2291,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Makes the Berry Tree behave as if it's in a Plains biome for an infinite duration."
+			subtitle: "Hace que el Árbol de Bayas se comporte como si estuviera en un bioma de Llanuras de forma indefinida."
 			tasks: [{
 				id: "03A89F3F742792AF"
 				item: "cobblemon:loamy_mulch"
@@ -2315,7 +2315,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Makes the Berry Tree behave as if it's in a Mountains or Taiga biome for an infinite duration."
+			subtitle: "Hace que el Árbol de Bayas se comporte como si estuviera en un bioma de Montañas o Taiga de forma indefinida."
 			tasks: [{
 				id: "5D26B96865E7AAC3"
 				item: "cobblemon:coarse_mulch"
@@ -2339,7 +2339,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Peat Mulch makes the Berry Tree behave as if it's in a Forest biome for an infinite duration."
+			subtitle: "El Mantillo de turba hace que el Árbol de Bayas se comporte como si estuviera en un bioma de Bosque de forma indefinida."
 			tasks: [{
 				id: "3BE3EFC466D805D7"
 				item: "cobblemon:peat_mulch"
@@ -2363,7 +2363,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Makes the Berry Tree behave as if it's in a Jungle or Swamp biome for an infinite duration."
+			subtitle: "Hace que el Árbol de Bayas se comporte como si estuviera en un bioma de Jungla o Pantano de forma indefinida."
 			tasks: [{
 				id: "39EFA596F9E97585"
 				item: "cobblemon:humid_mulch"
@@ -2387,7 +2387,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Makes the Berry Tree behave as if it's in an Arid biome for an infinite duration."
+			subtitle: "Hace que el Árbol de Bayas se comporte como si estuviera en un bioma Árido de forma indefinida."
 			tasks: [{
 				id: "189F4681AED34520"
 				item: "cobblemon:sandy_mulch"
@@ -2398,18 +2398,18 @@
 		}
 		{
 			description: [
-				"Here’s a guide to get more advanced with berry farming. Planting certain berry trees next to each other can yield mutated berries. "
+				"Aquí tienes una guía para avanzar más en el cultivo de bayas. Plantar ciertos árboles de bayas uno junto al otro puede dar lugar a bayas mutadas. "
 				""
-				"You can view the list on your left and right sides, and the locations of each berry are displayed above."
+				"Puedes ver la lista a tu izquierda y a tu derecha, y la ubicación de cada baya se muestra arriba."
 			]
 			icon: "ftbquests:book"
 			id: "1D31EB62C92AFEE8"
 			optional: true
 			size: 1.5d
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "32404092759CA596"
-				title: "&bFarming Berries"
+				title: "&bCultivo de Bayas"
 				type: "checkmark"
 			}]
 			x: 0.0d

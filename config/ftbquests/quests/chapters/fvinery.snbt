@@ -12,18 +12,18 @@
 	quests: [
 		{
 			description: [
-				"You'll need to find grapevine bushes to gather your first grapes. If you can't find any, a Wandering Winemaker may visit from time to time, possibly offering some seeds. You can obtain seeds by eating grapes."
+				"Tendrás que encontrar arbustos de vid para recolectar tus primeras uvas. Si no encuentras ninguno, es posible que un Vinatero Errante te visite de vez en cuando y te ofrezca algunas semillas. Puedes obtener semillas comiendo uvas."
 				""
-				"After harvesting your first grapes, you can either eat them or place them into a pot and crush them by jumping and walking around in it. Then, you can extract grape juice by using empty wine bottles. Filled wine bottles can be refined in a barrel by adding extra ingredients such as sweetberries, honey, and so on. Different types of grape juice and ingredients result in different wines."
+				"Tras cosechar tus primeras uvas, puedes comerlas o colocarlas en una maceta y aplastarlas saltando y moviéndote dentro. Luego puedes extraer zumo de uva usando botellas de vino vacías. Las botellas llenas pueden refinarse en un barril añadiendo ingredientes extra como bayas dulces, miel, etc. Distintos tipos de zumo y distintos ingredientes dan lugar a diferentes vinos."
 			]
 			icon: "ftbquests:book"
 			id: "77409DA4D0918CF8"
 			optional: true
 			size: 1.5d
-			subtitle: "Click to learn more!"
-			tasks: [{
-				id: "27A3804EC8BDCF11"
-				title: "Accept Rewards"
+		subtitle: "¡Haz clic para saber más!"
+		tasks: [{
+			id: "27A3804EC8BDCF11"
+			title: "Aceptar Recompensas"
 				type: "checkmark"
 			}]
 			title: "&6Vinery"
@@ -37,7 +37,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Picked from cherry trees in plains, meadow, and sunflower plains biomes."
+			subtitle: "Se recoge de los cerezos en biomas de llanuras, praderas y llanuras de girasoles."
 			tasks: [{
 				id: "173B999D9D402165"
 				item: "vinery:cherry"
@@ -53,7 +53,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Found in jungle biomes."
+			subtitle: "Se encuentra en biomas de jungla."
 			tasks: [
 				{
 					id: "1FFCAD3078216220"
@@ -77,7 +77,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Found in taiga biomes."
+			subtitle: "Se encuentra en biomas de taiga."
 			tasks: [
 				{
 					id: "16CE431A2D6D6FD0"
@@ -101,7 +101,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Found in savanna biomes."
+			subtitle: "Se encuentra en biomas de sabana."
 			tasks: [
 				{
 					id: "48291464557DB933"
@@ -125,7 +125,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Found in forest, plains, swamp, birch forest, meadow, sunflower plains, and river biomes."
+			subtitle: "Se encuentra en biomas de bosque, llanuras, pantano, bosque de abedules, praderas, llanuras de girasoles y ríos."
 			tasks: [
 				{
 					id: "7BD561CCAD3AEA8C"
@@ -145,11 +145,11 @@
 		{
 			id: "30305FA6C782AC8B"
 			optional: true
-			subtitle: "Wine will age over time, with older wine having stronger effects, up to level V."
+			subtitle: "El vino madura con el tiempo; cuanto más viejo, más fuertes son sus efectos, hasta nivel V."
 			tasks: [{
 				id: "6057285B22B6356B"
-				title: "Aging"
-				type: "checkmark"
+			title: "Maduración"
+			type: "checkmark"
 			}]
 			x: -1.5d
 			y: 1.5d
@@ -161,7 +161,7 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Used to mash apples."
+			subtitle: "Se usa para machacar manzanas."
 			tasks: [{
 				id: "48F01A008EC10578"
 				item: "vinery:apple_press"
@@ -177,7 +177,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Fill the barrel with 6 grapes, then jump in and wait until the process is complete. Finally, collect the wine with a wine bottle."
+			subtitle: "Llena el barril con 6 uvas, salta dentro y espera hasta que termine el proceso. Después, recoge el vino con una botella de vino."
 			tasks: [{
 				id: "79487480D0E3D892"
 				item: "vinery:grapevine_pot"
@@ -921,7 +921,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Used for growing jungle grapes."
+			subtitle: "Se usa para cultivar uvas de jungla."
 			tasks: [{
 				id: "27069420C3C0516B"
 				item: "vinery:oak_lattice"
@@ -937,7 +937,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Used for growing normal, taiga, and savanna grapes."
+			subtitle: "Se usa para cultivar uvas normales, de taiga y de sabana."
 			tasks: [{
 				id: "1C3D33223DE61DD2"
 				item: "vinery:grapevine_stem"

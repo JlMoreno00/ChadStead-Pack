@@ -50,7 +50,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Everlasting Beef, or no Beef"
+			subtitle: "Everlasting Beef, o nada"
 			tasks: [{
 				id: "59CDF8A555ABADD5"
 				item: "artifacts:everlasting_beef"
@@ -99,7 +99,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "I love microplastics!"
+			subtitle: "¡Me encantan los microplásticos!"
 			tasks: [{
 				id: "6318AB064B4842BF"
 				item: "artifacts:novelty_drinking_hat"
@@ -134,19 +134,19 @@
 			y: -2.5d
 		}
 		{
-			description: [
-				"On your journey, you will stumble upon accessories. A handful of them are funny, but most of them are helpful."
-				" "
-				"Some can be crafted from materials found in the world, some are discovered through treasures and exploration, and others drop from unique and common mobs!"
-			]
+		description: [
+			"En tu aventura, te encontrarás con accesorios. Algunos son divertidos, ¡pero la mayoría son muy útiles!"
+			" "
+			"¡Algunos se fabrican con materiales del mundo, otros se descubren en tesoros explorando, y otros los sueltan enemigos comunes y únicos!"
+		]
 			icon: "ftbquests:book"
 			id: "12F9750CFC68C73E"
 			optional: true
 			size: 1.5d
-			subtitle: "Click to learn more!"
-			tasks: [{
-				id: "6DD92CDAB43BF073"
-				title: "&dAccessory Collection"
+		subtitle: "¡Haz clic para saber más!"
+		tasks: [{
+			id: "6DD92CDAB43BF073"
+			title: "&dColección de Accesorios"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -239,7 +239,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Warwick Davis reference!"
+			subtitle: "¡Referencia a Warwick Davis!"
 			tasks: [{
 				id: "0C317FE20D7D04BE"
 				item: "artifacts:superstitious_hat"
@@ -336,7 +336,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Do The Panic"
+			subtitle: "¡Pánico Total!"
 			tasks: [{
 				id: "20208C4D8FB08ECC"
 				item: "artifacts:panic_necklace"
@@ -457,7 +457,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "How did you manage this?"
+			subtitle: "¿Cómo lo conseguiste?"
 			tasks: [{
 				id: "0BB115220C973FBC"
 				item: "artifacts:cloud_in_a_bottle"
@@ -482,7 +482,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Terraria reference!"
+			subtitle: "¡Referencia a Terraria!"
 			tasks: [{
 				id: "0B31C4A2C95C9715"
 				item: "artifacts:obsidian_skull"
@@ -603,7 +603,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Better"
+			subtitle: "Mejor"
 			tasks: [{
 				id: "6FF08AB555737BD2"
 				item: "artifacts:digging_claws"
@@ -627,7 +627,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Faster"
+			subtitle: "Más Rápido"
 			tasks: [{
 				id: "25D51D0AFD69233F"
 				item: "artifacts:feral_claws"
@@ -651,7 +651,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Harder"
+			subtitle: "Más Duro"
 			tasks: [{
 				id: "34B8C70340C0E658"
 				item: "artifacts:power_glove"
@@ -866,7 +866,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Creepers beware!"
+			subtitle: "¡Cuidado, Creepers!"
 			tasks: [{
 				id: "3A8D38260658CBE2"
 				item: "artifacts:kitty_slippers"
@@ -1060,7 +1060,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Stronger"
+			subtitle: "Más Fuerte"
 			tasks: [{
 				id: "03B8959CEF0C4F59"
 				item: "things:riot_gauntlet"
@@ -1263,7 +1263,7 @@
 			y: 1.0d
 		}
 		{
-			description: ["With the Agglomeration Orb, you can combine two accessories together, provided they share the same slot. (Some accessories, like Feral Claws, will stack.)"]
+			description: ["Con el Agglomeration Orb, puedes combinar dos accesorios siempre que compartan el mismo espacio. (Algunos accesorios, como los Feral Claws, se pueden apilar.)"]
 			id: "2C67B725F3C8BDE1"
 			rewards: [{
 				id: "31F05602D076B9C8"
@@ -1271,9 +1271,9 @@
 				type: "item"
 			}]
 			size: 1.5d
-			subtitle: "Click to learn more!"
-			tasks: [{
-				id: "5108B9B4BFF0DFF5"
+		subtitle: "¡Haz clic para saber más!"
+		tasks: [{
+			id: "5108B9B4BFF0DFF5"
 				item: "things:empty_agglomeration"
 				title: "Empty Agglomeration"
 				type: "item"
@@ -1377,5 +1377,5 @@
 			y: 1.0d
 		}
 	]
-	title: " &dA&fccessory Collection"
+	title: " &dC&folección de Accesorios"
 }

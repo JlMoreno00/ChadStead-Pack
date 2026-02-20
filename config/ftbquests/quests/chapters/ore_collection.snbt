@@ -12,21 +12,21 @@
 	quests: [
 		{
 			description: [
-				"No matter how you play, you'll eventually require ore. While there are numerous ways to obtain it, sometimes you just need to get your hands dirty."
+				"No importa cómo juegues, eventualmente necesitarás menas. Aunque hay muchas formas de obtenerlas, a veces simplemente hay que ensuciarse las manos."
 				""
-				"Being underground can be scary at first, but you get used to it. Progressing through the &6Ore Collection Milestones&r will grant you permanent &6Armor Toughness&r!"
+				"Estar bajo tierra puede asustar al principio, pero te acostumbras. ¡Progresar en los &6Hitos de Colección de Menas&r te otorgará &6Dureza de Armadura&r permanente!"
 			]
 			icon: "ftbquests:book"
 			id: "46EDB9DC0F5AC44C"
 			optional: true
 			size: 1.5d
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "425EB8EFCE6FD354"
-				title: "Accept Rewards"
+				title: "Aceptar Recompensas"
 				type: "checkmark"
 			}]
-			title: "&6Ore Collection"
+			title: "&6Colección de Menas"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -41,7 +41,7 @@
 				count: 64L
 				id: "6F216314B808D974"
 				item: "minecraft:coal"
-				title: "Obtain 64x Coal"
+				title: "Obtener 64x Carbón"
 				type: "item"
 			}]
 			x: -6.0d
@@ -58,7 +58,7 @@
 				count: 64L
 				id: "12CC07337974C1BE"
 				item: "minecraft:raw_copper"
-				title: "Obtain 64x Raw Copper"
+				title: "Obtener 64x Cobre sin tratar"
 				type: "item"
 			}]
 			x: -4.0d
@@ -75,7 +75,7 @@
 				count: 64L
 				id: "11816C823B2B8DE8"
 				item: "minecraft:raw_iron"
-				title: "Obtain 64x Raw Iron"
+				title: "Obtener 64x Hierro sin tratar"
 				type: "item"
 			}]
 			x: -2.0d
@@ -92,7 +92,7 @@
 				count: 64L
 				id: "6D70B48B147979F3"
 				item: "minecraft:raw_gold"
-				title: "Obtain 64x Raw Gold"
+				title: "Obtener 64x Oro sin tratar"
 				type: "item"
 			}]
 			x: 2.0d
@@ -109,7 +109,7 @@
 				count: 32L
 				id: "242DF45EF8CA8ACB"
 				item: "minecraft:emerald"
-				title: "Obtain 32x Emeralds"
+				title: "Obtener 32x Esmeraldas"
 				type: "item"
 			}]
 			x: 4.0d
@@ -126,7 +126,7 @@
 				count: 16L
 				id: "0BC7B8DA1FF7CC71"
 				item: "minecraft:diamond"
-				title: "Obtain 16x Diamonds"
+				title: "Obtener 16x Diamantes"
 				type: "item"
 			}]
 			x: 6.0d
@@ -144,7 +144,7 @@
 				count: 128L
 				id: "42F78B2153D33AA4"
 				item: "minecraft:coal"
-				title: "Obtain 128x Coal"
+				title: "Obtener 128x Carbón"
 				type: "item"
 			}]
 			x: -6.0d
@@ -190,7 +190,7 @@
 					id: "7812881C0983DE41"
 					name: "Quest Reward"
 					operation: "add"
-					title: "&6+2 Armor Toughness"
+					title: "&6+2 Dureza de Armadura"
 					type: "bcgutil:attribute"
 					value: 2.0d
 				}
@@ -198,10 +198,10 @@
 			size: 1.25d
 			tasks: [{
 				id: "086CF87C605628EA"
-				title: "Accept Rewards"
+				title: "Aceptar Recompensas"
 				type: "checkmark"
 			}]
-			title: "&6Ore Collection Milestone I"
+			title: "&6Hito de Colección de Menas I"
 			x: 0.0d
 			y: -2.0d
 		}
@@ -245,7 +245,7 @@
 					id: "617CD1984EEC740D"
 					name: "Quest Reward"
 					operation: "add"
-					title: "&6+3 Armor Toughness"
+					title: "&6+3 Dureza de Armadura"
 					type: "bcgutil:attribute"
 					value: 3.0d
 				}
@@ -253,10 +253,10 @@
 			size: 1.25d
 			tasks: [{
 				id: "3A5D94050B7D01AF"
-				title: "Accept Rewards"
+				title: "Aceptar Recompensas"
 				type: "checkmark"
 			}]
-			title: "&6Ore Collection Milestone II"
+			title: "&6Hito de Colección de Menas II"
 			x: 0.0d
 			y: -4.0d
 		}
@@ -284,7 +284,7 @@
 					id: "42E0FAA27BFC1AE2"
 					name: "Quest Reward"
 					operation: "add"
-					title: "&6+4 Armor Toughness"
+					title: "&6+4 Dureza de Armadura"
 					type: "bcgutil:attribute"
 					value: 4.0d
 				}
@@ -292,10 +292,10 @@
 			size: 1.25d
 			tasks: [{
 				id: "77C1BAA9CA56B499"
-				title: "Accept Rewards"
+				title: "Aceptar Recompensas"
 				type: "checkmark"
 			}]
-			title: "&6Ore Collection Milestone III"
+			title: "&6Hito de Colección de Menas III"
 			x: 0.0d
 			y: -6.0d
 		}
@@ -311,7 +311,7 @@
 				count: 128L
 				id: "09A472D7EF04371A"
 				item: "minecraft:raw_copper"
-				title: "Obtain 128x Raw Copper"
+				title: "Obtener 128x Cobre sin tratar"
 				type: "item"
 			}]
 			x: -4.0d
@@ -329,7 +329,7 @@
 				count: 128L
 				id: "5E39B7A389AEF72B"
 				item: "minecraft:raw_iron"
-				title: "Obtain 128x Raw Iron"
+				title: "Obtener 128x Hierro sin tratar"
 				type: "item"
 			}]
 			x: -2.0d
@@ -347,7 +347,7 @@
 				count: 128L
 				id: "06191D162D36F97F"
 				item: "minecraft:raw_gold"
-				title: "Obtain 128x Raw Gold"
+				title: "Obtener 128x Oro sin tratar"
 				type: "item"
 			}]
 			x: 2.0d
@@ -365,7 +365,7 @@
 				count: 128L
 				id: "18F88BD924FDF5E0"
 				item: "minecraft:emerald"
-				title: "Obtain 128x Emeralds"
+				title: "Obtener 128x Esmeraldas"
 				type: "item"
 			}]
 			x: 4.0d
@@ -383,7 +383,7 @@
 				count: 64L
 				id: "78338D8C5BA0C5B7"
 				item: "minecraft:diamond"
-				title: "Obtain 64x Diamonds"
+				title: "Obtener 64x Diamantes"
 				type: "item"
 			}]
 			x: 6.0d
@@ -402,7 +402,7 @@
 				count: 256L
 				id: "0DE30F26DB9087BF"
 				item: "minecraft:coal"
-				title: "Obtain 256x Coal"
+				title: "Obtener 256x Carbón"
 				type: "item"
 			}]
 			x: -6.0d
@@ -421,7 +421,7 @@
 				count: 256L
 				id: "7DC0A1A4109A13D3"
 				item: "minecraft:raw_copper"
-				title: "Obtain 256x Raw Copper"
+				title: "Obtener 256x Cobre sin tratar"
 				type: "item"
 			}]
 			x: -4.0d
@@ -440,7 +440,7 @@
 				count: 256L
 				id: "19C9693E4A645D1B"
 				item: "minecraft:raw_iron"
-				title: "Obtain 256x Raw Iron"
+				title: "Obtener 256x Hierro sin tratar"
 				type: "item"
 			}]
 			x: -2.0d
@@ -459,7 +459,7 @@
 				count: 256L
 				id: "4C2237E35A175AC0"
 				item: "minecraft:raw_gold"
-				title: "Obtain 256x Raw Gold"
+				title: "Obtener 256x Oro sin tratar"
 				type: "item"
 			}]
 			x: 2.0d
@@ -478,7 +478,7 @@
 				count: 256L
 				id: "0C333B8A2E7BB02F"
 				item: "minecraft:emerald"
-				title: "Obtain 256x Emeralds"
+				title: "Obtener 256x Esmeraldas"
 				type: "item"
 			}]
 			x: 4.0d
@@ -497,7 +497,7 @@
 				count: 256L
 				id: "1864EE5EADADDA89"
 				item: "minecraft:diamond"
-				title: "Obtain 256x Diamonds"
+				title: "Obtener 256x Diamantes"
 				type: "item"
 			}]
 			x: 6.0d
@@ -516,7 +516,7 @@
 				count: 512L
 				id: "68507A9843F49B4C"
 				item: "minecraft:coal"
-				title: "Obtain 512x Coal"
+				title: "Obtener 512x Carbón"
 				type: "item"
 			}]
 			x: -6.0d
@@ -535,7 +535,7 @@
 				count: 512L
 				id: "4847496AA10C8DC7"
 				item: "minecraft:raw_copper"
-				title: "Obtain 512x Raw Copper"
+				title: "Obtener 512x Cobre sin tratar"
 				type: "item"
 			}]
 			x: -4.0d
@@ -554,7 +554,7 @@
 				count: 512L
 				id: "381BA6D650D339A7"
 				item: "minecraft:raw_iron"
-				title: "Obtain 512x Raw Iron"
+				title: "Obtener 512x Hierro sin tratar"
 				type: "item"
 			}]
 			x: -2.0d
@@ -573,7 +573,7 @@
 				count: 512L
 				id: "050DFEA93031A36E"
 				item: "minecraft:raw_gold"
-				title: "Obtain 512x Raw Gold"
+				title: "Obtener 512x Oro sin tratar"
 				type: "item"
 			}]
 			x: 2.0d
@@ -592,7 +592,7 @@
 				count: 512L
 				id: "358EF9DE5D554788"
 				item: "minecraft:emerald"
-				title: "Obtain 512x Emeralds"
+				title: "Obtener 512x Esmeraldas"
 				type: "item"
 			}]
 			x: 4.0d
@@ -611,7 +611,7 @@
 				count: 512L
 				id: "70AB75B6101435F0"
 				item: "minecraft:diamond"
-				title: "Obtain 512x Diamonds"
+				title: "Obtener 512x Diamantes"
 				type: "item"
 			}]
 			x: 6.0d
@@ -657,7 +657,7 @@
 					id: "6590B2C12D1BE937"
 					name: "Quest Reward"
 					operation: "add"
-					title: "&6+5 Armor Toughness"
+					title: "&6+5 Dureza de Armadura"
 					type: "bcgutil:attribute"
 					value: 5.0d
 				}
@@ -665,17 +665,17 @@
 			size: 1.25d
 			tasks: [{
 				id: "201431D952EAE50B"
-				title: "Accept Rewards"
+				title: "Aceptar Recompensas"
 				type: "checkmark"
 			}]
-			title: "&6Ore Collection Milestone IV"
+			title: "&6Hito de Colección de Menas IV"
 			x: 0.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["5704251DCB63AE82"]
 			id: "2C8F9B262184D6CB"
-			subtitle: "Steel can be crafted into armor and tools, comparable to Bronze. However, Steel armor has the added benefit of Armor Toughness."
+			subtitle: "El Acero puede fabricarse en armadura y herramientas, comparable al Bronce. Sin embargo, la armadura de Acero tiene el beneficio adicional de la Dureza de Armadura."
 			tasks: [{
 				id: "3FCB17C1F235F8D8"
 				item: "mythicmetals:steel_ingot"
@@ -692,7 +692,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Combine with Iron to create Steel!"
+			subtitle: "¡Combínalo con Hierro para crear Acero!"
 			tasks: [{
 				id: "7FA78CA16B0DB4DB"
 				item: "mythicmetals:raw_manganese"
@@ -709,7 +709,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Combine with Copper to create Bronze!"
+			subtitle: "¡Combínalo con Cobre para crear Bronce!"
 			tasks: [{
 				id: "17EB70714F35E19B"
 				item: "mythicmetals:raw_tin"
@@ -721,7 +721,7 @@
 		{
 			dependencies: ["2E5C315A52C10BBE"]
 			id: "5106F7E3BAE077EC"
-			subtitle: "Bronze can be crafted into both armor and tools, and it is slightly stronger than Iron."
+			subtitle: "El Bronce puede fabricarse en armadura y herramientas, y es ligeramente más resistente que el Hierro."
 			tasks: [{
 				id: "5781E8657F6A4F50"
 				item: "mythicmetals:bronze_ingot"
@@ -740,7 +740,7 @@
 			id: "197AAA85017DA8B6"
 			min_required_dependencies: 1
 			size: 1.25d
-			subtitle: "Tier two forge controllers allow you to smelt the strongest metals and provide higher fuel capacity compared to tier one."
+			subtitle: "Los controladores de forja de nivel dos permiten fundir los metales más fuertes y proporcionan mayor capacidad de combustible en comparación con el nivel uno."
 			tasks: [{
 				id: "3C6C73E8ED686348"
 				item: {
@@ -750,7 +750,7 @@
 						value: "alloy_forgery:tier_two_forge"
 					}
 				}
-				title: "Any Tier Two Forge"
+				title: "Cualquier Forja de Nivel Dos"
 				type: "item"
 			}]
 			x: 0.0d
@@ -764,23 +764,23 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"Alloy Forges are multiblock crafting stations that unlock access to powerful items and enable ore duplication."
+				"Las Forjas de Aleación son estaciones de crafteo multibloque que desbloquean el acceso a objetos poderosos y permiten la duplicación de menas."
 				""
-				"To successfully start forging, arrange your materials in the following manner:"
+				"Para empezar a forjar con éxito, coloca tus materiales de la siguiente manera:"
 				""
-				"&bX = Air&r"
-				"&bB = Bricks&r"
-				"&bF = Forge Controller&r"
+				"&bX = Aire&r"
+				"&bB = Ladrillos&r"
+				"&bF = Controlador de Forja&r"
 				""
-				"First Layer (Top View):"
-				""
-				"&bB   B   B&r"
+				"Primera Capa (Vista desde Arriba):"
 				""
 				"&bB   B   B&r"
 				""
 				"&bB   B   B&r"
 				""
-				"Second Layer:"
+				"&bB   B   B&r"
+				""
+				"Segunda Capa:"
 				""
 				"&bX   B   X&r"
 				""
@@ -788,7 +788,7 @@
 				""
 				"&bX   F   X&r"
 				""
-				"Third Layer:"
+				"Tercera Capa:"
 				""
 				"&bX   B   X&r"
 				""
@@ -798,7 +798,7 @@
 			]
 			id: "4FDD05EAB04CC007"
 			size: 1.25d
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "1903796DF967F97B"
 				item: {
@@ -808,7 +808,7 @@
 						value: "alloy_forgery:tier_one_forge"
 					}
 				}
-				title: "Any Tier One Forge"
+				title: "Cualquier Forja de Nivel Uno"
 				type: "item"
 			}]
 			x: 0.0d
@@ -822,7 +822,7 @@
 			description: [""]
 			id: "7B5A4EB4B6886527"
 			size: 1.25d
-			subtitle: "Tier three forge controllers aren't required to obtain the strongest metals; however, they provide important benefits such as yielding more ingots per ore and higher fuel capacities."
+			subtitle: "Los controladores de forja de nivel tres no son necesarios para obtener los metales más fuertes; sin embargo, proporcionan beneficios importantes como más lingotes por mena y mayor capacidad de combustible."
 			tasks: [{
 				id: "63A7E01412FB745C"
 				item: {
@@ -832,17 +832,17 @@
 						value: "alloy_forgery:tier_three_forge"
 					}
 				}
-				title: "Any Tier Three Forge"
+				title: "Cualquier Forja de Nivel Tres"
 				type: "item"
 			}]
-			title: "Any Tier Three Forge (Victory Lap)"
+			title: "Cualquier Forja de Nivel Tres (Vuelta de Honor)"
 			x: 0.0d
 			y: 27.5d
 		}
 		{
 			dependencies: ["76161ADE48922230"]
 			id: "4DCCC52DE70B9E11"
-			subtitle: "Durasteel can be crafted into armor and tools. It is slightly weaker than Diamond but has a cool appearance. Most importantly, it is required for crafting the Mythril Drill."
+			subtitle: "El Durasteel puede fabricarse en armadura y herramientas. Es ligeramente más débil que el Diamante pero tiene una apariencia genial. Lo más importante, es necesario para fabricar el Taladro de Mythril."
 			tasks: [{
 				id: "2FCDBD9098F26E27"
 				item: "mythicmetals:durasteel_ingot"
@@ -859,7 +859,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Combine with Manganese to create Durasteel!"
+			subtitle: "¡Combínalo con Manganeso para crear Durasteel!"
 			tasks: [{
 				id: "0B9C81E9F56B71D5"
 				item: "mythicmetals:raw_quadrillum"
@@ -876,7 +876,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Found in Aquatic Biomes."
+			subtitle: "Se encuentra en Biomas Acuáticos."
 			tasks: [{
 				id: "48A9CC3589FB2BCD"
 				item: "mythicmetals:raw_aquarium"
@@ -893,7 +893,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Found in the Mountains."
+			subtitle: "Se encuentra en las Montañas."
 			tasks: [{
 				id: "2CEDF93F79524140"
 				item: "mythicmetals:raw_osmium"
@@ -942,7 +942,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Found in Warm Biomes."
+			subtitle: "Se encuentra en Biomas Cálidos."
 			tasks: [{
 				id: "5904E7D6BEDECFA3"
 				item: "mythicmetals:raw_prometheum"
@@ -960,7 +960,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Be careful when mining Banglum Ore! It is highly explosive, in order to ensure your safety, make sure your pickaxe isn't using Fortune."
+			subtitle: "¡Ten cuidado al minar Mena de Banglum! Es altamente explosiva. Para garantizar tu seguridad, asegúrate de que tu pico no use Fortuna."
 			tasks: [{
 				id: "4930789524D56749"
 				item: "mythicmetals:raw_banglum"
@@ -1040,7 +1040,7 @@
 				"68D5628D0FCD66FA"
 			]
 			id: "71516FE0DA01A6BB"
-			subtitle: "Hallowed Ingots can be crafted into armor and tools. It is slightly weaker than Netherite."
+			subtitle: "Los Lingotes de Hallowed pueden fabricarse en armadura y herramientas. Es ligeramente más débil que el Netherite."
 			tasks: [{
 				id: "3AC2DBD873DF5AB0"
 				item: "mythicmetals:hallowed_ingot"
@@ -1056,7 +1056,7 @@
 				"525DD5C078F8F3E5"
 			]
 			id: "64859CFA898AD10D"
-			subtitle: "Celestium's counterpart, Metallurgium, can be crafted into armor and tools. It offers the highest defense."
+			subtitle: "El equivalente del Celestium, el Metallurgium, puede fabricarse en armadura y herramientas. Ofrece la mayor defensa."
 			tasks: [{
 				id: "08E8CA4F8D8EB110"
 				item: "mythicmetals:metallurgium_ingot"
@@ -1071,7 +1071,7 @@
 				"5A5E63C5B47AB9F5"
 			]
 			id: "38F4DB310B550AB6"
-			subtitle: "Celestium is one of the strongest metals you'll come across. It can be crafted into armor and tools, is stronger than Netherite, and provides bonus speed and damage."
+			subtitle: "El Celestium es uno de los metales más fuertes que encontrarás. Puede fabricarse en armadura y herramientas, es más fuerte que el Netherite y proporciona velocidad y daño adicionales."
 			tasks: [{
 				id: "39B95B4F1D1765BA"
 				item: "mythicmetals:celestium_ingot"
@@ -1089,7 +1089,7 @@
 				type: "item"
 			}]
 			size: 1.25d
-			subtitle: "An incredibly rare ore that is required to make Celestium and Metallurgium."
+			subtitle: "Una mena increíblemente rara necesaria para fabricar Celestium y Metallurgium."
 			tasks: [{
 				id: "591512B66AE9EA09"
 				item: "mythicmetals:unobtainium"
@@ -1132,7 +1132,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Can be found in The End."
+			subtitle: "Se puede encontrar en El Fin."
 			tasks: [{
 				id: "47422D2C6392842C"
 				item: "mythicmetals:starrite"
@@ -1147,7 +1147,7 @@
 				"26498E941C726E98"
 			]
 			id: "396C53BF8BE12308"
-			subtitle: "Star Platinum can be crafted into armor and tools. Its armor offers slightly lower defense than Diamond but provides bonus attack damage and knockback resistance."
+			subtitle: "El Star Platinum puede fabricarse en armadura y herramientas. Su armadura ofrece defensa ligeramente inferior al Diamante pero proporciona daño de ataque y resistencia al retroceso adicionales."
 			tasks: [{
 				id: "7CEFBC0A87723957"
 				item: "mythicmetals:star_platinum"
@@ -1159,7 +1159,7 @@
 		{
 			dependencies: ["2E24EC0A482B8CDB"]
 			id: "0BBD7050237E05D9"
-			subtitle: "Aquarium can be crafted into tools and armor. It is slightly weaker than Iron but provides helpful benefits when in water."
+			subtitle: "El Aquarium puede fabricarse en herramientas y armadura. Es ligeramente más débil que el Hierro pero proporciona beneficios útiles cuando estás en el agua."
 			tasks: [{
 				id: "2B6CA65023B06398"
 				item: "mythicmetals:aquarium_ingot"
@@ -1171,7 +1171,7 @@
 		{
 			dependencies: ["2358595FD78776BF"]
 			id: "62B4EA2A7FD2C19A"
-			subtitle: "Osmium can be crafted into armor and tools. It is slightly stronger than Diamond."
+			subtitle: "El Osmium puede fabricarse en armadura y herramientas. Es ligeramente más fuerte que el Diamante."
 			tasks: [{
 				id: "217251160ABB9B60"
 				item: "mythicmetals:osmium_ingot"
@@ -1183,7 +1183,7 @@
 		{
 			dependencies: ["377386FF0295D5D0"]
 			id: "2FF5B16C6EA7C774"
-			subtitle: "Kyber can be crafted into armor and tools. It is nearly identical to Diamond but does not provide armor toughness."
+			subtitle: "El Kyber puede fabricarse en armadura y herramientas. Es casi idéntico al Diamante pero no proporciona dureza de armadura."
 			tasks: [{
 				id: "2417DF9E6039669D"
 				item: "mythicmetals:kyber_ingot"
@@ -1195,7 +1195,7 @@
 		{
 			dependencies: ["0BB1F6EB0E639E29"]
 			id: "4B36B93A3D2162D9"
-			subtitle: "Carmot can be crafted into armor and tools. It is comparable to Diamond. When crafted into armor, it provides bonus shielding, and when crafted into tools, it provides bonus Fortune."
+			subtitle: "El Carmot puede fabricarse en armadura y herramientas. Es comparable al Diamante. Cuando se fabrica en armadura, proporciona escudo adicional; cuando se fabrica en herramientas, proporciona Fortuna adicional."
 			tasks: [{
 				id: "041A8F8F233488A6"
 				item: "mythicmetals:carmot_ingot"
@@ -1207,7 +1207,7 @@
 		{
 			dependencies: ["6A3AAA96F7598489"]
 			id: "02A3BD718CAD5E42"
-			subtitle: "Promethium can be crafted into armor and tools. It is slightly weaker than diamond but provides natural durability regeneration."
+			subtitle: "El Prometheum puede fabricarse en armadura y herramientas. Es ligeramente más débil que el Diamante pero proporciona regeneración natural de durabilidad."
 			tasks: [{
 				id: "60A412D95A05D19E"
 				item: "mythicmetals:prometheum_ingot"
@@ -1219,7 +1219,7 @@
 		{
 			dependencies: ["79C55614148D74BB"]
 			id: "7F4CAE18A9257EEC"
-			subtitle: "Banglum can be crafted into armor and tools. It is slightly weaker than Diamond."
+			subtitle: "El Banglum puede fabricarse en armadura y herramientas. Es ligeramente más débil que el Diamante."
 			tasks: [{
 				id: "08917547601D8844"
 				item: "mythicmetals:banglum_ingot"
@@ -1231,7 +1231,7 @@
 		{
 			dependencies: ["61B9274E3F249CCB"]
 			id: "23B7C5463F7AE3CB"
-			subtitle: "Runite can be crafted into armor and tools. It is slightly stronger than Iron."
+			subtitle: "El Runite puede fabricarse en armadura y herramientas. Es ligeramente más fuerte que el Hierro."
 			tasks: [{
 				id: "163470ADEF92F05A"
 				item: "mythicmetals:runite_ingot"
@@ -1247,7 +1247,7 @@
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
-			subtitle: "Fuel Capacity: 96000"
+			subtitle: "Capacidad de Combustible: 96000"
 			tasks: [{
 				count: 15L
 				id: "5ED76FBDFC8F355E"
@@ -1264,7 +1264,7 @@
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
-			subtitle: "Fuel Capacity: 96000"
+			subtitle: "Capacidad de Combustible: 96000"
 			tasks: [{
 				count: 15L
 				id: "1B4D34A1E42DBE5A"
@@ -1280,7 +1280,7 @@
 				"38F4DB310B550AB6"
 			]
 			id: "372C4489D1A19C22"
-			subtitle: "Found in Ancient Cities. Can be duplicated with Diamonds and Deepslate."
+			subtitle: "Se encuentra en Ciudades Antiguas. Se puede duplicar con Diamantes y Pizarra Profunda."
 			tasks: [{
 				id: "4370206216B659FD"
 				item: "mythicmetals:unobtainium_smithing_template"
@@ -1297,7 +1297,7 @@
 				item: "mythicmetals:morkite"
 				type: "item"
 			}]
-			subtitle: "The fuel source for the Mythril Drill."
+			subtitle: "La fuente de combustible para el Taladro de Mythril."
 			tasks: [{
 				id: "5407FE54DC8B03D7"
 				item: "mythicmetals:morkite"
@@ -1315,7 +1315,7 @@
 				item: "mythicmetals:morkite"
 				type: "item"
 			}]
-			subtitle: "A required ingredient for crafting the Mythril Drill."
+			subtitle: "Un ingrediente necesario para fabricar el Taladro de Mythril."
 			tasks: [{
 				id: "6FE7A57F3E8671D4"
 				item: {
@@ -1339,7 +1339,7 @@
 				item: "mythicmetals:morkite"
 				type: "item"
 			}]
-			subtitle: "A required ingredient for crafting the Mythril Drill."
+			subtitle: "Un ingrediente necesario para fabricar el Taladro de Mythril."
 			tasks: [{
 				id: "59D60AD92E3ED3E3"
 				item: "mythicmetals:durasteel_engine"
@@ -1363,7 +1363,7 @@
 				type: "item"
 			}]
 			size: 1.25d
-			subtitle: "A super fast digging device powered by Morkite, equipped with two upgrade slots."
+			subtitle: "Un dispositivo de excavación ultrarrápido alimentado por Morkite, con dos ranuras de mejora."
 			tasks: [{
 				id: "0159DA4B28F1A0C9"
 				item: {
@@ -1386,7 +1386,7 @@
 				item: "mythicmetals:morkite"
 				type: "item"
 			}]
-			subtitle: "A required ingredient for crafting the Mythril Drill."
+			subtitle: "Un ingrediente necesario para fabricar el Taladro de Mythril."
 			tasks: [{
 				id: "3156824EFE8AFE33"
 				item: "mythicmetals:mythril_drill_smithing_template"
@@ -1403,7 +1403,7 @@
 				item: "mythicmetals:morkite"
 				type: "item"
 			}]
-			subtitle: "Drill Upgrade: Increases mining speed underwater, and restores air on ore break."
+			subtitle: "Mejora de Taladro: Aumenta la velocidad de minado bajo el agua y restaura el aire al romper menas."
 			tasks: [{
 				id: "48D6882C51BBA5F9"
 				item: "mythicmetals:aquarium_pearl"
@@ -1421,7 +1421,7 @@
 				item: "mythicmetals:morkite"
 				type: "item"
 			}]
-			subtitle: "Drill Upgrade: Increases drill Fortune level by one."
+			subtitle: "Mejora de Taladro: Aumenta el nivel de Fortuna del taladro en uno."
 			tasks: [{
 				id: "71799FF4BF20D99A"
 				item: "mythicmetals:carmot_stone"
@@ -1439,7 +1439,7 @@
 				item: "mythicmetals:morkite"
 				type: "item"
 			}]
-			subtitle: "Drill Upgrade: Gives the user +2 Luck and randomly drops raw Gold on ore break."
+			subtitle: "Mejora de Taladro: Otorga +2 de Suerte al usuario y suelta Oro sin tratar aleatoriamente al romper menas."
 			tasks: [{
 				id: "53339F5916D1215D"
 				item: "mythicmetals:enchanted_midas_gold_block"
@@ -1457,7 +1457,7 @@
 				item: "mythicmetals:morkite"
 				type: "item"
 			}]
-			subtitle: "Drill Upgrde: Slowly regenerates drill durability."
+			subtitle: "Mejora de Taladro: Regenera lentamente la durabilidad del taladro."
 			tasks: [{
 				id: "02E979A08606C664"
 				item: "mythicmetals:prometheum_bouquet"
@@ -1475,7 +1475,7 @@
 				item: "mythicmetals:morkite"
 				type: "item"
 			}]
-			subtitle: "Drill Upgrade: Reduces chance of Banglum explosions."
+			subtitle: "Mejora de Taladro: Reduce la probabilidad de explosiones de Banglum."
 			tasks: [{
 				id: "0FC433E23145D44D"
 				item: "mythicmetals:stormyx_shell"
@@ -1487,7 +1487,7 @@
 		{
 			dependencies: ["76161ADE48922230"]
 			id: "08B1C0DB3F5B1FE9"
-			subtitle: "Quadrillum can be crafted into tools. It is weaker than Diamond."
+			subtitle: "El Quadrillum puede fabricarse en herramientas. Es más débil que el Diamante."
 			tasks: [{
 				id: "574C694EFF253B42"
 				item: "mythicmetals:quadrillum_ingot"
@@ -1531,7 +1531,7 @@
 		{
 			dependencies: ["197DDED541AEDE73"]
 			id: "5ED06421E60A86A8"
-			subtitle: "Platinum is required to forge Star Platinum and Celestium."
+			subtitle: "El Platinum es necesario para forjar Star Platinum y Celestium."
 			tasks: [{
 				id: "22B6A4CBDE8AAC5D"
 				item: "mythicmetals:platinum_ingot"
@@ -1543,7 +1543,7 @@
 		{
 			dependencies: ["726D988EACB7B411"]
 			id: "3414A28F21DCEC1A"
-			subtitle: "Silver is a fundamental ore that can be crafted into armor, similar in quality to Copper."
+			subtitle: "La Plata es una mena fundamental que puede fabricarse en armadura, de calidad similar al Cobre."
 			tasks: [{
 				id: "238A2F5D823D1AE4"
 				item: "mythicmetals:silver_ingot"
@@ -1555,7 +1555,7 @@
 		{
 			dependencies: ["71C14C60307458A0"]
 			id: "2192349B3AEAAF6A"
-			subtitle: "Midas Gold can be crafted into armor and swords. Its armor has lower defense than Diamond but provides +1 Luck on each piece."
+			subtitle: "El Midas Gold puede fabricarse en armadura y espadas. Su armadura tiene menor defensa que el Diamante pero proporciona +1 de Suerte en cada pieza."
 			tasks: [{
 				id: "7B27DF424F48D52C"
 				item: "mythicmetals:midas_gold_ingot"
@@ -1578,7 +1578,7 @@
 		{
 			dependencies: ["438123F1281A293D"]
 			id: "739D31C8BC87983D"
-			subtitle: "Orichalcum can be crafted in to armor and tools. It is stronger than Netherite."
+			subtitle: "El Orichalcum puede fabricarse en armadura y herramientas. Es más fuerte que el Netherite."
 			tasks: [{
 				id: "252951E9D10FA824"
 				item: "mythicmetals:orichalcum_ingot"
@@ -1590,7 +1590,7 @@
 		{
 			dependencies: ["2AB7B944E06E9349"]
 			id: "1989308E7F2715CE"
-			subtitle: "Adamantite can be crafted into armor and tools. It is comparable to Diamond."
+			subtitle: "El Adamantite puede fabricarse en armadura y herramientas. Es comparable al Diamante."
 			tasks: [{
 				id: "4E5FB73FC405729F"
 				item: "mythicmetals:adamantite_ingot"
@@ -1602,7 +1602,7 @@
 		{
 			dependencies: ["68D5628D0FCD66FA"]
 			id: "67DC979B98685F3D"
-			subtitle: "Mythril can be crafted into armor and tools. It is comparable to Diamond."
+			subtitle: "El Mythril puede fabricarse en armadura y herramientas. Es comparable al Diamante."
 			tasks: [{
 				id: "128EEF6A017C54A9"
 				item: "mythicmetals:mythril_ingot"
@@ -1614,7 +1614,7 @@
 		{
 			dependencies: ["525DD5C078F8F3E5"]
 			id: "5FFC8C8C8E1792B9"
-			subtitle: "Palladium can be crafted into armor and tools. It is comparable to Diamond and provides natural fire resistance and increased movement speed in lava."
+			subtitle: "El Palladium puede fabricarse en armadura y herramientas. Es comparable al Diamante y proporciona resistencia al fuego natural y mayor velocidad de movimiento en lava."
 			tasks: [{
 				id: "434A68B7EDA79D23"
 				item: "mythicmetals:palladium_ingot"
@@ -1626,7 +1626,7 @@
 		{
 			can_repeat: true
 			dependencies: ["0F016B75EAE7BD74"]
-			description: ["To unlock &6Mastery&r, you must complete all previous milestones."]
+			description: ["Para desbloquear la &6Maestría&r, debes completar todos los hitos anteriores."]
 			hide_dependency_lines: true
 			id: "4339CD56C92AE0EF"
 			optional: true
@@ -1636,12 +1636,12 @@
 				id: "5022802F7AB44854"
 				name: "Quest Reward"
 				operation: "add"
-				title: "&6+2 Armor Toughness"
+				title: "&6+2 Dureza de Armadura"
 				type: "bcgutil:attribute"
 				value: 2.0d
 			}]
 			size: 1.5d
-			subtitle: "Sacrifice items for a permanent boost!"
+			subtitle: "¡Sacrifica objetos por un impulso permanente!"
 			tasks: [
 				{
 					consume_items: true
@@ -1686,7 +1686,7 @@
 					type: "item"
 				}
 			]
-			title: "&6Ore Collection Mastery"
+			title: "&6Maestría de Colección de Menas"
 			x: 0.0d
 			y: -10.0d
 		}
@@ -1709,7 +1709,7 @@
 		{
 			dependencies: ["3F09BE2299D88AFF"]
 			id: "7461917AB783013F"
-			subtitle: "Stormyx can be crafted into armor and tools. It is slightly stronger than Iron and provides both armor toughness and magic protection."
+			subtitle: "El Stormyx puede fabricarse en armadura y herramientas. Es ligeramente más fuerte que el Hierro y proporciona tanto dureza de armadura como protección mágica."
 			tasks: [{
 				id: "4D4A6DC2D9750018"
 				item: "mythicmetals:stormyx_ingot"
@@ -1721,7 +1721,7 @@
 		{
 			dependencies: ["79C55614148D74BB"]
 			id: "08D27D457AADD66E"
-			subtitle: "A necessary ingredient in crafting the powerful Legendary Banglum armor and tools."
+			subtitle: "Un ingrediente necesario para fabricar la poderosa armadura y herramientas Legendarias de Banglum."
 			tasks: [{
 				id: "15E40098B3EA4BBE"
 				item: "mythicmetals:legendary_banglum_smithing_template"
@@ -1732,7 +1732,7 @@
 		}
 		{
 			id: "030A5AC4C2B0CBF8"
-			subtitle: "Fuel Capacity: 192000"
+			subtitle: "Capacidad de Combustible: 192000"
 			tasks: [{
 				count: 15L
 				id: "7D3F11C691E24B75"
@@ -1744,7 +1744,7 @@
 		}
 		{
 			id: "3545BF3F172E2730"
-			subtitle: "Fuel Capacity: 192000"
+			subtitle: "Capacidad de Combustible: 192000"
 			tasks: [{
 				count: 15L
 				id: "0727197FC0E70817"
@@ -1757,40 +1757,40 @@
 		{
 			dependencies: ["6DFD7DB293F48D15"]
 			description: [
-				"The Carmot Staff is a powerful weapon whose abilities change based on the block placed inside."
+				"El Bastón de Carmot es un arma poderosa cuyas habilidades cambian según el bloque colocado dentro."
 				""
-				"Found in Village Temples, but if you can't find one, it's available for 32 Carmot Ingots!"
-				"The Carmot Staff has a variety of abilities:"
+				"¡Se encuentra en Templos de Aldea, pero si no puedes encontrar uno, está disponible por 32 Lingotes de Carmot!"
+				"El Bastón de Carmot tiene una variedad de habilidades:"
 				""
-				"&bIron&r: Fling opponents up, strengthens the staff."
+				"&bHierro&r: Lanza a los oponentes hacia arriba, fortalece el bastón."
 				""
-				"&bGold&r: Grants luck for two minutes."
+				"&bOro&r: Otorga suerte durante dos minutos."
 				""
-				"&bCopper&r: Summons lightning on yourself."
+				"&bCobre&r: Invoca un rayo sobre ti."
 				""
-				"&bDiamond&r: Strengthens the staff."
+				"&bDiamante&r: Fortalece el bastón."
 				""
-				"&bBronze&r: Smite opponents with lightning."
+				"&bBronce&r: Golpea a los oponentes con rayos."
 				""
-				"&bNetherite&r: Powerful melee weapon, greatly strengthens the staff."
+				"&bNetherita&r: Arma cuerpo a cuerpo poderosa, fortalece enormemente el bastón."
 				""
-				"&bMetallurgium&r: Highest single-hit damage in Mythic Metals, but very slow."
+				"&bMetallurgium&r: El mayor daño de un solo golpe en Mythic Metals, pero muy lento."
 				""
-				"&bCarmot&r: Heals you and nearby entities for 5 hearts."
+				"&bCarmot&r: Te cura a ti y a las entidades cercanas por 5 corazones."
 				""
-				"&bMidas Gold&r: Grants Luck 2 to you and nearby entities for four minutes."
+				"&bMidas Gold&r: Otorga Suerte 2 a ti y a las entidades cercanas durante cuatro minutos."
 				""
-				"&bStar Platinum&r: Super fast attack speed."
+				"&bStar Platinum&r: Velocidad de ataque ultrarrápida."
 				""
-				"&bBeacon&r: Grants random beacon effects to players in an 18-block radius for 30 minutes."
+				"&bBalizón&r: Otorga efectos de balizón aleatorios a los jugadores en un radio de 18 bloques durante 30 minutos."
 				""
-				"&bLapis&r: Increases experience gain while held."
+				"&bLapislázuli&r: Aumenta la ganancia de experiencia mientras se sostiene."
 				""
-				"&bStormyx&r: Creates a forcefield that reflects projectiles while held."
+				"&bStormyx&r: Crea un campo de fuerza que refleja proyectiles mientras se sostiene."
 				""
-				"&bSponge&r: Removes water in a 12-block radius."
+				"&bEsponja&r: Elimina el agua en un radio de 12 bloques."
 				""
-				"&bHallowed&r: Significantly strengthens the staff."
+				"&bHallowed&r: Fortalece significativamente el bastón."
 			]
 			icon: {
 				Count: 1
@@ -1811,7 +1811,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				consume_items: true
 				count: 32L
@@ -1819,7 +1819,7 @@
 				item: "mythicmetals:carmot_ingot"
 				type: "item"
 			}]
-			title: "Carmot Staff"
+			title: "Bastón de Carmot"
 			x: -4.5d
 			y: 15.5d
 		}
@@ -1831,7 +1831,7 @@
 				item: "minecraft:coal"
 				type: "item"
 			}]
-			subtitle: "Fuel Capacity: 48000"
+			subtitle: "Capacidad de Combustible: 48000"
 			tasks: [{
 				count: 15L
 				id: "2BF869EBFCB70638"
@@ -1848,7 +1848,7 @@
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
-			subtitle: "Fuel Capacity: 96000"
+			subtitle: "Capacidad de Combustible: 96000"
 			tasks: [{
 				count: 15L
 				id: "58C087BFD148EB00"
@@ -1866,7 +1866,7 @@
 				item: "minecraft:coal"
 				type: "item"
 			}]
-			subtitle: "Fuel Capacity: 48000"
+			subtitle: "Capacidad de Combustible: 48000"
 			tasks: [{
 				count: 15L
 				id: "7B0A7B4598F92498"
@@ -1877,6 +1877,6 @@
 			y: 3.5d
 		}
 	]
-	subtitle: ["&6Armor Toughness"]
-	title: " &cO&fre Collection"
+	subtitle: ["&6Dureza de Armadura"]
+	title: " &cC&folección de Menas"
 }

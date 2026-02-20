@@ -12,34 +12,34 @@
 	quests: [
 		{
 			description: [
-				"&bWooden Crates&r are fished up in the &2Overworld&r in any biome and contain the following:"
+				"Las &bCajas de Madera&r se pescan en el &2Overworld&r en cualquier bioma y contienen lo siguiente:"
 				""
-				"&2Common Drops&r:"
-				"- Seaweed"
+				"&2Objetos Comunes&r:"
+				"- Algas marinas"
 				"- Kelp"
-				"- Cobwebs"
-				"- String"
-				"- Wheat"
-				"- Carrots"
-				"- Beetroots"
-				"- Salmon"
-				"- Cod"
-				"- Sticks"
-				"- Iron and Gold Nuggets"
-				"- Flint"
-				"- Coal"
+				"- Telarañas"
+				"- Hilo"
+				"- Trigo"
+				"- Zanahorias"
+				"- Remolachas"
+				"- Salmón"
+				"- Bacalao"
+				"- Palos"
+				"- Pepitas de Hierro y Oro"
+				"- Pedernal"
+				"- Carbón"
 				""
-				"&6Rare Drops&r:"
-				"- Iron and Gold Ingots"
-				"- Iron Ore"
-				"- Bottles o' Enchanting"
-				"- Emeralds"
-				"- Buckets"
-				"- Buckets of Fish"
-				"- Pufferfish"
-				"- Bows"
-				"- Crossbows"
-				"- Enchanted Books"
+				"&6Objetos Raros&r:"
+				"- Lingotes de Hierro y Oro"
+				"- Mena de Hierro"
+				"- Frascos de Encantamiento"
+				"- Esmeraldas"
+				"- Cubos"
+				"- Cubos de Peces"
+				"- Pez Globo"
+				"- Arcos"
+				"- Ballestas"
+				"- Libros Encantados"
 			]
 			id: "730E9C4314C75452"
 			rewards: [{
@@ -47,7 +47,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "7BBD05CFB5DE51A8"
 				item: "gofish:wooden_crate"
@@ -58,24 +58,24 @@
 		}
 		{
 			description: [
-				"&bIron Crates&r are fished up in the &2Overworld&r in any biome and contain the following:"
+				"Las &bCajas de Hierro&r se pescan en el &2Overworld&r en cualquier bioma y contienen lo siguiente:"
 				""
-				"&2Common Drops&r:"
-				"- Seaweed"
+				"&2Objetos Comunes&r:"
+				"- Algas marinas"
 				"- Kelp"
-				"- Oak Logs"
-				"- Sticks"
-				"- String"
-				"- Iron and Gold Nuggets and Ingots"
-				"- Cod and Salmon"
+				"- Troncos de Roble"
+				"- Palos"
+				"- Hilo"
+				"- Pepitas y Lingotes de Hierro y Oro"
+				"- Bacalao y Salmón"
 				""
-				"&6Rare Drops&r:"
-				"- Enchanted Books"
-				"- Pufferfish"
-				"- Bows"
-				"- Iron Tools"
+				"&6Objetos Raros&r:"
+				"- Libros Encantados"
+				"- Pez Globo"
+				"- Arcos"
+				"- Herramientas de Hierro"
 				"- Redstone"
-				"- Lapis Lazuli"
+				"- Lapislázuli"
 			]
 			id: "5569B3E5028B501B"
 			rewards: [{
@@ -83,7 +83,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "6DD1430D7133F044"
 				item: "gofish:iron_crate"
@@ -94,27 +94,27 @@
 		}
 		{
 			description: [
-				"&bGold Crates&r are fished up in the &2Overworld&r in any biome and contain the following:"
+				"Las &bCajas de Oro&r se pescan en el &2Overworld&r en cualquier bioma y contienen lo siguiente:"
 				""
-				"&2Common Drops&r:"
-				"- Seaweed"
-				"- String"
-				"- Cobwebs"
-				"- Iron Nuggets"
-				"- Golden Apples"
-				"- Glistering Melon Slices"
-				"- Golden Carrots"
-				"- Salmon"
-				"- Cod"
+				"&2Objetos Comunes&r:"
+				"- Algas marinas"
+				"- Hilo"
+				"- Telarañas"
+				"- Pepitas de Hierro"
+				"- Manzanas Doradas"
+				"- Rodajas de Melón Brillante"
+				"- Zanahorias Doradas"
+				"- Salmón"
+				"- Bacalao"
 				""
-				"&6Rare Drops&r:"
-				"- Golden fish (lure)"
-				"- Enchanted golden apple (notch)"
-				"- Enchanted Golden Armor and Tools"
-				"- Golden Horse Armor"
+				"&6Objetos Raros&r:"
+				"- Pez Dorado (señuelo)"
+				"- Manzana Dorada Encantada (notch)"
+				"- Armadura y Herramientas Doradas Encantadas"
+				"- Armadura de Caballo Dorada"
 				"- Redstone"
-				"- Block of Gold"
-				"- Gold Ingots"
+				"- Bloque de Oro"
+				"- Lingotes de Oro"
 			]
 			id: "2841E6A179B475F2"
 			rewards: [{
@@ -122,7 +122,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "34AE5717886AEDB1"
 				item: "gofish:golden_crate"
@@ -133,27 +133,27 @@
 		}
 		{
 			description: [
-				"&bDiamond Crates&r are fished up in the &2Overworld&r in any biome and contain the following:"
+				"Las &bCajas de Diamante&r se pescan en el &2Overworld&r en cualquier bioma y contienen lo siguiente:"
 				""
-				"&2Common Drops&r:"
-				"- Gold and Iron Ingots"
-				"- Gold and Iron Nuggets"
-				"- Bottles o' Enchanting"
-				"- Coal"
-				"- Lapis Lazuli"
+				"&2Objetos Comunes&r:"
+				"- Lingotes de Oro y Hierro"
+				"- Pepitas de Oro y Hierro"
+				"- Frascos de Encantamiento"
+				"- Carbón"
+				"- Lapislázuli"
 				"- Redstone"
 				""
-				"&6Rare Drops&r:"
-				"- Salmon"
-				"- Cod"
-				"- Pufferfish"
-				"- Diamonds"
-				"- Emeralds"
-				"- Horse Armor (Any tier)"
-				"- Enchanted Books"
-				"- Name Tags"
-				"- Golden Apples"
-				"- Enchanted Golden Apples (notch)"
+				"&6Objetos Raros&r:"
+				"- Salmón"
+				"- Bacalao"
+				"- Pez Globo"
+				"- Diamantes"
+				"- Esmeraldas"
+				"- Armadura de Caballo (cualquier nivel)"
+				"- Libros Encantados"
+				"- Etiquetas de Nombre"
+				"- Manzanas Doradas"
+				"- Manzanas Doradas Encantadas (notch)"
 			]
 			id: "4F4A6F4929879A29"
 			rewards: [{
@@ -161,7 +161,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "2003A19AC5C99710"
 				item: "gofish:diamond_crate"
@@ -172,29 +172,29 @@
 		}
 		{
 			description: [
-				"&bFrosted Crates&r are fished up in the &2Overworld&r in icy biomes and contain the following:"
+				"Las &bCajas Heladas&r se pescan en el &2Overworld&r en biomas helados y contienen lo siguiente:"
 				""
-				"&2Common Drops&r:"
-				"- Frosted Rod"
-				"- Ice"
-				"- Packed Ice"
-				"- Blue Ice"
-				"- Spruce Logs"
-				"- Spruce Planks"
-				"- Snow"
-				"- Snow Blocks"
-				"- Snowballs"
-				"- Icicle Fish"
+				"&2Objetos Comunes&r:"
+				"- Caña Helada"
+				"- Hielo"
+				"- Hielo Compacto"
+				"- Hielo Azul"
+				"- Troncos de Abeto"
+				"- Tablones de Abeto"
+				"- Nieve"
+				"- Bloques de Nieve"
+				"- Bolas de Nieve"
+				"- Pez Carámbano"
 				""
-				"&6Rare Drops&r:"
-				"- Enchanted Frosted Rod"
-				"- Iron Ingot"
-				"- Coal"
-				"- Charcoal"
-				"- Snowball Fish"
-				"- Iron Ore"
-				"- Block of Coal"
-				"- Carved Pumpkin"
+				"&6Objetos Raros&r:"
+				"- Caña Helada Encantada"
+				"- Lingote de Hierro"
+				"- Carbón"
+				"- Carbón Vegetal"
+				"- Pez Bola de Nieve"
+				"- Mena de Hierro"
+				"- Bloque de Carbón"
+				"- Calabaza Tallada"
 			]
 			id: "51D491DD4A3034A1"
 			rewards: [{
@@ -202,7 +202,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "59CD0871E4115E73"
 				item: "gofish:frosted_crate"
@@ -213,17 +213,17 @@
 		}
 		{
 			description: [
-				"&bSlimey Crates&r are fished up in the &2Overworld&r in &2Swamps&r and contain the following."
+				"Las &bCajas Viscosas&r se pescan en el &2Overworld&r en &2Pantanos&r y contienen lo siguiente."
 				""
-				"&2Common Drops&r:"
+				"&2Objetos Comunes&r:"
 				"- Slime"
-				"- Slime Fish"
+				"- Pez Slime"
 				""
-				"&6Rare Drops&r:"
-				"- Lily Fish"
-				"- Slime Blocks"
-				"- Slime Rod"
-				"- Enchanted Slime Rod"
+				"&6Objetos Raros&r:"
+				"- Pez Lirio"
+				"- Bloques de Slime"
+				"- Caña de Slime"
+				"- Caña de Slime Encantada"
 			]
 			id: "0103FDE12579C4A5"
 			rewards: [{
@@ -231,7 +231,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "2331EBC76DFA72F5"
 				item: "gofish:slimey_crate"
@@ -242,25 +242,25 @@
 		}
 		{
 			description: [
-				"&bSupply Crates&r are fished up in the &2Overworld&r in the &2Plains&r and &2Forest&r Biomes and contain the following:"
+				"Las &bCajas de Suministros&r se pescan en el &2Overworld&r en biomas de &2Llanuras&r y &2Bosques&r y contienen lo siguiente:"
 				""
-				"&2Common Drops&r:"
-				"- Raw and Cooked Vanilla Meats"
-				"- Vanilla Crops"
-				"- Torches"
-				"- Oakfish"
-				"- Cobblestone"
+				"&2Objetos Comunes&r:"
+				"- Carnes Crudas y Cocinadas Vanilla"
+				"- Cultivos Vanilla"
+				"- Antorchas"
+				"- Pez Roble"
+				"- Adoquín"
 				""
-				"&6Rare Drops&r:"
-				"- Seeds"
-				"- Crops"
-				"- Stews"
-				"- Iron Ingot and Ore"
-				"- Redstone Ore"
-				"- Coal and Coal Ore"
-				"- Nearly broken fishing rods"
-				"- Pumpkin Pie"
-				"- Stone"
+				"&6Objetos Raros&r:"
+				"- Semillas"
+				"- Cultivos"
+				"- Guisos"
+				"- Lingote y Mena de Hierro"
+				"- Mena de Redstone"
+				"- Carbón y Mena de Carbón"
+				"- Cañas de pescar casi rotas"
+				"- Tarta de Calabaza"
+				"- Piedra"
 			]
 			id: "4FAF452B9D58AD1B"
 			rewards: [{
@@ -268,7 +268,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "377B95EFB174D150"
 				item: "gofish:supply_crate"
@@ -279,30 +279,30 @@
 		}
 		{
 			description: [
-				"&bFiery Crates&r are fished up in the &4Nether&r in any biome. It requires a fishing rod that can fish in lava and contains the following:"
+				"Las &bCajas Ardientes&r se pescan en el &4Nether&r en cualquier bioma. Requiere una caña de pescar que pueda pescar en lava y contienen lo siguiente:"
 				""
-				"&2Common Drops&r:"
+				"&2Objetos Comunes&r:"
 				"- Netherrack"
-				"- Nether Quartz"
-				"- Gravel"
-				"- Nether Bricks"
-				"- Bone"
-				"- Soul Sand"
-				"- Gold Ingots and Nuggets"
-				"- Nether Wart"
+				"- Cuarzo del Nether"
+				"- Grava"
+				"- Ladrillos del Nether"
+				"- Hueso"
+				"- Arena de Almas"
+				"- Lingotes y Pepitas de Oro"
+				"- Verruga del Nether"
 				""
-				"&6Rare Drops&r:"
-				"- Magma Cream"
-				"- Basalt Bass"
-				"- Bonefish"
-				"- Obsidian Halibut"
-				"- Crimson Fungus"
-				"- Magma Cod"
-				"- Blaze Rods"
-				"- Blaze Rod (fishing)"
-				"- Skeletal Rod"
-				"- Block of Gold"
-				"- Netherite Ingot or Scrap (Extremely Rare)"
+				"&6Objetos Raros&r:"
+				"- Crema de Magma"
+				"- Lubina de Basalto"
+				"- Pez Hueso"
+				"- Halibut de Obsidiana"
+				"- Hongo Carmesí"
+				"- Bacalao de Magma"
+				"- Varas de Blaze"
+				"- Vara de Blaze (pesca)"
+				"- Caña Esquelética"
+				"- Bloque de Oro"
+				"- Lingote o Fragmento de Netherita (Extremadamente Raro)"
 			]
 			id: "628814DCBC533B2B"
 			rewards: [{
@@ -310,7 +310,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "33CD9A3D2C26F4C7"
 				item: "gofish:fiery_crate"
@@ -321,22 +321,22 @@
 		}
 		{
 			description: [
-				"&bSoul Crates&r are fished up in the &4Nether&r in &4Soul Sand Valleys&r. It requires a fishing rod that can fish in lava and contains the following:"
+				"Las &bCajas de Almas&r se pescan en el &4Nether&r en &4Valles de Arena de Almas&r. Requiere una caña de pescar que pueda pescar en lava y contienen lo siguiente:"
 				""
-				"&2Common Drops&r:"
-				"- Soul Soil"
-				"- Soul Sand"
-				"- Nether Wart"
-				"- Nether Brick and Bricks"
-				"- Nether Quartz"
-				"- Gold Nuggets"
+				"&2Objetos Comunes&r:"
+				"- Tierra de Almas"
+				"- Arena de Almas"
+				"- Verruga del Nether"
+				"- Ladrillo y Ladrillos del Nether"
+				"- Cuarzo del Nether"
+				"- Pepitas de Oro"
 				""
-				"&6Rare Drops&r:"
-				"- Soul Bonfire Lanterns and Torches"
-				"- Rod of Souls"
-				"- Enchanted Rod of Souls"
-				"- Soul Speed Enchanted book"
-				"- Netherite Block, Ingot and Scrap (Block 1.6%, Ingot 18.7%, Scrap 28.1% Roll Chances)"
+				"&6Objetos Raros&r:"
+				"- Linternas y Antorchas de Hoguera de Almas"
+				"- Caña de Almas"
+				"- Caña de Almas Encantada"
+				"- Libro Encantado de Velocidad de Almas"
+				"- Bloque, Lingote y Fragmento de Netherita (Bloque 1.6%, Lingote 18.7%, Fragmento 28.1% de probabilidad)"
 			]
 			id: "25A9057FC02BE202"
 			rewards: [{
@@ -344,7 +344,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "6BF6B22BE99D610D"
 				item: "gofish:soul_crate"
@@ -355,30 +355,30 @@
 		}
 		{
 			description: [
-				"&bGilded Blackstone Crates&r are fished up in the &4Nether&r in &4Basalt Deltas&r. It requires a fishing rod that can fish in lava and contains the following:"
+				"Las &bCajas de Piedra Negra Dorada&r se pescan en el &4Nether&r en &4Deltas de Basalto&r. Requiere una caña de pescar que pueda pescar en lava y contienen lo siguiente:"
 				""
-				"&2Common Drops&r:"
-				"- Blackstone"
-				"- Polished Blackstone Bricks"
-				"- Gold Ingots and Nuggets"
-				"- Gilded Blackstone Carp"
-				"- Blackstone Trout"
-				"- Golden Apples"
+				"&2Objetos Comunes&r:"
+				"- Piedra Negra"
+				"- Ladrillos de Piedra Negra Pulida"
+				"- Lingotes y Pepitas de Oro"
+				"- Carpa de Piedra Negra Dorada"
+				"- Trucha de Piedra Negra"
+				"- Manzanas Doradas"
 				""
-				"&6Rare Drops&r:"
-				"- Nether Gold and Gold Ore"
-				"- Chiseled Polished Blackstone"
-				"- Basalt Bass"
-				"- Block of Gold"
-				"- Gilded Blackstone"
-				"- Saddle"
-				"- Pigstep Music Disk"
-				"- Smokey Salmon"
-				"- Gold Horse Armor"
-				"- Lava Bucket"
-				"- Golden fish (lure)"
-				"- Spikerfish"
-				"- Enchanted Golden Apple"
+				"&6Objetos Raros&r:"
+				"- Mena de Oro del Nether y Mena de Oro"
+				"- Piedra Negra Pulida Cincelada"
+				"- Lubina de Basalto"
+				"- Bloque de Oro"
+				"- Piedra Negra Dorada"
+				"- Silla de Montar"
+				"- Disco de Música Pigstep"
+				"- Salmón Ahumado"
+				"- Armadura de Caballo Dorada"
+				"- Cubo de Lava"
+				"- Pez Dorado (señuelo)"
+				"- Pez Espina"
+				"- Manzana Dorada Encantada"
 			]
 			id: "48A75AAB7D5AD71A"
 			rewards: [{
@@ -386,7 +386,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "061A83D5372C34FA"
 				item: "gofish:gilded_blackstone_crate"
@@ -397,20 +397,20 @@
 		}
 		{
 			description: [
-				"&bAstral Crates&r are fished up in the &2Overworld&r in any biome during a full moon. They contain the following:"
+				"Las &bCajas Astrales&r se pescan en el &2Overworld&r en cualquier bioma durante luna llena. Contienen lo siguiente:"
 				""
-				"&2Common Drops&r:"
-				"- Glass"
-				"- Lunarfish"
-				"- Starry Salmon"
-				"- Iron Nuggets and Ingots"
+				"&2Objetos Comunes&r:"
+				"- Vidrio"
+				"- Pez Lunar"
+				"- Salmón Estrellado"
+				"- Pepitas y Lingotes de Hierro"
 				""
-				"&6Rare Drops&r:"
-				"- Galaxy Starfish"
-				"- Nebula Swordfish"
-				"- Diamonds"
-				"- Celestial Rod"
-				"- Enchanted Books"
+				"&6Objetos Raros&r:"
+				"- Estrella de Mar Galáctica"
+				"- Pez Espada Nebulosa"
+				"- Diamantes"
+				"- Caña Celestial"
+				"- Libros Encantados"
 			]
 			id: "3E484C4FC69E11CD"
 			rewards: [{
@@ -418,7 +418,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "7AC9A61F535DB4BC"
 				item: "gofish:astral_crate"
@@ -429,27 +429,27 @@
 		}
 		{
 			description: [
-				"&bEnd Crates&r are fished up in the &5End&r in any biome. They contain the following:"
+				"Las &bCajas del End&r se pescan en el &5End&r en cualquier bioma. Contienen lo siguiente:"
 				""
-				"&2Common Drops&r:"
-				"- End Fish"
-				"- End Stone"
-				"- Obsidian"
-				"- Chorus Cod"
-				"- Portal Puffer"
+				"&2Objetos Comunes&r:"
+				"- Pez del End"
+				"- Piedra del End"
+				"- Obsidiana"
+				"- Bacalao Coro"
+				"- Pez Globo Portal"
 				""
-				"&6Rare Drops&r:"
-				"- Eye of Ender"
-				"- Ender Pearl"
-				"- Ender Eel"
-				"- Matrix Fish"
-				"- Crying Obsidian"
-				"- Eye of Fishing"
-				"- Matrix Rod"
-				"- Shulker Shell"
-				"- Dragonfish"
-				"- End Crystal"
-				"- Omega Floater"
+				"&6Objetos Raros&r:"
+				"- Ojo de Ender"
+				"- Perla de Ender"
+				"- Anguila de Ender"
+				"- Pez Matriz"
+				"- Obsidiana Llorosa"
+				"- Ojo de Pesca"
+				"- Caña Matriz"
+				"- Concha de Shulker"
+				"- Pez Dragón"
+				"- Cristal del End"
+				"- Flotador Omega"
 			]
 			id: "16FF0DC0781AA5C4"
 			rewards: [{
@@ -457,7 +457,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "049896D56BE9E1FF"
 				item: "gofish:end_crate"
@@ -475,7 +475,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Can be caught anywhere in the &5End&r."
+			subtitle: "Se puede pescar en cualquier lugar del &5End&r."
 			tasks: [{
 				id: "660E3B885631854D"
 				item: "gofish:ender_eel"
@@ -493,7 +493,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Only caught when fishing in an icy biome in the &2Overworld&r."
+			subtitle: "Solo se pesca en biomas helados del &2Overworld&r."
 			tasks: [{
 				id: "5A8011D6CF29B8C6"
 				item: "gofish:icicle_fish"
@@ -511,7 +511,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Only caught when fishing in a &2Swamp&r in the &2Overworld&r."
+			subtitle: "Solo se pesca en &2Pantanos&r del &2Overworld&r."
 			tasks: [{
 				id: "20BB171A5118E252"
 				item: "gofish:lilyfish"
@@ -529,7 +529,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Can be caught anywhere in the &5End&r."
+			subtitle: "Se puede pescar en cualquier lugar del &5End&r."
 			tasks: [{
 				id: "1E512B65E432239B"
 				item: "gofish:matrix_fish"
@@ -547,7 +547,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Can be caught anywhere in the &2Overworld&r."
+			subtitle: "Se puede pescar en cualquier lugar del &2Overworld&r."
 			tasks: [{
 				id: "31A5BACF656B9CF1"
 				item: "gofish:seaweed_eel"
@@ -565,7 +565,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Only caught when fishing in a &2Swamp&r in the &2Overworld&r."
+			subtitle: "Solo se pesca en &2Pantanos&r del &2Overworld&r."
 			tasks: [{
 				id: "6646CD4D8C1D1E11"
 				item: "gofish:slimefish"
@@ -583,7 +583,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Only caught when fishing in an icy biome in the &2Overworld&r."
+			subtitle: "Solo se pesca en biomas helados del &2Overworld&r."
 			tasks: [{
 				id: "1CD4CFD39823AF50"
 				item: "gofish:snowball_fish"
@@ -601,7 +601,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Only caught when fishing in a &2Mesa&r in the &2Overworld&r."
+			subtitle: "Solo se pesca en &2Mesas&r del &2Overworld&r."
 			tasks: [{
 				id: "22AAF7C56D4EC058"
 				item: "gofish:terrafish"
@@ -619,7 +619,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Only caught when fishing in &2Plains&r or &2Forest&r in the &2Overworld&r."
+			subtitle: "Solo se pesca en &2Llanuras&r o &2Bosques&r del &2Overworld&r."
 			tasks: [{
 				id: "1F63F1FF86AB2C67"
 				item: "gofish:carrot_carp"
@@ -637,7 +637,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Only caught when fishing in &2Plains&r or &2Forest&r in the &2Overworld&r."
+			subtitle: "Solo se pesca en &2Llanuras&r o &2Bosques&r del &2Overworld&r."
 			tasks: [{
 				id: "338526AA2D868C01"
 				item: "gofish:oakfish"
@@ -655,7 +655,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Can be caught anywhere in the &4Nether&r. It will require a rod that can withstand lava."
+			subtitle: "Se puede pescar en cualquier lugar del &4Nether&r. Requiere una caña que aguante la lava."
 			tasks: [{
 				id: "14B763B7EA15C51D"
 				item: "gofish:spikerfish"
@@ -673,7 +673,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Only caught when fishing in the &4Basalt Deltas&r in the &4Nether&r. It will require a rod that can withstand lava."
+			subtitle: "Solo se pesca en los &4Deltas de Basalto&r del &4Nether&r. Requiere una caña que aguante la lava."
 			tasks: [{
 				id: "3FE824505DB0D716"
 				item: "gofish:blackstone_trout"
@@ -691,7 +691,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Can be caught anywhere in the &4Nether&r. It will require a rod that can withstand lava."
+			subtitle: "Se puede pescar en cualquier lugar del &4Nether&r. Requiere una caña que aguante la lava."
 			tasks: [{
 				id: "795D583A298DFEAF"
 				item: "gofish:bonefish"
@@ -709,7 +709,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Only caught when fishing in a &4Soul Sand Valley&r in the &4Nether&r. It will require a rod that can withstand lava."
+			subtitle: "Solo se pesca en el &4Valle de Arena de Almas&r del &4Nether&r. Requiere una caña que aguante la lava."
 			tasks: [{
 				id: "2D419BDBD5FBB42F"
 				item: "gofish:soul_salmon"
@@ -727,7 +727,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Can be caught anywhere in the &4Nether&r. It will require a rod that can withstand lava."
+			subtitle: "Se puede pescar en cualquier lugar del &4Nether&r. Requiere una caña que aguante la lava."
 			tasks: [{
 				id: "01408D84347D426D"
 				item: "gofish:smokey_salmon"
@@ -745,7 +745,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Only caught when fishing in the &4Basalt Deltas&r in the &4Nether&r. It will require a rod that can withstand lava."
+			subtitle: "Solo se pesca en los &4Deltas de Basalto&r del &4Nether&r. Requiere una caña que aguante la lava."
 			tasks: [{
 				id: "00E6E2939BD0FB0A"
 				item: "gofish:gilded_blackstone_carp"
@@ -763,7 +763,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Can be caught anywhere in the &4Nether&r. It will require a rod that can withstand lava."
+			subtitle: "Se puede pescar en cualquier lugar del &4Nether&r. Requiere una caña que aguante la lava."
 			tasks: [{
 				id: "2520062769FF0A6D"
 				item: "gofish:magma_cod"
@@ -781,7 +781,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Can be caught anywhere in the &4Nether&r. It will require a rod that can withstand lava."
+			subtitle: "Se puede pescar en cualquier lugar del &4Nether&r. Requiere una caña que aguante la lava."
 			tasks: [{
 				id: "32A6E9A90B8C5DEF"
 				item: "gofish:basalt_bass"
@@ -799,7 +799,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Can be caught anywhere in the &4Nether&r. It will require a rod that can withstand lava."
+			subtitle: "Se puede pescar en cualquier lugar del &4Nether&r. Requiere una caña que aguante la lava."
 			tasks: [{
 				id: "78829F8E8AF72F7E"
 				item: "gofish:obsidian_halibut"
@@ -817,7 +817,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Can be caught anywhere in the &5End&r."
+			subtitle: "Se puede pescar en cualquier lugar del &5End&r."
 			tasks: [{
 				id: "0833BB447D7303F0"
 				item: "gofish:endfish"
@@ -835,7 +835,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Can be caught anywhere in the &5End&r."
+			subtitle: "Se puede pescar en cualquier lugar del &5End&r."
 			tasks: [{
 				id: "365D70D4970ADE93"
 				item: "gofish:chorus_cod"
@@ -853,7 +853,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Can be caught anywhere in the &5End&r."
+			subtitle: "Se puede pescar en cualquier lugar del &5End&r."
 			tasks: [{
 				id: "43FCFB5089AF84B2"
 				item: "gofish:dragonfish"
@@ -871,7 +871,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Can be caught anywhere in the &5End&r."
+			subtitle: "Se puede pescar en cualquier lugar del &5End&r."
 			tasks: [{
 				id: "3A477208AE155E21"
 				item: "gofish:omega_floater"
@@ -889,7 +889,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Can be caught anywhere in the &5End&r."
+			subtitle: "Se puede pescar en cualquier lugar del &5End&r."
 			tasks: [{
 				id: "5FCFA6CD320C801F"
 				item: "gofish:portal_puffer"
@@ -907,7 +907,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Only caught during a full moon anywhere in the &2Overworld&r."
+			subtitle: "Solo se pesca durante luna llena en el &2Overworld&r."
 			tasks: [{
 				id: "15CAF9B97257615D"
 				item: "gofish:lunarfish"
@@ -925,7 +925,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Only caught during a full moon anywhere in the &2Overworld&r."
+			subtitle: "Solo se pesca durante luna llena en el &2Overworld&r."
 			tasks: [{
 				id: "0562BD3F8C306C0C"
 				item: "gofish:galaxy_starfish"
@@ -943,7 +943,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Only caught during a full moon anywhere in the &2Overworld&r."
+			subtitle: "Solo se pesca durante luna llena en el &2Overworld&r."
 			tasks: [{
 				id: "16D59CB2136FF4CA"
 				item: "gofish:starry_salmon"
@@ -961,7 +961,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Only caught during a full moon anywhere in the &2Overworld&r."
+			subtitle: "Solo se pesca durante luna llena en el &2Overworld&r."
 			tasks: [{
 				id: "37F6D866160F93CC"
 				item: "gofish:nebula_swordfish"
@@ -979,7 +979,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Only caught when it's raining anywhere in the &2Overworld&r."
+			subtitle: "Solo se pesca cuando llueve en el &2Overworld&r."
 			tasks: [{
 				id: "601E2F660D0B95BF"
 				item: "gofish:rainy_bass"
@@ -997,7 +997,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Only caught when you're above the clouds anywhere in the &2Overworld&r."
+			subtitle: "Solo se pesca cuando estás por encima de las nubes en el &2Overworld&r."
 			tasks: [{
 				id: "40C524B3554C2838"
 				item: "gofish:cloudy_crab"
@@ -1015,7 +1015,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Only caught when it's thundering anywhere in the &2Overworld&r."
+			subtitle: "Solo se pesca cuando hay tormenta en el &2Overworld&r."
 			tasks: [{
 				id: "7078699303B60718"
 				item: "gofish:thundering_bass"
@@ -1033,7 +1033,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Only caught when it's snowing anywhere in the &2Overworld&r."
+			subtitle: "Solo se pesca cuando nieva en el &2Overworld&r."
 			tasks: [{
 				id: "0C8A3C32B680DE8D"
 				item: "gofish:blizzard_bass"
@@ -1044,9 +1044,9 @@
 		}
 		{
 			description: [
-				"This lure cannot be fished up and can only be rarely found in &bGolden&r and &bGilded Blackstone&r Crates."
+				"Este señuelo no se puede pescar y solo se encuentra raramente en Cajas &bDoradas&r y de &bPiedra Negra Dorada&r."
 				""
-				"Additionally, it is not a fish; it's a lure."
+				"Además, no es un pez; es un señuelo."
 			]
 			id: "3E560258E06D47DE"
 			rewards: [
@@ -1062,7 +1062,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "32DD26FE88A620C6"
 				item: "gofish:golden_fish"
@@ -1073,29 +1073,29 @@
 		}
 		{
 			description: [
-				"&bGo Fish&r is a fishing enhancement mod inspired by games like &bStardew Valley&r and &bTerraria&r. It aims to create a rewarding fishing experience by introducing new and exciting loot and unique fish."
+				"&bGo Fish&r es un mod de mejora de pesca inspirado en juegos como &bStardew Valley&r y &bTerraria&r. Su objetivo es crear una experiencia de pesca gratificante introduciendo nuevo y emocionante botín y peces únicos."
 				""
-				"To fully enjoy the benefits of this mod, you'll need to fish in various types of biomes and dimensions."
+				"Para disfrutar al máximo de los beneficios de este mod, tendrás que pescar en varios tipos de biomas y dimensiones."
 			]
 			icon: "ftbquests:book"
 			id: "0460049AC8763065"
 			optional: true
 			size: 1.5d
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "2C62D99BD2B2130C"
-				title: "Accept Rewards"
+				title: "Aceptar Recompensas"
 				type: "checkmark"
 			}]
-			title: "&3Crates&f, &3Exotic Fish&f, and &3Rods"
+			title: "&3Cajas&f, &3Peces Exóticos&f y &3Cañas"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			description: [
-				"The &bBlaze Rod&r is one of two craftable fishing rods. It has a special ability to automatically smelt (cook) your catches if possible and boasts a durability of 125."
+				"La &bVara de Blaze&r es una de las dos cañas de pescar fabricables. Tiene la habilidad especial de fundir (cocinar) automáticamente tus capturas si es posible y tiene una durabilidad de 125."
 				""
-				"Additionally, it can fish in lava."
+				"Además, puede pescar en lava."
 			]
 			id: "50EBFE4F41A442AD"
 			rewards: [
@@ -1111,7 +1111,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "690555E84D861622"
 				item: {
@@ -1128,11 +1128,11 @@
 		}
 		{
 			description: [
-				"The &bSkeletal Rod&r is uncraftable and is only obtainable from the &bFiery Crate&r."
+				"La &bCaña Esquelética&r no se puede fabricar y solo se obtiene de la &bCaja Ardiente&r."
 				""
-				"It doesn't have a known special effect or bonus and boasts a durability of 75."
+				"No tiene ningún efecto especial o bonificación conocida y tiene una durabilidad de 75."
 				""
-				"Additionally, it cannot fish in lava."
+				"Además, no puede pescar en lava."
 			]
 			id: "30FEA5231B047AFE"
 			rewards: [
@@ -1148,7 +1148,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "60CD22D0AB8BA6E2"
 				item: {
@@ -1165,9 +1165,9 @@
 		}
 		{
 			description: [
-				"The &bDiamond Reinforced Rod&r is one of two craftable rods. It has a special effect that increases your chance to catch crates across all dimensions and boasts a durability of 300."
+				"La &bCaña Reforzada de Diamante&r es una de las dos cañas fabricables. Tiene un efecto especial que aumenta tu probabilidad de pescar cajas en todas las dimensiones y tiene una durabilidad de 300."
 				""
-				"Additionally, it can fish in lava."
+				"Además, puede pescar en lava."
 			]
 			id: "068A7068B23F96BD"
 			rewards: [
@@ -1183,7 +1183,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "45068B1E51F0B153"
 				item: {
@@ -1200,11 +1200,11 @@
 		}
 		{
 			description: [
-				"The &bEye of Fishing&r is an uncraftable rod and is only obtained through the &bEnd Crate&r."
+				"El &bOjo de Pesca&r es una caña no fabricable y solo se obtiene a través de la &bCaja del End&r."
 				""
-				"It is unknown if it has a special ability. It has a durability of 250."
+				"Se desconoce si tiene alguna habilidad especial. Tiene una durabilidad de 250."
 				""
-				"Additionally, it cannot fish in lava."
+				"Además, no puede pescar en lava."
 			]
 			id: "5CB89C18F92C5A4F"
 			rewards: [
@@ -1220,7 +1220,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "3530F69B216C87D5"
 				item: {
@@ -1237,11 +1237,11 @@
 		}
 		{
 			description: [
-				"The &bFrosted Rod&r is uncraftable and is only obtainable through &bFrosted Crates&r."
+				"La &bCaña Helada&r no se puede fabricar y solo se obtiene a través de las &bCajas Heladas&r."
 				""
-				"It is unknown if it has a special ability and boasts a durability of 150."
+				"Se desconoce si tiene alguna habilidad especial y tiene una durabilidad de 150."
 				""
-				"Additionally, it cannot fish in lava."
+				"Además, no puede pescar en lava."
 			]
 			id: "46C3E19658D0965B"
 			rewards: [
@@ -1257,7 +1257,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "11B21B4EBAA545CD"
 				item: {
@@ -1274,11 +1274,11 @@
 		}
 		{
 			description: [
-				"The &bSlime Rod&r is uncraftable and is only obtainable through the &bSlimey Crate&r."
+				"La &bCaña de Slime&r no se puede fabricar y solo se obtiene a través de la &bCaja Viscosa&r."
 				""
-				"Its special ability increases your jump height for a short time after you catch something, and it boasts a durability of 150."
+				"Su habilidad especial aumenta tu altura de salto durante un breve tiempo después de pescar algo, y tiene una durabilidad de 150."
 				""
-				"Additionally, it cannot fish in lava."
+				"Además, no puede pescar en lava."
 			]
 			id: "442EA6340EA704A8"
 			rewards: [
@@ -1294,7 +1294,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "26CDE610F2BEA9ED"
 				item: {
@@ -1311,11 +1311,11 @@
 		}
 		{
 			description: [
-				"The &bRod of Souls&r is uncraftable and can only be obtained from the &bSoul Crate.&r"
+				"La &bCaña de Almas&r no se puede fabricar y solo se obtiene de la &bCaja de Almas.&r"
 				""
-				"It has the special effect of increasing the yield of XP by +5 when catching anything, and boasts a durability of 250."
+				"Tiene el efecto especial de aumentar la ganancia de XP en +5 al pescar cualquier cosa, y tiene una durabilidad de 250."
 				""
-				"Additionally, it can fish in lava."
+				"Además, puede pescar en lava."
 			]
 			id: "4BE1C5F8E8F09016"
 			rewards: [
@@ -1331,7 +1331,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "6C1371265186720D"
 				item: {
@@ -1348,11 +1348,11 @@
 		}
 		{
 			description: [
-				"The &bMatrix Rod&r is uncraftable and only obtainable from the &bEnd Crate&r."
+				"La &bCaña Matriz&r no se puede fabricar y solo se obtiene de la &bCaja del End&r."
 				""
-				"It is unknown if it has a special effect or bonus and boasts a durability of 200."
+				"Se desconoce si tiene algún efecto especial o bonificación y tiene una durabilidad de 200."
 				""
-				"Additionally, it cannot fish in lava."
+				"Además, no puede pescar en lava."
 			]
 			id: "2E24C61ADD3BD532"
 			rewards: [
@@ -1368,7 +1368,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "35AFBED0C315DFBF"
 				item: {
@@ -1385,11 +1385,11 @@
 		}
 		{
 			description: [
-				"The &bCelestial Rod&r is uncraftable and can only be obtained from the &bAstral Crate&r."
+				"La &bCaña Celestial&r no se puede fabricar y solo se obtiene de la &bCaja Astral&r."
 				""
-				"Its special ability grants you +1 luck at nighttime and boasts a durability of 150."
+				"Su habilidad especial te otorga +1 de suerte durante la noche y tiene una durabilidad de 150."
 				""
-				"Additionally, it cannot fish in lava."
+				"Además, no puede pescar en lava."
 			]
 			id: "10BCC53BB12A59B1"
 			rewards: [
@@ -1405,7 +1405,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "777FEC40BB5B7D27"
 				item: {
@@ -1422,9 +1422,9 @@
 		}
 		{
 			description: [
-				"The &bSimple Lure&r is one of three types of lures."
+				"El &bSeñuelo Simple&r es uno de los tres tipos de señuelos."
 				""
-				"It can be crafted and functions while sitting in the player's inventory, granting +1 lure to all fishing rods. It works in conjunction with the other two lures."
+				"Se puede fabricar y funciona mientras está en el inventario del jugador, otorgando +1 de señuelo a todas las cañas de pescar. Funciona en conjunto con los otros dos señuelos."
 			]
 			id: "3E49D8F42D577D5E"
 			rewards: [
@@ -1440,7 +1440,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "2FE94A1D8ED01EFF"
 				item: "gofish:simple_lure"
@@ -1451,9 +1451,9 @@
 		}
 		{
 			description: [
-				"The &bSoul Lure&r is one of three types of lures."
+				"El &bSeñuelo de Almas&r es uno de los tres tipos de señuelos."
 				""
-				"It can be crafted and, while in the player's inventory, will grant +1 luck to fishing in the &4Soul Sand Valley&r. It also works in conjunction with the other two lures."
+				"Se puede fabricar y, mientras está en el inventario del jugador, otorgará +1 de suerte al pescar en el &4Valle de Arena de Almas&r. También funciona en conjunto con los otros dos señuelos."
 			]
 			id: "393B96A082C31AAF"
 			rewards: [
@@ -1469,7 +1469,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "4F4197C8590F186B"
 				item: "gofish:soul_lure"
@@ -1479,5 +1479,5 @@
 			y: -2.5d
 		}
 	]
-	title: " &3C&frates, Exotic Fish, and Rods"
+	title: " &3C&fajas, Peces Exóticos y Cañas"
 }

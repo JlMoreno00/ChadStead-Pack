@@ -11,32 +11,32 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"During your travels, you might stumble upon an abundance of &2Emeralds&r! Similar to vanilla Minecraft, &2Emeralds&r serve as the currency in this world."
-				""
-				"Obtaining &2Emeralds&r is easy—you can find them in chests or mine them like normal. Another option is through the &bSelling Bin&r, a simple block that allows you to sell stacks of items such as fish, crops, etc. If an item can be sold, it will be indicated in its tooltip."
-				""
-				"To sell an item, simply place a stack of it in the &bSelling Bin&r. Once the day passes, come back, and you'll see all of your wares have been sold!"
-				""
-				"Once you've accumulated a nice stack of cash, head over to the &bDaily Shop&r—a block you can build that is full of purchasable useful and non-useful items."
-			]
-			icon: "ftbquests:book"
-			id: "0DD6C3E83513D0F1"
-			optional: true
-			size: 1.5d
-			subtitle: "Click to learn more!"
-			tasks: [{
-				id: "43528512EF96AEC9"
-				title: "Economy"
-				type: "checkmark"
-			}]
-			title: "&6Economy"
+		description: [
+			"¡Durante tus viajes, podrías encontrar una abundancia de &2Esmeraldas&r! Al igual que en Minecraft vanilla, las &2Esmeraldas&r sirven como moneda en este mundo."
+			""
+			"Obtener &2Esmeraldas&r es fácil: puedes encontrarlas en cofres o minarlas como siempre. Otra opción es a través del &bSelling Bin&r, un bloque simple que te permite vender pilas de objetos como pescado, cultivos, etc. Si un objeto se puede vender, se indicará en su tooltip."
+			""
+			"Para vender un objeto, simplemente coloca una pila en el &bSelling Bin&r. Cuando pase el día, vuelve y verás que todas tus mercancías se han vendido."
+			""
+			"Una vez que hayas acumulado una buena cantidad de dinero, dirígete al &bDaily Shop&r, un bloque que puedes construir y que está lleno de objetos útiles y no tan útiles para comprar."
+		]
+		icon: "ftbquests:book"
+		id: "0DD6C3E83513D0F1"
+		optional: true
+		size: 1.5d
+		subtitle: "¡Haz clic para saber más!"
+		tasks: [{
+			id: "43528512EF96AEC9"
+			title: "Economía"
+			type: "checkmark"
+		}]
+		title: "&6Economía"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			description: ["The &bDaily Shop&r is a useful block that randomly sells items for &2Emeralds&r. You can find anything from seeds to furniture, spawn eggs, and more! It resets every 20x minutes, so keep an eye out!"]
-			id: "646B4EBFB625D91D"
+		description: ["El &bDaily Shop&r es un bloque útil que vende objetos aleatorios por &2Esmeraldas&r. ¡Puedes encontrar de todo, desde semillas hasta muebles, huevos de spawn y más! Se reinicia cada 20x minutos, ¡así que estate atento!"]
+		id: "646B4EBFB625D91D"
 			rewards: [{
 				count: 2
 				id: "6110DBBBF65A25A2"
@@ -44,9 +44,9 @@
 				type: "item"
 			}]
 			size: 1.0d
-			subtitle: "Click to learn more!"
-			tasks: [{
-				id: "62C11D11779CC8B3"
+		subtitle: "¡Haz clic para saber más!"
+		tasks: [{
+			id: "62C11D11779CC8B3"
 				item: "dailyshop:daily_shop"
 				type: "item"
 			}]
@@ -54,11 +54,11 @@
 			y: -1.5d
 		}
 		{
-			description: [
-				"&bSelling Bins&r work similarly to Ender Chests, with each inventory being unique to each player!"
-				""
-				"This also means that hoppers can't siphon into these bins (except for the &bRedstone Bin&r), so don't forget to fill them up before going to bed!"
-			]
+		description: [
+			"¡Los &bSelling Bins&r funcionan de forma similar a los Ender Chests, con cada inventario siendo único para cada jugador!"
+			""
+			"Esto también significa que las tolvas no pueden introducir objetos en estos bins (excepto el &bRedstone Bin&r), ¡así que no olvides llenarlos antes de irte a dormir!"
+		]
 			id: "1951192D2D9C47A7"
 			rewards: [{
 				count: 2
@@ -67,9 +67,9 @@
 				type: "item"
 			}]
 			size: 1.0d
-			subtitle: "Sells up to 9x stacks and takes 20x minutes to ship."
-			tasks: [{
-				id: "0120324FD1420E43"
+		subtitle: "Vende hasta 9x pilas y tarda 20x minutos en enviar."
+		tasks: [{
+			id: "0120324FD1420E43"
 				item: {
 					Count: 1
 					id: "minecraft:barrel"
@@ -93,7 +93,7 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			subtitle: "Sells up to 18x stacks and takes 16x minutes to ship."
+			subtitle: "Vende hasta 18x pilas y tarda 16x minutos en enviar."
 			tasks: [{
 				id: "12D923232ECA9C63"
 				item: {
@@ -123,7 +123,7 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			subtitle: "Sells up to 27x stacks and takes 12x minutes to ship."
+			subtitle: "Vende hasta 27x pilas y tarda 12x minutos en enviar."
 			tasks: [{
 				id: "3E31D52013456607"
 				item: {
@@ -149,7 +149,7 @@
 				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
-			subtitle: "Sells up to 54x stacks and takes 8x minutes to ship."
+			subtitle: "Vende hasta 54x pilas y tarda 8x minutos en enviar."
 			tasks: [{
 				id: "2473A856EE37DAE1"
 				item: {
@@ -175,9 +175,9 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			subtitle: "Sells up to 9x stacks and takes 16x minutes to ship."
-			tasks: [{
-				id: "6CDD0B4C19F80494"
+		subtitle: "Vende hasta 9x pilas y tarda 16x minutos en enviar."
+		tasks: [{
+			id: "6CDD0B4C19F80494"
 				item: {
 					Count: 1
 					id: "minecraft:barrel"
@@ -193,13 +193,13 @@
 			y: 1.5d
 		}
 		{
-			description: [
-				"The &bWallet&r is a great tool for storing all your precious &2Emeralds&r!"
-				""
-				"There's no limit to how much you can hold, and once your &2Emeralds&r are in your wallet, they're securely stored in the cloud. No more worrying about losing them."
-				""
-				"Plus, every thirty minutes, you'll automatically earn &b0.5%&r interest on your current balance. &9I love compounding interest!&r"
-			]
+		description: [
+			"¡La &bWallet&r es una herramienta genial para guardar todas tus preciadas &2Esmeraldas&r!"
+			""
+			"No hay límite en cuanto puedes guardar, y una vez que tus &2Esmeraldas&r están en tu billetera, se almacenan de forma segura en la nube. No más preocupaciones por perderlas."
+			""
+			"Además, cada treinta minutos ganarás automáticamente un &b0.5%&r de interés sobre tu saldo actual. &9¡Me encanta el interés compuesto!&r"
+		]
 			id: "594395364ABEF2D5"
 			rewards: [{
 				count: 2
@@ -207,9 +207,9 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			subtitle: "Click to learn more!"
-			tasks: [{
-				id: "7284657728D4970C"
+		subtitle: "¡Haz clic para saber más!"
+		tasks: [{
+			id: "7284657728D4970C"
 				item: "minecraft:emerald"
 				type: "item"
 			}]
@@ -217,5 +217,5 @@
 			y: -1.5d
 		}
 	]
-	title: " &6E&fconomy"
+	title: " &6E&fconomía"
 }

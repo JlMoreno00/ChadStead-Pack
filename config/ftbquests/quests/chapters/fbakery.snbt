@@ -20,23 +20,23 @@
 				type: "item"
 			}]
 			size: 1.5d
-			subtitle: "Have you ever dreamed of owning a bakery? Now is your chance to make it happen!"
+			subtitle: "¿Alguna vez soñaste con tener tu propia panadería? ¡Ahora tienes la oportunidad de hacerlo realidad!"
 			tasks: [{
 				id: "05453BBDE0E524BB"
-				title: "Accept Rewards"
-				type: "checkmark"
-			}]
-			title: "&6Bakery"
+			title: "Aceptar Recompensas"
+			type: "checkmark"
+		}]
+		title: "&6Bakery"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			description: [
-				"There are two buffs you will find: \"&bStuffed&r\" and \"&bSugar Rush&r.\""
+				"Hay dos efectos que puedes encontrar: \"&bStuffed&r\" y \"&bSugar Rush&r.\""
 				""
-				"&bStuffed&r will reduce the rate at which saturation is drained."
+				"&bStuffed&r reduce la velocidad a la que se agota la saturación."
 				""
-				"&bSugar Rush&r will increase speed, attack speed, and damage."
+				"&bSugar Rush&r aumenta la velocidad, la velocidad de ataque y el daño."
 			]
 			id: "705327184E79D651"
 			optional: true
@@ -45,11 +45,11 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Click to learn more!"
+			subtitle: "¡Haz clic para saber más!"
 			tasks: [{
 				id: "6D8FFAEEFB09C868"
-				title: "Buffs"
-				type: "checkmark"
+			title: "Efectos"
+			type: "checkmark"
 			}]
 			x: -2.0d
 			y: 0.0d
@@ -61,7 +61,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "A must-have for baking bread!"
+			subtitle: "¡Imprescindible para hornear pan!"
 			tasks: [{
 				id: "1C55337F13FADD93"
 				item: "bakery:yeast"
@@ -77,7 +77,7 @@
 				item: "minecraft:bucket"
 				type: "item"
 			}]
-			subtitle: "You can right-click to fill it up with water, which can then be collected with a bucket."
+			subtitle: "Puedes hacer clic derecho para llenarlo de agua, que luego puede recogerse con un cubo."
 			tasks: [{
 				id: "0331FBCF8ED9121B"
 				item: "bakery:kitchen_sink"
@@ -93,7 +93,7 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Used to make dough: place items inside, then stir until done."
+			subtitle: "Se usa para hacer masa: coloca los ingredientes dentro y remueve hasta terminar."
 			tasks: [{
 				id: "45056CA0F41A3A00"
 				item: "bakery:crafting_bowl"
@@ -109,7 +109,7 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Like a furnace, but with a nicer aroma."
+			subtitle: "Como un horno, pero con un aroma más agradable."
 			tasks: [{
 				id: "0C8EA1CAA0126FE3"
 				item: "bakery:brick_stove"
@@ -125,7 +125,7 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Needs to be placed on top of an oven."
+			subtitle: "Debe colocarse encima de un horno."
 			tasks: [{
 				id: "043A6D8343A84DB0"
 				item: {
@@ -142,11 +142,11 @@
 		}
 		{
 			description: [
-				"For making sweet goods, start with cake dough."
+				"Para hacer dulces, empieza con masa para tartas."
 				""
-				"Add icing for cake."
-				"Cut with a knife for cupcakes."
-				"Cut and roll with a rolling pin for cookies."
+				"Añade glaseado para hacer tarta."
+				"Corta con un cuchillo para hacer magdalenas."
+				"Corta y extiende con un rodillo para hacer galletas."
 			]
 			id: "3471547B56F467EA"
 			rewards: [{
@@ -176,7 +176,7 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Used to cut food into edible portions: place a food item, then right-click with the knife."
+			subtitle: "Se usa para cortar comida en porciones: coloca un alimento y haz clic derecho con el cuchillo."
 			tasks: [{
 				id: "558CA8377B88E214"
 				item: {
@@ -188,7 +188,7 @@
 				}
 				type: "item"
 			}]
-			title: "Cutting"
+			title: "Corte"
 			x: 8.0d
 			y: 1.0d
 		}
