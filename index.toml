@@ -6,39 +6,39 @@ hash = "65edf67bd84c0f31c927e396b5f701d0f7e234bffe9fe8a303f1d0cd596f1970"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "b0680814ef6e6ecd42d8759efa5a0f92a9a5af93b27f69f24a0f4e23091c7e90"
+hash = "78b958e743abfadfb41c44b9e43e636f1fb391b116cbb0ed9a5afc1931f0f83f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4nfether_tips.snbt"
-hash = "37890fc2e835571297b5469c5fd4835eb87fe8c6d55fc73ee1a37031c3d2b594"
+hash = "811af1b44df7a434fbc070f30a3e506a889ccb40196da6558d5c1d7f15df92ae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/5efnd_exploration.snbt"
-hash = "e6e07897496765a807f7c7baa0838ccc19277ba79373ecfe368381bb7dc7dbc1"
+hash = "2b8998ffe44b81fc74c62a619f81cc4effa374e0d40f57cc65e2604ab93b59fa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/5nfether_exploration.snbt"
-hash = "9a857f03b018d1cd69172bb2471dc8e5af5484f93c1601cc7e2a11cfa16c84d4"
+hash = "f431d53ec272f6974baa0d83c9662ea73c310c5adbc7e7214ed0f9fcda9c31af"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6cfreate.snbt"
-hash = "08b4ecb4fa503792233c739872e0237fb19448a3ebb673fffd15a92857925528"
+hash = "a2951df5c6a2512b3ef80a8205661dc026b47171cd49cdc9cf8b2acf6890a631"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6efconomy.snbt"
-hash = "1ae132f511339bd733b185be00ff55d6e0076b92e4b4abd52b0205414720a675"
+hash = "ab6965845cf04e357019b9424aecfeda0dfe015efa64ea996c643b1d465f2f3f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bibntroduction.snbt"
-hash = "419325f15fdc6bb2c70a6d344e6aba4d4174adec2095e37bf0a948fa0770d0fd"
+hash = "42bb64b07b32b9227ab1e0de556b0b75ec6d2243ee85747c71b2cb8896ce3ac2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bounty_board.snbt"
-hash = "8dd13f52b8053714594ca7c4fa8f885c844a4eb7dd2bb7daf318d16e55818610"
+hash = "fed8351baac52e40d8fa57ce002d0dd44d155d66aac4f0276a61ca898ef1de74"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/building_the_portal.snbt"
-hash = "cd45dc16ee83eec63a3b5706038ce34c79fcbf1cfbc72354c9bf94906e23d7e9"
+hash = "d4aaa7a342697e5ae22d8f17a2a0b984a37172d182d62688f33f5a1485afd02b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cae2.snbt"
@@ -66,19 +66,19 @@ hash = "1a3c7aeaeff084429b2a3637e2ae7c768f330f3ef79f2c5927f41ad812705235"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cobblemon.snbt"
-hash = "d517ef617840c669d1c8a22a3ab8b2e8487111199a99b83e105f7a539de77523"
+hash = "de22fcf202740ee9c5381303d0a900f7d0efad0f67644ee4970521d15a6db131"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/compact_storage.snbt"
-hash = "1aacd2550c4ffefbef6c9bb356f65fc432a5ad26fe5274ce0754fb7950a37469"
+hash = "a7c8c5e12acf59959ea3edf4966420163c8d889fc59b7723353f58dc3dc91777"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cpfokeagriculture.snbt"
-hash = "dbfd7de4232f72a33ee9ca77c627718a6246c6aa98f76d65661d10f9838c842f"
+hash = "818b45c9107bdce2d05428ba6a20da9881fd187855bd184190643bc9eaddce23"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/crates.snbt"
-hash = "8b8f2a6c4537167f7d6acfe04ccf7dce1edcda135261cfa4eda6c2e9bda72ab7"
+hash = "4f6d19a4d29b7fd0432a6c36ba09538f8476d8cd2d8eee000116a2d68827fe80"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/csophbackpacks.snbt"
@@ -102,107 +102,107 @@ hash = "3f8c02373c238b4e951569bc52c222f0b1530ab416dd28aef74ea7db1bb6eb33"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/faccessories.snbt"
-hash = "38647908ce5d45df8c4a08915349cb197510a19ada411409f4d02a956625138f"
+hash = "ab750e6c6287c9ffbdd1d5ea5df3caf38857ea7db7e370724a8629e509ca1a38"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/faircraft.snbt"
-hash = "94907e58a25c4b02fdda00d478d2007f508484dcdff6316fc6addd7508f2a9c6"
+hash = "1cd781e8374db321d537a327fda1d4e067cc25f426d180c58f127ce4a47f327e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fautomobiles.snbt"
-hash = "b7d12568abb17de921cc7943079f5a43337b4b8717eb260cd92fb3e8c9a25c18"
+hash = "c4a9a2b7d6dad7b8a598b69a520fbd24a445c2641c9342d235381579f9b9623a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fbackpacks.snbt"
-hash = "e80a1e81825bea0c0a5e342686b0dba0bb1e7a5dce82e05fa20f79d00cdeff3e"
+hash = "70762c7bf20c6687b6e0b4d5d7d4f6ced6cf7b61ad2e5853d3846d2a6375ace6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fbakery.snbt"
-hash = "fab1dd063d51351fe11f12b6bceaec84c0421bf597beec7a46bdb36dcecff40f"
+hash = "11f45d4950ce8ce839989388d6032ee1aa45099649caa8c122cf0455c0c007cc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fboats.snbt"
-hash = "d22aa514ced4dd7fb03221a6135c68cb35d24940017d8e9c82127d6f0c7ff1fc"
+hash = "c6feb225018e9dd62fe8143af1d6b7f854ab760248fbf6f2db638a633e6a5282"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fbrewery.snbt"
-hash = "bb879973dfef2d9e9305e76974f66cbbc5de683ea4a12933e80dfa9043fdf932"
+hash = "c5c1e82ee83c826c8a04406825b650abbe55332f2dd28d09351f4ce9d3dccd39"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fcandlelight.snbt"
-hash = "c45c02661aace8dcbe40f59c3a83175c045dce276c44ab0213256b5e1e757011"
+hash = "6cb1452cc546cb523fc7fd3f261c4548593b919f6a672c37ee8978d42402ceab"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ffamiliar_clothes.snbt"
-hash = "547702fb92f8e2d94162bb3235cafe1edea7e317e6d3e19b4576dc17754d9db4"
+hash = "9b1f888e6275f75e097fe9494043cff55c2ce5c44ca25affb32ae2b7ad60c999"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ffarmers_delight.snbt"
-hash = "31b91f9965f8df58e72b8997bb1e6a34ee55fd43a6d439d22736c220e0dfe027"
+hash = "458456f8fafca2ffff94efe7c2bdb863e511801ce5675533caba59d0874b5e6e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fhats.snbt"
-hash = "432b628d6839765e1c40a9f95ee835c7134c9387e58ca31cbbcd3b737d64e54d"
+hash = "7f8012565e5ad6210d19f6535287ecb1859eb2024861271150c0099de17aeae8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fherbal_brews.snbt"
-hash = "1db05dfb00ca13db81776b13cf1fffd5bd2770ee6598553d1137efa706f3f00f"
+hash = "a7a78c48c1c6bc4783d519254eb31599abf72e8555f49bb85fc5744806edc2e3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fish.snbt"
-hash = "01124448564afa2c3fe204762cf9dc329dda1226edf18c6732ada468097b8850"
+hash = "621db1e0fd070868cea9c076aff8fc353f79083efdc53979b846a275e31cc15a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fplushies.snbt"
-hash = "7500be48db5cef561f88b3232a3e594f98f44a4bef6344c1c91cf8e5764d8d12"
+hash = "c5fcaf0dcc4876ab2df8a4299da283eb721ab94d06bba5164ff4cf5a4447350e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ftoms_simple_storage.snbt"
-hash = "ab2e5a61357df14995c369992ed646e8bada038fb0534a2d4a8431c1c932680d"
+hash = "a43fbf5956a37dd5dd118ecc9e009ae295104b503d8f80e341eeb0ebead56114"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fuseful_tools.snbt"
-hash = "685b6f236de37fa5742571dbae4cc41cc0e7c8863a3ad97f287a2483bea58008"
+hash = "8226fd8a0b6ea1ab6ee0229ad43a2983336a14e25a3c0c203ac1670f8116c238"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fvinery.snbt"
-hash = "98187e01588f0ef5632a6a6840755f9db1c6a1cc8aebe7e008b040225b33b09f"
+hash = "173eeee9468b00c07f7f492e6c71eec33080f619582a9a1653107d3a3aa784eb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fwelcome_to_bigchadguys_plus.snbt"
-hash = "c41bc47e2f798c86f9c11ae8821ee8691b7a1f1cdeae4a6c52928c9d77d9e8b9"
+hash = "280a59c1a92f6d6a049e1cb32586ce205a3295fad86d025a0fda34e483df8f60"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fwildlife.snbt"
-hash = "8d66c131de6747d49728ca1f7871fbef732c5505651899efd59278630ec8095d"
+hash = "5ca1cb0fc66b0ebd4fa0292078a334ed87e865bf57da3a737dd75dd56e38d87e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fwings.snbt"
-hash = "7f934fc8620d9c6ad6de435b715933f21a5f6e0f46fd4045edb994d80d85fbb6"
+hash = "cf44fced08b8c6d24179f40e91b600d147d47746c332bc8356aa63c0efb61bb5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/logs.snbt"
-hash = "4043110487eb90bbc6bf1c1423af657dca84ffe08b7ec5449dcf0a320e97fede"
+hash = "9f7df1dd95da411d5292c4494005f2fb1ee1a73fff7c57aaab82b40ac7457269"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ore_collection.snbt"
-hash = "8971ab31d0bbcf4bc1c0737307637cc98c44af11e314c985057d25b4d0839336"
+hash = "3b575f2f97133c07742bccd0b6e7aff1f9be1f3642919155506a37ad0ed6f31f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/painting.snbt"
-hash = "1e97e7071024e6fc3fc61d3264be63190b97e977037324cd188d829baa16908c"
+hash = "f0ace235084be336f70bd504b4a326298b1185b9db5bffbc994e4e40b13335c4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ribbits_collection.snbt"
-hash = "c4ad4112080b682b639cfe09f3d7c7db427d64d78cc3966ca006ad22cd3d73e5"
+hash = "c9e800ba635e4495ae6035044276897a608bef40dee6abaeb892f7523ad0260b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/seed_collection.snbt"
-hash = "2b6b5988195f6fb4727aeda58dac338ac82f9b2f2187e06b35a774036b5f6990"
+hash = "70fa22b8515c612971358f47a4f8f56518679668a00bc2937e404ca8061a91a3"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "e6a7e62de2b0154009483d266dde6722f867503a6bb8a495da011a78932cc684"
+hash = "4b5b34d0b0b87082ea3b55a82505df36b49c7276cc2dde162589f0e3e45fd335"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/advanced_create_reward.snbt"
@@ -259,14 +259,6 @@ hash = "445333c0d672592395abc45b4493d56083b26d2ec1a40125d0b6076e9d64a2e6"
 [[files]]
 file = "config/ftbquests/quests/reward_tables/wildlife_spawn_eggs.snbt"
 hash = "bdc0d9ed3b11d73a2ec40a66cceb03c0c4c539e4e0518b3d362eb2e7f21351bd"
-
-[[files]]
-file = "mods/StorageDrawers-fabric-1.20.1-12.14.3.jar"
-hash = "bdd39641d1d86e0e04acaa17aa6e764c158c09be45b15f4aa5a9be43f207e1a1"
-
-[[files]]
-file = "mods/TerraBlender-fabric-1.20.1-3.0.1.10.jar"
-hash = "d02d9aa2ccf091264b0fcef07644128b823b3421a02bfc40391a01aa1ccd0a24"
 
 [[files]]
 file = "mods/a-man-with-plushies.pw.toml"
@@ -968,10 +960,6 @@ hash = "010cf36b947d36c27dfd714bc99286b2bde92674e3884086715fa3e48f09bcb0"
 metafile = true
 
 [[files]]
-file = "mods/fairylights-1.1.3_fabric.jar"
-hash = "bf21ad5d0426daf26a972eebb592f166b53e35b5e67c414d8bc7321786c29559"
-
-[[files]]
 file = "mods/fancymenu.pw.toml"
 hash = "0ad3dbdddcb7af96b8b91eab02a68b6bd9f69fa365765560bfac2d4051e65ad7"
 metafile = true
@@ -1290,10 +1278,6 @@ metafile = true
 file = "mods/kubejs.pw.toml"
 hash = "8e3536092375aecb58eff2d81714fab7a3272375c9e6e19481ea500e6fbd9726"
 metafile = true
-
-[[files]]
-file = "mods/lambdynamiclights-4.4.0+1.20.1.jar"
-hash = "074d6c79e002790b696ebcfdd4ff2a2d57ec55228f93b47e952eeebd5baf5301"
 
 [[files]]
 file = "mods/lambdynamiclights.pw.toml"
