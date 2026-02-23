@@ -10,7 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["A50000GATE000001"]
+			dependencies: ["A500006A7E000001"]
 			description: [
 				"Vale, llegaste hasta aqui sin explotar el mundo. Bien hecho."
 				""
@@ -421,7 +421,7 @@
 					HideFlags: 1
 				}
 			}
-			id: "A60000GATE000001"
+			id: "A600006A7E000001"
 			rewards: [{
 				id: "6B00000000000011"
 				item: {

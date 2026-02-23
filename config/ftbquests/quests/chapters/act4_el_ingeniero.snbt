@@ -11,7 +11,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["A30000GATE000001"]
+			dependencies: ["A300006A7E000001"]
 			description: [
 				"Sobrevivir ya sobreviviste. Ahora toca dejar de hacerlo todo a mano como cavernicola."
 				""
@@ -601,7 +601,7 @@
 					HideFlags: 1
 				}
 			}
-			id: "A40000GATE000001"
+			id: "A400006A7E000001"
 			rewards: [{
 				id: "A40000F000000021"
 				item: {

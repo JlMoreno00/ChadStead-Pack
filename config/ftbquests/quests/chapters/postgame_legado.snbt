@@ -10,7 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["A60000GATE000001"]
+			dependencies: ["A600006A7E000001"]
 			description: [
 				"Llegaste al final del Diario, pero el Postgame es donde se separan los buenos de los imparables."
 				"Ahora te toca cerrar tu historia como fundador con retos de verdad."
@@ -291,7 +291,7 @@
 				"&aObjetivo&r: craftear una golden_helmet como base de la Corona."
 			]
 			icon: "minecraft:golden_helmet"
-			id: "A70000GATE000001"
+			id: "A700006A7E000001"
 			rewards: [{
 				id: "A70000000000C001"
 				item: {

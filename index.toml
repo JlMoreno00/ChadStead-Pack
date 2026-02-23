@@ -30,27 +30,27 @@ hash = "ab6965845cf04e357019b9424aecfeda0dfe015efa64ea996c643b1d465f2f3f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/act1_el_naufrago.snbt"
-hash = "9283e4922bad269cea6b94b1aba44bac4bc5ac6044f3139eadb9fc4cb026223d"
+hash = "d9f7158da79b252710090a0b9741ce4f5433b9fb70397d5ae78b21ecb6781447"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/act2_el_colono.snbt"
-hash = "95112bfe57af8c4ac831550b084f9be283afba8ea9d9c1520164303dde1560e2"
+hash = "e903226ba3cd5ad5f5aa1aa7d4c6ecd420d0cb70bf72afbf0dee323079285dac"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/act3_el_granjero.snbt"
-hash = "5334062642134cc2b46d5c5a313162c34f4b9037e58d20f32587677361a35853"
+hash = "95bda0a44ec67afd9161e7b99aa1093a61f34904e40dbe614d0bcd7627bd217e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/act4_el_ingeniero.snbt"
-hash = "1ec62a715a628a57fa26d80fd07f5329a3200978dcf11353305c2eb3ee0aa554"
+hash = "6bd66d8b47a4d520ea46eb81661148d7dc84411ef9a058ae206c075d3daa29bf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/act5_el_explorador.snbt"
-hash = "2a5a74730f077b6de9b4bc543a6fb92b1cd3f8d722b72c807b726c97e4810930"
+hash = "b57738891d1ed5486b1d5b4f6c1ade47479bffe9b46c75f32144721fcdad76aa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/act6_el_fundador.snbt"
-hash = "04f275fadee77dbd97dab7290e7903ebde9be5b2c165df86baff56b96d8455ce"
+hash = "959cb0288b6cac5ffd3adda0f49bd66ddce3cb45abbc76cccff5d5ac663c1712"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bibntroduction.snbt"
@@ -218,7 +218,7 @@ hash = "f0ace235084be336f70bd504b4a326298b1185b9db5bffbc994e4e40b13335c4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/postgame_legado.snbt"
-hash = "038734318abec604abeee9dd06ee365e71a750acf6d2d3423791119d283aded3"
+hash = "7915d8c476a2a46ef7bc59eb876930637c57a081e75e3ce98d35587aedda8b39"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ribbits_collection.snbt"

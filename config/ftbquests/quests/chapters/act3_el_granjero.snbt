@@ -11,7 +11,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["A20000GATE000001"]
+			dependencies: ["A200006A7E000001"]
 			description: [
 				"&2Llegaste al Acto III, toca dejar de comer cualquier cosa.&r"
 				""
@@ -454,7 +454,7 @@
 					HideFlags: 1
 				}
 			}
-			id: "A30000GATE000001"
+			id: "A300006A7E000001"
 			rewards: [{
 				id: "A30000F0000000A1"
 				item: {

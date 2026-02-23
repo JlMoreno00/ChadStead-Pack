@@ -10,7 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["A40000GATE000001"]
+			dependencies: ["A400006A7E000001"]
 			description: [
 				"Tu base ya funciona sola, pero ahora toca salir del mapa seguro."
 				""
@@ -505,7 +505,7 @@
 					HideFlags: 1
 				}
 			}
-			id: "A50000GATE000001"
+			id: "A500006A7E000001"
 			rewards: [{
 				id: "5A0000000000002E"
 				item: {
