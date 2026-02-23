@@ -693,11 +693,6 @@ hash = "479b3a0a2e60138458a136bf176e84131646419b20fcaade540c948183d1d351"
 metafile = true
 
 [[files]]
-file = "mods/corgilib.pw.toml"
-hash = "3681a4dd6134dc64b5af240379c1f98023b2217fd6af8c08763d3228bad01fbe"
-metafile = true
-
-[[files]]
 file = "mods/coroutil.pw.toml"
 hash = "17d588c49f6c3bf2ad659c6d3fe073704a6e15c34bf69f70109a6b762e6ea0c3"
 metafile = true
@@ -805,11 +800,6 @@ metafile = true
 [[files]]
 file = "mods/dark-utilities.pw.toml"
 hash = "af6138553c19f3328aec95bb7a51c90dd12f24689be22a43ef3053531561bec2"
-metafile = true
-
-[[files]]
-file = "mods/data-anchor.pw.toml"
-hash = "d3f1d70958b437490de965ab3e9f2b70a04900c576ccfcc29905aea078c67251"
 metafile = true
 
 [[files]]
@@ -940,11 +930,6 @@ metafile = true
 [[files]]
 file = "mods/enhanced-block-entities.pw.toml"
 hash = "de33a63b6e7182dc3229d77c95c118cdc2ad64321ae4fc16d16a23a3b34e746b"
-metafile = true
-
-[[files]]
-file = "mods/enhanced-celestials.pw.toml"
-hash = "ce52bbcb7eedb076cac9ebed5ad8b2f6dd6fe735309f2d70702f880ee68b184c"
 metafile = true
 
 [[files]]
