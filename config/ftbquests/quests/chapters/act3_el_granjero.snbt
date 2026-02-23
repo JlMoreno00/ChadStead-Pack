@@ -374,7 +374,8 @@
 				"A30000000000000E"
 			]
 			description: [
-				"&2Empieza la cacería mayor: &bArticuno&r.&r"
+				"&2Empieza la cacería: &bArticuno&r.&r"
+				"Los legendarios ya no pasean por el mapa. Necesitas forjar el &bOrbe Helado (Ice Orb)&r y encontrar su santuario glaciar."
 				""
 				"&7Pista exacta&r: bioma &bGlacial&r, con &blluvia activa&r."
 				"&7Ve con comida, cama y Poké Balls de sobra.&r"
@@ -394,6 +395,7 @@
 			dependencies: ["A300000000000014"]
 			description: [
 				"&2Segundo objetivo: &eZapdos&r.&r"
+				"Forja el &eOrbe del Rayo (Lightning Orb)&r y busca el santuario en las altas cumbres."
 				""
 				"&7Pista exacta&r: bioma &ePeak&r con &etormenta eléctrica&r."
 				"&7Sube bien equipado porque caerán rayos y mobs hostiles.&r"
@@ -413,6 +415,7 @@
 			dependencies: ["A300000000000015"]
 			description: [
 				"&2Última presa del trío: &6Moltres&r.&r"
+				"Consigue el &cOrbe de Fuego (Fire Orb)&r y llévalo a su altar volcánico."
 				""
 				"&7Pista exacta&r: bioma &6Badlands&r con cielo &6despejado&r."
 				"&7Busca zonas abiertas y prepárate para combate largo.&r"

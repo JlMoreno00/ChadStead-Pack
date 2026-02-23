@@ -516,7 +516,8 @@
 				"A40000000000001D"
 			]
 			description: [
-				"Hora de caceria pesada: busca a Regice."
+				"Hora de cacería pesada: busca los Templos de los Regis."
+				"Explora el mundo para encontrar las ruinas antiguas, resuelve el puzzle de las puertas y enfréntate a Regice."
 				""
 				"Pista exacta: bioma &bGlacial&r, de dia, y con &bmustSeeSky: true&r."
 				"Si no tienes cielo abierto, no aparece."
@@ -536,6 +537,7 @@
 			dependencies: ["A40000000000001E"]
 			description: [
 				"Siguiente objetivo: Regirock."
+				"Encuentra las ruinas desérticas, decodifica el mensaje y reclama a Regirock."
 				""
 				"Pista exacta: bioma &6Desert&r, de dia, y tambien &bmustSeeSky: true&r."
 				"Nada de cuevas: tiene que ver el cielo."
@@ -554,7 +556,8 @@
 		{
 			dependencies: ["A40000000000001F"]
 			description: [
-				"Remate de trilogia: Registeel."
+				"Remate de la trilogía: Registeel."
+				"Busca su santuario metálico y completa el rompecabezas para invocarlo."
 				""
 				"Pista exacta: bioma &7Peak&r, de dia, y &bmustSeeSky: true&r."
 				"Si esta techado, no cuenta."

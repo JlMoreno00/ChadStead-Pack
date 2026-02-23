@@ -412,7 +412,8 @@
 				"A5000000000000A0"
 			]
 			description: [
-				"&6Groudon&r suele aparecer en &cNether o Badlands&r."
+				"&6Groudon&r descansa en lo profundo."
+				"Hazte con el &cRed Orb&r y encuéntralo en los altares de lava."
 				"Tip: lleva Fire Resistance, bloques para puentear y una buena reserva de Ultra Balls."
 			]
 			icon: "minecraft:magma_block"
@@ -434,7 +435,8 @@
 		{
 			dependencies: ["A5000000000000A0"]
 			description: [
-				"&bKyogre&r se busca en &3Deep Ocean&r, con &blluvia&r y exploracion submarina."
+				"&bKyogre&r duerme en el abismo."
+				"Necesitarás el &9Blue Orb&r y explorar las profundidades del océano para invocarlo."
 				"Llevate respiracion bajo el agua o pociones, porque lo normal es pelear en condiciones feas."
 			]
 			icon: "minecraft:heart_of_the_sea"

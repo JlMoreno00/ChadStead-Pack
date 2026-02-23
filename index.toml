@@ -30,7 +30,7 @@ hash = "ab6965845cf04e357019b9424aecfeda0dfe015efa64ea996c643b1d465f2f3f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/act1_el_naufrago.snbt"
-hash = "d9f7158da79b252710090a0b9741ce4f5433b9fb70397d5ae78b21ecb6781447"
+hash = "99508a0f5aeb5e2c4c469cb8e3b2477927f2fcb5f44ff19dbbfb65591b8f7054"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/act2_el_colono.snbt"
@@ -38,19 +38,19 @@ hash = "e903226ba3cd5ad5f5aa1aa7d4c6ecd420d0cb70bf72afbf0dee323079285dac"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/act3_el_granjero.snbt"
-hash = "95bda0a44ec67afd9161e7b99aa1093a61f34904e40dbe614d0bcd7627bd217e"
+hash = "f562cd0a7d39158b75651051d842e5e853f8dcc0414fd31733d688dcce30593e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/act4_el_ingeniero.snbt"
-hash = "6bd66d8b47a4d520ea46eb81661148d7dc84411ef9a058ae206c075d3daa29bf"
+hash = "e4e15da1b4ed041c35895aafa3a7501a787abbf7f2b38bf7cf6d84f0fe9efcfd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/act5_el_explorador.snbt"
-hash = "b57738891d1ed5486b1d5b4f6c1ade47479bffe9b46c75f32144721fcdad76aa"
+hash = "72eace34f20e60541595f67edbf7bce80d1941f9910c71e5d1eae1d815d8e826"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/act6_el_fundador.snbt"
-hash = "959cb0288b6cac5ffd3adda0f49bd66ddce3cb45abbc76cccff5d5ac663c1712"
+hash = "9b5b12438c8771d2c410a385402b6a1ba8bc85abd3f63b529d875bffb031edc4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bibntroduction.snbt"
@@ -218,7 +218,7 @@ hash = "f0ace235084be336f70bd504b4a326298b1185b9db5bffbc994e4e40b13335c4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/postgame_legado.snbt"
-hash = "7915d8c476a2a46ef7bc59eb876930637c57a081e75e3ce98d35587aedda8b39"
+hash = "2df29874706c49199c4ba996ecf3be417c22d2f0f5f2610e90494d1605a808b8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ribbits_collection.snbt"
@@ -584,6 +584,16 @@ hash = "5a47c9252b4f7d34b248349af836fbbd5862918158937afda33c08e071042108"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-integrations.pw.toml"
+hash = "049147716c3d1e95909a248444e63e33a70189761aa13b0e5e3afe1f02ea72cf"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-myths-and-legends-sidemod.pw.toml"
+hash = "b25f35999c36c4ac9d55853d974ec4a5f5b93bfbff34e729cfc0ae444e4ec7be"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-quests.pw.toml"
 hash = "597e71dbbcf6721a0abc3d0e16ee5f9b7989379596a98141c5c88096e94ce4f3"
 metafile = true
@@ -610,7 +620,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon.pw.toml"
-hash = "c1242b80aea0726aae08e0cfdb220266960d62e41ab4db60403bdbcd854d6a7d"
+hash = "cdfacb3f29c3efb63f047334637855ccabf27f98270003d507a57d8881ab463a"
 metafile = true
 
 [[files]]
@@ -680,6 +690,11 @@ metafile = true
 [[files]]
 file = "mods/copycats.pw.toml"
 hash = "479b3a0a2e60138458a136bf176e84131646419b20fcaade540c948183d1d351"
+metafile = true
+
+[[files]]
+file = "mods/corgilib.pw.toml"
+hash = "3681a4dd6134dc64b5af240379c1f98023b2217fd6af8c08763d3228bad01fbe"
 metafile = true
 
 [[files]]
@@ -790,6 +805,11 @@ metafile = true
 [[files]]
 file = "mods/dark-utilities.pw.toml"
 hash = "af6138553c19f3328aec95bb7a51c90dd12f24689be22a43ef3053531561bec2"
+metafile = true
+
+[[files]]
+file = "mods/data-anchor.pw.toml"
+hash = "d3f1d70958b437490de965ab3e9f2b70a04900c576ccfcc29905aea078c67251"
 metafile = true
 
 [[files]]
@@ -920,6 +940,11 @@ metafile = true
 [[files]]
 file = "mods/enhanced-block-entities.pw.toml"
 hash = "de33a63b6e7182dc3229d77c95c118cdc2ad64321ae4fc16d16a23a3b34e746b"
+metafile = true
+
+[[files]]
+file = "mods/enhanced-celestials.pw.toml"
+hash = "ce52bbcb7eedb076cac9ebed5ad8b2f6dd6fe735309f2d70702f880ee68b184c"
 metafile = true
 
 [[files]]
@@ -2261,7 +2286,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/BCG x AllTheMons 1.2.0.zip"
-hash = "5c49696555b9b1282321f13b4bf1851e0316f82b31108db383a8ac64ae5df73d"
+hash = "10d28868eaf43b3dac88d57305a961b923bcefa30ce8b596b8be7a830784af87"
 
 [[files]]
 file = "resourcepacks/BCG x Whimscape.pw.toml"

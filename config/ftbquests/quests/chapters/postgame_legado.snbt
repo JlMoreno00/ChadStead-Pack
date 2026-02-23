@@ -130,7 +130,8 @@
 		{
 			dependencies: ["A700000000000005"]
 			description: [
-				"Mewtwo no cae por casualidad. Ve preparado para pelea larga."
+				"El Pokémon genético."
+				"Tendrás que explorar instalaciones científicas abandonadas, recuperar tecnología de clonación y prepararte para la batalla de tu vida."
 				"Pista: Overworld, sobre bloque de césped, por la tarde."
 				""
 				"&aObjetivo&r: captura a Mewtwo."
@@ -149,7 +150,8 @@
 		{
 			dependencies: ["A700000000000004"]
 			description: [
-				"Mew aparece cuando de verdad ya no te falta nada por aprender."
+				"El ancestro de todos."
+				"Descifra los misterios finales de Myths and Legends para encontrar a Mew en un templo remoto."
 				"Pista: End o Floral, con exploración paciente."
 				""
 				"&aObjetivo&r: captura a Mew."
