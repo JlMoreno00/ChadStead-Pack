@@ -1,4 +1,5 @@
 {
+	autofocus_id: "A300000000000001"
 	default_hide_dependency_lines: false
 	default_quest_shape: "hexagon"
 	disable_toast: true
@@ -12,21 +13,19 @@
 		{
 			dependencies: ["A20000GATE000001"]
 			description: [
-				"Tu despensa empieza a llenarse, pero seamos sinceros: estás comiendo como un cavernícola."
-				"Ya no basta con sobrevivir a base de pan seco y bayas sueltas."
-				"Si quieres vivir bien, toca aprender cocina, granja y un poco de buen gusto."
+				"&2Llegaste al Acto III, toca dejar de comer cualquier cosa.&r"
 				""
-				"&aEn este acto&r vas a dominar los capítulos de comida y bebida."
-				"&aCuando termines&r, tu mesa no dará pena: dará hambre."
+				"&aAquí vas a montar cocina seria, granja útil y rutas montado en tu Pokémon.&r"
+				"&aCierra este acto y te ganas la herramienta del chef más pro del servidor.&r"
 			]
-			icon: "farmersdelight:iron_knife"
+			icon: "farmersdelight:straw"
 			id: "A300000000000001"
 			optional: true
 			size: 2.0d
 			subtitle: "&7Acto III del Diario&r"
 			tasks: [{
-				id: "A30000AA00000001"
-				title: "Comenzar Acto III"
+				id: "A30000F000000001"
+				title: "&aComenzar Acto III&r"
 				type: "checkmark"
 			}]
 			title: "&6Acto III: El Granjero&r"
@@ -36,182 +35,444 @@
 		{
 			dependencies: ["A300000000000001"]
 			description: [
-				"La sartén manda y tú obedeces."
-				"Entre guisos, cuchillos y recetas, ya hueles a cocina seria."
+				"&2Primer mandamiento del chef: cuchillo en mano.&r"
 				""
-				"&aObjetivo&r: completa la intro de Farmer's Delight."
+				"&aCraftea tu &6Iron Knife&r de Farmer's Delight y empezamos como se debe.&r"
 			]
-			icon: "farmersdelight:skillet"
+			icon: "farmersdelight:iron_knife"
 			id: "A300000000000002"
 			tasks: [{
-				id: "A30000AA00000002"
-				title: "Completar intro de Farmer's Delight"
-				type: "checkmark"
+				id: "A30000F000000002"
+				item: "farmersdelight:iron_knife"
+				type: "item"
 			}]
-			title: "Maestro de la Sartén"
+			title: "&6Cuchillo de Trabajo&r"
 			x: -6.0d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["A300000000000001"]
+			dependencies: ["A300000000000002"]
 			description: [
-				"Hora de ensuciarte las botas en el prado."
-				"Leche fresca, queso curado y una granja que parece de postal."
+				"&2Sin tabla no hay cortes limpios, solo caos.&r"
 				""
-				"&aObjetivo&r: completa la intro de Meadow."
+				"&aPon una &6Cutting Board&r y deja lista tu estación de preparación.&r"
 			]
-			icon: "meadow:cheese"
+			icon: "farmersdelight:cutting_board"
 			id: "A300000000000003"
 			tasks: [{
-				id: "A30000AA00000003"
-				title: "Completar intro de Meadow"
-				type: "checkmark"
+				id: "A30000F000000003"
+				item: "farmersdelight:cutting_board"
+				type: "item"
 			}]
-			title: "Pastos y Queso"
+			title: "&6Mise en Place&r"
 			x: -4.0d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["A300000000000001"]
+			dependencies: ["A300000000000003"]
 			description: [
-				"La costa también se cocina, y se cocina con estilo."
-				"Si hay sombrilla, música y comida buena, tú ya estás dentro."
+				"&2La sartén es tu mejor amiga para todo lo rápido.&r"
 				""
-				"&aObjetivo&r: completa la intro de Beach Party."
+				"&aCraftea una &6Skillet&r y calienta la cocina.&r"
 			]
-			icon: "beachparty:coconut_cocktail"
+			icon: "farmersdelight:skillet"
 			id: "A300000000000004"
 			tasks: [{
-				id: "A30000AA00000004"
-				title: "Completar intro de Beach Party"
-				type: "checkmark"
+				id: "A30000F000000004"
+				item: "farmersdelight:skillet"
+				type: "item"
 			}]
-			title: "Fiesta en la Playa"
+			title: "&6La Sartén Manda&r"
 			x: -2.0d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["A300000000000001"]
+			dependencies: ["A300000000000004"]
 			description: [
-				"No todo en la vida es agua y sopa."
-				"Un buen barril, algo de paciencia y brindas como la gente decente."
+				"&2Ahora sí, cocina de verdad con olla grande.&r"
 				""
-				"&aObjetivo&r: completa la intro de Brewery."
+				"&aCraftea una &6Cooking Pot&r para desbloquear recetas potentes.&r"
 			]
-			icon: "brewery:beer_mug"
+			icon: "farmersdelight:cooking_pot"
 			id: "A300000000000005"
 			tasks: [{
-				id: "A30000AA00000005"
-				title: "Completar intro de Brewery"
-				type: "checkmark"
+				id: "A30000F000000005"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
 			}]
-			title: "El Cervecero"
+			title: "&6Olla al Fuego&r"
 			x: 0.0d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["A300000000000001"]
+			dependencies: ["A300000000000005"]
 			description: [
-				"Masa, horno y paciencia: la trinidad del panadero."
-				"Cuando el barrio huela a pan caliente, sabrás que lo hiciste bien."
+				"&2Si no montas fogón, cocinarás a paso tortuga.&r"
 				""
-				"&aObjetivo&r: completa la intro de Bakery."
+				"&aCraftea un &6Stove&r y acelera toda la producción de comida.&r"
 			]
-			icon: "bakery:bread"
+			icon: "farmersdelight:stove"
 			id: "A300000000000006"
 			tasks: [{
-				id: "A30000AA00000006"
-				title: "Completar intro de Bakery"
-				type: "checkmark"
+				id: "A30000F000000006"
+				item: "farmersdelight:stove"
+				type: "item"
 			}]
-			title: "El Panadero"
+			title: "&6Cocina Industrial&r"
 			x: 2.0d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["A300000000000001"]
+			dependencies: ["A300000000000005"]
 			description: [
-				"Plantas, barricas y tiempo: aquí se cocina la elegancia."
-				"Hoy haces vino; mañana discutes cosechas como experto."
+				"&2La cocina empieza en la tierra.&r"
 				""
-				"&aObjetivo&r: completa la intro de Vinery."
+				"&aConsigue trigo para asegurar harina y pan constante.&r"
 			]
-			icon: "vinery:red_wine"
+			icon: "minecraft:wheat"
 			id: "A300000000000007"
 			tasks: [{
-				id: "A30000AA00000007"
-				title: "Completar intro de Vinery"
-				type: "checkmark"
+				id: "A30000F000000007"
+				item: "minecraft:wheat"
+				type: "item"
 			}]
-			title: "El Viñedo"
-			x: 4.0d
-			y: -3.0d
+			title: "&6Sembrar y Cosechar&r"
+			x: -4.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["A300000000000001"]
+			dependencies: ["A300000000000007"]
 			description: [
-				"No es solo cenar: es montar escena."
-				"Velas encendidas, mesa bonita y platos que parecen de restaurante caro."
+				"&2Tomate fresco para recetas decentes.&r"
 				""
-				"&aObjetivo&r: completa la intro de Candlelight."
+				"&aConsigue tomates de Farmer's Delight y guarda semillas para más.&r"
 			]
-			icon: "candlelight:candle_holder"
+			icon: "farmersdelight:tomato"
 			id: "A300000000000008"
 			tasks: [{
-				id: "A30000AA00000008"
-				title: "Completar intro de Candlelight"
-				type: "checkmark"
+				id: "A30000F000000008"
+				item: "farmersdelight:tomato"
+				type: "item"
 			}]
-			title: "Cena a la Luz de las Velas"
-			x: 6.0d
-			y: -3.0d
+			title: "&6Huerto de Tomate&r"
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["A300000000000007"]
+			description: [
+				"&2Cebolla para dar sabor de verdad.&r"
+				""
+				"&aConsigue cebollas y deja listo otro cultivo base.&r"
+			]
+			icon: "farmersdelight:onion"
+			id: "A300000000000009"
+			tasks: [{
+				id: "A30000F000000009"
+				item: "farmersdelight:onion"
+				type: "item"
+			}]
+			title: "&6Huerto de Cebolla&r"
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["A300000000000007"]
+			description: [
+				"&2Arroz para platos completos, no solo snacks.&r"
+				""
+				"&aConsigue arroz y empieza a cocinar en serio con la olla.&r"
+			]
+			icon: "farmersdelight:rice"
+			id: "A30000000000000A"
+			tasks: [{
+				id: "A30000F00000000A"
+				item: "farmersdelight:rice"
+				type: "item"
+			}]
+			title: "&6Campos de Arroz&r"
+			x: -2.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
-				"A300000000000002"
-				"A300000000000003"
-				"A300000000000004"
-				"A300000000000005"
-				"A300000000000006"
-				"A300000000000007"
 				"A300000000000008"
+				"A300000000000009"
 			]
 			description: [
-				"Ya no improvisas con lo primero que pillas."
-				"Ahora montas cenas, maridas bebidas y cocinas como quien dirige una orquesta."
+				"&2Hora de plato fresco y fácil.&r"
 				""
-				"&d¡Has completado el Acto III!&r"
+				"&aPrepara una &6Mixed Salad&r con lo que cultivaste.&r"
+			]
+			icon: "farmersdelight:mixed_salad"
+			id: "A30000000000000B"
+			tasks: [{
+				id: "A30000F00000000B"
+				item: "farmersdelight:mixed_salad"
+				type: "item"
+			}]
+			title: "&6Ensalada de la Casa&r"
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"A30000000000000A"
+				"A300000000000005"
+			]
+			description: [
+				"&2Con arroz ya puedes sacar comida top para viajes largos.&r"
 				""
-				"&aRecompensa&r: Cucharón de Oro"
+				"&aCocina un &6Fried Rice&r en la olla.&r"
+			]
+			icon: "farmersdelight:fried_rice"
+			id: "A30000000000000C"
+			tasks: [{
+				id: "A30000F00000000C"
+				item: "farmersdelight:fried_rice"
+				type: "item"
+			}]
+			title: "&6Arroz Frito&r"
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["A300000000000005"]
+			description: [
+				"&2No hay hamburguesa sin buena base de carne.&r"
+				""
+				"&aPrepara un &6Beef Patty&r y guarda extras para lo que viene.&r"
+			]
+			icon: "farmersdelight:beef_patty"
+			id: "A30000000000000D"
+			tasks: [{
+				id: "A30000F00000000D"
+				item: "farmersdelight:beef_patty"
+				type: "item"
+			}]
+			title: "&6Preparación de Carne&r"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"A30000000000000B"
+				"A30000000000000D"
+			]
+			description: [
+				"&2Vale, ahora sí: plato estrella de taberna.&r"
+				""
+				"&aCraftea una &6Hamburger&r para demostrar que dominas la cocina.&r"
+			]
+			icon: "farmersdelight:hamburger"
+			id: "A30000000000000E"
+			tasks: [{
+				id: "A30000F00000000E"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
+			title: "&6Hamburguesa Legendaria&r"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"A30000000000000C"
+				"A30000000000000E"
+			]
+			description: [
+				"&2Ya sabes producir comida variada y útil.&r"
+				""
+				"&aPrepara una &6Vegetable Soup&r para cerrar la rama culinaria.&r"
+			]
+			icon: "farmersdelight:vegetable_soup"
+			id: "A30000000000000F"
+			tasks: [{
+				id: "A30000F00000000F"
+				item: "farmersdelight:vegetable_soup"
+				type: "item"
+			}]
+			title: "&6Menú Completo&r"
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["A300000000000001"]
+			description: [
+				"&2Antes de volar por el mapa, mínimo prepara la montura.&r"
+				""
+				"&aConsigue una &6Saddle&r para arrancar la progresión de Cobblemon Rider.&r"
+			]
+			icon: "minecraft:saddle"
+			id: "A300000000000010"
+			tasks: [{
+				id: "A30000F000000010"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			title: "&6Montura Preparada&r"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["A300000000000010"]
+			description: [
+				"&2Ahora sí: toca desbloquear el sistema de paseo Pokémon.&r"
+				""
+				"&aCompleta la intro del capítulo de &bCobblemon Rider&r y vuelve.&r"
+			]
+			icon: "minecraft:leather_horse_armor"
+			id: "A300000000000011"
+			tasks: [{
+				id: "A30000F000000011"
+				title: "&aCompletar intro de Cobblemon Rider&r"
+				type: "checkmark"
+			}]
+			title: "&6Domar la Ruta&r"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["A300000000000011"]
+			description: [
+				"&2Súbete a un Pokémon grande y cruza terreno de verdad.&r"
+				""
+				"&aHaz tu primer trayecto largo montado para practicar control y estamina.&r"
+			]
+			icon: "cobblemon:poke_ball"
+			id: "A300000000000012"
+			tasks: [{
+				id: "A30000F000000012"
+				title: "&aHacer tu primer paseo largo&r"
+				type: "checkmark"
+			}]
+			title: "&6Primer Viaje Montado&r"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["A300000000000012"]
+			description: [
+				"&2Ya no paseas: exploras de verdad.&r"
+				""
+				"&aRecorre un bioma lejano montado y marca un waypoint al llegar.&r"
+			]
+			icon: "minecraft:compass"
+			id: "A300000000000013"
+			tasks: [{
+				id: "A30000F000000013"
+				title: "&aExplorar montado y marcar waypoint&r"
+				type: "checkmark"
+			}]
+			title: "&6Ruta de Exploración&r"
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"A300000000000013"
+				"A30000000000000E"
+			]
+			description: [
+				"&2Empieza la cacería mayor: &bArticuno&r.&r"
+				""
+				"&7Pista exacta&r: bioma &bGlacial&r, con &blluvia activa&r."
+				"&7Ve con comida, cama y Poké Balls de sobra.&r"
+			]
+			icon: "minecraft:packed_ice"
+			id: "A300000000000014"
+			tasks: [{
+				id: "A30000F000000014"
+				title: "&bEncontrar o capturar a Articuno&r"
+				type: "checkmark"
+			}]
+			title: "&bCacería: Articuno&r"
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["A300000000000014"]
+			description: [
+				"&2Segundo objetivo: &eZapdos&r.&r"
+				""
+				"&7Pista exacta&r: bioma &ePeak&r con &etormenta eléctrica&r."
+				"&7Sube bien equipado porque caerán rayos y mobs hostiles.&r"
+			]
+			icon: "minecraft:lightning_rod"
+			id: "A300000000000015"
+			tasks: [{
+				id: "A30000F000000015"
+				title: "&eEncontrar o capturar a Zapdos&r"
+				type: "checkmark"
+			}]
+			title: "&eCacería: Zapdos&r"
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["A300000000000015"]
+			description: [
+				"&2Última presa del trío: &6Moltres&r.&r"
+				""
+				"&7Pista exacta&r: bioma &6Badlands&r con cielo &6despejado&r."
+				"&7Busca zonas abiertas y prepárate para combate largo.&r"
+			]
+			icon: "minecraft:blaze_powder"
+			id: "A300000000000016"
+			tasks: [{
+				id: "A30000F000000016"
+				title: "&6Encontrar o capturar a Moltres&r"
+				type: "checkmark"
+			}]
+			title: "&6Cacería: Moltres&r"
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"A30000000000000F"
+				"A300000000000016"
+			]
+			description: [
+				"&2Ya cocinas como pro y cabalgas como explorador veterano.&r"
+				""
+				"&d¡Acto III completado!&r"
+				"&aRecompensa&r: &6Cuchillo de Chef Maestro&r"
 			]
 			icon: {
 				Count: 1
 				id: "farmersdelight:golden_knife"
 				tag: {
 					display: {
-						Name: '{"text":"Cucharón de Oro","color":"gold","italic":false,"bold":true}'
-						Lore: ['{"text":"No eres chef — eres artista","color":"gray","italic":true}']
+						Name: '{"text":"Cuchillo de Chef Maestro","color":"gold","italic":false,"bold":true}'
+						Lore: ['{"text":"Cocina fina, manos firmes","color":"gray","italic":true}']
 					}
-					Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
+					Enchantments: [
+						{id: "minecraft:looting", lvl: 3s}
+						{id: "minecraft:unbreaking", lvl: 5s}
+					]
 					HideFlags: 1
 				}
 			}
 			id: "A30000GATE000001"
 			rewards: [{
-				id: "A30000AA0000000A"
+				id: "A30000F0000000A1"
 				item: {
 					Count: 1
 					id: "farmersdelight:golden_knife"
 					tag: {
 						display: {
-							Name: '{"text":"Cucharón de Oro","color":"gold","italic":false,"bold":true}'
+							Name: '{"text":"Cuchillo de Chef Maestro","color":"gold","italic":false,"bold":true}'
 							Lore: [
-								'{"text":"No eres chef — eres artista","color":"gray","italic":true}'
+								'{"text":"Cocina fina, manos firmes","color":"gray","italic":true}'
 								'{"text":"","italic":false}'
 								'{"text":"⭐ Recompensa del Acto III","color":"gold","italic":false}'
 							]
 						}
-						Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
+						Enchantments: [
+							{id: "minecraft:looting", lvl: 3s}
+							{id: "minecraft:unbreaking", lvl: 5s}
+						]
 						HideFlags: 1
 					}
 				}
@@ -219,13 +480,13 @@
 			}]
 			size: 2.0d
 			tasks: [{
-				id: "A30000AA00000009"
-				title: "Completar Acto III"
+				id: "A30000F0000000B1"
+				title: "&6Completar Acto III&r"
 				type: "checkmark"
 			}]
-			title: "&6⭐ Cucharón de Oro&r"
-			x: 0.0d
-			y: -6.0d
+			title: "&6⭐ Puerta al Acto IV&r"
+			x: 2.0d
+			y: -10.0d
 		}
 	]
 	title: "&6Acto III: El Granjero&r"

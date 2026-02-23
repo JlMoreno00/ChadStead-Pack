@@ -1,5 +1,5 @@
 {
-	autofocus_id: "A100001100000001"
+	autofocus_id: "A100000000000001"
 	default_hide_dependency_lines: false
 	default_quest_shape: "hexagon"
 	disable_toast: true
@@ -12,137 +12,385 @@
 	quests: [
 		{
 			description: [
-				"Abres los ojos. No reconoces nada. Hay hierba, viento y una sensación rara de que algo te está mirando.&r"
+				"Abres los ojos y no sabes ni dónde caíste. Tranquilo, vamos paso a paso."
 				""
-				"Respira. No hace falta correr. Primero ubícate y entiende dónde estás parado.&r"
+				"Primero junta recursos básicos para dejar de ir con las manos vacías."
 				""
-				"&aObjetivo&r: abre tu diario, marca este inicio y arranca tu camino en ChadStead.&r"
+				"&aObjetivo&r: consigue troncos para arrancar tu primer día.&r"
 			]
-			icon: "minecraft:compass"
-			id: "A100001100000001"
-			optional: true
-			size: 2.0d
+			icon: "minecraft:oak_log"
+			id: "A100000000000001"
+			size: 1.5d
 			subtitle: "&7Acto I del Diario&r"
 			tasks: [{
-				id: "A1000011000000A1"
-				title: "&eComenzar Acto I&r"
-				type: "checkmark"
+				count: 16
+				id: "A10000AA00000001"
+				item: "minecraft:oak_log"
+				type: "item"
 			}]
-			title: "&6Acto I: El Náufrago&r"
+			title: "&6Madera o Nada&r"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"A100001100000001"
-				"7F9AC8931E4A610F"
-			]
+			dependencies: ["A100000000000001"]
 			description: [
-				"Ya diste el primer paso. Ahora toca entender cómo se mueve este mundo sin pegarte contra todo.&r"
+				"Ya tienes madera. Ahora toca dejar de pegar con ramas y sacar piedra."
 				""
-				"En &6Welcome to BigChadGuys Plus&r te explican lo básico para que no vayas a ciegas.&r"
-				""
-				"&aObjetivo&r: completa la intro de Welcome y confirma aquí cuando la tengas.&r"
+				"&aObjetivo&r: junta adoquín para herramientas y horno.&r"
 			]
-			icon: "ftbquests:book"
-			id: "A100001200000002"
+			icon: "minecraft:cobblestone"
+			id: "A100000000000002"
 			tasks: [{
-				id: "A1000012000000A2"
-				title: "&aConfirmar: intro de Welcome completada&r"
-				type: "checkmark"
+				count: 24
+				id: "A10000AA00000002"
+				item: "minecraft:cobblestone"
+				type: "item"
 			}]
-			title: "&ePrimeros Pasos&r"
-			x: 0.0d
+			title: "Piedra en los Bolsillos"
+			x: -2.0d
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"A100001100000001"
-			]
+			dependencies: ["A100000000000001"]
 			description: [
-				"Perderte cinco veces seguidas no es estrategia, es costumbre. Vamos a arreglar eso.&r"
+				"Sin mesa de crafteo no hay progreso, solo sufrimiento."
 				""
-				"Con &bXaero's Maps&r podrás orientarte, marcar puntos y dejar de vivir en modo 'a ver qué sale'.&r"
-				""
-				"&aObjetivo&r: abre el mapa, crea al menos un waypoint y marca esta quest.&r"
+				"&aObjetivo&r: fabrica una Crafting Table.&r"
 			]
-			icon: "minecraft:filled_map"
-			id: "A100001300000003"
+			icon: "minecraft:crafting_table"
+			id: "A100000000000003"
 			tasks: [{
-				id: "A1000013000000A3"
-				title: "&aConfirmar: ya usaste Xaero's Maps&r"
-				type: "checkmark"
+				id: "A10000AA00000003"
+				item: "minecraft:crafting_table"
+				type: "item"
 			}]
-			title: "&eCartografía&r"
-			x: 0.0d
-			y: -4.0d
+			title: "Mesa de Supervivencia"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["A100000000000003"]
+			description: [
+				"Ahora sí, arma tus primeras herramientas para no tardar una vida en cada bloque."
+				""
+				"&aObjetivo&r: fabrica un pico de madera.&r"
+			]
+			icon: "minecraft:wooden_pickaxe"
+			id: "A100000000000004"
+			tasks: [{
+				id: "A10000AA00000004"
+				item: "minecraft:wooden_pickaxe"
+				type: "item"
+			}]
+			title: "Primer Pico"
+			x: 4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
-				"A100001100000001"
-				"04C7B5740D702C02"
+				"A100000000000002"
+				"A100000000000003"
 			]
 			description: [
-				"No estás solo. En esta tierra, tu primer aliado puede cambiarte la partida entera.&r"
+				"Con horno ya puedes cocinar comida y fundir recursos. Empieza la vida decente."
 				""
-				"Captura tu primer Pokémon de tipo Normal y empieza a formar equipo de verdad.&r"
+				"&aObjetivo&r: coloca tu primer horno.&r"
+			]
+			icon: "minecraft:furnace"
+			id: "A100000000000005"
+			tasks: [{
+				id: "A10000AA00000005"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "Calor de Hogar"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"A100000000000002"
+				"A100000000000004"
+			]
+			description: [
+				"El salto real de poder temprano: deja la madera atrás."
 				""
-				"&aObjetivo&r: completa la quest de captura inicial de Cobblemon y confírmalo aquí.&r"
+				"&aObjetivo&r: fabrica un pico de piedra.&r"
+			]
+			icon: "minecraft:stone_pickaxe"
+			id: "A100000000000006"
+			tasks: [{
+				id: "A10000AA00000006"
+				item: "minecraft:stone_pickaxe"
+				type: "item"
+			}]
+			title: "Herramienta de Verdad"
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["A100000000000005"]
+			description: [
+				"Si no iluminas, la noche te come. No negocies esto."
+				""
+				"&aObjetivo&r: consigue antorchas para explorar sin miedo.&r"
+			]
+			icon: "minecraft:torch"
+			id: "A100000000000007"
+			tasks: [{
+				count: 16
+				id: "A10000AA00000007"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			title: "Luz en la Niebla"
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["A100000000000003"]
+			description: [
+				"Dormir fija spawn y te ahorra paseos de cadáver."
+				""
+				"&aObjetivo&r: consigue una cama para pasar la noche seguro.&r"
+			]
+			icon: "minecraft:red_bed"
+			id: "A100000000000008"
+			tasks: [{
+				id: "A10000AA00000008"
+				item: "minecraft:red_bed"
+				type: "item"
+			}]
+			title: "Noche Bajo Techo"
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["A100000000000005"]
+			description: [
+				"Con hambre no peleas ni corres. Cocina y mantén reservas."
+				""
+				"&aObjetivo&r: consigue comida cocinada para el viaje.&r"
+			]
+			icon: "minecraft:cooked_beef"
+			id: "A100000000000009"
+			tasks: [{
+				count: 8
+				id: "A10000AA00000009"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			title: "Raciones del Día Uno"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["A100000000000004"]
+			description: [
+				"No vas a sobrevivir solo. Toca elegir tu primer compañero en Cobblemon."
+				""
+				"&aObjetivo&r: elige tu Pokémon inicial y déjalo listo para pelear.&r"
 			]
 			icon: "cobblemon:poke_ball"
-			id: "A100001400000004"
+			id: "A10000000000000A"
 			tasks: [{
-				id: "A1000014000000A4"
-				title: "&aConfirmar: primer compañero capturado&r"
+				id: "A10000AA0000000A"
+				title: "Confirmar inicial elegido"
 				type: "checkmark"
 			}]
-			title: "&ePrimer Compañero&r"
-			x: 0.0d
+			title: "Primer Compañero"
+			x: 5.0d
 			y: -6.0d
 		}
 		{
 			dependencies: [
-				"A100001200000002"
-				"A100001300000003"
-				"A100001400000004"
+				"A10000000000000A"
+				"A100000000000006"
 			]
 			description: [
-				"Ya no eres alguien perdido en mitad de la nada. Ya sabes moverte, orientarte y pelear acompañado.&r"
+				"Si quieres capturar algo útil, necesitas munición."
 				""
-				"Este es tu cierre del Acto I. A partir de aquí, ChadStead deja de ser supervivencia y empieza a ser proyecto.&r"
+				"&aObjetivo&r: consigue Poké Balls para empezar a ampliar el equipo.&r"
+			]
+			icon: "cobblemon:poke_ball"
+			id: "A10000000000000B"
+			tasks: [{
+				count: 8
+				id: "A10000AA0000000B"
+				item: "cobblemon:poke_ball"
+				type: "item"
+			}]
+			title: "Cazador Novato"
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["A100000000000001"]
+			description: [
+				"Perderte es opcional. Abre el minimapa y aprende a leer el terreno."
 				""
-				"&d¡Has completado el Acto I!&r"
+				"&aObjetivo&r: abrir Xaero's Minimap y revisar su info básica.&r"
+			]
+			icon: "minecraft:filled_map"
+			id: "A10000000000000C"
+			tasks: [{
+				id: "A10000AA0000000C"
+				title: "Confirmar minimapa revisado"
+				type: "checkmark"
+			}]
+			title: "No Más Dar Vueltas"
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"A10000000000000C"
+				"A100000000000006"
+			]
+			description: [
+				"Con brújula y waypoint, volver a base deja de ser una lotería."
 				""
-				"&aRecompensa&r: &6Brújula del Despertar&r"
+				"&aObjetivo&r: fabrica una brújula para orientarte mejor.&r"
+			]
+			icon: "minecraft:compass"
+			id: "A10000000000000D"
+			tasks: [{
+				id: "A10000AA0000000D"
+				item: "minecraft:compass"
+				type: "item"
+			}]
+			title: "Aguja al Norte"
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["A10000000000000C"]
+			description: [
+				"Ahora abre el mapa grande de Xaero y marca al menos un waypoint útil."
+				""
+				"&aObjetivo&r: crear tu primer waypoint (base, mina o aldea).&r"
+			]
+			icon: "minecraft:cartography_table"
+			id: "A10000000000000E"
+			tasks: [{
+				id: "A10000AA0000000E"
+				title: "Confirmar waypoint creado"
+				type: "checkmark"
+			}]
+			title: "Tu Primer Waypoint"
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"A100000000000008"
+				"A100000000000009"
+				"A10000000000000D"
+			]
+			description: [
+				"Antes de salir a explorar en serio, prepara kit de viaje."
+				""
+				"&aObjetivo&r: consigue un barco para moverte rápido por costa y ríos.&r"
+			]
+			icon: "minecraft:oak_boat"
+			id: "A10000000000000F"
+			tasks: [{
+				id: "A10000AA0000000F"
+				item: "minecraft:oak_boat"
+				type: "item"
+			}]
+			title: "Kit de Viaje"
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"A10000000000000B"
+				"A10000000000000F"
+			]
+			description: [
+				"Sube la apuesta antes de la cacería grande."
+				""
+				"&aObjetivo&r: prepara Great Balls para encuentros difíciles.&r"
+			]
+			icon: "cobblemon:great_ball"
+			id: "A100000000000010"
+			tasks: [{
+				count: 4
+				id: "A10000AA00000010"
+				item: "cobblemon:great_ball"
+				type: "item"
+			}]
+			title: "Preparación Seria"
+			x: 1.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"A10000000000000E"
+				"A100000000000010"
+			]
+			description: [
+				"Ha llegado la primera gran cacería del Diario."
+				""
+				"&6Kubfu&r aparece en biomas &aFloral&r, entre &eNivel 20-40&r."
+				"Explora de día, mira bien claros abiertos y lleva bolas de sobra."
+				""
+				"&aObjetivo&r: encuentra y captura a Kubfu.&r"
+			]
+			icon: "minecraft:nether_star"
+			id: "A100000000000011"
+			tasks: [{
+				id: "A10000AA00000011"
+				title: "Confirmar captura de Kubfu"
+				type: "checkmark"
+			}]
+			title: "Legendario: Kubfu"
+			x: -4.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"A100000000000007"
+				"A10000000000000B"
+				"A100000000000011"
+			]
+			description: [
+				"Ya no eres un náufrago perdido: tienes base, rumbo y compañero fuerte."
+				""
+				"&d¡Acto I completado!&r"
+				""
+				"&aRecompensa&r: &6Botas de Náufrago&r"
 			]
 			icon: {
 				Count: 1
-				id: "create:brass_hand"
+				id: "minecraft:leather_boots"
 				tag: {
 					display: {
-						Name: '{"text":"Brújula del Despertar","color":"gold","italic":false,"bold":true}'
-						Lore: ['{"text":"Tu primer paso en ChadStead","color":"gray","italic":true}']
+						Name: '{"text":"Botas de Náufrago","color":"gold","italic":false}'
+						Lore: ['{"text":"Primer acto superado, toca fundar de verdad","color":"gray","italic":true}']
 					}
-					Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
+					Enchantments: [{id: "minecraft:unbreaking", lvl: 3s}]
 					HideFlags: 1
 				}
 			}
 			id: "A10000GATE000001"
 			rewards: [{
-				id: "A1000015000000A5"
+				id: "A10000BB00000001"
 				item: {
 					Count: 1
-					id: "create:brass_hand"
+					id: "minecraft:leather_boots"
 					tag: {
 						display: {
-							Name: '{"text":"Brújula del Despertar","color":"gold","italic":false,"bold":true}'
+							Name: '{"text":"Botas de Náufrago","color":"gold","italic":false}'
 							Lore: [
-								'{"text":"Tu primer paso en ChadStead","color":"gray","italic":true}'
+								'{"text":"Primer acto superado, toca fundar de verdad","color":"gray","italic":true}'
 								'{"text":"","italic":false}'
 								'{"text":"⭐ Recompensa del Acto I","color":"gold","italic":false}'
 							]
 						}
-						Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
+						Enchantments: [{id: "minecraft:unbreaking", lvl: 3s}]
 						HideFlags: 1
 					}
 				}
@@ -150,13 +398,13 @@
 			}]
 			size: 2.0d
 			tasks: [{
-				id: "A1000015000000B5"
-				title: "&6Completar Acto I&r"
+				id: "A10000AA00000012"
+				title: "Cruzar al Acto II"
 				type: "checkmark"
 			}]
-			title: "&6⭐ Brújula del Despertar&r"
+			title: "&6⭐ Botas de Náufrago&r"
 			x: 0.0d
-			y: -8.0d
+			y: -12.5d
 		}
 	]
 	title: "&6Acto I: El Náufrago&r"

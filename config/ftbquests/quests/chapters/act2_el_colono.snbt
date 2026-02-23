@@ -13,10 +13,9 @@
 		{
 			dependencies: ["A10000GATE000001"]
 			description: [
-				"&2Ya sobrevives... pero esto no es vivir. Necesitas un hogar.&r"
+				"&2Sobrevivir ya lo tienes. Ahora toca asentarte de verdad.&r"
 				""
-				"&aLevanta una base que puedas llamar tuya, con cama, cofres y comida cerca.&r"
-				"&aEn este acto vas a ordenar tu vida: dinero, granja, almacenamiento y mochila.&r"
+				"Monta una base funcional: dinero, almacen y herramientas para construir sin sufrir.&r"
 			]
 			icon: "minecraft:oak_door"
 			id: "A200000000000001"
@@ -24,8 +23,8 @@
 			size: 2.0d
 			subtitle: "&7Acto II del Diario&r"
 			tasks: [{
-				id: "A2000000000000A1"
-				title: "&aComenzar Acto II&r"
+				id: "B200000000000001"
+				title: "&aArrancar Acto II&r"
 				type: "checkmark"
 			}]
 			title: "&6Acto II: El Colono&r"
@@ -33,125 +32,535 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"A200000000000001"
-				"0DD6C3E83513D0F1"
-			]
-			description: [
-				"&2Una base sin economía se estanca rápido.&r"
-				""
-				"&aObjetivo&r: completa la intro de &bEconomy&r y deja que tus recursos empiecen a trabajar por ti.&r"
-			]
-			icon: "dailyshop:daily_shop"
-			id: "A200000000000002"
-			tasks: [{
-				id: "A2000000000000A2"
-				title: "&aConfirmar progreso en Economy&r"
-				type: "checkmark"
-			}]
-			title: "&2Economía Básica&r"
-			x: -2.0d
-			y: -2.0d
-		}
-		{
-			dependencies: [
-				"A200000000000001"
-				"2E9F88BA817C2233"
-			]
-			description: [
-				"&2No hay colonia sin comida constante.&r"
-				""
-				"&aObjetivo&r: completa la intro de &bFarm Charm&r y monta una granja simple que te mantenga en pie.&r"
-			]
-			icon: "minecraft:wheat"
-			id: "A200000000000003"
-			tasks: [{
-				id: "A2000000000000A3"
-				title: "&aConfirmar progreso en Farm Charm&r"
-				type: "checkmark"
-			}]
-			title: "&2Tu Primera Granja&r"
-			x: 2.0d
-			y: -2.0d
-		}
-		{
 			dependencies: ["A200000000000001"]
 			description: [
-				"&2Si cada cosa vive en un cofre distinto sin orden, acabas perdiendo tiempo y paciencia.&r"
+				"Primer paso de colono: vender lo que te sobra para generar esmeraldas mientras juegas.&r"
 				""
-				"&aObjetivo&r: completa la intro de &bStorage&r y organiza tus materiales como una persona civilizada.&r"
-			]
-			icon: "minecraft:chest"
-			id: "A200000000000004"
-			tasks: [{
-				id: "A2000000000000A4"
-				title: "&aConfirmar progreso en Storage&r"
-				type: "checkmark"
-			}]
-			title: "&2Orden en el Caos&r"
-			x: -2.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["A200000000000001"]
-			description: [
-				"&2Tu inventario ya no da para más, y lo sabes.&r"
-				""
-				"&aObjetivo&r: completa la intro de &bSophisticated Backpacks&r para llevar tu base contigo cuando salgas.&r"
-			]
-			icon: "sophisticatedbackpacks:backpack"
-			id: "A200000000000005"
-			tasks: [{
-				id: "A2000000000000A5"
-				title: "&aConfirmar progreso en Backpacks&r"
-				type: "checkmark"
-			}]
-			title: "&2Mochila de Aventurero&r"
-			x: 2.0d
-			y: -4.0d
-		}
-		{
-			dependencies: [
-				"A200000000000002"
-				"A200000000000003"
-				"A200000000000004"
-				"A200000000000005"
-			]
-			description: [
-				"&2Ya no improvisas: tienes ingresos, comida, orden y movilidad.&r"
-				""
-				"&d¡Has completado el Acto II!&r"
-				""
-				"&aRecompensa&r: &2Escritura de la Tierra&r"
+				"Craftea un &bSelling Bin de madera&r y dejalo trabajando cada dia.&r"
 			]
 			icon: {
 				Count: 1
-				id: "minecraft:filled_map"
+				id: "minecraft:barrel"
+				tag: {
+					material: "wood"
+				}
+			}
+			id: "A200000000000002"
+			rewards: [{
+				count: 8
+				id: "B200000000000002"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "B200000000000003"
+				item: {
+					Count: 1
+					id: "minecraft:barrel"
+					tag: {
+						material: "wood"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "&6Bin de Madera&r"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["A200000000000002"]
+			description: [
+				"Con dinero entrando, ya puedes mirar ofertas utiles para la base.&r"
+				""
+				"Craftea un &bDaily Shop&r y revisa su rotacion para pillar cosas clave.&r"
+			]
+			icon: "dailyshop:daily_shop"
+			id: "A200000000000003"
+			rewards: [{
+				count: 12
+				id: "B200000000000004"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "B200000000000005"
+				item: "dailyshop:daily_shop"
+				type: "item"
+			}]
+			title: "&6Puesto de Daily Shop&r"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["A200000000000003"]
+			description: [
+				"Hora de mover stock.&r"
+				""
+				"Vende un lote completo en tu bin y confirma que ya te pago en esmeraldas.&r"
+			]
+			icon: "minecraft:emerald"
+			id: "A200000000000004"
+			tasks: [{
+				id: "B200000000000006"
+				title: "&aYa hice mi primera venta&r"
+				type: "checkmark"
+			}]
+			title: "&6Primer Cobro&r"
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["A200000000000004"]
+			description: [
+				"Si la granja crece, el bin de madera se queda corto muy rapido.&r"
+				""
+				"Sube a &bSelling Bin de hierro&r para vender mas pilas por ciclo.&r"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:barrel"
+				tag: {
+					material: "iron"
+				}
+			}
+			id: "A200000000000005"
+			rewards: [{
+				count: 16
+				id: "B200000000000007"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "B200000000000008"
+				item: {
+					Count: 1
+					id: "minecraft:barrel"
+					tag: {
+						material: "iron"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "&6Bin de Hierro&r"
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["A200000000000001"]
+			description: [
+				"Tu inventario da pena en cuanto te pones a talar o minar.&r"
+				""
+				"Craftea una &bSophisticated Backpack&r para llevarte media base encima.&r"
+			]
+			icon: "sophisticatedbackpacks:backpack"
+			id: "A200000000000006"
+			rewards: [{
+				id: "B200000000000009"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "B20000000000000A"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "&6Mochila Inicial&r"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["A200000000000006"]
+			description: [
+				"Cuando ya tienes rutina de farmeo, necesitas mas espacio en serio.&r"
+				""
+				"Mejora a &bIron Backpack&r para que tu salida de recursos sea brutal.&r"
+			]
+			icon: "sophisticatedbackpacks:iron_backpack"
+			id: "A200000000000007"
+			tasks: [{
+				id: "B20000000000000B"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			title: "&6Upgrade: Iron Backpack&r"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["A200000000000006"]
+			description: [
+				"Construir bloque a bloque es una tortura medieval.&r"
+				""
+				"Saca una &bConstruction Wand de piedra&r y acelera tus muros.&r"
+			]
+			icon: {
+				Count: 1
+				id: "constructionwand:stone_wand"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "A200000000000008"
+			tasks: [{
+				id: "B20000000000000C"
+				item: {
+					Count: 1
+					id: "constructionwand:stone_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Varita de Piedra&r"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["A200000000000008"]
+			description: [
+				"Ahora si: version fiable para proyectos de base medianos.&r"
+				""
+				"Craftea la &bConstruction Wand de hierro&r y prueba modo pared.&r"
+			]
+			icon: {
+				Count: 1
+				id: "constructionwand:iron_wand"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "A200000000000009"
+			tasks: [{
+				id: "B20000000000000D"
+				item: {
+					Count: 1
+					id: "constructionwand:iron_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Varita de Hierro&r"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["A200000000000008"]
+			description: [
+				"No todo se carga a mano, colega.&r"
+				""
+				"Monta tu primer combo de &bNiftyCarts&r (carro + tiro) para mover materiales de obra.&r"
+			]
+			icon: "minecraft:minecart"
+			id: "A20000000000000A"
+			tasks: [{
+				id: "B20000000000000E"
+				title: "&aYa tengo mi primer NiftyCart montado&r"
+				type: "checkmark"
+			}]
+			title: "&6NiftyCarts: Primer Carro&r"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["A20000000000000A"]
+			description: [
+				"Siguiente nivel: engancha el carro a caballo y dale uso real.&r"
+				""
+				"Haz una ruta entre tu granja y la base para llevar recursos sin romperte la espalda.&r"
+			]
+			icon: "minecraft:lead"
+			id: "A20000000000000B"
+			tasks: [{
+				id: "B20000000000000F"
+				title: "&aRuta de NiftyCarts funcionando&r"
+				type: "checkmark"
+			}]
+			title: "&6NiftyCarts: Ruta de Carga&r"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["A200000000000001"]
+			description: [
+				"Necesitas un nucleo de almacen serio para no vivir en cofres tirados.&r"
+				""
+				"Craftea tu primer &bIron Chest&r.&r"
+			]
+			icon: "ironchests:iron_chest"
+			id: "A20000000000000C"
+			tasks: [{
+				id: "B200000000000010"
+				item: "ironchests:iron_chest"
+				type: "item"
+			}]
+			title: "&6Cofre de Hierro&r"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["A20000000000000C"]
+			description: [
+				"Para items de volumen (madera, piedra, cultivos), los cajones son dios.&r"
+				""
+				"Craftea un &bStorage Drawer 1x1&r y asignale un recurso base.&r"
+			]
+			icon: "storagedrawers:oak_full_drawers_1"
+			id: "A20000000000000D"
+			tasks: [{
+				id: "B200000000000011"
+				item: "storagedrawers:oak_full_drawers_1"
+				type: "item"
+			}]
+			title: "&6Primer Drawer&r"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["A20000000000000D"]
+			description: [
+				"Sin controller, el sistema de drawers se vuelve incomodo en cuanto crece.&r"
+				""
+				"Craftea el &bDrawer Controller&r para gestionar todo desde un punto.&r"
+			]
+			icon: "storagedrawers:controller"
+			id: "A20000000000000E"
+			tasks: [{
+				id: "B200000000000012"
+				item: "storagedrawers:controller"
+				type: "item"
+			}]
+			title: "&6Controller de Drawers&r"
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["A20000000000000E"]
+			description: [
+				"Mejora la densidad para compactar recursos sin multiplicar cajones.&r"
+				""
+				"Craftea unos &bCompacting Drawers&r y meteles lingotes o nuggets.&r"
+			]
+			icon: "storagedrawers:compacting_drawers_3"
+			id: "A20000000000000F"
+			tasks: [{
+				id: "B200000000000013"
+				item: "storagedrawers:compacting_drawers_3"
+				type: "item"
+			}]
+			title: "&6Compacting Drawers&r"
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["A20000000000000F"]
+			description: [
+				"Empieza el min-max de almacen.&r"
+				""
+				"Craftea un &bUpgrade Template&r para preparar mejoras de capacidad.&r"
+			]
+			icon: "storagedrawers:upgrade_template"
+			id: "A200000000000010"
+			tasks: [{
+				id: "B200000000000014"
+				item: "storagedrawers:upgrade_template"
+				type: "item"
+			}]
+			title: "&6Plantilla de Upgrade&r"
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["A200000000000010"]
+			description: [
+				"Con esto tus drawers aguantan mucho mas sin desbordarse.&r"
+				""
+				"Craftea un &bIron Storage Upgrade&r y aplicalo al cajon que mas uses.&r"
+			]
+			icon: "storagedrawers:iron_storage_upgrade"
+			id: "A200000000000011"
+			tasks: [{
+				id: "B200000000000015"
+				item: "storagedrawers:iron_storage_upgrade"
+				type: "item"
+			}]
+			title: "&6Upgrade de Hierro&r"
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"A200000000000005"
+				"A20000000000000B"
+				"A200000000000011"
+			]
+			description: [
+				"Tu colonia ya mueve recursos por tres frentes: ventas, transporte y almacen inteligente.&r"
+				""
+				"Deja operativo un circuito real: producir, mover y guardar sin caos.&r"
+			]
+			icon: "minecraft:chest_minecart"
+			id: "A200000000000012"
+			rewards: [{
+				id: "B200000000000016"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				id: "B200000000000017"
+				title: "&aCadena de logistica montada&r"
+				type: "checkmark"
+			}]
+			title: "&6Logistica de Colonia&r"
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["A200000000000009"]
+			description: [
+				"Si te ven con esto, ya saben que construyes en serio.&r"
+				""
+				"Craftea una &bConstruction Wand de diamante&r para obras grandes.&r"
+			]
+			icon: {
+				Count: 1
+				id: "constructionwand:diamond_wand"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "A200000000000013"
+			tasks: [{
+				id: "B200000000000018"
+				item: {
+					Count: 1
+					id: "constructionwand:diamond_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Varita de Diamante&r"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["A200000000000007"]
+			description: [
+				"Te mereces un upgrade fino para expediciones largas.&r"
+				""
+				"Pasa tu mochila a &bGold Backpack&r y notaras la diferencia al instante.&r"
+			]
+			icon: "sophisticatedbackpacks:gold_backpack"
+			id: "A200000000000014"
+			tasks: [{
+				id: "B200000000000019"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			title: "&6Upgrade: Gold Backpack&r"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"A200000000000012"
+				"A200000000000014"
+			]
+			description: [
+				"Ahora que ya tienes base estable, toca buscar una senal rara entre bosques tranquilos.&r"
+				""
+				"&dCaceria legendaria: Celebi&r"
+				"- Bioma: &aForest&r"
+				"- Hora: &eDia&r"
+				"- Condicion: &bMUST SEE SKY&r (sin techo, sin cuevas)&r"
+				""
+				"Cuando lo veas (o lo captures), marca esta quest.&r"
+			]
+			icon: "minecraft:clock"
+			id: "A200000000000015"
+			rewards: [{
+				id: "B20000000000001A"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "B20000000000001B"
+				title: "&dVi a Celebi bajo cielo abierto&r"
+				type: "checkmark"
+			}]
+			title: "&dCaceria: Celebi del Bosque&r"
+			x: 2.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"A200000000000012"
+				"A200000000000013"
+				"A200000000000015"
+			]
+			description: [
+				"Ya no eres improvisado: tu base produce, almacena y se expande con ritmo.&r"
+				""
+				"Deja lista la colonia para saltar al siguiente acto del Diario.&r"
+			]
+			icon: "minecraft:bell"
+			id: "A200000000000016"
+			tasks: [{
+				id: "B20000000000001C"
+				title: "&aColonia establecida y lista&r"
+				type: "checkmark"
+			}]
+			title: "&6Asentamiento Consolidado&r"
+			x: 0.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["A200000000000016"]
+			description: [
+				"Has pasado de superviviente a colono con metodo.&r"
+				""
+				"&d¡Acto II completado!&r"
+				""
+				"Recompensa unica: &6Peto de Colono&r"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_chestplate"
 				tag: {
 					display: {
-						Name: '{"text":"Escritura de la Tierra","color":"dark_green","italic":false}'
-						Lore: ['{"text":"La tierra bajo tus pies ahora es tuya","color":"gray","italic":true}']
+						Name: '{"text":"Peto de Colono","color":"gold","italic":false,"bold":true}'
+						Lore: [
+							'{"text":"Marca que ya tienes una base seria","color":"gray","italic":true}'
+							'{"text":"⭐ Recompensa del Acto II","color":"gold","italic":false}'
+						]
 					}
-					Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
+					Enchantments: [{id: "minecraft:protection", lvl: 2s}]
 					HideFlags: 1
 				}
 			}
 			id: "A20000GATE000001"
 			rewards: [{
-				id: "A2000000000000B1"
+				id: "B20000000000001D"
 				item: {
 					Count: 1
-					id: "minecraft:filled_map"
+					id: "minecraft:iron_chestplate"
 					tag: {
 						display: {
-							Name: '{"text":"Escritura de la Tierra","color":"dark_green","italic":false,"bold":true}'
+							Name: '{"text":"Peto de Colono","color":"gold","italic":false,"bold":true}'
 							Lore: [
-								'{"text":"La tierra bajo tus pies ahora es tuya","color":"gray","italic":true}'
-								'{"text":"","italic":false}'
+								'{"text":"Marca que ya tienes una base seria","color":"gray","italic":true}'
 								'{"text":"⭐ Recompensa del Acto II","color":"gold","italic":false}'
 							]
 						}
-						Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
+						Enchantments: [{id: "minecraft:protection", lvl: 2s}]
 						HideFlags: 1
 					}
 				}
@@ -159,13 +568,13 @@
 			}]
 			size: 2.0d
 			tasks: [{
-				id: "A2000000000000A6"
-				title: "&aCompletar Acto II&r"
+				id: "B20000000000001E"
+				title: "&6Completar Acto II&r"
 				type: "checkmark"
 			}]
-			title: "&6⭐ Escritura de la Tierra&r"
+			title: "&6⭐ Peto de Colono&r"
 			x: 0.0d
-			y: -8.0d
+			y: -14.5d
 		}
 	]
 	title: "&6Acto II: El Colono&r"

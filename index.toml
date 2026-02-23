@@ -22,7 +22,7 @@ hash = "f431d53ec272f6974baa0d83c9662ea73c310c5adbc7e7214ed0f9fcda9c31af"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6cfreate.snbt"
-hash = "a2951df5c6a2512b3ef80a8205661dc026b47171cd49cdc9cf8b2acf6890a631"
+hash = "91fe226c3e109110f0643c13da8ae2e551db286c92553ccc9e8af0b7ef0fecc5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/6efconomy.snbt"
@@ -30,23 +30,23 @@ hash = "ab6965845cf04e357019b9424aecfeda0dfe015efa64ea996c643b1d465f2f3f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/act1_el_naufrago.snbt"
-hash = "168a78afa818b6ab11643ba9882c2856b8e12f2e9952b9065e0a9070a5bd3fa8"
+hash = "9283e4922bad269cea6b94b1aba44bac4bc5ac6044f3139eadb9fc4cb026223d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/act2_el_colono.snbt"
-hash = "3d6e8abbc5a52ca2df409873205f9f9b1f8bc78c38f8d0698d90a658e32eb232"
+hash = "95112bfe57af8c4ac831550b084f9be283afba8ea9d9c1520164303dde1560e2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/act3_el_granjero.snbt"
-hash = "7a04a3434a1feec042bcdef0aa03ecb67d48b7a2d585a67b8cfa2fe059b43a5d"
+hash = "5334062642134cc2b46d5c5a313162c34f4b9037e58d20f32587677361a35853"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/act4_el_ingeniero.snbt"
-hash = "4533ee7ba45716c6f066f76c77516cdc5a5e302768622eda50cac0334f4cd9bc"
+hash = "1ec62a715a628a57fa26d80fd07f5329a3200978dcf11353305c2eb3ee0aa554"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/act5_el_explorador.snbt"
-hash = "db115eabca9ca7584ba009f233dfea65c9d91e58a1d80f0425bcb551fffc3386"
+hash = "2a5a74730f077b6de9b4bc543a6fb92b1cd3f8d722b72c807b726c97e4810930"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/act6_el_fundador.snbt"
@@ -62,11 +62,11 @@ hash = "fed8351baac52e40d8fa57ce002d0dd44d155d66aac4f0276a61ca898ef1de74"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/building_the_portal.snbt"
-hash = "d4aaa7a342697e5ae22d8f17a2a0b984a37172d182d62688f33f5a1485afd02b"
+hash = "759594f380d44770a1b170cc29dbdc9e93d2d8e3b4af4a88816392e730142885"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cae2.snbt"
-hash = "3be8a1f2d571431e9cabfee2a0a76ac120288ae65c6a95e062da3c39b064cced"
+hash = "cd3ccdec547d35842bfa494e523a5b1b731f975c1c59ce5a53a373509282528e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cbeachparty.snbt"
@@ -74,7 +74,7 @@ hash = "3a1c9b51cc453ce5a98bb0f7d9eb039133bd660bd7f6ad25e77d425552d5a701"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ccobblemonrider.snbt"
-hash = "519613fb2e1b758fc81a0a679e749d1c04ce2094b259c24a8bb104c061baec27"
+hash = "e14768c7c2d78fd2d7c4b2065602173405197e5e65c61ee5c790819796333893"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cfarmcharm.snbt"
@@ -114,15 +114,15 @@ hash = "76fe692db583942bbe9a979fed1673a6135b9a856bebc7e2aa3e2cfca82120e2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ctools.snbt"
-hash = "1f6cfbf28a0ccbfaf8e33a36c3cd7b4c2b8e6c3f5c28022cd84876db363958b9"
+hash = "1a97bd51dd6f05ae4188ccc5e87b4285ced92fcf9bfddbdb0cedba480e41a5d2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cwirelessredstone.snbt"
-hash = "5ed24dacbd823cb08f9a9b2cfc5b095ecc033daebccda0fd7f448d138b5c92e9"
+hash = "5fb179dae37c1971cd216e0347b44087de9bd9af8d3c86131d64e47973e897cb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cxaeromaps.snbt"
-hash = "3f8c02373c238b4e951569bc52c222f0b1530ab416dd28aef74ea7db1bb6eb33"
+hash = "ae858a1f07a200b5917ad6997e20a910a0f986bc69dd69a3cf6ba62dbf6e3208"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/faccessories.snbt"
