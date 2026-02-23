@@ -1304,7 +1304,7 @@ metafile = true
 
 [[files]]
 file = "mods/kiwi-fabric.pw.toml"
-hash = "aa5ada49d673a1903317f58836299f9687a91770c71bbfed3e6cc892d7df03c7"
+hash = "2f88195b3e7d9ad9e9ce1f58d8716bb63d10d76d4e693a65255a56a33c522617"
 metafile = true
 
 [[files]]
