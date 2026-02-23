@@ -1,0 +1,163 @@
+{
+	autofocus_id: "A100001100000001"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "act1_el_naufrago"
+	group: "A00000D1A210F001"
+	icon: "minecraft:compass"
+	id: "A10000A1B2C3D4E5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Abres los ojos. No reconoces nada. Hay hierba, viento y una sensación rara de que algo te está mirando.&r"
+				""
+				"Respira. No hace falta correr. Primero ubícate y entiende dónde estás parado.&r"
+				""
+				"&aObjetivo&r: abre tu diario, marca este inicio y arranca tu camino en ChadStead.&r"
+			]
+			icon: "minecraft:compass"
+			id: "A100001100000001"
+			optional: true
+			size: 2.0d
+			subtitle: "&7Acto I del Diario&r"
+			tasks: [{
+				id: "A1000011000000A1"
+				title: "&eComenzar Acto I&r"
+				type: "checkmark"
+			}]
+			title: "&6Acto I: El Náufrago&r"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"A100001100000001"
+				"7F9AC8931E4A610F"
+			]
+			description: [
+				"Ya diste el primer paso. Ahora toca entender cómo se mueve este mundo sin pegarte contra todo.&r"
+				""
+				"En &6Welcome to BigChadGuys Plus&r te explican lo básico para que no vayas a ciegas.&r"
+				""
+				"&aObjetivo&r: completa la intro de Welcome y confirma aquí cuando la tengas.&r"
+			]
+			icon: "ftbquests:book"
+			id: "A100001200000002"
+			tasks: [{
+				id: "A1000012000000A2"
+				title: "&aConfirmar: intro de Welcome completada&r"
+				type: "checkmark"
+			}]
+			title: "&ePrimeros Pasos&r"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"A100001100000001"
+			]
+			description: [
+				"Perderte cinco veces seguidas no es estrategia, es costumbre. Vamos a arreglar eso.&r"
+				""
+				"Con &bXaero's Maps&r podrás orientarte, marcar puntos y dejar de vivir en modo 'a ver qué sale'.&r"
+				""
+				"&aObjetivo&r: abre el mapa, crea al menos un waypoint y marca esta quest.&r"
+			]
+			icon: "minecraft:filled_map"
+			id: "A100001300000003"
+			tasks: [{
+				id: "A1000013000000A3"
+				title: "&aConfirmar: ya usaste Xaero's Maps&r"
+				type: "checkmark"
+			}]
+			title: "&eCartografía&r"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"A100001100000001"
+				"04C7B5740D702C02"
+			]
+			description: [
+				"No estás solo. En esta tierra, tu primer aliado puede cambiarte la partida entera.&r"
+				""
+				"Captura tu primer Pokémon de tipo Normal y empieza a formar equipo de verdad.&r"
+				""
+				"&aObjetivo&r: completa la quest de captura inicial de Cobblemon y confírmalo aquí.&r"
+			]
+			icon: "cobblemon:poke_ball"
+			id: "A100001400000004"
+			tasks: [{
+				id: "A1000014000000A4"
+				title: "&aConfirmar: primer compañero capturado&r"
+				type: "checkmark"
+			}]
+			title: "&ePrimer Compañero&r"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"A100001200000002"
+				"A100001300000003"
+				"A100001400000004"
+			]
+			description: [
+				"Ya no eres alguien perdido en mitad de la nada. Ya sabes moverte, orientarte y pelear acompañado.&r"
+				""
+				"Este es tu cierre del Acto I. A partir de aquí, ChadStead deja de ser supervivencia y empieza a ser proyecto.&r"
+				""
+				"&d¡Has completado el Acto I!&r"
+				""
+				"&aRecompensa&r: &6Brújula del Despertar&r"
+			]
+			icon: {
+				Count: 1
+				id: "create:brass_hand"
+				tag: {
+					display: {
+						Name: '{"text":"Brújula del Despertar","color":"gold","italic":false,"bold":true}'
+						Lore: ['{"text":"Tu primer paso en ChadStead","color":"gray","italic":true}']
+					}
+					Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
+					HideFlags: 1
+				}
+			}
+			id: "A10000GATE000001"
+			rewards: [{
+				id: "A1000015000000A5"
+				item: {
+					Count: 1
+					id: "create:brass_hand"
+					tag: {
+						display: {
+							Name: '{"text":"Brújula del Despertar","color":"gold","italic":false,"bold":true}'
+							Lore: [
+								'{"text":"Tu primer paso en ChadStead","color":"gray","italic":true}'
+								'{"text":"","italic":false}'
+								'{"text":"⭐ Recompensa del Acto I","color":"gold","italic":false}'
+							]
+						}
+						Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
+						HideFlags: 1
+					}
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "A1000015000000B5"
+				title: "&6Completar Acto I&r"
+				type: "checkmark"
+			}]
+			title: "&6⭐ Brújula del Despertar&r"
+			x: 0.0d
+			y: -8.0d
+		}
+	]
+	title: "&6Acto I: El Náufrago&r"
+}

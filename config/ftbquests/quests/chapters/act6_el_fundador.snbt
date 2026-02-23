@@ -1,0 +1,197 @@
+{
+	autofocus_id: "A60000A100000001"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "act6_el_fundador"
+	group: "A00000D1A210F001"
+	icon: "minecraft:golden_apple"
+	id: "A60000A1B2C3D4E5"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["A50000GATE000001"]
+			description: [
+				"Has sobrevivido al End. Has matado al dragón. ChadStead ya no es un nombre — es un lugar. Ahora toca conectarlo todo."
+				""
+				"Ya no te mueves solo por necesidad, sino para unir cada rincón de lo que construiste."
+				"&aObjetivo&r: Marca el inicio de tu legado como fundador de ChadStead.&r"
+			]
+			icon: "minecraft:golden_apple"
+			id: "A60000A100000001"
+			optional: true
+			size: 2.0d
+			subtitle: "&7Acto VI del Diario&r"
+			tasks: [{
+				id: "A60000B100000001"
+				title: "Comenzar Acto VI"
+				type: "checkmark"
+			}]
+			title: "&6Acto VI: El Fundador&r"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"A60000A100000001"
+				"2D92B9A145392017"
+			]
+			description: [
+				"Tus rutas ya no son senderos: ahora son corredores aéreos."
+				"Cada vuelo reduce distancias y te da control total del mapa."
+				""
+				"&aObjetivo&r: Completa la intro de Aircraft para dominar el transporte por aire.&r"
+			]
+			icon: "immersive_aircraft:biplane"
+			id: "A60000A100000002"
+			tasks: [{
+				id: "A60000B100000002"
+				title: "Confirmar progreso en Aircraft"
+				type: "checkmark"
+			}]
+			title: "Alas de Acero"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"A60000A100000001"
+				"227ED65F6179B3FB"
+			]
+			description: [
+				"No toda conexión va por el cielo: también necesitas caminos firmes."
+				"Las ruedas convierten exploración en logística real."
+				""
+				"&aObjetivo&r: Completa la intro de Automobiles para abrir rutas terrestres rápidas.&r"
+			]
+			icon: "automobility:automobile"
+			id: "A60000A100000003"
+			tasks: [{
+				id: "A60000B100000003"
+				title: "Confirmar progreso en Automobiles"
+				type: "checkmark"
+			}]
+			title: "Sobre Ruedas"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["A60000A100000001"]
+			description: [
+				"Los ríos y océanos dejaron de ser barreras cuando aprendiste a usarlos a tu favor."
+				"Un fundador conecta también por agua."
+				""
+				"&aObjetivo&r: Avanza en Boats y deja listas tus rutas marítimas.&r"
+			]
+			icon: "minecraft:oak_boat"
+			id: "A60000A100000004"
+			tasks: [{
+				id: "A60000B100000004"
+				title: "Confirmar progreso en Boats"
+				type: "checkmark"
+			}]
+			title: "Capitán"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["A60000A100000001"]
+			description: [
+				"Moverte con tu equipo Pokémon no es un lujo; es integración total con tu aventura."
+				"Si ChadStead es comunidad, también lo es cómo te desplazas."
+				""
+				"&aObjetivo&r: Avanza en CobblemonRider para viajar junto a tus Pokémon.&r"
+			]
+			icon: "minecraft:saddle"
+			id: "A60000A100000005"
+			tasks: [{
+				id: "A60000B100000005"
+				title: "Confirmar progreso en CobblemonRider"
+				type: "checkmark"
+			}]
+			title: "Jinete Pokémon"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["A60000A100000001"]
+			description: [
+				"Conectar no es solo moverte: también es construir más rápido y mejor."
+				"Tus herramientas son la base física de todo lo que llamas hogar."
+				""
+				"&aObjetivo&r: Avanza en Construction tools para acelerar tu infraestructura.&r"
+			]
+			icon: "constructionwand:stone_wand"
+			id: "A60000A100000006"
+			tasks: [{
+				id: "A60000B100000006"
+				title: "Confirmar progreso en Construction tools"
+				type: "checkmark"
+			}]
+			title: "Constructor"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"A60000A100000002"
+				"A60000A100000003"
+				"A60000A100000004"
+				"A60000A100000005"
+				"A60000A100000006"
+			]
+			description: [
+				"Ahora sí: ya no tienes una base aislada. Tienes una red viva."
+				"Cielo, tierra, agua y construcción trabajan como un solo sistema."
+				""
+				"&d¡Has completado el Acto VI!&r"
+				""
+				"&aRecompensa&r: Sello de ChadStead&r"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:name_tag"
+				tag: {
+					display: {
+						Name: '{"text":"Sello de ChadStead","color":"gold","italic":false,"bold":true}'
+						Lore: ['{"text":"Con esto sellas tu legado en esta tierra","color":"gray","italic":true}']
+					}
+					Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
+					HideFlags: 1
+				}
+			}
+			id: "A60000GATE000001"
+			rewards: [{
+				id: "A60000C100000001"
+				item: {
+					Count: 1
+					id: "minecraft:name_tag"
+					tag: {
+						display: {
+							Name: '{"text":"Sello de ChadStead","color":"gold","italic":false,"bold":true}'
+							Lore: [
+								'{"text":"Con esto sellas tu legado en esta tierra","color":"gray","italic":true}'
+								'{"text":"","italic":false}'
+								'{"text":"⭐ Recompensa del Acto VI","color":"gold","italic":false}'
+							]
+						}
+						Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
+						HideFlags: 1
+					}
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "A60000B100000007"
+				title: "Completar Acto VI"
+				type: "checkmark"
+			}]
+			title: "&6⭐ Sello de ChadStead&r"
+			x: 0.0d
+			y: -6.0d
+		}
+	]
+	title: "&6Acto VI: El Fundador&r"
+}

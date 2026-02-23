@@ -6,7 +6,7 @@ hash = "65edf67bd84c0f31c927e396b5f701d0f7e234bffe9fe8a303f1d0cd596f1970"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "78b958e743abfadfb41c44b9e43e636f1fb391b116cbb0ed9a5afc1931f0f83f"
+hash = "b9d99096f6ee2e4ffc7f80ad27e6b197f222cf954a62aad6736ffa64888ab628"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4nfether_tips.snbt"
@@ -27,6 +27,30 @@ hash = "a2951df5c6a2512b3ef80a8205661dc026b47171cd49cdc9cf8b2acf6890a631"
 [[files]]
 file = "config/ftbquests/quests/chapters/6efconomy.snbt"
 hash = "ab6965845cf04e357019b9424aecfeda0dfe015efa64ea996c643b1d465f2f3f"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/act1_el_naufrago.snbt"
+hash = "168a78afa818b6ab11643ba9882c2856b8e12f2e9952b9065e0a9070a5bd3fa8"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/act2_el_colono.snbt"
+hash = "3d6e8abbc5a52ca2df409873205f9f9b1f8bc78c38f8d0698d90a658e32eb232"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/act3_el_granjero.snbt"
+hash = "7a04a3434a1feec042bcdef0aa03ecb67d48b7a2d585a67b8cfa2fe059b43a5d"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/act4_el_ingeniero.snbt"
+hash = "4533ee7ba45716c6f066f76c77516cdc5a5e302768622eda50cac0334f4cd9bc"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/act5_el_explorador.snbt"
+hash = "db115eabca9ca7584ba009f233dfea65c9d91e58a1d80f0425bcb551fffc3386"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/act6_el_fundador.snbt"
+hash = "694d60254cd9ab356e74d9af228c919554942b7b4606eb05c72116a6fd23d339"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bibntroduction.snbt"
@@ -191,6 +215,10 @@ hash = "3b575f2f97133c07742bccd0b6e7aff1f9be1f3642919155506a37ad0ed6f31f"
 [[files]]
 file = "config/ftbquests/quests/chapters/painting.snbt"
 hash = "f0ace235084be336f70bd504b4a326298b1185b9db5bffbc994e4e40b13335c4"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/postgame_legado.snbt"
+hash = "d0ec24533ddac0357b16780d7cc387fdf012c71ad130cd03ff535ed2a2b5b118"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ribbits_collection.snbt"

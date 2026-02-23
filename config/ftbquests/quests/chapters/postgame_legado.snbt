@@ -1,0 +1,402 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "postgame_legado"
+	group: "A00000D1A210F001"
+	icon: "minecraft:nether_star"
+	id: "A70000A1B2C3D4E5"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["A60000GATE000001"]
+			description: [
+				"Has fundado ChadStead. De un náufrago perdido a esto."
+				"Pero aún no has terminado... Los verdaderos maestros no se conforman con sobrevivir."
+				""
+				"&aEste es tu examen final&r: dominar cada pilar que levantó esta tierra y sellar tu legado."
+			]
+			icon: "minecraft:nether_star"
+			id: "A7000011B2C3D4E5"
+			optional: true
+			size: 2.0d
+			subtitle: "&7Postgame del Diario del Fundador&r"
+			tasks: [{
+				id: "A70000AA00000001"
+				title: "Comenzar Legado Eterno"
+				type: "checkmark"
+			}]
+			title: "&dPostgame: Legado Eterno&r"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A7000011B2C3D4E5"]
+			description: [
+				"Tu PC ya no tiene caja de almacenamiento: tiene una Pokédex con patas."
+				"Conocer 50 especies distintas significa que no capturas por suerte, capturas por criterio."
+				""
+				"&aObjetivo&r: captura 50 Pokémon diferentes y marca este hito de maestría."
+			]
+			icon: "cobblemon:poke_ball"
+			id: "A7000011B2C3D4E6"
+			rewards: [{
+				id: "A70000AA00000012"
+				item: {
+					Count: 1
+					id: "cobblemon:poke_ball"
+					tag: {
+						display: {
+							Name: '{"text":"Pokéball Dorada","color":"gold","italic":false,"bold":true}'
+							Lore: [
+								'{"text":"Reconocido como Maestro Pokémon de ChadStead","color":"gray","italic":true}'
+								'{"text":"","italic":false}'
+								'{"text":"🏆 Maestría: Pokéball Dorada","color":"light_purple","italic":false}'
+							]
+						}
+						Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
+						HideFlags: 1
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&7Captura 50 Pokémon diferentes&r"
+			tasks: [{
+				id: "A70000AA00000002"
+				title: "Confirmar: 50 Pokémon diferentes capturados"
+				type: "checkmark"
+			}]
+			title: "&d🏆 Maestro Pokémon&r"
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["A7000011B2C3D4E5"]
+			description: [
+				"Pasaste de carne quemada y pan duro a platos que harían llorar a un aldeano chef."
+				"Cuando cocinas por técnica y no por hambre, dejas de sobrevivir y empiezas a crear cultura."
+				""
+				"&aObjetivo&r: completa tu hito culinario y demuestra que tu cocina ya es leyenda local."
+			]
+			icon: "farmersdelight:diamond_knife"
+			id: "A7000011B2C3D4E7"
+			rewards: [{
+				id: "A70000AA00000013"
+				item: {
+					Count: 1
+					id: "farmersdelight:diamond_knife"
+					tag: {
+						display: {
+							Name: '{"text":"Cuchillo de Diamante","color":"gold","italic":false,"bold":true}'
+							Lore: [
+								'{"text":"Tu cocina es legendaria","color":"gray","italic":true}'
+								'{"text":"","italic":false}'
+								'{"text":"🏆 Maestría: Cuchillo de Diamante","color":"light_purple","italic":false}'
+							]
+						}
+						Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
+						HideFlags: 1
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "A70000AA00000003"
+				title: "Confirmar: Gran Chef"
+				type: "checkmark"
+			}]
+			title: "&d🏆 Gran Chef&r"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["A7000011B2C3D4E5"]
+			description: [
+				"Tus máquinas ya no son prototipos: son infraestructura crítica de ChadStead."
+				"Si dominas Create y AE2 a la vez, entiendes tanto el hierro como los datos."
+				""
+				"&aObjetivo&r: fabrica un ME Controller y un Rotation Speed Controller para sellar tu dominio técnico."
+			]
+			icon: "create:wrench"
+			id: "A7000011B2C3D4E8"
+			rewards: [{
+				id: "A70000AA00000014"
+				item: {
+					Count: 1
+					id: "create:wrench"
+					tag: {
+						display: {
+							Name: '{"text":"Llave Inglesa Ancestral","color":"dark_aqua","italic":false,"bold":true}'
+							Lore: [
+								'{"text":"Ninguna máquina se te resiste","color":"gray","italic":true}'
+								'{"text":"","italic":false}'
+								'{"text":"🏆 Maestría: Llave Inglesa Ancestral","color":"light_purple","italic":false}'
+							]
+						}
+						Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
+						HideFlags: 1
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "A70000AA00000004"
+					item: "ae2:controller"
+					type: "item"
+				}
+				{
+					id: "A70000AA00000005"
+					item: "create:rotation_speed_controller"
+					type: "item"
+				}
+			]
+			title: "&d🏆 Ingeniero Supremo&r"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["A7000011B2C3D4E5"]
+			description: [
+				"Donde otros ven chatarra rara, tú ves historia, contexto y trofeos con nombre propio."
+				"Coleccionar no es acumular: es saber qué merece ocupar una vitrina."
+				""
+				"&aObjetivo&r: reúne 20 items de colección y demuestra ojo de curador, no de hoarder."
+			]
+			icon: "minecraft:glass"
+			id: "A7000011B2C3D4E9"
+			rewards: [{
+				id: "A70000AA00000015"
+				item: {
+					Count: 1
+					id: "minecraft:glass"
+					tag: {
+						display: {
+							Name: '{"text":"Vitrina del Coleccionista","color":"gold","italic":false,"bold":true}'
+							Lore: [
+								'{"text":"Un verdadero cazador de tesoros","color":"gray","italic":true}'
+								'{"text":"","italic":false}'
+								'{"text":"🏆 Maestría: Vitrina del Coleccionista","color":"light_purple","italic":false}'
+							]
+						}
+						Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
+						HideFlags: 1
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&7Obtén 20 items de colección&r"
+			tasks: [{
+				id: "A70000AA00000006"
+				title: "Confirmar: 20 items de colección"
+				type: "checkmark"
+			}]
+			title: "&d🏆 Coleccionista&r"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["A7000011B2C3D4E5"]
+			description: [
+				"Los cofres llenos impresionan, pero una economía estable mantiene viva una ciudad."
+				"Tus tratos, rutas y bounties convirtieron recursos dispersos en progreso real."
+				""
+				"&aObjetivo&r: completa 50 bounties y prueba que sabes mover ChadStead como un mercado serio."
+			]
+			icon: "minecraft:gold_nugget"
+			id: "A7000011B2C3D4EA"
+			rewards: [{
+				id: "A70000AA00000016"
+				item: {
+					Count: 1
+					id: "minecraft:gold_nugget"
+					tag: {
+						display: {
+							Name: '{"text":"Moneda del Fundador","color":"gold","italic":false,"bold":true}'
+							Lore: [
+								'{"text":"El comercio levantó ChadStead","color":"gray","italic":true}'
+								'{"text":"","italic":false}'
+								'{"text":"🏆 Maestría: Moneda del Fundador","color":"light_purple","italic":false}'
+							]
+						}
+						Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
+						HideFlags: 1
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&7Completa 50 bounties&r"
+			tasks: [{
+				id: "A70000AA00000007"
+				title: "Confirmar: 50 bounties completadas"
+				type: "checkmark"
+			}]
+			title: "&d🏆 Mercader&r"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"A7000011B2C3D4E5"
+				"2283BDEA6E8DCC40"
+			]
+			description: [
+				"No hay discurso ni medalla que compita con mirar al dragón a los ojos y ganar."
+				"La conquista del End separa a quien juega bien de quien deja huella."
+				""
+				"&aObjetivo&r: confirma la caída del Ender Dragon y reclama tu título de Conquistador."
+			]
+			icon: "minecraft:ender_eye"
+			id: "A7000011B2C3D4EB"
+			rewards: [{
+				id: "A70000AA00000017"
+				item: {
+					Count: 1
+					id: "minecraft:ender_eye"
+					tag: {
+						display: {
+							Name: '{"text":"Ojo del Fin Sellado","color":"dark_purple","italic":false,"bold":true}'
+							Lore: [
+								'{"text":"Miraste al vacío y no parpadeaste","color":"gray","italic":true}'
+								'{"text":"","italic":false}'
+								'{"text":"🏆 Maestría: Ojo del Fin Sellado","color":"light_purple","italic":false}'
+							]
+						}
+						Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
+						HideFlags: 1
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "A70000AA00000008"
+				title: "Confirmar: Ender Dragon derrotado"
+				type: "checkmark"
+			}]
+			title: "&d🏆 Conquistador&r"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"A7000011B2C3D4E6"
+				"A7000011B2C3D4E7"
+				"A7000011B2C3D4E8"
+				"A7000011B2C3D4E9"
+				"A7000011B2C3D4EA"
+				"A7000011B2C3D4EB"
+			]
+			description: [
+				"No basta con llegar al final: hay que reunir todo lo que te convirtió en fundador."
+				"Seis reliquias de acto, seis trofeos de maestría. Ninguna sobra, ninguna se improvisa."
+				""
+				"&aReúne las 12 reliquias&r y valida manualmente que están en tu inventario antes de reclamar la corona."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:golden_helmet"
+				tag: {
+					display: {
+						Name: '{"text":"👑 Corona del Fundador","color":"gold","italic":false,"bold":true}'
+						Lore: [
+							'{"text":"Forjada con el esfuerzo de toda una vida","color":"gray","italic":true}'
+							'{"text":"en las tierras de ChadStead.","color":"gray","italic":true}'
+							'{"text":"","italic":false}'
+							'{"text":"12 reliquias reunidas. 12 pruebas superadas.","color":"light_purple","italic":true}'
+							'{"text":"","italic":false}'
+							'{"text":"👑 Logro Final: Legado Eterno","color":"gold","italic":false}'
+						]
+					}
+					Enchantments: [
+						{id: "minecraft:protection", lvl: 10s}
+						{id: "minecraft:unbreaking", lvl: 10s}
+						{id: "minecraft:thorns", lvl: 5s}
+						{id: "minecraft:respiration", lvl: 3s}
+						{id: "minecraft:aqua_affinity", lvl: 1s}
+					]
+					AttributeModifiers: [
+						{
+							Amount: 100.0d
+							AttributeName: "generic.max_health"
+							Name: "Corona Health Boost"
+							Operation: 0
+							Slot: "head"
+							UUID: [I; 1234567, 8901234, 5678901, 2345678]
+						}
+						{
+							Amount: 0.1d
+							AttributeName: "generic.movement_speed"
+							Name: "Corona Speed"
+							Operation: 1
+							Slot: "head"
+							UUID: [I; 2345678, 9012345, 6789012, 3456789]
+						}
+					]
+					HideFlags: 2
+					Unbreakable: 1b
+				}
+			}
+			id: "A70000GATE000001"
+			rewards: [{
+				id: "A70000AA00000018"
+				item: {
+					Count: 1
+					id: "minecraft:golden_helmet"
+					tag: {
+						display: {
+							Name: '{"text":"👑 Corona del Fundador","color":"gold","italic":false,"bold":true}'
+							Lore: [
+								'{"text":"Forjada con el esfuerzo de toda una vida","color":"gray","italic":true}'
+								'{"text":"en las tierras de ChadStead.","color":"gray","italic":true}'
+								'{"text":"","italic":false}'
+								'{"text":"12 reliquias reunidas. 12 pruebas superadas.","color":"light_purple","italic":true}'
+								'{"text":"","italic":false}'
+								'{"text":"👑 Logro Final: Legado Eterno","color":"gold","italic":false}'
+							]
+						}
+						Enchantments: [
+							{id: "minecraft:protection", lvl: 10s}
+							{id: "minecraft:unbreaking", lvl: 10s}
+							{id: "minecraft:thorns", lvl: 5s}
+							{id: "minecraft:respiration", lvl: 3s}
+							{id: "minecraft:aqua_affinity", lvl: 1s}
+						]
+						AttributeModifiers: [
+							{
+								Amount: 100.0d
+								AttributeName: "generic.max_health"
+								Name: "Corona Health Boost"
+								Operation: 0
+								Slot: "head"
+								UUID: [I; 1234567, 8901234, 5678901, 2345678]
+							}
+							{
+								Amount: 0.1d
+								AttributeName: "generic.movement_speed"
+								Name: "Corona Speed"
+								Operation: 1
+								Slot: "head"
+								UUID: [I; 2345678, 9012345, 6789012, 3456789]
+							}
+						]
+						HideFlags: 2
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "&7Brújula del Despertar | Escritura de la Tierra | Cucharón de Oro | Engranaje Primordial | Fragmento del Vacío | Sello de ChadStead | Pokéball Dorada | Cuchillo de Diamante | Llave Inglesa Ancestral | Vitrina del Coleccionista | Moneda del Fundador | Ojo del Fin Sellado&r"
+			tasks: [{
+				id: "A70000AA00000009"
+				title: "Confirmar: reuniste las 12 reliquias del Fundador"
+				type: "checkmark"
+			}]
+			title: "&6👑 Corona del Fundador&r"
+			x: 0.0d
+			y: -8.0d
+		}
+	]
+	title: "&dPostgame: Legado Eterno&r"
+}

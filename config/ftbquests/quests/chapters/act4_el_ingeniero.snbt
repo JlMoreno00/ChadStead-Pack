@@ -1,0 +1,180 @@
+{
+	autofocus_id: "A400000000000001"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "act4_el_ingeniero"
+	group: "A00000D1A210F001"
+	icon: "create:hand_crank"
+	id: "A40000A1B2C3D4E5"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["A30000GATE000001"]
+			description: [
+				"Cosechas a mano. Cocinas a mano. Fundes a mano. ¿No estás harto?"
+				""
+				"Ya sobreviviste, ya comiste bien, y ya tienes base estable."
+				"Ahora toca dejar de picar piedra como en el día uno y montar automatización de verdad."
+				"&aObjetivo&r: arranca tu etapa técnica y piensa en sistemas, no en tareas sueltas.&r"
+			]
+			icon: "create:hand_crank"
+			id: "A400000000000001"
+			optional: true
+			size: 2.0d
+			subtitle: "&7Acto IV del Diario&r"
+			tasks: [{
+				id: "A40000000000A001"
+				title: "Comenzar Acto IV"
+				type: "checkmark"
+			}]
+			title: "&6Acto IV: El Ingeniero&r"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"A400000000000001"
+				"0C5A75DD4C276B70"
+			]
+			description: [
+				"Has visto que &bCreate&r no va de craftear más rápido, va de dejar de repetir trabajo.&r"
+				"Un eje aquí, una rueda allá, y de repente una tarea aburrida se hace sola."
+				""
+				"&aObjetivo&r: completa la intro de &bCreate&r y entiende su base de rotación y transmisión.&r"
+			]
+			icon: "create:cogwheel"
+			id: "A400000000000002"
+			tasks: [{
+				id: "A40000000000A002"
+				title: "Confirmar intro de Create completada"
+				type: "checkmark"
+			}]
+			title: "Engranajes y Vapor"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["A400000000000002"]
+			description: [
+				"Toda fábrica empieza con una pieza humilde: el &bAndesite Alloy&r.&r"
+				"Sin eso no hay máquinas, solo buenas intenciones y cofres desordenados."
+				""
+				"&aObjetivo&r: consigue tu primer &bAndesite Alloy&r para poner en marcha Create.&r"
+			]
+			icon: "create:andesite_alloy"
+			id: "A400000000000003"
+			tasks: [{
+				advancement: "create:andesite_alloy"
+				criterion: ""
+				id: "A4000000TASK0003"
+				title: "Obtén un Andesite Alloy"
+				type: "advancement"
+			}]
+			title: "La Primera Máquina"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"A400000000000001"
+				"2BC5E8BB31E5D945"
+			]
+			description: [
+				"Cuando tu base crece, los cofres dejan de ser solución y pasan a ser problema."
+				"Con &bAE2&r puedes pensar en red, orden y acceso instantáneo.&r"
+				""
+				"&aObjetivo&r: completa la intro de &bAE2&r y abre la puerta al almacenamiento digital.&r"
+			]
+			icon: "ae2:controller"
+			id: "A400000000000004"
+			tasks: [{
+				id: "A40000000000A004"
+				title: "Confirmar intro de AE2 completada"
+				type: "checkmark"
+			}]
+			title: "Red Digital"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["A400000000000001"]
+			description: [
+				"No todo cable suma orden. A veces solo estorba y convierte tu base en telaraña."
+				"La redstone inalámbrica te deja separar cerebro y músculo sin romperte la cabeza."
+				""
+				"&aObjetivo&r: completa la intro de &bWireless Redstone&r y conecta sistemas sin tiradas eternas.&r"
+			]
+			icon: "wirelessredstone:remote"
+			id: "A400000000000005"
+			tasks: [{
+				id: "A40000000000A005"
+				title: "Confirmar progreso en Wireless Redstone"
+				type: "checkmark"
+			}]
+			title: "Sin Cables"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"A400000000000002"
+				"A400000000000003"
+				"A400000000000004"
+				"A400000000000005"
+			]
+			description: [
+				"Ya no eres el que hacía todo a mano. Ahora diseñas procesos y los dejas trabajar solos."
+				"Tu base piensa en red, mueve materiales y responde a señales como un sistema vivo."
+				""
+				"&d¡Has completado el Acto IV!&r"
+				""
+				"&aRecompensa&r: &3Engranaje Primordial&r"
+			]
+			icon: {
+				Count: 1
+				id: "create:cogwheel"
+				tag: {
+					display: {
+						Name: '{"text":"Engranaje Primordial","color":"dark_aqua","italic":false,"bold":true}'
+						Lore: ['{"text":"El primer engranaje que movió ChadStead","color":"gray","italic":true}']
+					}
+					Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
+					HideFlags: 1
+				}
+			}
+			id: "A40000GATE000001"
+			rewards: [{
+				id: "A40000000000A0F1"
+				item: {
+					Count: 1
+					id: "create:cogwheel"
+					tag: {
+						display: {
+							Name: '{"text":"Engranaje Primordial","color":"dark_aqua","italic":false,"bold":true}'
+							Lore: [
+								'{"text":"El primer engranaje que movió ChadStead","color":"gray","italic":true}'
+								'{"text":"","italic":false}'
+								'{"text":"⭐ Recompensa del Acto IV","color":"gold","italic":false}'
+							]
+						}
+						Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
+						HideFlags: 1
+					}
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "A40000000000A006"
+				title: "Completar Acto IV"
+				type: "checkmark"
+			}]
+			title: "&6⭐ Engranaje Primordial&r"
+			x: 0.0d
+			y: -8.0d
+		}
+	]
+	title: "&6Acto IV: El Ingeniero&r"
+}

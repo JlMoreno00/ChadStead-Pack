@@ -1,5 +1,6 @@
 {
 	chapter_groups: [
+		{ id: "A00000D1A210F001", order_index: 0, title: "&6📖 Diario del Fundador" }
 		{ id: "5A06D7C684E08704", title: "&6BigChadGuys Plus" }
 		{ id: "180E7A1D2C48228E", title: "&bMisiones de la Comunidad" }
 		{ id: "09E01112F0299463", title: "&cCobblemon" }

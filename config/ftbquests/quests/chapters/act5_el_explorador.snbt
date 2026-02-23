@@ -1,0 +1,203 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "act5_el_explorador"
+	group: "A00000D1A210F001"
+	icon: "minecraft:netherite_sword"
+	id: "A50000A1B2C3D4E5"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["A40000GATE000001"]
+			description: [
+				"Tu base es una fortaleza. Tu granja es un imperio. Tu fábrica no para."
+				"Pero hay un portal de obsidiana que lleva semanas mirándote."
+				""
+				"&aEs hora de cruzar el umbral&r y aceptar que ChadStead también se construye fuera de casa."
+				"Empieza este acto cuando estés listo para sobrevivir donde todo quiere matarte."
+			]
+			icon: "minecraft:obsidian"
+			id: "A5000011B2C3D4E5"
+			optional: true
+			size: 2.0d
+			subtitle: "&7Acto V del Diario&r"
+			tasks: [{
+				id: "A50000AA00000001"
+				title: "Comenzar Acto V"
+				type: "checkmark"
+			}]
+			title: "&6Acto V: El Explorador&r"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"A5000011B2C3D4E5"
+				"0C16AD35A6E01EE7"
+			]
+			description: [
+				"El Nether no es una excursión: es una prueba de reflejos, planificación y sangre fría."
+				"Si ya completaste la introducción de &bNether Exploration&r, ya diste el primer paso real."
+				""
+				"&aObjetivo&r: confirma que ya entraste en la ruta de Exploración del Nether."
+			]
+			icon: "minecraft:flint_and_steel"
+			id: "A5000011B2C3D4E6"
+			tasks: [{
+				id: "A50000AA00000002"
+				title: "Confirmar: Exploración del Nether"
+				type: "checkmark"
+			}]
+			title: "&cAl Infierno&r"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["A5000011B2C3D4E5"]
+			description: [
+				"Sobrevivir está bien, pero también puedes convertir el Nether en una despensa absurda."
+				"Con &bNether's Delight&r, el peligro también se cocina."
+				""
+				"&aObjetivo&r: completa la introducción de Nether's Delight y domina su cocina infernal."
+			]
+			icon: "minecraft:crimson_fungus"
+			id: "A5000011B2C3D4E7"
+			tasks: [{
+				id: "A50000AA00000003"
+				title: "Confirmar: Nether's Delight"
+				type: "checkmark"
+			}]
+			title: "&cCocina Infernal&r"
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"A5000011B2C3D4E5"
+				"625B8EA232032139"
+			]
+			description: [
+				"No hay End sin preparación. No hay preparación sin ojos suficientes."
+				"Si ya completaste &bBuilding the Portal&r, entonces el plan va en serio."
+				""
+				"&aObjetivo&r: deja listo el portal y confirma que ya completaste su capítulo de preparación."
+			]
+			icon: "minecraft:ender_eye"
+			id: "A5000011B2C3D4E8"
+			tasks: [{
+				id: "A50000AA00000004"
+				title: "Confirmar: Preparando el Portal"
+				type: "checkmark"
+			}]
+			title: "&dLos Doce Ojos&r"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"A5000011B2C3D4E8"
+				"44397D6BEAF25251"
+			]
+			description: [
+				"El End no perdona improvisaciones. Llegar ya es difícil; volver entero es otra historia."
+				"Si completaste la introducción de &bEnd Exploration&r, ya miraste al vacío de frente."
+				""
+				"&aObjetivo&r: confirma tu avance en Exploración del End tras abrir el portal."
+			]
+			icon: "minecraft:end_stone"
+			id: "A5000011B2C3D4E9"
+			tasks: [{
+				id: "A50000AA00000005"
+				title: "Confirmar: Exploración del End"
+				type: "checkmark"
+			}]
+			title: "&dEl Vacío Púrpura&r"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"A5000011B2C3D4E5"
+				"3731A9890D5811CC"
+			]
+			description: [
+				"Explorar también es limpiar el terreno. Algunas amenazas no se van solas."
+				"La tabla de recompensas te da dirección cuando sobra caos."
+				""
+				"&aObjetivo&r: completa la introducción de Bounty Board y empieza tu cacería."
+			]
+			icon: "minecraft:crossbow"
+			id: "A5000011B2C3D4EA"
+			tasks: [{
+				id: "A50000AA00000006"
+				title: "Confirmar: Colección de Mobs"
+				type: "checkmark"
+			}]
+			title: "&6Cazarrecompensas&r"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"A5000011B2C3D4E6"
+				"A5000011B2C3D4E7"
+				"A5000011B2C3D4E8"
+				"A5000011B2C3D4E9"
+				"A5000011B2C3D4EA"
+			]
+			description: [
+				"Ya no exploras por necesidad, sino por dominio."
+				"Cruzaste dimensiones, preparaste el portal correcto y volviste con respuestas."
+				""
+				"&d¡Has completado el Acto V!&r"
+				""
+				"&aRecompensa&r: Fragmento del Vacío"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:echo_shard"
+				tag: {
+					display: {
+						Name: '{"text":"Fragmento del Vacío","color":"dark_purple","italic":false,"bold":true}'
+						Lore: ['{"text":"Un fragmento de lo que hay más allá","color":"gray","italic":true}']
+					}
+					Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
+					HideFlags: 1
+				}
+			}
+			id: "A50000GATE000001"
+			rewards: [{
+				id: "A50000AA00000008"
+				item: {
+					Count: 1
+					id: "minecraft:echo_shard"
+					tag: {
+						display: {
+							Name: '{"text":"Fragmento del Vacío","color":"dark_purple","italic":false,"bold":true}'
+							Lore: [
+								'{"text":"Un fragmento de lo que hay más allá","color":"gray","italic":true}'
+								'{"text":"","italic":false}'
+								'{"text":"⭐ Recompensa del Acto V","color":"gold","italic":false}'
+							]
+						}
+						Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
+						HideFlags: 1
+					}
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "A50000AA00000007"
+				title: "Completar Acto V"
+				type: "checkmark"
+			}]
+			title: "&6⭐ Fragmento del Vacío&r"
+			x: 0.0d
+			y: -8.0d
+		}
+	]
+	title: "&6Acto V: El Explorador&r"
+}

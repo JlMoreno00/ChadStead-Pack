@@ -1,0 +1,232 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "act3_el_granjero"
+	group: "A00000D1A210F001"
+	icon: "farmersdelight:cooking_pot"
+	id: "A30000A1B2C3D4E5"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["A20000GATE000001"]
+			description: [
+				"Tu despensa empieza a llenarse, pero seamos sinceros: estás comiendo como un cavernícola."
+				"Ya no basta con sobrevivir a base de pan seco y bayas sueltas."
+				"Si quieres vivir bien, toca aprender cocina, granja y un poco de buen gusto."
+				""
+				"&aEn este acto&r vas a dominar los capítulos de comida y bebida."
+				"&aCuando termines&r, tu mesa no dará pena: dará hambre."
+			]
+			icon: "farmersdelight:iron_knife"
+			id: "A300000000000001"
+			optional: true
+			size: 2.0d
+			subtitle: "&7Acto III del Diario&r"
+			tasks: [{
+				id: "A30000AA00000001"
+				title: "Comenzar Acto III"
+				type: "checkmark"
+			}]
+			title: "&6Acto III: El Granjero&r"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A300000000000001"]
+			description: [
+				"La sartén manda y tú obedeces."
+				"Entre guisos, cuchillos y recetas, ya hueles a cocina seria."
+				""
+				"&aObjetivo&r: completa la intro de Farmer's Delight."
+			]
+			icon: "farmersdelight:skillet"
+			id: "A300000000000002"
+			tasks: [{
+				id: "A30000AA00000002"
+				title: "Completar intro de Farmer's Delight"
+				type: "checkmark"
+			}]
+			title: "Maestro de la Sartén"
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["A300000000000001"]
+			description: [
+				"Hora de ensuciarte las botas en el prado."
+				"Leche fresca, queso curado y una granja que parece de postal."
+				""
+				"&aObjetivo&r: completa la intro de Meadow."
+			]
+			icon: "meadow:cheese"
+			id: "A300000000000003"
+			tasks: [{
+				id: "A30000AA00000003"
+				title: "Completar intro de Meadow"
+				type: "checkmark"
+			}]
+			title: "Pastos y Queso"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["A300000000000001"]
+			description: [
+				"La costa también se cocina, y se cocina con estilo."
+				"Si hay sombrilla, música y comida buena, tú ya estás dentro."
+				""
+				"&aObjetivo&r: completa la intro de Beach Party."
+			]
+			icon: "beachparty:coconut_cocktail"
+			id: "A300000000000004"
+			tasks: [{
+				id: "A30000AA00000004"
+				title: "Completar intro de Beach Party"
+				type: "checkmark"
+			}]
+			title: "Fiesta en la Playa"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["A300000000000001"]
+			description: [
+				"No todo en la vida es agua y sopa."
+				"Un buen barril, algo de paciencia y brindas como la gente decente."
+				""
+				"&aObjetivo&r: completa la intro de Brewery."
+			]
+			icon: "brewery:beer_mug"
+			id: "A300000000000005"
+			tasks: [{
+				id: "A30000AA00000005"
+				title: "Completar intro de Brewery"
+				type: "checkmark"
+			}]
+			title: "El Cervecero"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["A300000000000001"]
+			description: [
+				"Masa, horno y paciencia: la trinidad del panadero."
+				"Cuando el barrio huela a pan caliente, sabrás que lo hiciste bien."
+				""
+				"&aObjetivo&r: completa la intro de Bakery."
+			]
+			icon: "bakery:bread"
+			id: "A300000000000006"
+			tasks: [{
+				id: "A30000AA00000006"
+				title: "Completar intro de Bakery"
+				type: "checkmark"
+			}]
+			title: "El Panadero"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["A300000000000001"]
+			description: [
+				"Plantas, barricas y tiempo: aquí se cocina la elegancia."
+				"Hoy haces vino; mañana discutes cosechas como experto."
+				""
+				"&aObjetivo&r: completa la intro de Vinery."
+			]
+			icon: "vinery:red_wine"
+			id: "A300000000000007"
+			tasks: [{
+				id: "A30000AA00000007"
+				title: "Completar intro de Vinery"
+				type: "checkmark"
+			}]
+			title: "El Viñedo"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["A300000000000001"]
+			description: [
+				"No es solo cenar: es montar escena."
+				"Velas encendidas, mesa bonita y platos que parecen de restaurante caro."
+				""
+				"&aObjetivo&r: completa la intro de Candlelight."
+			]
+			icon: "candlelight:candle_holder"
+			id: "A300000000000008"
+			tasks: [{
+				id: "A30000AA00000008"
+				title: "Completar intro de Candlelight"
+				type: "checkmark"
+			}]
+			title: "Cena a la Luz de las Velas"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"A300000000000002"
+				"A300000000000003"
+				"A300000000000004"
+				"A300000000000005"
+				"A300000000000006"
+				"A300000000000007"
+				"A300000000000008"
+			]
+			description: [
+				"Ya no improvisas con lo primero que pillas."
+				"Ahora montas cenas, maridas bebidas y cocinas como quien dirige una orquesta."
+				""
+				"&d¡Has completado el Acto III!&r"
+				""
+				"&aRecompensa&r: Cucharón de Oro"
+			]
+			icon: {
+				Count: 1
+				id: "farmersdelight:golden_knife"
+				tag: {
+					display: {
+						Name: '{"text":"Cucharón de Oro","color":"gold","italic":false,"bold":true}'
+						Lore: ['{"text":"No eres chef — eres artista","color":"gray","italic":true}']
+					}
+					Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
+					HideFlags: 1
+				}
+			}
+			id: "A30000GATE000001"
+			rewards: [{
+				id: "A30000AA0000000A"
+				item: {
+					Count: 1
+					id: "farmersdelight:golden_knife"
+					tag: {
+						display: {
+							Name: '{"text":"Cucharón de Oro","color":"gold","italic":false,"bold":true}'
+							Lore: [
+								'{"text":"No eres chef — eres artista","color":"gray","italic":true}'
+								'{"text":"","italic":false}'
+								'{"text":"⭐ Recompensa del Acto III","color":"gold","italic":false}'
+							]
+						}
+						Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
+						HideFlags: 1
+					}
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "A30000AA00000009"
+				title: "Completar Acto III"
+				type: "checkmark"
+			}]
+			title: "&6⭐ Cucharón de Oro&r"
+			x: 0.0d
+			y: -6.0d
+		}
+	]
+	title: "&6Acto III: El Granjero&r"
+}

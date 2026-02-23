@@ -1,0 +1,172 @@
+{
+	autofocus_id: "A200000000000001"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "act2_el_colono"
+	group: "A00000D1A210F001"
+	icon: "minecraft:oak_door"
+	id: "A20000A1B2C3D4E5"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["A10000GATE000001"]
+			description: [
+				"&2Ya sobrevives... pero esto no es vivir. Necesitas un hogar.&r"
+				""
+				"&aLevanta una base que puedas llamar tuya, con cama, cofres y comida cerca.&r"
+				"&aEn este acto vas a ordenar tu vida: dinero, granja, almacenamiento y mochila.&r"
+			]
+			icon: "minecraft:oak_door"
+			id: "A200000000000001"
+			optional: true
+			size: 2.0d
+			subtitle: "&7Acto II del Diario&r"
+			tasks: [{
+				id: "A2000000000000A1"
+				title: "&aComenzar Acto II&r"
+				type: "checkmark"
+			}]
+			title: "&6Acto II: El Colono&r"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"A200000000000001"
+				"0DD6C3E83513D0F1"
+			]
+			description: [
+				"&2Una base sin economía se estanca rápido.&r"
+				""
+				"&aObjetivo&r: completa la intro de &bEconomy&r y deja que tus recursos empiecen a trabajar por ti.&r"
+			]
+			icon: "dailyshop:daily_shop"
+			id: "A200000000000002"
+			tasks: [{
+				id: "A2000000000000A2"
+				title: "&aConfirmar progreso en Economy&r"
+				type: "checkmark"
+			}]
+			title: "&2Economía Básica&r"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"A200000000000001"
+				"2E9F88BA817C2233"
+			]
+			description: [
+				"&2No hay colonia sin comida constante.&r"
+				""
+				"&aObjetivo&r: completa la intro de &bFarm Charm&r y monta una granja simple que te mantenga en pie.&r"
+			]
+			icon: "minecraft:wheat"
+			id: "A200000000000003"
+			tasks: [{
+				id: "A2000000000000A3"
+				title: "&aConfirmar progreso en Farm Charm&r"
+				type: "checkmark"
+			}]
+			title: "&2Tu Primera Granja&r"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["A200000000000001"]
+			description: [
+				"&2Si cada cosa vive en un cofre distinto sin orden, acabas perdiendo tiempo y paciencia.&r"
+				""
+				"&aObjetivo&r: completa la intro de &bStorage&r y organiza tus materiales como una persona civilizada.&r"
+			]
+			icon: "minecraft:chest"
+			id: "A200000000000004"
+			tasks: [{
+				id: "A2000000000000A4"
+				title: "&aConfirmar progreso en Storage&r"
+				type: "checkmark"
+			}]
+			title: "&2Orden en el Caos&r"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["A200000000000001"]
+			description: [
+				"&2Tu inventario ya no da para más, y lo sabes.&r"
+				""
+				"&aObjetivo&r: completa la intro de &bSophisticated Backpacks&r para llevar tu base contigo cuando salgas.&r"
+			]
+			icon: "sophisticatedbackpacks:backpack"
+			id: "A200000000000005"
+			tasks: [{
+				id: "A2000000000000A5"
+				title: "&aConfirmar progreso en Backpacks&r"
+				type: "checkmark"
+			}]
+			title: "&2Mochila de Aventurero&r"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"A200000000000002"
+				"A200000000000003"
+				"A200000000000004"
+				"A200000000000005"
+			]
+			description: [
+				"&2Ya no improvisas: tienes ingresos, comida, orden y movilidad.&r"
+				""
+				"&d¡Has completado el Acto II!&r"
+				""
+				"&aRecompensa&r: &2Escritura de la Tierra&r"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:filled_map"
+				tag: {
+					display: {
+						Name: '{"text":"Escritura de la Tierra","color":"dark_green","italic":false}'
+						Lore: ['{"text":"La tierra bajo tus pies ahora es tuya","color":"gray","italic":true}']
+					}
+					Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
+					HideFlags: 1
+				}
+			}
+			id: "A20000GATE000001"
+			rewards: [{
+				id: "A2000000000000B1"
+				item: {
+					Count: 1
+					id: "minecraft:filled_map"
+					tag: {
+						display: {
+							Name: '{"text":"Escritura de la Tierra","color":"dark_green","italic":false,"bold":true}'
+							Lore: [
+								'{"text":"La tierra bajo tus pies ahora es tuya","color":"gray","italic":true}'
+								'{"text":"","italic":false}'
+								'{"text":"⭐ Recompensa del Acto II","color":"gold","italic":false}'
+							]
+						}
+						Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
+						HideFlags: 1
+					}
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "A2000000000000A6"
+				title: "&aCompletar Acto II&r"
+				type: "checkmark"
+			}]
+			title: "&6⭐ Escritura de la Tierra&r"
+			x: 0.0d
+			y: -8.0d
+		}
+	]
+	title: "&6Acto II: El Colono&r"
+}
