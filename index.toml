@@ -50,7 +50,7 @@ hash = "2a5a74730f077b6de9b4bc543a6fb92b1cd3f8d722b72c807b726c97e4810930"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/act6_el_fundador.snbt"
-hash = "694d60254cd9ab356e74d9af228c919554942b7b4606eb05c72116a6fd23d339"
+hash = "04f275fadee77dbd97dab7290e7903ebde9be5b2c165df86baff56b96d8455ce"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bibntroduction.snbt"
@@ -218,7 +218,7 @@ hash = "f0ace235084be336f70bd504b4a326298b1185b9db5bffbc994e4e40b13335c4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/postgame_legado.snbt"
-hash = "d0ec24533ddac0357b16780d7cc387fdf012c71ad130cd03ff535ed2a2b5b118"
+hash = "038734318abec604abeee9dd06ee365e71a750acf6d2d3423791119d283aded3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ribbits_collection.snbt"

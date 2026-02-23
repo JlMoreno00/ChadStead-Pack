@@ -1,11 +1,10 @@
 {
-	autofocus_id: "A60000A100000001"
 	default_hide_dependency_lines: false
 	default_quest_shape: "hexagon"
 	disable_toast: true
 	filename: "act6_el_fundador"
 	group: "A00000D1A210F001"
-	icon: "minecraft:golden_apple"
+	icon: "minecraft:elytra"
 	id: "A60000A1B2C3D4E5"
 	order_index: 5
 	quest_links: [ ]
@@ -13,19 +12,19 @@
 		{
 			dependencies: ["A50000GATE000001"]
 			description: [
-				"Has sobrevivido al End. Has matado al dragón. ChadStead ya no es un nombre — es un lugar. Ahora toca conectarlo todo."
+				"Vale, llegaste hasta aqui sin explotar el mundo. Bien hecho."
 				""
-				"Ya no te mueves solo por necesidad, sino para unir cada rincón de lo que construiste."
-				"&aObjetivo&r: Marca el inicio de tu legado como fundador de ChadStead.&r"
+				"Este acto va de dominar el End de verdad: dragon, ciudades, vuelo y legendarios serios."
+				"Si completas esto, ya no eres aventurero... eres fundador."
 			]
-			icon: "minecraft:golden_apple"
-			id: "A60000A100000001"
+			icon: "minecraft:end_portal_frame"
+			id: "A600000000000001"
 			optional: true
 			size: 2.0d
 			subtitle: "&7Acto VI del Diario&r"
 			tasks: [{
-				id: "A60000B100000001"
-				title: "Comenzar Acto VI"
+				id: "6A00000000000001"
+				title: "Empezar Acto VI"
 				type: "checkmark"
 			}]
 			title: "&6Acto VI: El Fundador&r"
@@ -33,150 +32,410 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"A60000A100000001"
-				"2D92B9A145392017"
-			]
+			dependencies: ["A600000000000001"]
 			description: [
-				"Tus rutas ya no son senderos: ahora son corredores aéreos."
-				"Cada vuelo reduce distancias y te da control total del mapa."
-				""
-				"&aObjetivo&r: Completa la intro de Aircraft para dominar el transporte por aire.&r"
+				"Hora de cruzar el portal y plantar bandera en el End."
+				"Entra preparado y deja un cofre de emergencia en la plataforma de spawn."
 			]
-			icon: "immersive_aircraft:biplane"
-			id: "A60000A100000002"
-			tasks: [{
-				id: "A60000B100000002"
-				title: "Confirmar progreso en Aircraft"
-				type: "checkmark"
+			icon: "minecraft:end_stone"
+			id: "A600000000000002"
+			rewards: [{
+				id: "6B00000000000001"
+				type: "xp"
+				xp: 80
 			}]
-			title: "Alas de Acero"
-			x: -4.0d
-			y: -3.0d
-		}
-		{
-			dependencies: [
-				"A60000A100000001"
-				"227ED65F6179B3FB"
-			]
-			description: [
-				"No toda conexión va por el cielo: también necesitas caminos firmes."
-				"Las ruedas convierten exploración en logística real."
-				""
-				"&aObjetivo&r: Completa la intro de Automobiles para abrir rutas terrestres rápidas.&r"
-			]
-			icon: "automobility:automobile"
-			id: "A60000A100000003"
 			tasks: [{
-				id: "A60000B100000003"
-				title: "Confirmar progreso en Automobiles"
-				type: "checkmark"
+				id: "6A00000000000002"
+				item: "minecraft:end_stone"
+				type: "item"
 			}]
-			title: "Sobre Ruedas"
-			x: -2.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["A60000A100000001"]
-			description: [
-				"Los ríos y océanos dejaron de ser barreras cuando aprendiste a usarlos a tu favor."
-				"Un fundador conecta también por agua."
-				""
-				"&aObjetivo&r: Avanza en Boats y deja listas tus rutas marítimas.&r"
-			]
-			icon: "minecraft:oak_boat"
-			id: "A60000A100000004"
-			tasks: [{
-				id: "A60000B100000004"
-				title: "Confirmar progreso en Boats"
-				type: "checkmark"
-			}]
-			title: "Capitán"
+			title: "&5Primer Paso en el End&r"
 			x: 0.0d
-			y: -3.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["A60000A100000001"]
+			dependencies: ["A600000000000002"]
 			description: [
-				"Moverte con tu equipo Pokémon no es un lujo; es integración total con tu aventura."
-				"Si ChadStead es comunidad, también lo es cómo te desplazas."
-				""
-				"&aObjetivo&r: Avanza en CobblemonRider para viajar junto a tus Pokémon.&r"
+				"Sin vueltas: toca tumbar al Ender Dragon."
+				"Rompe cristales, controla el aire y no regales el totem por nervios."
 			]
-			icon: "minecraft:saddle"
-			id: "A60000A100000005"
-			tasks: [{
-				id: "A60000B100000005"
-				title: "Confirmar progreso en CobblemonRider"
-				type: "checkmark"
+			icon: "minecraft:dragon_head"
+			id: "A600000000000003"
+			rewards: [{
+				id: "6B00000000000002"
+				type: "xp"
+				xp: 200
 			}]
-			title: "Jinete Pokémon"
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "6A00000000000003"
+				title: "Derrota al Ender Dragon"
+				type: "advancement"
+			}]
+			title: "&5Caida del Dragon&r"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["A600000000000003"]
+			description: [
+				"Ahora exprime la victoria: recoge Dragon's Breath para futuras pociones top."
+				"Te va a ahorrar un monton de viajes despues."
+			]
+			icon: "minecraft:dragon_breath"
+			id: "A600000000000004"
+			rewards: [{
+				id: "6B00000000000003"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A00000000000004"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			title: "&dAliento del Dragon&r"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["A600000000000003"]
+			description: [
+				"Si hay huevo, hay trofeo y hay respeto."
+				"Guardalo bien, que esta cosa no se fabrica."
+			]
+			icon: "minecraft:dragon_egg"
+			id: "A600000000000005"
+			rewards: [{
+				id: "6B00000000000004"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				id: "6A00000000000005"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			title: "&6Huevo del Fundador&r"
 			x: 2.0d
-			y: -3.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["A60000A100000001"]
+			dependencies: ["A600000000000003"]
 			description: [
-				"Conectar no es solo moverte: también es construir más rápido y mejor."
-				"Tus herramientas son la base física de todo lo que llamas hogar."
-				""
-				"&aObjetivo&r: Avanza en Construction tools para acelerar tu infraestructura.&r"
+				"Activa un gateway y abre la ruta a las End Cities."
+				"Lleva bloques, perlas y cabeza fria."
 			]
-			icon: "constructionwand:stone_wand"
-			id: "A60000A100000006"
+			icon: "minecraft:end_crystal"
+			id: "A600000000000006"
+			rewards: [{
+				id: "6B00000000000005"
+				type: "xp"
+				xp: 140
+			}]
 			tasks: [{
-				id: "A60000B100000006"
-				title: "Confirmar progreso en Construction tools"
+				id: "6A00000000000006"
+				item: "minecraft:end_crystal"
+				type: "item"
+			}]
+			title: "&5Puerta al End Exterior&r"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["A600000000000006"]
+			description: [
+				"Tu objetivo ya no es sobrevivir: es saquear ciudades del End como un pro."
+				"Marca coordenadas, porque vas a volver seguido."
+			]
+			icon: "minecraft:purpur_block"
+			id: "A600000000000007"
+			rewards: [{
+				id: "6B00000000000006"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				id: "6A00000000000007"
+				title: "Encuentra una End City"
 				type: "checkmark"
 			}]
-			title: "Constructor"
+			title: "&dCiudad del End Localizada&r"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["A600000000000007"]
+			description: [
+				"Los Shulkers son pesados, pero sus cajas son media vida."
+				"Farmear shells aqui te cambia la logistica para siempre."
+			]
+			icon: "minecraft:shulker_shell"
+			id: "A600000000000008"
+			rewards: [{
+				id: "6B00000000000007"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A00000000000008"
+				item: "minecraft:shulker_shell"
+				type: "item"
+			}]
+			title: "&5Cosecha de Shulkers&r"
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["A600000000000007"]
+			description: [
+				"Si encuentras la nave, ya estas en la zona premium."
+				"Traete la cabeza del dragon para decorar como fundador con estilo."
+			]
+			icon: "minecraft:dragon_head"
+			id: "A600000000000009"
+			rewards: [{
+				id: "6B00000000000008"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6A00000000000009"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
+			title: "&6Trofeo de Nave End&r"
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["A600000000000009"]
+			description: [
+				"Sin Elytra no hay fundador, hay turista."
+				"Consigue tus alas y prepara vuelos largos con cabeza."
+			]
+			icon: "minecraft:elytra"
+			id: "A60000000000000A"
+			rewards: [{
+				id: "6B00000000000009"
+				type: "xp"
+				xp: 220
+			}]
+			tasks: [{
+				id: "6A0000000000000A"
+				item: "minecraft:elytra"
+				type: "item"
+			}]
+			title: "&6Alas Recuperadas&r"
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["A60000000000000A"]
+			description: [
+				"Ahora toca volar de verdad: fabrica cohetes para moverte sin parar."
+				"Con esto tu mapa se te va a quedar pequeno."
+			]
+			icon: "minecraft:firework_rocket"
+			id: "A60000000000000B"
+			rewards: [{
+				id: "6B0000000000000A"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				id: "6A0000000000000B"
+				item: "minecraft:firework_rocket"
+				type: "item"
+			}]
+			title: "&bCombustible de Vuelo&r"
 			x: 4.0d
-			y: -3.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["A60000000000000A"]
+			description: [
+				"No todo es loot: tambien necesitas infraestructura seria."
+				"Un lodestone en el End te salva de perder horas por una mala orientacion."
+			]
+			icon: "minecraft:lodestone"
+			id: "A60000000000000C"
+			rewards: [{
+				id: "6B0000000000000B"
+				type: "xp"
+				xp: 140
+			}]
+			tasks: [{
+				id: "6A0000000000000C"
+				item: "minecraft:lodestone"
+				type: "item"
+			}]
+			title: "&7Ancla de Navegacion&r"
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["A60000000000000A"]
+			description: [
+				"&aRayquaza&r suele salir en &aFloral&r, de &eDia&r y con clima &fdespejado&r."
+				"Ve con Ultra Balls, comida y un punto alto para verlo venir desde lejos."
+			]
+			icon: "minecraft:wind_charge"
+			id: "A60000000000000D"
+			rewards: [{
+				id: "6B0000000000000C"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "6A0000000000000D"
+				title: "Captura (o derrota) a Rayquaza"
+				type: "checkmark"
+			}]
+			title: "&6Legendario: Rayquaza&r"
+			x: -4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["A60000000000000A"]
+			description: [
+				"&9Dialga&r aparece en el End en spawns raros."
+				"Recorre islas lejanas, limpia Endermen cerca y mantente atento al cielo y al terreno abierto."
+			]
+			icon: "minecraft:clock"
+			id: "A60000000000000E"
+			rewards: [{
+				id: "6B0000000000000D"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "6A0000000000000E"
+				title: "Captura (o derrota) a Dialga"
+				type: "checkmark"
+			}]
+			title: "&6Legendario: Dialga&r"
+			x: -2.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["A60000000000000A"]
+			description: [
+				"Para esta mision vale &dPalkia&r o &5Giratina&r en el End."
+				"Si te sale cualquiera de los dos, ya cumpliste: no hace falta sufrir doble."
+			]
+			icon: "minecraft:chorus_fruit"
+			id: "A60000000000000F"
+			rewards: [{
+				id: "6B0000000000000E"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "6A0000000000000F"
+				title: "Captura a Palkia o Giratina"
+				type: "checkmark"
+			}]
+			title: "&6Legendario: Distorsion o Espacio&r"
+			x: 0.0d
+			y: 18.0d
 		}
 		{
 			dependencies: [
-				"A60000A100000002"
-				"A60000A100000003"
-				"A60000A100000004"
-				"A60000A100000005"
-				"A60000A100000006"
+				"A600000000000008"
+				"A60000000000000B"
+				"A60000000000000C"
 			]
 			description: [
-				"Ahora sí: ya no tienes una base aislada. Tienes una red viva."
-				"Cielo, tierra, agua y construcción trabajan como un solo sistema."
+				"Dragon vencido, ciudad saqueada, vuelo estable y base de navegacion lista."
+				"Ya dominas el End como zona operativa real."
+			]
+			icon: "minecraft:end_stone_bricks"
+			id: "A600000000000010"
+			rewards: [{
+				id: "6B0000000000000F"
+				type: "xp"
+				xp: 260
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "6A00000000000010"
+				title: "Checklist: dominio del End"
+				type: "checkmark"
+			}]
+			title: "&5Dominio del End&r"
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"A60000000000000D"
+				"A60000000000000E"
+				"A60000000000000F"
+			]
+			description: [
+				"Tu Pokedex de leyendas ya no es suerte: es caceria planificada."
+				"Con esto te ganas el rango de fundador de elite."
+			]
+			icon: "minecraft:nether_star"
+			id: "A600000000000011"
+			rewards: [{
+				id: "6B00000000000010"
+				type: "xp"
+				xp: 300
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "6A00000000000011"
+				title: "Checklist: caceria legendaria completada"
+				type: "checkmark"
+			}]
+			title: "&6Concilio de Legendarios&r"
+			x: -2.0d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"A600000000000005"
+				"A600000000000010"
+				"A600000000000011"
+			]
+			description: [
+				"Cerraste todo: dragon, infraestructura del End y leyendas de alto nivel."
 				""
-				"&d¡Has completado el Acto VI!&r"
-				""
-				"&aRecompensa&r: Sello de ChadStead&r"
+				"Toma tu recompensa unica y abre el paso al Postgame."
 			]
 			icon: {
 				Count: 1
-				id: "minecraft:name_tag"
+				id: "minecraft:elytra"
 				tag: {
 					display: {
-						Name: '{"text":"Sello de ChadStead","color":"gold","italic":false,"bold":true}'
-						Lore: ['{"text":"Con esto sellas tu legado en esta tierra","color":"gray","italic":true}']
+						Name: '{"text":"Alas del Fundador","color":"gold","italic":false}'
+						Lore: [
+							'{"text":"Probadas en el vacio del End","color":"gray","italic":true}'
+							'{"text":"★ Recompensa del Acto VI","color":"gold","italic":false}'
+						]
 					}
-					Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
+					Enchantments: [{id: "minecraft:unbreaking", lvl: 5s}]
 					HideFlags: 1
 				}
 			}
 			id: "A60000GATE000001"
 			rewards: [{
-				id: "A60000C100000001"
+				id: "6B00000000000011"
 				item: {
 					Count: 1
-					id: "minecraft:name_tag"
+					id: "minecraft:elytra"
 					tag: {
 						display: {
-							Name: '{"text":"Sello de ChadStead","color":"gold","italic":false,"bold":true}'
+							Name: '{"text":"Alas del Fundador","color":"gold","italic":false}'
 							Lore: [
-								'{"text":"Con esto sellas tu legado en esta tierra","color":"gray","italic":true}'
-								'{"text":"","italic":false}'
-								'{"text":"⭐ Recompensa del Acto VI","color":"gold","italic":false}'
+								'{"text":"Probadas en el vacio del End","color":"gray","italic":true}'
+								'{"text":"★ Recompensa del Acto VI","color":"gold","italic":false}'
 							]
 						}
-						Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
+						Enchantments: [{id: "minecraft:unbreaking", lvl: 5s}]
 						HideFlags: 1
 					}
 				}
@@ -184,13 +443,13 @@
 			}]
 			size: 2.0d
 			tasks: [{
-				id: "A60000B100000007"
+				id: "6A00000000000012"
 				title: "Completar Acto VI"
 				type: "checkmark"
 			}]
-			title: "&6⭐ Sello de ChadStead&r"
+			title: "&6⭐ Gate VI: Alas del Fundador&r"
 			x: 0.0d
-			y: -6.0d
+			y: 22.0d
 		}
 	]
 	title: "&6Acto VI: El Fundador&r"

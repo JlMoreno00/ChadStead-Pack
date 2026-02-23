@@ -12,349 +12,293 @@
 		{
 			dependencies: ["A60000GATE000001"]
 			description: [
-				"Has fundado ChadStead. De un náufrago perdido a esto."
-				"Pero aún no has terminado... Los verdaderos maestros no se conforman con sobrevivir."
+				"Llegaste al final del Diario, pero el Postgame es donde se separan los buenos de los imparables."
+				"Ahora te toca cerrar tu historia como fundador con retos de verdad."
 				""
-				"&aEste es tu examen final&r: dominar cada pilar que levantó esta tierra y sellar tu legado."
+				"&aObjetivo&r: empieza Postgame y activa Legado Eterno.&r"
 			]
 			icon: "minecraft:nether_star"
-			id: "A7000011B2C3D4E5"
+			id: "A700000000000001"
 			optional: true
 			size: 2.0d
 			subtitle: "&7Postgame del Diario del Fundador&r"
 			tasks: [{
-				id: "A70000AA00000001"
+				id: "A70000000000B001"
 				title: "Comenzar Legado Eterno"
 				type: "checkmark"
 			}]
-			title: "&dPostgame: Legado Eterno&r"
+			title: "&6Postgame: Legado Eterno&r"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["A7000011B2C3D4E5"]
+			dependencies: ["A700000000000001"]
 			description: [
-				"Tu PC ya no tiene caja de almacenamiento: tiene una Pokédex con patas."
-				"Conocer 50 especies distintas significa que no capturas por suerte, capturas por criterio."
+				"Tu cocina ya no va de llenar hambre: va de estilo, eficiencia y platos top."
 				""
-				"&aObjetivo&r: captura 50 Pokémon diferentes y marca este hito de maestría."
+				"&aMaster Chef&r: completa todos tus platos clave y deja la cocina al 100%."
 			]
-			icon: "cobblemon:poke_ball"
-			id: "A7000011B2C3D4E6"
-			rewards: [{
-				id: "A70000AA00000012"
-				item: {
-					Count: 1
-					id: "cobblemon:poke_ball"
-					tag: {
-						display: {
-							Name: '{"text":"Pokéball Dorada","color":"gold","italic":false,"bold":true}'
-							Lore: [
-								'{"text":"Reconocido como Maestro Pokémon de ChadStead","color":"gray","italic":true}'
-								'{"text":"","italic":false}'
-								'{"text":"🏆 Maestría: Pokéball Dorada","color":"light_purple","italic":false}'
-							]
-						}
-						Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
-						HideFlags: 1
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "&7Captura 50 Pokémon diferentes&r"
-			tasks: [{
-				id: "A70000AA00000002"
-				title: "Confirmar: 50 Pokémon diferentes capturados"
-				type: "checkmark"
-			}]
-			title: "&d🏆 Maestro Pokémon&r"
-			x: -6.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["A7000011B2C3D4E5"]
-			description: [
-				"Pasaste de carne quemada y pan duro a platos que harían llorar a un aldeano chef."
-				"Cuando cocinas por técnica y no por hambre, dejas de sobrevivir y empiezas a crear cultura."
-				""
-				"&aObjetivo&r: completa tu hito culinario y demuestra que tu cocina ya es leyenda local."
-			]
-			icon: "farmersdelight:diamond_knife"
-			id: "A7000011B2C3D4E7"
-			rewards: [{
-				id: "A70000AA00000013"
-				item: {
-					Count: 1
-					id: "farmersdelight:diamond_knife"
-					tag: {
-						display: {
-							Name: '{"text":"Cuchillo de Diamante","color":"gold","italic":false,"bold":true}'
-							Lore: [
-								'{"text":"Tu cocina es legendaria","color":"gray","italic":true}'
-								'{"text":"","italic":false}'
-								'{"text":"🏆 Maestría: Cuchillo de Diamante","color":"light_purple","italic":false}'
-							]
-						}
-						Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
-						HideFlags: 1
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "A70000AA00000003"
-				title: "Confirmar: Gran Chef"
-				type: "checkmark"
-			}]
-			title: "&d🏆 Gran Chef&r"
-			x: -4.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["A7000011B2C3D4E5"]
-			description: [
-				"Tus máquinas ya no son prototipos: son infraestructura crítica de ChadStead."
-				"Si dominas Create y AE2 a la vez, entiendes tanto el hierro como los datos."
-				""
-				"&aObjetivo&r: fabrica un ME Controller y un Rotation Speed Controller para sellar tu dominio técnico."
-			]
-			icon: "create:wrench"
-			id: "A7000011B2C3D4E8"
-			rewards: [{
-				id: "A70000AA00000014"
-				item: {
-					Count: 1
-					id: "create:wrench"
-					tag: {
-						display: {
-							Name: '{"text":"Llave Inglesa Ancestral","color":"dark_aqua","italic":false,"bold":true}'
-							Lore: [
-								'{"text":"Ninguna máquina se te resiste","color":"gray","italic":true}'
-								'{"text":"","italic":false}'
-								'{"text":"🏆 Maestría: Llave Inglesa Ancestral","color":"light_purple","italic":false}'
-							]
-						}
-						Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
-						HideFlags: 1
-					}
-				}
-				type: "item"
-			}]
+			icon: "farmersdelight:cooking_pot"
+			id: "A700000000000002"
 			tasks: [
 				{
-					id: "A70000AA00000004"
+					id: "A70000000000B002"
+					item: "farmersdelight:hamburger"
+					type: "item"
+				}
+				{
+					id: "A70000000000B003"
+					item: "farmersdelight:stuffed_potato"
+					type: "item"
+				}
+				{
+					id: "A70000000000B004"
+					title: "Confirmar Master Chef"
+					type: "checkmark"
+				}
+			]
+			title: "&6Mastery: Chef&r"
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["A700000000000001"]
+			description: [
+				"Si tu red ME y tus máquinas van finas, no tienes base: tienes una industria."
+				""
+				"&aMaster Engineer&r: demuestra control total de Create + AE2."
+			]
+			icon: "ae2:controller"
+			id: "A700000000000003"
+			tasks: [
+				{
+					id: "A70000000000B005"
 					item: "ae2:controller"
 					type: "item"
 				}
 				{
-					id: "A70000AA00000005"
+					id: "A70000000000B006"
 					item: "create:rotation_speed_controller"
 					type: "item"
 				}
+				{
+					id: "A70000000000B007"
+					title: "Confirmar Master Engineer"
+					type: "checkmark"
+				}
 			]
-			title: "&d🏆 Ingeniero Supremo&r"
+			title: "&6Mastery: Engineer&r"
 			x: -2.0d
-			y: -4.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["A7000011B2C3D4E5"]
+			dependencies: ["A700000000000001"]
 			description: [
-				"Donde otros ven chatarra rara, tú ves historia, contexto y trofeos con nombre propio."
-				"Coleccionar no es acumular: es saber qué merece ocupar una vitrina."
+				"Ya no exploras por loot rápido. Exploras para mapear, dominar y volver vivo."
 				""
-				"&aObjetivo&r: reúne 20 items de colección y demuestra ojo de curador, no de hoarder."
+				"&aMaster Explorer&r: visita y confirma biomas raros del mundo final."
 			]
-			icon: "minecraft:glass"
-			id: "A7000011B2C3D4E9"
-			rewards: [{
-				id: "A70000AA00000015"
-				item: {
-					Count: 1
-					id: "minecraft:glass"
-					tag: {
-						display: {
-							Name: '{"text":"Vitrina del Coleccionista","color":"gold","italic":false,"bold":true}'
-							Lore: [
-								'{"text":"Un verdadero cazador de tesoros","color":"gray","italic":true}'
-								'{"text":"","italic":false}'
-								'{"text":"🏆 Maestría: Vitrina del Coleccionista","color":"light_purple","italic":false}'
-							]
-						}
-						Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
-						HideFlags: 1
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "&7Obtén 20 items de colección&r"
+			icon: "minecraft:map"
+			id: "A700000000000004"
 			tasks: [{
-				id: "A70000AA00000006"
-				title: "Confirmar: 20 items de colección"
+				id: "A70000000000B008"
+				title: "Confirmar Master Explorer"
 				type: "checkmark"
 			}]
-			title: "&d🏆 Coleccionista&r"
+			title: "&6Mastery: Explorer&r"
 			x: 2.0d
-			y: -4.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["A7000011B2C3D4E5"]
+			dependencies: ["A700000000000001"]
 			description: [
-				"Los cofres llenos impresionan, pero una economía estable mantiene viva una ciudad."
-				"Tus tratos, rutas y bounties convirtieron recursos dispersos en progreso real."
+				"No es suerte: es crianza, builds y lectura de combate."
 				""
-				"&aObjetivo&r: completa 50 bounties y prueba que sabes mover ChadStead como un mercado serio."
+				"&aMaster Trainer&r: deja listo tu equipo y cierra la élite de legendarios."
 			]
-			icon: "minecraft:gold_nugget"
-			id: "A7000011B2C3D4EA"
-			rewards: [{
-				id: "A70000AA00000016"
-				item: {
-					Count: 1
-					id: "minecraft:gold_nugget"
-					tag: {
-						display: {
-							Name: '{"text":"Moneda del Fundador","color":"gold","italic":false,"bold":true}'
-							Lore: [
-								'{"text":"El comercio levantó ChadStead","color":"gray","italic":true}'
-								'{"text":"","italic":false}'
-								'{"text":"🏆 Maestría: Moneda del Fundador","color":"light_purple","italic":false}'
-							]
-						}
-						Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
-						HideFlags: 1
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "&7Completa 50 bounties&r"
+			icon: "cobblemon:ultra_ball"
+			id: "A700000000000005"
 			tasks: [{
-				id: "A70000AA00000007"
-				title: "Confirmar: 50 bounties completadas"
+				id: "A70000000000B009"
+				title: "Confirmar Master Trainer"
 				type: "checkmark"
 			}]
-			title: "&d🏆 Mercader&r"
-			x: 4.0d
-			y: -4.0d
+			title: "&6Mastery: Trainer&r"
+			x: 6.0d
+			y: -2.5d
 		}
 		{
-			dependencies: [
-				"A7000011B2C3D4E5"
-				"2283BDEA6E8DCC40"
-			]
+			dependencies: ["A700000000000005"]
 			description: [
-				"No hay discurso ni medalla que compita con mirar al dragón a los ojos y ganar."
-				"La conquista del End separa a quien juega bien de quien deja huella."
+				"Mewtwo no cae por casualidad. Ve preparado para pelea larga."
+				"Pista: Overworld, sobre bloque de césped, por la tarde."
 				""
-				"&aObjetivo&r: confirma la caída del Ender Dragon y reclama tu título de Conquistador."
+				"&aObjetivo&r: captura a Mewtwo."
 			]
 			icon: "minecraft:ender_eye"
-			id: "A7000011B2C3D4EB"
-			rewards: [{
-				id: "A70000AA00000017"
-				item: {
-					Count: 1
-					id: "minecraft:ender_eye"
-					tag: {
-						display: {
-							Name: '{"text":"Ojo del Fin Sellado","color":"dark_purple","italic":false,"bold":true}'
-							Lore: [
-								'{"text":"Miraste al vacío y no parpadeaste","color":"gray","italic":true}'
-								'{"text":"","italic":false}'
-								'{"text":"🏆 Maestría: Ojo del Fin Sellado","color":"light_purple","italic":false}'
-							]
-						}
-						Enchantments: [{id: "minecraft:unbreaking", lvl: 1s}]
-						HideFlags: 1
-					}
-				}
-				type: "item"
-			}]
+			id: "A700000000000006"
 			tasks: [{
-				id: "A70000AA00000008"
-				title: "Confirmar: Ender Dragon derrotado"
+				id: "A70000000000B00A"
+				title: "Confirmar captura de Mewtwo"
 				type: "checkmark"
 			}]
-			title: "&d🏆 Conquistador&r"
+			title: "Mewtwo: Poder Absoluto"
 			x: 6.0d
-			y: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["A700000000000004"]
+			description: [
+				"Mew aparece cuando de verdad ya no te falta nada por aprender."
+				"Pista: End o Floral, con exploración paciente."
+				""
+				"&aObjetivo&r: captura a Mew."
+			]
+			icon: "minecraft:chorus_flower"
+			id: "A700000000000007"
+			tasks: [{
+				id: "A70000000000B00B"
+				title: "Confirmar captura de Mew"
+				type: "checkmark"
+			}]
+			title: "Mew: Espíritu del Origen"
+			x: 2.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
-				"A7000011B2C3D4E6"
-				"A7000011B2C3D4E7"
-				"A7000011B2C3D4E8"
-				"A7000011B2C3D4E9"
-				"A7000011B2C3D4EA"
-				"A7000011B2C3D4EB"
+				"A700000000000002"
+				"A700000000000003"
+				"A700000000000004"
+				"A700000000000005"
+				"A700000000000006"
+				"A700000000000007"
 			]
 			description: [
-				"No basta con llegar al final: hay que reunir todo lo que te convirtió en fundador."
-				"Seis reliquias de acto, seis trofeos de maestría. Ninguna sobra, ninguna se improvisa."
+				"Ya dominas cocina, tecnología, exploración y entrenamiento."
+				"Ahora toca preparar la forja donde nace la Corona."
 				""
-				"&aReúne las 12 reliquias&r y valida manualmente que están en tu inventario antes de reclamar la corona."
+				"&aObjetivo&r: activar la Forja del Legado."
 			]
-			icon: {
-				Count: 1
-				id: "minecraft:golden_helmet"
-				tag: {
-					display: {
-						Name: '{"text":"👑 Corona del Fundador","color":"gold","italic":false,"bold":true}'
-						Lore: [
-							'{"text":"Forjada con el esfuerzo de toda una vida","color":"gray","italic":true}'
-							'{"text":"en las tierras de ChadStead.","color":"gray","italic":true}'
-							'{"text":"","italic":false}'
-							'{"text":"12 reliquias reunidas. 12 pruebas superadas.","color":"light_purple","italic":true}'
-							'{"text":"","italic":false}'
-							'{"text":"👑 Logro Final: Legado Eterno","color":"gold","italic":false}'
-						]
-					}
-					Enchantments: [
-						{id: "minecraft:protection", lvl: 10s}
-						{id: "minecraft:unbreaking", lvl: 10s}
-						{id: "minecraft:thorns", lvl: 5s}
-						{id: "minecraft:respiration", lvl: 3s}
-						{id: "minecraft:aqua_affinity", lvl: 1s}
-					]
-					AttributeModifiers: [
-						{
-							Amount: 100.0d
-							AttributeName: "generic.max_health"
-							Name: "Corona Health Boost"
-							Operation: 0
-							Slot: "head"
-							UUID: [I; 1234567, 8901234, 5678901, 2345678]
-						}
-						{
-							Amount: 0.1d
-							AttributeName: "generic.movement_speed"
-							Name: "Corona Speed"
-							Operation: 1
-							Slot: "head"
-							UUID: [I; 2345678, 9012345, 6789012, 3456789]
-						}
-					]
-					HideFlags: 2
-					Unbreakable: 1b
-				}
-			}
+			icon: "minecraft:smithing_table"
+			id: "A700000000000008"
+			tasks: [{
+				id: "A70000000000B00C"
+				title: "Confirmar: Forja del Legado activada"
+				type: "checkmark"
+			}]
+			title: "Forja del Legado"
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["A700000000000008"]
+			description: ["Marca que tienes la recompensa del Acto I: Botas de Náufrago."]
+			icon: "minecraft:leather_boots"
+			id: "A700000000000009"
+			tasks: [{
+				id: "A70000000000B00D"
+				title: "Tengo Botas de Náufrago (Acto I)"
+				type: "checkmark"
+			}]
+			title: "Reliquia I"
+			x: -5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["A700000000000008"]
+			description: ["Marca que tienes la recompensa del Acto II: Peto de Colono."]
+			icon: "minecraft:iron_chestplate"
+			id: "A70000000000000A"
+			tasks: [{
+				id: "A70000000000B00E"
+				title: "Tengo Peto de Colono (Acto II)"
+				type: "checkmark"
+			}]
+			title: "Reliquia II"
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["A700000000000008"]
+			description: ["Marca que tienes la recompensa del Acto III: Cuchillo de Chef Maestro."]
+			icon: "farmersdelight:golden_knife"
+			id: "A70000000000000B"
+			tasks: [{
+				id: "A70000000000B00F"
+				title: "Tengo Cuchillo de Chef Maestro (Acto III)"
+				type: "checkmark"
+			}]
+			title: "Reliquia III"
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["A700000000000008"]
+			description: ["Marca que tienes la recompensa del Acto IV: Gafas del Ingeniero."]
+			icon: "create:goggles"
+			id: "A70000000000000C"
+			tasks: [{
+				id: "A70000000000B010"
+				title: "Tengo Gafas del Ingeniero (Acto IV)"
+				type: "checkmark"
+			}]
+			title: "Reliquia IV"
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["A700000000000008"]
+			description: ["Marca que tienes la recompensa del Acto V: Pico del Explorador."]
+			icon: "minecraft:netherite_pickaxe"
+			id: "A70000000000000D"
+			tasks: [{
+				id: "A70000000000B011"
+				title: "Tengo Pico del Explorador (Acto V)"
+				type: "checkmark"
+			}]
+			title: "Reliquia V"
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["A700000000000008"]
+			description: ["Marca que tienes la recompensa del Acto VI: Sello de ChadStead."]
+			icon: "minecraft:name_tag"
+			id: "A70000000000000E"
+			tasks: [{
+				id: "A70000000000B012"
+				title: "Tengo Sello de ChadStead (Acto VI)"
+				type: "checkmark"
+			}]
+			title: "Reliquia VI"
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"A700000000000009"
+				"A70000000000000A"
+				"A70000000000000B"
+				"A70000000000000C"
+				"A70000000000000D"
+				"A70000000000000E"
+			]
+			description: [
+				"Con las 6 reliquias de acto ya puedes craftear la Corona del Fundador."
+				"Pon las reliquias en tu mesa ritual y forja la corona base."
+				""
+				"&aObjetivo&r: craftear una golden_helmet como base de la Corona."
+			]
+			icon: "minecraft:golden_helmet"
 			id: "A70000GATE000001"
 			rewards: [{
-				id: "A70000AA00000018"
+				id: "A70000000000C001"
 				item: {
 					Count: 1
 					id: "minecraft:golden_helmet"
 					tag: {
-						display: {
-							Name: '{"text":"👑 Corona del Fundador","color":"gold","italic":false,"bold":true}'
-							Lore: [
-								'{"text":"Forjada con el esfuerzo de toda una vida","color":"gray","italic":true}'
-								'{"text":"en las tierras de ChadStead.","color":"gray","italic":true}'
-								'{"text":"","italic":false}'
-								'{"text":"12 reliquias reunidas. 12 pruebas superadas.","color":"light_purple","italic":true}'
-								'{"text":"","italic":false}'
-								'{"text":"👑 Logro Final: Legado Eterno","color":"gold","italic":false}'
-							]
-						}
+						display: {Name: '{"text":"Corona del Fundador","color":"gold","bold":true}'}
 						Enchantments: [
 							{id: "minecraft:protection", lvl: 10s}
 							{id: "minecraft:unbreaking", lvl: 10s}
@@ -363,40 +307,31 @@
 							{id: "minecraft:aqua_affinity", lvl: 1s}
 						]
 						AttributeModifiers: [
-							{
-								Amount: 100.0d
-								AttributeName: "generic.max_health"
-								Name: "Corona Health Boost"
-								Operation: 0
-								Slot: "head"
-								UUID: [I; 1234567, 8901234, 5678901, 2345678]
-							}
-							{
-								Amount: 0.1d
-								AttributeName: "generic.movement_speed"
-								Name: "Corona Speed"
-								Operation: 1
-								Slot: "head"
-								UUID: [I; 2345678, 9012345, 6789012, 3456789]
-							}
+							{AttributeName: "generic.max_health", Name: "generic.max_health", Amount: 100.0d, Operation: 0, UUID: [I;1,2,3,4], Slot: "head"}
+							{AttributeName: "generic.movement_speed", Name: "generic.movement_speed", Amount: 0.1d, Operation: 0, UUID: [I;1,2,3,5], Slot: "head"}
 						]
-						HideFlags: 2
 						Unbreakable: 1b
 					}
 				}
 				type: "item"
 			}]
 			size: 2.0d
-			subtitle: "&7Brújula del Despertar | Escritura de la Tierra | Cucharón de Oro | Engranaje Primordial | Fragmento del Vacío | Sello de ChadStead | Pokéball Dorada | Cuchillo de Diamante | Llave Inglesa Ancestral | Vitrina del Coleccionista | Moneda del Fundador | Ojo del Fin Sellado&r"
-			tasks: [{
-				id: "A70000AA00000009"
-				title: "Confirmar: reuniste las 12 reliquias del Fundador"
-				type: "checkmark"
-			}]
-			title: "&6👑 Corona del Fundador&r"
+			tasks: [
+				{
+					id: "A70000000000B013"
+					item: "minecraft:golden_helmet"
+					type: "item"
+				}
+				{
+					id: "A70000000000B014"
+					title: "Confirmar crafteo de Corona del Fundador"
+					type: "checkmark"
+				}
+			]
+			title: "&6Gate VII: Corona del Fundador&r"
 			x: 0.0d
-			y: -8.0d
+			y: -12.0d
 		}
 	]
-	title: "&dPostgame: Legado Eterno&r"
+	title: "&6Postgame: Legado Eterno&r"
 }
