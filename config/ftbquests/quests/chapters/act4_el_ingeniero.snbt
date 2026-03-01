@@ -4,14 +4,13 @@
 	default_quest_shape: "hexagon"
 	disable_toast: true
 	filename: "act4_el_ingeniero"
-	group: "A00000D1A210F001"
+	group: ""
 	icon: "create:precision_mechanism"
-	id: "A40000A1B2C3D4E5"
+	id: "7CE88017B2F15818"
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["A300006A7E000001"]
 			description: [
 				"Sobrevivir ya sobreviviste. Ahora toca dejar de hacerlo todo a mano como cavernicola."
 				""
@@ -19,12 +18,12 @@
 				"Si algo se puede repetir, se puede automatizar."
 			]
 			icon: "create:wrench"
-			id: "A400000000000001"
+			id: "1FCC6F5E62DBC385"
 			optional: true
 			size: 2.0d
 			subtitle: "&7Acto IV del Diario&r"
 			tasks: [{
-				id: "A40000F000000001"
+				id: "3F1992BFE724BFDD"
 				title: "Arrancar Acto IV"
 				type: "checkmark"
 			}]
@@ -33,16 +32,16 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["A400000000000001"]
 			description: [
 				"Primero lo basico: entiende como gira todo en Create."
 				""
 				"Sin rotacion y transmision no hay fabrica, solo bloques caros."
 			]
 			icon: "create:cogwheel"
-			id: "A400000000000002"
+			dependencies: ["1FCC6F5E62DBC385"]
+			id: "389324EBE08ED938"
 			tasks: [{
-				id: "A40000F000000002"
+				id: "542D0A1727E06919"
 				title: "Milestone: intro de Create completada"
 				type: "checkmark"
 			}]
@@ -51,15 +50,15 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["A400000000000002"]
 			description: [
 				"El Andesite Alloy es el pan de cada dia en Create."
 				"Sin esto no montas absolutamente nada serio."
 			]
 			icon: "create:andesite_alloy"
-			id: "A400000000000003"
+			dependencies: ["389324EBE08ED938"]
+			id: "02AC843821EA6DE8"
 			tasks: [{
-				id: "A40000F000000003"
+				id: "38255A450125496A"
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
@@ -68,15 +67,15 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["A400000000000003"]
 			description: [
 				"El eje mecanico mueve potencia entre maquinas."
 				"Piensalo como la columna vertebral de tu linea."
 			]
 			icon: "create:shaft"
-			id: "A400000000000004"
+			dependencies: ["02AC843821EA6DE8"]
+			id: "3F9201D8D6E57986"
 			tasks: [{
-				id: "A40000F000000004"
+				id: "3A71BA0695342DD2"
 				item: "create:shaft"
 				type: "item"
 			}]
@@ -85,15 +84,15 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["A400000000000004"]
 			description: [
 				"Sin engranajes no hay reduccion, ni conversion, ni control."
 				"Hora de dejar tu red de potencia fina y limpia."
 			]
 			icon: "create:cogwheel"
-			id: "A400000000000005"
+			dependencies: ["3F9201D8D6E57986"]
+			id: "38E2FE29651740C2"
 			tasks: [{
-				id: "A40000F000000005"
+				id: "4A49D03D1F99B0A1"
 				item: "create:cogwheel"
 				type: "item"
 			}]
@@ -102,15 +101,15 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["A400000000000005"]
 			description: [
 				"El agua no se queja y no se cansa."
 				"Montate una rueda hidraulica y deja de girar cosas a manivela."
 			]
 			icon: "create:water_wheel"
-			id: "A400000000000006"
+			dependencies: ["38E2FE29651740C2"]
+			id: "5C5976BFFBD039EC"
 			tasks: [{
-				id: "A40000F000000006"
+				id: "27D62DD30382891A"
 				item: "create:water_wheel"
 				type: "item"
 			}]
@@ -119,15 +118,15 @@
 			y: -10.0d
 		}
 		{
-			dependencies: ["A400000000000006"]
 			description: [
 				"La Mechanical Press convierte procesos lentos en produccion estable."
 				"Si vas en serio con Create, esta maquina va primero."
 			]
 			icon: "create:mechanical_press"
-			id: "A400000000000007"
+			dependencies: ["5C5976BFFBD039EC"]
+			id: "20604F3E49B2E2BE"
 			tasks: [{
-				id: "A40000F000000007"
+				id: "41FC4F89E6AFB629"
 				item: "create:mechanical_press"
 				type: "item"
 			}]
@@ -136,15 +135,15 @@
 			y: -12.0d
 		}
 		{
-			dependencies: ["A400000000000007"]
 			description: [
 				"Basin + maquinas = recetas avanzadas en cadena."
 				"Sin basin no hay cocina industrial en Create."
 			]
 			icon: "create:basin"
-			id: "A400000000000008"
+			dependencies: ["20604F3E49B2E2BE"]
+			id: "1D9C2844C622545B"
 			tasks: [{
-				id: "A40000F000000008"
+				id: "4857936EFFBEE073"
 				item: "create:basin"
 				type: "item"
 			}]
@@ -153,15 +152,15 @@
 			y: -14.0d
 		}
 		{
-			dependencies: ["A400000000000008"]
 			description: [
 				"Con la Mechanical Mixer ya puedes automatizar recetas complejas."
 				"Cuando esta gira, tu base sube de nivel."
 			]
 			icon: "create:mechanical_mixer"
-			id: "A400000000000009"
+			dependencies: ["1D9C2844C622545B"]
+			id: "4C4010A1E86B6F47"
 			tasks: [{
-				id: "A40000F000000009"
+				id: "06130DBCFC39DAAE"
 				item: "create:mechanical_mixer"
 				type: "item"
 			}]
@@ -170,15 +169,15 @@
 			y: -16.0d
 		}
 		{
-			dependencies: ["A400000000000009"]
 			description: [
 				"Las Crushing Wheels son un antes y un despues para duplicar y procesar recursos."
 				"Mas rendimiento, menos pico."
 			]
 			icon: "create:crushing_wheel"
-			id: "A40000000000000A"
+			dependencies: ["4C4010A1E86B6F47"]
+			id: "3EE18F3F2B6C8729"
 			tasks: [{
-				id: "A40000F00000000A"
+				id: "72C31DBDD7C74E79"
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
@@ -187,15 +186,15 @@
 			y: -18.0d
 		}
 		{
-			dependencies: ["A40000000000000A"]
 			description: [
 				"El Precision Mechanism es tu pase a la liga avanzada de Create."
 				"Si lo fabricas, ya no eres aprendiz."
 			]
 			icon: "create:precision_mechanism"
-			id: "A40000000000000B"
+			dependencies: ["3EE18F3F2B6C8729"]
+			id: "11EFA201EA82D5B8"
 			tasks: [{
-				id: "A40000F00000000B"
+				id: "0EA74AA915EE086E"
 				item: "create:precision_mechanism"
 				type: "item"
 			}]
@@ -204,15 +203,15 @@
 			y: -20.0d
 		}
 		{
-			dependencies: ["A400000000000001"]
 			description: [
 				"Wireless Redstone te ahorra kilometros de cable y dolores de cabeza."
 				"Empieza por entender bien frecuencias y emparejado."
 			]
 			icon: "wirelessredstone:redstone_transmitter"
-			id: "A40000000000000C"
+			dependencies: ["1FCC6F5E62DBC385"]
+			id: "2B6CA69F931C7F3E"
 			tasks: [{
-				id: "A40000F00000000C"
+				id: "0CE35487D705F58E"
 				title: "Milestone: intro de Wireless Redstone"
 				type: "checkmark"
 			}]
@@ -221,15 +220,15 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["A40000000000000C"]
 			description: [
 				"Todo arranca por el circuito base."
 				"Sin circuit no hay transmisor, ni receptor, ni nada."
 			]
 			icon: "wirelessredstone:circuit"
-			id: "A40000000000000D"
+			dependencies: ["2B6CA69F931C7F3E"]
+			id: "6EC79ED41C7C3892"
 			tasks: [{
-				id: "A40000F00000000D"
+				id: "7AAC82871FA5913E"
 				item: "wirelessredstone:circuit"
 				type: "item"
 			}]
@@ -238,15 +237,15 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["A40000000000000D"]
 			description: [
 				"El transmisor manda la senal."
 				"Ponle frecuencia clara o luego no sabras que esta activando que."
 			]
 			icon: "wirelessredstone:redstone_transmitter"
-			id: "A40000000000000E"
+			dependencies: ["6EC79ED41C7C3892"]
+			id: "37B2A909FF678DAB"
 			tasks: [{
-				id: "A40000F00000000E"
+				id: "51A50E803F95A444"
 				item: "wirelessredstone:redstone_transmitter"
 				type: "item"
 			}]
@@ -255,15 +254,15 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["A40000000000000E"]
 			description: [
 				"El receptor recibe y ejecuta."
 				"Transmisor y receptor con misma frecuencia o no pasa nada."
 			]
 			icon: "wirelessredstone:redstone_receiver"
-			id: "A40000000000000F"
+			dependencies: ["37B2A909FF678DAB"]
+			id: "6D66BD166E83DA1A"
 			tasks: [{
-				id: "A40000F00000000F"
+				id: "42DAA20CAA4DB237"
 				item: "wirelessredstone:redstone_receiver"
 				type: "item"
 			}]
@@ -272,15 +271,15 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["A40000000000000F"]
 			description: [
 				"La Frequency Tool te deja copiar y pegar frecuencias en segundos."
 				"Cuando tu red crezca, esta herramienta te salva."
 			]
 			icon: "wirelessredstone:frequency_tool"
-			id: "A400000000000010"
+			dependencies: ["6D66BD166E83DA1A"]
+			id: "4E4565871DC038E5"
 			tasks: [{
-				id: "A40000F000000010"
+				id: "2BBDBD8B8FADCD82"
 				item: "wirelessredstone:frequency_tool"
 				type: "item"
 			}]
@@ -289,15 +288,15 @@
 			y: -10.0d
 		}
 		{
-			dependencies: ["A400000000000010"]
 			description: [
 				"Activa sistemas a distancia sin tirar ni un cable."
 				"Tu boton de emergencia y de comodidad en un solo item."
 			]
 			icon: "wirelessredstone:remote"
-			id: "A400000000000011"
+			dependencies: ["4E4565871DC038E5"]
+			id: "010EA47DF062005C"
 			tasks: [{
-				id: "A40000F000000011"
+				id: "274A3A5D140B93B3"
 				item: "wirelessredstone:remote"
 				type: "item"
 			}]
@@ -306,15 +305,15 @@
 			y: -12.0d
 		}
 		{
-			dependencies: ["A400000000000001"]
 			description: [
 				"AE2 es orden digital, almacenamiento masivo y crafteo inteligente."
 				"Primero acepta esto: al principio duele, luego no puedes vivir sin el."
 			]
 			icon: "ae2:controller"
-			id: "A400000000000012"
+			dependencies: ["1FCC6F5E62DBC385"]
+			id: "4A150E7D21DDFD8C"
 			tasks: [{
-				id: "A40000F000000012"
+				id: "34C9EDEBC781DB5A"
 				title: "Milestone: intro de AE2 completada"
 				type: "checkmark"
 			}]
@@ -323,15 +322,15 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["A400000000000012"]
 			description: [
 				"Sin meteorito no hay presses, y sin presses no hay procesadores."
 				"Asi que craftea la brujula y sal a buscar Sky Stone."
 			]
 			icon: "ae2:meteorite_compass"
-			id: "A400000000000013"
+			dependencies: ["4A150E7D21DDFD8C"]
+			id: "68DE1CA99A8E7DAB"
 			tasks: [{
-				id: "A40000F000000013"
+				id: "42EC477F82B9F61F"
 				item: "ae2:meteorite_compass"
 				type: "item"
 			}]
@@ -340,15 +339,15 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["A400000000000013"]
 			description: [
 				"Mina Sky Stone del meteorito y guarda de sobra."
 				"Este bloque lo vas a reutilizar bastante."
 			]
 			icon: "ae2:sky_stone_block"
-			id: "A400000000000014"
+			dependencies: ["68DE1CA99A8E7DAB"]
+			id: "223EC92F4B9D67EC"
 			tasks: [{
-				id: "A40000F000000014"
+				id: "677131531AF2229A"
 				item: "ae2:sky_stone_block"
 				type: "item"
 			}]
@@ -357,15 +356,15 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["A400000000000014"]
 			description: [
 				"El Inscriber es el corazon del arranque de AE2."
 				"Sin esta maquina no fabricas circuitos."
 			]
 			icon: "ae2:inscriber"
-			id: "A400000000000015"
+			dependencies: ["223EC92F4B9D67EC"]
+			id: "162DC00F43748ADE"
 			tasks: [{
-				id: "A40000F000000015"
+				id: "38F1C22889F0076A"
 				item: "ae2:inscriber"
 				type: "item"
 			}]
@@ -374,15 +373,15 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["A400000000000015"]
 			description: [
 				"Necesitas los cuatro presses del meteorito: Calculation, Engineering, Logic y Silicon."
 				"Sin atajos: toca explorar y encontrarlos."
 			]
 			icon: "ae2:inscriber"
-			id: "A400000000000016"
+			dependencies: ["162DC00F43748ADE"]
+			id: "184DAD398839DD7F"
 			tasks: [{
-				id: "A40000F000000016"
+				id: "2D3DBF3718ED8ABF"
 				title: "Tengo los 4 presses de meteorito"
 				type: "checkmark"
 			}]
@@ -391,15 +390,15 @@
 			y: -10.0d
 		}
 		{
-			dependencies: ["A400000000000016"]
 			description: [
 				"Haz Fluix Crystal para desbloquear cables y media red de AE2."
 				"Si te falta fluix, te falta vida."
 			]
 			icon: "ae2:fluix_crystal"
-			id: "A400000000000017"
+			dependencies: ["184DAD398839DD7F"]
+			id: "79A866B5056EFE23"
 			tasks: [{
-				id: "A40000F000000017"
+				id: "570D81A9501EF39A"
 				item: "ae2:fluix_crystal"
 				type: "item"
 			}]
@@ -408,15 +407,15 @@
 			y: -12.0d
 		}
 		{
-			dependencies: ["A400000000000017"]
 			description: [
 				"Empieza por el Logic Processor."
 				"Es uno de los bloques base para escalar tu sistema."
 			]
 			icon: "ae2:logic_processor"
-			id: "A400000000000018"
+			dependencies: ["79A866B5056EFE23"]
+			id: "7ACC3416BE671668"
 			tasks: [{
-				id: "A40000F000000018"
+				id: "2E6AAAB756D329EF"
 				item: "ae2:logic_processor"
 				type: "item"
 			}]
@@ -425,15 +424,15 @@
 			y: -14.0d
 		}
 		{
-			dependencies: ["A400000000000018"]
 			description: [
 				"Sigue con Engineering Processor."
 				"Este te abre componentes de red mas avanzados."
 			]
 			icon: "ae2:engineering_processor"
-			id: "A400000000000019"
+			dependencies: ["7ACC3416BE671668"]
+			id: "5607C5BDC313DEA2"
 			tasks: [{
-				id: "A40000F000000019"
+				id: "6A976E563AE5986E"
 				item: "ae2:engineering_processor"
 				type: "item"
 			}]
@@ -442,15 +441,15 @@
 			y: -16.0d
 		}
 		{
-			dependencies: ["A400000000000019"]
 			description: [
 				"El Controller es el cerebro de una red ME seria."
 				"Sin el, todo se te queda pequeno en nada."
 			]
 			icon: "ae2:controller"
-			id: "A40000000000001A"
+			dependencies: ["5607C5BDC313DEA2"]
+			id: "543BE761806FB908"
 			tasks: [{
-				id: "A40000F00000001A"
+				id: "716C72A6738CA7EB"
 				item: "ae2:controller"
 				type: "item"
 			}]
@@ -459,15 +458,15 @@
 			y: -18.0d
 		}
 		{
-			dependencies: ["A40000000000001A"]
 			description: [
 				"El ME Drive es donde vive tu almacenamiento."
 				"Sin drive, no hay sistema central."
 			]
 			icon: "ae2:drive"
-			id: "A40000000000001B"
+			dependencies: ["543BE761806FB908"]
+			id: "381316B90A8149AA"
 			tasks: [{
-				id: "A40000F00000001B"
+				id: "651A69081A524518"
 				item: "ae2:drive"
 				type: "item"
 			}]
@@ -476,15 +475,15 @@
 			y: -20.0d
 		}
 		{
-			dependencies: ["A40000000000001B"]
 			description: [
 				"Con Crafting Terminal, por fin trabajas comodo dentro de la red."
 				"Buscar, sacar y craftear desde un solo punto: gloria."
 			]
 			icon: "ae2:crafting_terminal"
-			id: "A40000000000001C"
+			dependencies: ["381316B90A8149AA"]
+			id: "308AA67E9B42F92B"
 			tasks: [{
-				id: "A40000F00000001C"
+				id: "22A299E062A97AF4"
 				item: "ae2:crafting_terminal"
 				type: "item"
 			}]
@@ -493,15 +492,15 @@
 			y: -22.0d
 		}
 		{
-			dependencies: ["A40000000000001C"]
 			description: [
 				"Milestone AE2 final: deja configurado tu autocrafteo base."
 				"Assembler + Pattern Provider + patrones decentes."
 			]
 			icon: "ae2:molecular_assembler"
-			id: "A40000000000001D"
+			dependencies: ["308AA67E9B42F92B"]
+			id: "4C56D0B6651BEDD8"
 			tasks: [{
-				id: "A40000F00000001D"
+				id: "0565E89C871EC081"
 				title: "Milestone: sistema de autocrafteo funcionando"
 				type: "checkmark"
 			}]
@@ -510,11 +509,6 @@
 			y: -24.0d
 		}
 		{
-			dependencies: [
-				"A40000000000000B"
-				"A400000000000011"
-				"A40000000000001D"
-			]
 			description: [
 				"Hora de cacería pesada: busca los Templos de los Regis."
 				"Explora el mundo para encontrar las ruinas antiguas, resuelve el puzzle de las puertas y enfréntate a Regice."
@@ -523,9 +517,10 @@
 				"Si no tienes cielo abierto, no aparece."
 			]
 			icon: "minecraft:blue_ice"
-			id: "A40000000000001E"
+			dependencies: ["11EFA201EA82D5B8"]
+			id: "62088637937469D7"
 			tasks: [{
-				id: "A40000F00000001E"
+				id: "7D2E6C0A82AD1247"
 				title: "Regice localizado o capturado"
 				type: "checkmark"
 			}]
@@ -534,7 +529,6 @@
 			y: -24.0d
 		}
 		{
-			dependencies: ["A40000000000001E"]
 			description: [
 				"Siguiente objetivo: Regirock."
 				"Encuentra las ruinas desérticas, decodifica el mensaje y reclama a Regirock."
@@ -543,9 +537,10 @@
 				"Nada de cuevas: tiene que ver el cielo."
 			]
 			icon: "minecraft:sandstone"
-			id: "A40000000000001F"
+			dependencies: ["010EA47DF062005C"]
+			id: "37EA0F55CB85AC22"
 			tasks: [{
-				id: "A40000F00000001F"
+				id: "43E13674907C0BC2"
 				title: "Regirock localizado o capturado"
 				type: "checkmark"
 			}]
@@ -554,7 +549,6 @@
 			y: -24.0d
 		}
 		{
-			dependencies: ["A40000000000001F"]
 			description: [
 				"Remate de la trilogía: Registeel."
 				"Busca su santuario metálico y completa el rompecabezas para invocarlo."
@@ -563,9 +557,10 @@
 				"Si esta techado, no cuenta."
 			]
 			icon: "minecraft:iron_block"
-			id: "A400000000000020"
+			dependencies: ["4C56D0B6651BEDD8"]
+			id: "39E3AE63ABC99FC8"
 			tasks: [{
-				id: "A40000F000000020"
+				id: "785E34C799D98BA0"
 				title: "Registeel localizado o capturado"
 				type: "checkmark"
 			}]
@@ -574,12 +569,6 @@
 			y: -24.0d
 		}
 		{
-			dependencies: [
-				"A40000000000000B"
-				"A400000000000011"
-				"A40000000000001D"
-				"A400000000000020"
-			]
 			description: [
 				"Ya tienes fabrica Create, red inalambrica y cerebro digital con AE2."
 				"Y encima cerraste la caceria de los Regis."
@@ -592,42 +581,49 @@
 				Count: 1
 				id: "create:goggles"
 				tag: {
-					display: {
-						Name: '{"text":"Gafas del Ingeniero","color":"gold","italic":false,"bold":true}'
-						Lore: [
-							'{"text":"Ves los engranajes donde otros ven caos","color":"gray","italic":true}'
-							'{"text":"","italic":false}'
-							'{"text":"⭐ Recompensa del Acto IV","color":"gold","italic":false}'
-						]
-					}
-					Enchantments: [{id: "minecraft:unbreaking", lvl: 10s}]
+					Enchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 10s
+					}]
 					HideFlags: 1
+					display: {
+						Lore: [
+							"{\"text\":\"Ves los engranajes donde otros ven caos\",\"color\":\"gray\",\"italic\":true}"
+							"{\"text\":\"\",\"italic\":false}"
+							"{\"text\":\"⭐ Recompensa del Acto IV\",\"color\":\"gold\",\"italic\":false}"
+						]
+						Name: "{\"text\":\"Gafas del Ingeniero\",\"color\":\"gold\",\"italic\":false,\"bold\":true}"
+					}
 				}
 			}
-			id: "A400006A7E000001"
+			dependencies: ["62088637937469D7", "37EA0F55CB85AC22", "39E3AE63ABC99FC8"]
+			id: "533751EA9FF68D01"
 			rewards: [{
-				id: "A40000F000000021"
+				id: "288F7F991A419A06"
 				item: {
 					Count: 1
 					id: "create:goggles"
 					tag: {
-						display: {
-							Name: '{"text":"Gafas del Ingeniero","color":"gold","italic":false,"bold":true}'
-							Lore: [
-								'{"text":"Ves los engranajes donde otros ven caos","color":"gray","italic":true}'
-								'{"text":"","italic":false}'
-								'{"text":"⭐ Recompensa del Acto IV","color":"gold","italic":false}'
-							]
-						}
-						Enchantments: [{id: "minecraft:unbreaking", lvl: 10s}]
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 10s
+						}]
 						HideFlags: 1
+						display: {
+							Lore: [
+								"{\"text\":\"Ves los engranajes donde otros ven caos\",\"color\":\"gray\",\"italic\":true}"
+								"{\"text\":\"\",\"italic\":false}"
+								"{\"text\":\"⭐ Recompensa del Acto IV\",\"color\":\"gold\",\"italic\":false}"
+							]
+							Name: "{\"text\":\"Gafas del Ingeniero\",\"color\":\"gold\",\"italic\":false,\"bold\":true}"
+						}
 					}
 				}
 				type: "item"
 			}]
 			size: 2.0d
 			tasks: [{
-				id: "A40000F000000022"
+				id: "3A59BAF64DA3F4AA"
 				title: "Cerrar Acto IV"
 				type: "checkmark"
 			}]

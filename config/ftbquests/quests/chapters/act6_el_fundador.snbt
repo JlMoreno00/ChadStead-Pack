@@ -3,14 +3,19 @@
 	default_quest_shape: "hexagon"
 	disable_toast: true
 	filename: "act6_el_fundador"
-	group: "A00000D1A210F001"
-	icon: "minecraft:elytra"
-	id: "A60000A1B2C3D4E5"
+	group: ""
+	icon: {
+		Count: 1
+		id: "minecraft:elytra"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "452ECFB4C365DA17"
 	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["A500006A7E000001"]
 			description: [
 				"Vale, llegaste hasta aqui sin explotar el mundo. Bien hecho."
 				""
@@ -18,7 +23,7 @@
 				"Si completas esto, ya no eres aventurero... eres fundador."
 			]
 			icon: "minecraft:end_portal_frame"
-			id: "A600000000000001"
+			id: "195E0E595B2AC1E7"
 			optional: true
 			size: 2.0d
 			subtitle: "&7Acto VI del Diario&r"
@@ -32,13 +37,13 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["A600000000000001"]
 			description: [
 				"Hora de cruzar el portal y plantar bandera en el End."
 				"Entra preparado y deja un cofre de emergencia en la plataforma de spawn."
 			]
 			icon: "minecraft:end_stone"
-			id: "A600000000000002"
+			dependencies: ["195E0E595B2AC1E7"]
+			id: "6BBCDD5AD8208F1A"
 			rewards: [{
 				id: "6B00000000000001"
 				type: "xp"
@@ -54,13 +59,13 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["A600000000000002"]
 			description: [
 				"Sin vueltas: toca tumbar al Ender Dragon."
 				"Rompe cristales, controla el aire y no regales el totem por nervios."
 			]
 			icon: "minecraft:dragon_head"
-			id: "A600000000000003"
+			dependencies: ["6BBCDD5AD8208F1A"]
+			id: "761167A3F9270092"
 			rewards: [{
 				id: "6B00000000000002"
 				type: "xp"
@@ -78,13 +83,13 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["A600000000000003"]
 			description: [
 				"Ahora exprime la victoria: recoge Dragon's Breath para futuras pociones top."
 				"Te va a ahorrar un monton de viajes despues."
 			]
 			icon: "minecraft:dragon_breath"
-			id: "A600000000000004"
+			dependencies: ["761167A3F9270092"]
+			id: "45256327B349C2E4"
 			rewards: [{
 				id: "6B00000000000003"
 				item: "minecraft:glass_bottle"
@@ -100,13 +105,13 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["A600000000000003"]
 			description: [
 				"Si hay huevo, hay trofeo y hay respeto."
 				"Guardalo bien, que esta cosa no se fabrica."
 			]
 			icon: "minecraft:dragon_egg"
-			id: "A600000000000005"
+			dependencies: ["761167A3F9270092"]
+			id: "22114D24C037F7D9"
 			rewards: [{
 				id: "6B00000000000004"
 				type: "xp"
@@ -122,13 +127,13 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["A600000000000003"]
 			description: [
 				"Activa un gateway y abre la ruta a las End Cities."
 				"Lleva bloques, perlas y cabeza fria."
 			]
 			icon: "minecraft:end_crystal"
-			id: "A600000000000006"
+			dependencies: ["761167A3F9270092"]
+			id: "7359356592F1EAFC"
 			rewards: [{
 				id: "6B00000000000005"
 				type: "xp"
@@ -144,13 +149,13 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["A600000000000006"]
 			description: [
 				"Tu objetivo ya no es sobrevivir: es saquear ciudades del End como un pro."
 				"Marca coordenadas, porque vas a volver seguido."
 			]
 			icon: "minecraft:purpur_block"
-			id: "A600000000000007"
+			dependencies: ["7359356592F1EAFC"]
+			id: "7576C07060CA59A0"
 			rewards: [{
 				id: "6B00000000000006"
 				type: "xp"
@@ -166,13 +171,13 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["A600000000000007"]
 			description: [
 				"Los Shulkers son pesados, pero sus cajas son media vida."
 				"Farmear shells aqui te cambia la logistica para siempre."
 			]
 			icon: "minecraft:shulker_shell"
-			id: "A600000000000008"
+			dependencies: ["7576C07060CA59A0"]
+			id: "534004B2DA13BE38"
 			rewards: [{
 				id: "6B00000000000007"
 				item: "minecraft:chest"
@@ -188,13 +193,13 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["A600000000000007"]
 			description: [
 				"Si encuentras la nave, ya estas en la zona premium."
 				"Traete la cabeza del dragon para decorar como fundador con estilo."
 			]
 			icon: "minecraft:dragon_head"
-			id: "A600000000000009"
+			dependencies: ["7576C07060CA59A0"]
+			id: "50DECF6FA231D206"
 			rewards: [{
 				id: "6B00000000000008"
 				type: "xp"
@@ -210,13 +215,19 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["A600000000000009"]
 			description: [
 				"Sin Elytra no hay fundador, hay turista."
 				"Consigue tus alas y prepara vuelos largos con cabeza."
 			]
-			icon: "minecraft:elytra"
-			id: "A60000000000000A"
+			icon: {
+				Count: 1
+				id: "minecraft:elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+			dependencies: ["50DECF6FA231D206"]
+			id: "66357958623D82EA"
 			rewards: [{
 				id: "6B00000000000009"
 				type: "xp"
@@ -224,7 +235,13 @@
 			}]
 			tasks: [{
 				id: "6A0000000000000A"
-				item: "minecraft:elytra"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			title: "&6Alas Recuperadas&r"
@@ -232,13 +249,13 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["A60000000000000A"]
 			description: [
 				"Ahora toca volar de verdad: fabrica cohetes para moverte sin parar."
 				"Con esto tu mapa se te va a quedar pequeno."
 			]
 			icon: "minecraft:firework_rocket"
-			id: "A60000000000000B"
+			dependencies: ["66357958623D82EA"]
+			id: "081BB20E40870BA6"
 			rewards: [{
 				id: "6B0000000000000A"
 				type: "xp"
@@ -254,13 +271,13 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["A60000000000000A"]
 			description: [
 				"No todo es loot: tambien necesitas infraestructura seria."
 				"Un lodestone en el End te salva de perder horas por una mala orientacion."
 			]
 			icon: "minecraft:lodestone"
-			id: "A60000000000000C"
+			dependencies: ["66357958623D82EA"]
+			id: "384F28699F6193CA"
 			rewards: [{
 				id: "6B0000000000000B"
 				type: "xp"
@@ -276,14 +293,14 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["A60000000000000A"]
 			description: [
 				"&aRayquaza&r gobierna los cielos."
 				"Prepara el &aJade Orb&r y asciende a lo más alto para probar tu valía."
 				"Ve con Ultra Balls, comida y un punto alto para verlo venir desde lejos."
 			]
 			icon: "minecraft:wind_charge"
-			id: "A60000000000000D"
+			dependencies: ["384F28699F6193CA"]
+			id: "426EAA4D957AA544"
 			rewards: [{
 				id: "6B0000000000000C"
 				type: "xp"
@@ -299,14 +316,14 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["A60000000000000A"]
 			description: [
 				"El Dios del Tiempo."
 				"Encuentra la &bAdamant Orb&r y llévala al Spear Pillar (Columna Lanza)."
 				"Recorre islas lejanas, limpia Endermen cerca y mantente atento al cielo y al terreno abierto."
 			]
 			icon: "minecraft:clock"
-			id: "A60000000000000E"
+			dependencies: ["426EAA4D957AA544"]
+			id: "3A38C15E116D385E"
 			rewards: [{
 				id: "6B0000000000000D"
 				type: "xp"
@@ -322,14 +339,14 @@
 			y: 18.0d
 		}
 		{
-			dependencies: ["A60000000000000A"]
 			description: [
 				"El Espacio o la Antimateria."
 				"Obtén la Lustrous Orb o el Griseous Core y acude a los altares correspondientes."
 				"Si te sale cualquiera de los dos, ya cumpliste: no hace falta sufrir doble."
 			]
 			icon: "minecraft:chorus_fruit"
-			id: "A60000000000000F"
+			dependencies: ["426EAA4D957AA544"]
+			id: "218400A965BA9763"
 			rewards: [{
 				id: "6B0000000000000E"
 				type: "xp"
@@ -345,17 +362,13 @@
 			y: 18.0d
 		}
 		{
-			dependencies: [
-				"A600000000000008"
-				"A60000000000000B"
-				"A60000000000000C"
-			]
 			description: [
 				"Dragon vencido, ciudad saqueada, vuelo estable y base de navegacion lista."
 				"Ya dominas el End como zona operativa real."
 			]
 			icon: "minecraft:end_stone_bricks"
-			id: "A600000000000010"
+			dependencies: ["081BB20E40870BA6", "384F28699F6193CA"]
+			id: "6E497CFC809027BB"
 			rewards: [{
 				id: "6B0000000000000F"
 				type: "xp"
@@ -372,17 +385,13 @@
 			y: 16.0d
 		}
 		{
-			dependencies: [
-				"A60000000000000D"
-				"A60000000000000E"
-				"A60000000000000F"
-			]
 			description: [
 				"Tu Pokedex de leyendas ya no es suerte: es caceria planificada."
 				"Con esto te ganas el rango de fundador de elite."
 			]
 			icon: "minecraft:nether_star"
-			id: "A600000000000011"
+			dependencies: ["3A38C15E116D385E", "218400A965BA9763"]
+			id: "78ED37A921F69445"
 			rewards: [{
 				id: "6B00000000000010"
 				type: "xp"
@@ -399,11 +408,6 @@
 			y: 20.0d
 		}
 		{
-			dependencies: [
-				"A600000000000005"
-				"A600000000000010"
-				"A600000000000011"
-			]
 			description: [
 				"Cerraste todo: dragon, infraestructura del End y leyendas de alto nivel."
 				""
@@ -413,33 +417,42 @@
 				Count: 1
 				id: "minecraft:elytra"
 				tag: {
-					display: {
-						Name: '{"text":"Alas del Fundador","color":"gold","italic":false}'
-						Lore: [
-							'{"text":"Probadas en el vacio del End","color":"gray","italic":true}'
-							'{"text":"★ Recompensa del Acto VI","color":"gold","italic":false}'
-						]
-					}
-					Enchantments: [{id: "minecraft:unbreaking", lvl: 5s}]
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 5s
+					}]
 					HideFlags: 1
+					display: {
+						Lore: [
+							"{\"text\":\"Probadas en el vacio del End\",\"color\":\"gray\",\"italic\":true}"
+							"{\"text\":\"★ Recompensa del Acto VI\",\"color\":\"gold\",\"italic\":false}"
+						]
+						Name: "{\"text\":\"Alas del Fundador\",\"color\":\"gold\",\"italic\":false}"
+					}
 				}
 			}
-			id: "A600006A7E000001"
+			dependencies: ["6E497CFC809027BB", "78ED37A921F69445"]
+			id: "62621CECABB1DEF5"
 			rewards: [{
 				id: "6B00000000000011"
 				item: {
 					Count: 1
 					id: "minecraft:elytra"
 					tag: {
-						display: {
-							Name: '{"text":"Alas del Fundador","color":"gold","italic":false}'
-							Lore: [
-								'{"text":"Probadas en el vacio del End","color":"gray","italic":true}'
-								'{"text":"★ Recompensa del Acto VI","color":"gold","italic":false}'
-							]
-						}
-						Enchantments: [{id: "minecraft:unbreaking", lvl: 5s}]
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 5s
+						}]
 						HideFlags: 1
+						display: {
+							Lore: [
+								"{\"text\":\"Probadas en el vacio del End\",\"color\":\"gray\",\"italic\":true}"
+								"{\"text\":\"★ Recompensa del Acto VI\",\"color\":\"gold\",\"italic\":false}"
+							]
+							Name: "{\"text\":\"Alas del Fundador\",\"color\":\"gold\",\"italic\":false}"
+						}
 					}
 				}
 				type: "item"

@@ -4,26 +4,25 @@
 	default_quest_shape: "hexagon"
 	disable_toast: true
 	filename: "act2_el_colono"
-	group: "A00000D1A210F001"
+	group: ""
 	icon: "minecraft:oak_door"
-	id: "A20000A1B2C3D4E5"
+	id: "5B37D31D6A721B6D"
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["A100006A7E000001"]
 			description: [
 				"&2Sobrevivir ya lo tienes. Ahora toca asentarte de verdad.&r"
 				""
 				"Monta una base funcional: dinero, almacen y herramientas para construir sin sufrir.&r"
 			]
 			icon: "minecraft:oak_door"
-			id: "A200000000000001"
+			id: "6B4B454707358DBE"
 			optional: true
 			size: 2.0d
 			subtitle: "&7Acto II del Diario&r"
 			tasks: [{
-				id: "B200000000000001"
+				id: "4B59F598A584B18C"
 				title: "&aArrancar Acto II&r"
 				type: "checkmark"
 			}]
@@ -32,7 +31,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["A200000000000001"]
 			description: [
 				"Primer paso de colono: vender lo que te sobra para generar esmeraldas mientras juegas.&r"
 				""
@@ -45,15 +43,16 @@
 					material: "wood"
 				}
 			}
-			id: "A200000000000002"
+			dependencies: ["6B4B454707358DBE"]
+			id: "72D3A9DC0EAB3C78"
 			rewards: [{
 				count: 8
-				id: "B200000000000002"
+				id: "518C1F2957460A96"
 				item: "minecraft:emerald"
 				type: "item"
 			}]
 			tasks: [{
-				id: "B200000000000003"
+				id: "7835B4B8E117D19B"
 				item: {
 					Count: 1
 					id: "minecraft:barrel"
@@ -70,22 +69,22 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["A200000000000002"]
 			description: [
 				"Con dinero entrando, ya puedes mirar ofertas utiles para la base.&r"
 				""
 				"Craftea un &bDaily Shop&r y revisa su rotacion para pillar cosas clave.&r"
 			]
 			icon: "dailyshop:daily_shop"
-			id: "A200000000000003"
+			dependencies: ["72D3A9DC0EAB3C78"]
+			id: "5B778FE86FB17CB6"
 			rewards: [{
 				count: 12
-				id: "B200000000000004"
+				id: "5305EB0D1DF72FCF"
 				item: "minecraft:emerald"
 				type: "item"
 			}]
 			tasks: [{
-				id: "B200000000000005"
+				id: "2B915B80133ECF40"
 				item: "dailyshop:daily_shop"
 				type: "item"
 			}]
@@ -94,16 +93,16 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["A200000000000003"]
 			description: [
 				"Hora de mover stock.&r"
 				""
 				"Vende un lote completo en tu bin y confirma que ya te pago en esmeraldas.&r"
 			]
 			icon: "minecraft:emerald"
-			id: "A200000000000004"
+			dependencies: ["5B778FE86FB17CB6"]
+			id: "0D0B2BC05F2DAC1F"
 			tasks: [{
-				id: "B200000000000006"
+				id: "36D88323F9008690"
 				title: "&aYa hice mi primera venta&r"
 				type: "checkmark"
 			}]
@@ -112,7 +111,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["A200000000000004"]
 			description: [
 				"Si la granja crece, el bin de madera se queda corto muy rapido.&r"
 				""
@@ -125,15 +123,16 @@
 					material: "iron"
 				}
 			}
-			id: "A200000000000005"
+			dependencies: ["0D0B2BC05F2DAC1F"]
+			id: "4B7FA53D1A5B03C5"
 			rewards: [{
 				count: 16
-				id: "B200000000000007"
+				id: "646688871B52163F"
 				item: "minecraft:emerald"
 				type: "item"
 			}]
 			tasks: [{
-				id: "B200000000000008"
+				id: "75106698DD5A8526"
 				item: {
 					Count: 1
 					id: "minecraft:barrel"
@@ -150,21 +149,21 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["A200000000000001"]
 			description: [
 				"Tu inventario da pena en cuanto te pones a talar o minar.&r"
 				""
 				"Craftea una &bSophisticated Backpack&r para llevarte media base encima.&r"
 			]
 			icon: "sophisticatedbackpacks:backpack"
-			id: "A200000000000006"
+			dependencies: ["6B4B454707358DBE"]
+			id: "192ECD611F0B9A97"
 			rewards: [{
-				id: "B200000000000009"
+				id: "66B420B668B4CD49"
 				type: "xp"
 				xp: 50
 			}]
 			tasks: [{
-				id: "B20000000000000A"
+				id: "1ACE13AC0691265B"
 				item: "sophisticatedbackpacks:backpack"
 				type: "item"
 			}]
@@ -173,16 +172,16 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["A200000000000006"]
 			description: [
 				"Cuando ya tienes rutina de farmeo, necesitas mas espacio en serio.&r"
 				""
 				"Mejora a &bIron Backpack&r para que tu salida de recursos sea brutal.&r"
 			]
 			icon: "sophisticatedbackpacks:iron_backpack"
-			id: "A200000000000007"
+			dependencies: ["192ECD611F0B9A97"]
+			id: "341CFF674038912E"
 			tasks: [{
-				id: "B20000000000000B"
+				id: "495258A57B2B55FB"
 				item: "sophisticatedbackpacks:iron_backpack"
 				type: "item"
 			}]
@@ -191,7 +190,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["A200000000000006"]
 			description: [
 				"Construir bloque a bloque es una tortura medieval.&r"
 				""
@@ -204,9 +202,10 @@
 					Damage: 0
 				}
 			}
-			id: "A200000000000008"
+			dependencies: ["6B4B454707358DBE"]
+			id: "00D372C97B8241CF"
 			tasks: [{
-				id: "B20000000000000C"
+				id: "543475B3B247992A"
 				item: {
 					Count: 1
 					id: "constructionwand:stone_wand"
@@ -221,7 +220,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["A200000000000008"]
 			description: [
 				"Ahora si: version fiable para proyectos de base medianos.&r"
 				""
@@ -234,9 +232,10 @@
 					Damage: 0
 				}
 			}
-			id: "A200000000000009"
+			dependencies: ["00D372C97B8241CF"]
+			id: "55A496BF3C4A9A75"
 			tasks: [{
-				id: "B20000000000000D"
+				id: "4FB83F6407E9711E"
 				item: {
 					Count: 1
 					id: "constructionwand:iron_wand"
@@ -251,16 +250,16 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["A200000000000008"]
 			description: [
 				"No todo se carga a mano, colega.&r"
 				""
 				"Monta tu primer combo de &bNiftyCarts&r (carro + tiro) para mover materiales de obra.&r"
 			]
 			icon: "minecraft:minecart"
-			id: "A20000000000000A"
+			dependencies: ["6B4B454707358DBE"]
+			id: "5DE3DA189C681A20"
 			tasks: [{
-				id: "B20000000000000E"
+				id: "58D6E29FB7E29F45"
 				title: "&aYa tengo mi primer NiftyCart montado&r"
 				type: "checkmark"
 			}]
@@ -269,16 +268,16 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["A20000000000000A"]
 			description: [
 				"Siguiente nivel: engancha el carro a caballo y dale uso real.&r"
 				""
 				"Haz una ruta entre tu granja y la base para llevar recursos sin romperte la espalda.&r"
 			]
 			icon: "minecraft:lead"
-			id: "A20000000000000B"
+			dependencies: ["5DE3DA189C681A20"]
+			id: "1DB47CDC69F377B5"
 			tasks: [{
-				id: "B20000000000000F"
+				id: "4BED7982480BAF7D"
 				title: "&aRuta de NiftyCarts funcionando&r"
 				type: "checkmark"
 			}]
@@ -287,16 +286,16 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["A200000000000001"]
 			description: [
 				"Necesitas un nucleo de almacen serio para no vivir en cofres tirados.&r"
 				""
 				"Craftea tu primer &bIron Chest&r.&r"
 			]
 			icon: "ironchests:iron_chest"
-			id: "A20000000000000C"
+			dependencies: ["6B4B454707358DBE"]
+			id: "2E0B4920EA503311"
 			tasks: [{
-				id: "B200000000000010"
+				id: "5EAA9C84C63F02E6"
 				item: "ironchests:iron_chest"
 				type: "item"
 			}]
@@ -305,16 +304,16 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["A20000000000000C"]
 			description: [
 				"Para items de volumen (madera, piedra, cultivos), los cajones son dios.&r"
 				""
 				"Craftea un &bStorage Drawer 1x1&r y asignale un recurso base.&r"
 			]
 			icon: "storagedrawers:oak_full_drawers_1"
-			id: "A20000000000000D"
+			dependencies: ["2E0B4920EA503311"]
+			id: "606789C3C8FB5C9F"
 			tasks: [{
-				id: "B200000000000011"
+				id: "6DC0D0BBD3ABA774"
 				item: "storagedrawers:oak_full_drawers_1"
 				type: "item"
 			}]
@@ -323,16 +322,16 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["A20000000000000D"]
 			description: [
 				"Sin controller, el sistema de drawers se vuelve incomodo en cuanto crece.&r"
 				""
 				"Craftea el &bDrawer Controller&r para gestionar todo desde un punto.&r"
 			]
 			icon: "storagedrawers:controller"
-			id: "A20000000000000E"
+			dependencies: ["606789C3C8FB5C9F"]
+			id: "6235E5E0E82BE950"
 			tasks: [{
-				id: "B200000000000012"
+				id: "32F81DD643629C35"
 				item: "storagedrawers:controller"
 				type: "item"
 			}]
@@ -341,16 +340,16 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["A20000000000000E"]
 			description: [
 				"Mejora la densidad para compactar recursos sin multiplicar cajones.&r"
 				""
 				"Craftea unos &bCompacting Drawers&r y meteles lingotes o nuggets.&r"
 			]
 			icon: "storagedrawers:compacting_drawers_3"
-			id: "A20000000000000F"
+			dependencies: ["6235E5E0E82BE950"]
+			id: "2339CD0069A2D6C1"
 			tasks: [{
-				id: "B200000000000013"
+				id: "4E5187D21F208E63"
 				item: "storagedrawers:compacting_drawers_3"
 				type: "item"
 			}]
@@ -359,16 +358,16 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["A20000000000000F"]
 			description: [
 				"Empieza el min-max de almacen.&r"
 				""
 				"Craftea un &bUpgrade Template&r para preparar mejoras de capacidad.&r"
 			]
 			icon: "storagedrawers:upgrade_template"
-			id: "A200000000000010"
+			dependencies: ["2339CD0069A2D6C1"]
+			id: "00DE6339F1D5271E"
 			tasks: [{
-				id: "B200000000000014"
+				id: "5BDEE881E7EADB29"
 				item: "storagedrawers:upgrade_template"
 				type: "item"
 			}]
@@ -377,16 +376,16 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["A200000000000010"]
 			description: [
 				"Con esto tus drawers aguantan mucho mas sin desbordarse.&r"
 				""
 				"Craftea un &bIron Storage Upgrade&r y aplicalo al cajon que mas uses.&r"
 			]
 			icon: "storagedrawers:iron_storage_upgrade"
-			id: "A200000000000011"
+			dependencies: ["00DE6339F1D5271E"]
+			id: "447B1E9060A86F90"
 			tasks: [{
-				id: "B200000000000015"
+				id: "79E29B3EB8C89DCB"
 				item: "storagedrawers:iron_storage_upgrade"
 				type: "item"
 			}]
@@ -395,25 +394,21 @@
 			y: -9.0d
 		}
 		{
-			dependencies: [
-				"A200000000000005"
-				"A20000000000000B"
-				"A200000000000011"
-			]
 			description: [
 				"Tu colonia ya mueve recursos por tres frentes: ventas, transporte y almacen inteligente.&r"
 				""
 				"Deja operativo un circuito real: producir, mover y guardar sin caos.&r"
 			]
 			icon: "minecraft:chest_minecart"
-			id: "A200000000000012"
+			dependencies: ["4B7FA53D1A5B03C5", "1DB47CDC69F377B5", "447B1E9060A86F90"]
+			id: "2A5DF108116FF2EF"
 			rewards: [{
-				id: "B200000000000016"
+				id: "20C04A74815CEADF"
 				type: "xp"
 				xp: 120
 			}]
 			tasks: [{
-				id: "B200000000000017"
+				id: "2637868D223C8AFE"
 				title: "&aCadena de logistica montada&r"
 				type: "checkmark"
 			}]
@@ -422,7 +417,6 @@
 			y: -10.5d
 		}
 		{
-			dependencies: ["A200000000000009"]
 			description: [
 				"Si te ven con esto, ya saben que construyes en serio.&r"
 				""
@@ -435,9 +429,10 @@
 					Damage: 0
 				}
 			}
-			id: "A200000000000013"
+			dependencies: ["55A496BF3C4A9A75"]
+			id: "7800A3BEC849111E"
 			tasks: [{
-				id: "B200000000000018"
+				id: "501C7B3AD6C089AD"
 				item: {
 					Count: 1
 					id: "constructionwand:diamond_wand"
@@ -452,16 +447,16 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["A200000000000007"]
 			description: [
 				"Te mereces un upgrade fino para expediciones largas.&r"
 				""
 				"Pasa tu mochila a &bGold Backpack&r y notaras la diferencia al instante.&r"
 			]
 			icon: "sophisticatedbackpacks:gold_backpack"
-			id: "A200000000000014"
+			dependencies: ["341CFF674038912E"]
+			id: "2DF62C10BEF541CE"
 			tasks: [{
-				id: "B200000000000019"
+				id: "2577861E1D1DC2D1"
 				item: "sophisticatedbackpacks:gold_backpack"
 				type: "item"
 			}]
@@ -470,10 +465,6 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"A200000000000012"
-				"A200000000000014"
-			]
 			description: [
 				"Ahora que ya tienes base estable, toca buscar una senal rara entre bosques tranquilos.&r"
 				""
@@ -485,14 +476,15 @@
 				"Cuando lo veas (o lo captures), marca esta quest.&r"
 			]
 			icon: "minecraft:clock"
-			id: "A200000000000015"
+			dependencies: ["7800A3BEC849111E"]
+			id: "52082D47ED4F03ED"
 			rewards: [{
-				id: "B20000000000001A"
+				id: "4B67F240929CB61A"
 				type: "xp"
 				xp: 200
 			}]
 			tasks: [{
-				id: "B20000000000001B"
+				id: "16051E8D1117DBBF"
 				title: "&dVi a Celebi bajo cielo abierto&r"
 				type: "checkmark"
 			}]
@@ -501,20 +493,16 @@
 			y: -10.5d
 		}
 		{
-			dependencies: [
-				"A200000000000012"
-				"A200000000000013"
-				"A200000000000015"
-			]
 			description: [
 				"Ya no eres improvisado: tu base produce, almacena y se expande con ritmo.&r"
 				""
 				"Deja lista la colonia para saltar al siguiente acto del Diario.&r"
 			]
 			icon: "minecraft:bell"
-			id: "A200000000000016"
+			dependencies: ["2A5DF108116FF2EF", "52082D47ED4F03ED"]
+			id: "7124C5E40ADBD223"
 			tasks: [{
-				id: "B20000000000001C"
+				id: "4481137A3CD7261A"
 				title: "&aColonia establecida y lista&r"
 				type: "checkmark"
 			}]
@@ -523,7 +511,6 @@
 			y: -12.5d
 		}
 		{
-			dependencies: ["A200000000000016"]
 			description: [
 				"Has pasado de superviviente a colono con metodo.&r"
 				""
@@ -535,40 +522,49 @@
 				Count: 1
 				id: "minecraft:iron_chestplate"
 				tag: {
-					display: {
-						Name: '{"text":"Peto de Colono","color":"gold","italic":false,"bold":true}'
-						Lore: [
-							'{"text":"Marca que ya tienes una base seria","color":"gray","italic":true}'
-							'{"text":"⭐ Recompensa del Acto II","color":"gold","italic":false}'
-						]
-					}
-					Enchantments: [{id: "minecraft:protection", lvl: 2s}]
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:protection"
+						lvl: 2s
+					}]
 					HideFlags: 1
+					display: {
+						Lore: [
+							"{\"text\":\"Marca que ya tienes una base seria\",\"color\":\"gray\",\"italic\":true}"
+							"{\"text\":\"⭐ Recompensa del Acto II\",\"color\":\"gold\",\"italic\":false}"
+						]
+						Name: "{\"text\":\"Peto de Colono\",\"color\":\"gold\",\"italic\":false,\"bold\":true}"
+					}
 				}
 			}
-			id: "A200006A7E000001"
+			dependencies: ["7124C5E40ADBD223"]
+			id: "511DBFB53A284A4C"
 			rewards: [{
-				id: "B20000000000001D"
+				id: "6C46FBBB140FBF10"
 				item: {
 					Count: 1
 					id: "minecraft:iron_chestplate"
 					tag: {
-						display: {
-							Name: '{"text":"Peto de Colono","color":"gold","italic":false,"bold":true}'
-							Lore: [
-								'{"text":"Marca que ya tienes una base seria","color":"gray","italic":true}'
-								'{"text":"⭐ Recompensa del Acto II","color":"gold","italic":false}'
-							]
-						}
-						Enchantments: [{id: "minecraft:protection", lvl: 2s}]
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:protection"
+							lvl: 2s
+						}]
 						HideFlags: 1
+						display: {
+							Lore: [
+								"{\"text\":\"Marca que ya tienes una base seria\",\"color\":\"gray\",\"italic\":true}"
+								"{\"text\":\"⭐ Recompensa del Acto II\",\"color\":\"gold\",\"italic\":false}"
+							]
+							Name: "{\"text\":\"Peto de Colono\",\"color\":\"gold\",\"italic\":false,\"bold\":true}"
+						}
 					}
 				}
 				type: "item"
 			}]
 			size: 2.0d
 			tasks: [{
-				id: "B20000000000001E"
+				id: "7F655EA53EF3FC90"
 				title: "&6Completar Acto II&r"
 				type: "checkmark"
 			}]

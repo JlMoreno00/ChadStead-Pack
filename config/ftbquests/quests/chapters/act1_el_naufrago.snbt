@@ -4,9 +4,9 @@
 	default_quest_shape: "hexagon"
 	disable_toast: true
 	filename: "act1_el_naufrago"
-	group: "A00000D1A210F001"
+	group: ""
 	icon: "minecraft:compass"
-	id: "A10000A1B2C3D4E5"
+	id: "53432B0F0ACAB887"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -19,12 +19,12 @@
 				"&aObjetivo&r: consigue troncos para arrancar tu primer día.&r"
 			]
 			icon: "minecraft:oak_log"
-			id: "A100000000000001"
+			id: "565F63EE1AEC5C24"
 			size: 1.5d
 			subtitle: "&7Acto I del Diario&r"
 			tasks: [{
-				count: 16
-				id: "A10000AA00000001"
+				count: 16L
+				id: "792C10D6F08F193E"
 				item: "minecraft:oak_log"
 				type: "item"
 			}]
@@ -33,17 +33,17 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["A100000000000001"]
 			description: [
 				"Ya tienes madera. Ahora toca dejar de pegar con ramas y sacar piedra."
 				""
 				"&aObjetivo&r: junta adoquín para herramientas y horno.&r"
 			]
 			icon: "minecraft:cobblestone"
-			id: "A100000000000002"
+			dependencies: ["565F63EE1AEC5C24"]
+			id: "41030E07C4C55B69"
 			tasks: [{
-				count: 24
-				id: "A10000AA00000002"
+				count: 24L
+				id: "2D43908B03972AF7"
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
@@ -52,16 +52,16 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["A100000000000001"]
 			description: [
 				"Sin mesa de crafteo no hay progreso, solo sufrimiento."
 				""
 				"&aObjetivo&r: fabrica una Crafting Table.&r"
 			]
 			icon: "minecraft:crafting_table"
-			id: "A100000000000003"
+			dependencies: ["565F63EE1AEC5C24"]
+			id: "316ECD0CAC5927AC"
 			tasks: [{
-				id: "A10000AA00000003"
+				id: "68C200DD6A0EBE61"
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
@@ -70,17 +70,29 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["A100000000000003"]
 			description: [
 				"Ahora sí, arma tus primeras herramientas para no tardar una vida en cada bloque."
 				""
 				"&aObjetivo&r: fabrica un pico de madera.&r"
 			]
-			icon: "minecraft:wooden_pickaxe"
-			id: "A100000000000004"
+			icon: {
+				Count: 1
+				id: "minecraft:wooden_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			dependencies: ["316ECD0CAC5927AC"]
+			id: "2C8FB63E544657AD"
 			tasks: [{
-				id: "A10000AA00000004"
-				item: "minecraft:wooden_pickaxe"
+				id: "23E25E08134B27D0"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			title: "Primer Pico"
@@ -88,19 +100,16 @@
 			y: -3.5d
 		}
 		{
-			dependencies: [
-				"A100000000000002"
-				"A100000000000003"
-			]
 			description: [
 				"Con horno ya puedes cocinar comida y fundir recursos. Empieza la vida decente."
 				""
 				"&aObjetivo&r: coloca tu primer horno.&r"
 			]
 			icon: "minecraft:furnace"
-			id: "A100000000000005"
+			dependencies: ["316ECD0CAC5927AC"]
+			id: "2FB5976B7354295E"
 			tasks: [{
-				id: "A10000AA00000005"
+				id: "10F516370F1C1863"
 				item: "minecraft:furnace"
 				type: "item"
 			}]
@@ -109,20 +118,29 @@
 			y: -3.5d
 		}
 		{
-			dependencies: [
-				"A100000000000002"
-				"A100000000000004"
-			]
 			description: [
 				"El salto real de poder temprano: deja la madera atrás."
 				""
 				"&aObjetivo&r: fabrica un pico de piedra.&r"
 			]
-			icon: "minecraft:stone_pickaxe"
-			id: "A100000000000006"
+			icon: {
+				Count: 1
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			dependencies: ["41030E07C4C55B69"]
+			id: "6C328110E02B46B8"
 			tasks: [{
-				id: "A10000AA00000006"
-				item: "minecraft:stone_pickaxe"
+				id: "360A504B2B8FD779"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			title: "Herramienta de Verdad"
@@ -130,17 +148,17 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["A100000000000005"]
 			description: [
 				"Si no iluminas, la noche te come. No negocies esto."
 				""
 				"&aObjetivo&r: consigue antorchas para explorar sin miedo.&r"
 			]
 			icon: "minecraft:torch"
-			id: "A100000000000007"
+			dependencies: ["6C328110E02B46B8"]
+			id: "7869D0428F2431A8"
 			tasks: [{
-				count: 16
-				id: "A10000AA00000007"
+				count: 16L
+				id: "68CCA524F3C2E09D"
 				item: "minecraft:torch"
 				type: "item"
 			}]
@@ -149,16 +167,16 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["A100000000000003"]
 			description: [
 				"Dormir fija spawn y te ahorra paseos de cadáver."
 				""
 				"&aObjetivo&r: consigue una cama para pasar la noche seguro.&r"
 			]
 			icon: "minecraft:red_bed"
-			id: "A100000000000008"
+			dependencies: ["2C8FB63E544657AD"]
+			id: "3F0C565833B68518"
 			tasks: [{
-				id: "A10000AA00000008"
+				id: "4242788445FE6EA6"
 				item: "minecraft:red_bed"
 				type: "item"
 			}]
@@ -167,17 +185,17 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["A100000000000005"]
 			description: [
 				"Con hambre no peleas ni corres. Cocina y mantén reservas."
 				""
 				"&aObjetivo&r: consigue comida cocinada para el viaje.&r"
 			]
 			icon: "minecraft:cooked_beef"
-			id: "A100000000000009"
+			dependencies: ["2FB5976B7354295E"]
+			id: "677FB336B483B76C"
 			tasks: [{
-				count: 8
-				id: "A10000AA00000009"
+				count: 8L
+				id: "29D709BECA610B4D"
 				item: "minecraft:cooked_beef"
 				type: "item"
 			}]
@@ -186,16 +204,16 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["A100000000000004"]
 			description: [
 				"No vas a sobrevivir solo. Toca elegir tu primer compañero en Cobblemon."
 				""
 				"&aObjetivo&r: elige tu Pokémon inicial y déjalo listo para pelear.&r"
 			]
 			icon: "cobblemon:poke_ball"
-			id: "A10000000000000A"
+			dependencies: ["3F0C565833B68518"]
+			id: "373FBBEB48AAF0E5"
 			tasks: [{
-				id: "A10000AA0000000A"
+				id: "663DEA7B686F4AAF"
 				title: "Confirmar inicial elegido"
 				type: "checkmark"
 			}]
@@ -204,20 +222,17 @@
 			y: -6.0d
 		}
 		{
-			dependencies: [
-				"A10000000000000A"
-				"A100000000000006"
-			]
 			description: [
 				"Si quieres capturar algo útil, necesitas munición."
 				""
 				"&aObjetivo&r: consigue Poké Balls para empezar a ampliar el equipo.&r"
 			]
 			icon: "cobblemon:poke_ball"
-			id: "A10000000000000B"
+			dependencies: ["373FBBEB48AAF0E5"]
+			id: "09F1557950222BA9"
 			tasks: [{
-				count: 8
-				id: "A10000AA0000000B"
+				count: 8L
+				id: "26132618F0E9AAA6"
 				item: "cobblemon:poke_ball"
 				type: "item"
 			}]
@@ -226,16 +241,16 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["A100000000000001"]
 			description: [
 				"Perderte es opcional. Abre el minimapa y aprende a leer el terreno."
 				""
 				"&aObjetivo&r: abrir Xaero's Minimap y revisar su info básica.&r"
 			]
 			icon: "minecraft:filled_map"
-			id: "A10000000000000C"
+			dependencies: ["565F63EE1AEC5C24"]
+			id: "1F5460C4B4AE3958"
 			tasks: [{
-				id: "A10000AA0000000C"
+				id: "269CF294E906C62C"
 				title: "Confirmar minimapa revisado"
 				type: "checkmark"
 			}]
@@ -244,19 +259,16 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"A10000000000000C"
-				"A100000000000006"
-			]
 			description: [
 				"Con brújula y waypoint, volver a base deja de ser una lotería."
 				""
 				"&aObjetivo&r: fabrica una brújula para orientarte mejor.&r"
 			]
 			icon: "minecraft:compass"
-			id: "A10000000000000D"
+			dependencies: ["1F5460C4B4AE3958"]
+			id: "745547BDE8970D15"
 			tasks: [{
-				id: "A10000AA0000000D"
+				id: "0F667DCD27CBDC92"
 				item: "minecraft:compass"
 				type: "item"
 			}]
@@ -265,16 +277,16 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["A10000000000000C"]
 			description: [
 				"Ahora abre el mapa grande de Xaero y marca al menos un waypoint útil."
 				""
 				"&aObjetivo&r: crear tu primer waypoint (base, mina o aldea).&r"
 			]
 			icon: "minecraft:cartography_table"
-			id: "A10000000000000E"
+			dependencies: ["745547BDE8970D15"]
+			id: "4423BC0208210454"
 			tasks: [{
-				id: "A10000AA0000000E"
+				id: "0B4701A110245432"
 				title: "Confirmar waypoint creado"
 				type: "checkmark"
 			}]
@@ -283,20 +295,16 @@
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"A100000000000008"
-				"A100000000000009"
-				"A10000000000000D"
-			]
 			description: [
 				"Antes de salir a explorar en serio, prepara kit de viaje."
 				""
 				"&aObjetivo&r: consigue un barco para moverte rápido por costa y ríos.&r"
 			]
 			icon: "minecraft:oak_boat"
-			id: "A10000000000000F"
+			dependencies: ["677FB336B483B76C"]
+			id: "6AF2715FE2FEED8D"
 			tasks: [{
-				id: "A10000AA0000000F"
+				id: "4EFEACFA053E164A"
 				item: "minecraft:oak_boat"
 				type: "item"
 			}]
@@ -305,20 +313,17 @@
 			y: -8.5d
 		}
 		{
-			dependencies: [
-				"A10000000000000B"
-				"A10000000000000F"
-			]
 			description: [
 				"Sube la apuesta antes de la cacería grande."
 				""
 				"&aObjetivo&r: prepara Great Balls para encuentros difíciles.&r"
 			]
 			icon: "cobblemon:great_ball"
-			id: "A100000000000010"
+			dependencies: ["09F1557950222BA9"]
+			id: "6027228D42AD4711"
 			tasks: [{
-				count: 4
-				id: "A10000AA00000010"
+				count: 4L
+				id: "30CE24DDB9A1B79B"
 				item: "cobblemon:great_ball"
 				type: "item"
 			}]
@@ -327,10 +332,6 @@
 			y: -10.0d
 		}
 		{
-			dependencies: [
-				"A10000000000000E"
-				"A100000000000010"
-			]
 			description: [
 				"Ha llegado la primera gran cacería del Diario."
 				""
@@ -341,9 +342,10 @@
 				"&aObjetivo&r: encuentra y captura a Kubfu.&r"
 			]
 			icon: "minecraft:nether_star"
-			id: "A100000000000011"
+			dependencies: ["7869D0428F2431A8", "6AF2715FE2FEED8D"]
+			id: "4C99C5BE036A29B7"
 			tasks: [{
-				id: "A10000AA00000011"
+				id: "1AED61F4E48361A4"
 				title: "Confirmar captura de Kubfu"
 				type: "checkmark"
 			}]
@@ -352,11 +354,6 @@
 			y: -10.5d
 		}
 		{
-			dependencies: [
-				"A100000000000007"
-				"A10000000000000B"
-				"A100000000000011"
-			]
 			description: [
 				"Ya no eres un náufrago perdido: tienes base, rumbo y compañero fuerte."
 				""
@@ -368,38 +365,47 @@
 				Count: 1
 				id: "minecraft:leather_boots"
 				tag: {
-					display: {
-						Name: '{"text":"Botas de Náufrago","color":"gold","italic":false}'
-						Lore: ['{"text":"Primer acto superado, toca fundar de verdad","color":"gray","italic":true}']
-					}
-					Enchantments: [{id: "minecraft:unbreaking", lvl: 3s}]
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 3s
+					}]
 					HideFlags: 1
+					display: {
+						Lore: ["{\"text\":\"Primer acto superado, toca fundar de verdad\",\"color\":\"gray\",\"italic\":true}"]
+						Name: "{\"text\":\"Botas de Náufrago\",\"color\":\"gold\",\"italic\":false}"
+					}
 				}
 			}
-			id: "A100006A7E000001"
+			dependencies: ["6027228D42AD4711", "4C99C5BE036A29B7"]
+			id: "3BC8A798E0E2F7B6"
 			rewards: [{
-				id: "A10000BB00000001"
+				id: "247CF89B6CBC6677"
 				item: {
 					Count: 1
 					id: "minecraft:leather_boots"
 					tag: {
-						display: {
-							Name: '{"text":"Botas de Náufrago","color":"gold","italic":false}'
-							Lore: [
-								'{"text":"Primer acto superado, toca fundar de verdad","color":"gray","italic":true}'
-								'{"text":"","italic":false}'
-								'{"text":"⭐ Recompensa del Acto I","color":"gold","italic":false}'
-							]
-						}
-						Enchantments: [{id: "minecraft:unbreaking", lvl: 3s}]
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}]
 						HideFlags: 1
+						display: {
+							Lore: [
+								"{\"text\":\"Primer acto superado, toca fundar de verdad\",\"color\":\"gray\",\"italic\":true}"
+								"{\"text\":\"\",\"italic\":false}"
+								"{\"text\":\"⭐ Recompensa del Acto I\",\"color\":\"gold\",\"italic\":false}"
+							]
+							Name: "{\"text\":\"Botas de Náufrago\",\"color\":\"gold\",\"italic\":false}"
+						}
 					}
 				}
 				type: "item"
 			}]
 			size: 2.0d
 			tasks: [{
-				id: "A10000AA00000012"
+				id: "30546248939C9B13"
 				title: "Cruzar al Acto II"
 				type: "checkmark"
 			}]

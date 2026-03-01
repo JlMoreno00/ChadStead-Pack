@@ -3,14 +3,13 @@
 	default_quest_shape: "hexagon"
 	disable_toast: true
 	filename: "postgame_legado"
-	group: "A00000D1A210F001"
+	group: ""
 	icon: "minecraft:nether_star"
-	id: "A70000A1B2C3D4E5"
+	id: "74B63540673DE700"
 	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["A600006A7E000001"]
 			description: [
 				"Llegaste al final del Diario, pero el Postgame es donde se separan los buenos de los imparables."
 				"Ahora te toca cerrar tu historia como fundador con retos de verdad."
@@ -18,12 +17,12 @@
 				"&aObjetivo&r: empieza Postgame y activa Legado Eterno.&r"
 			]
 			icon: "minecraft:nether_star"
-			id: "A700000000000001"
+			id: "645596B76857319C"
 			optional: true
 			size: 2.0d
 			subtitle: "&7Postgame del Diario del Fundador&r"
 			tasks: [{
-				id: "A70000000000B001"
+				id: "4A61A5F747E587C4"
 				title: "Comenzar Legado Eterno"
 				type: "checkmark"
 			}]
@@ -32,27 +31,27 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["A700000000000001"]
 			description: [
 				"Tu cocina ya no va de llenar hambre: va de estilo, eficiencia y platos top."
 				""
 				"&aMaster Chef&r: completa todos tus platos clave y deja la cocina al 100%."
 			]
 			icon: "farmersdelight:cooking_pot"
-			id: "A700000000000002"
+			dependencies: ["645596B76857319C"]
+			id: "0DB3A878808D5B6F"
 			tasks: [
 				{
-					id: "A70000000000B002"
+					id: "6BAF08985DEB73DA"
 					item: "farmersdelight:hamburger"
 					type: "item"
 				}
 				{
-					id: "A70000000000B003"
+					id: "1AB3A0AD6F29AF9B"
 					item: "farmersdelight:stuffed_potato"
 					type: "item"
 				}
 				{
-					id: "A70000000000B004"
+					id: "5779DF9B26C8F52D"
 					title: "Confirmar Master Chef"
 					type: "checkmark"
 				}
@@ -62,27 +61,27 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["A700000000000001"]
 			description: [
 				"Si tu red ME y tus máquinas van finas, no tienes base: tienes una industria."
 				""
 				"&aMaster Engineer&r: demuestra control total de Create + AE2."
 			]
 			icon: "ae2:controller"
-			id: "A700000000000003"
+			dependencies: ["645596B76857319C"]
+			id: "1B894EAD2AF5C441"
 			tasks: [
 				{
-					id: "A70000000000B005"
+					id: "72C7E4B27DED0CAC"
 					item: "ae2:controller"
 					type: "item"
 				}
 				{
-					id: "A70000000000B006"
+					id: "1817995118A7E901"
 					item: "create:rotation_speed_controller"
 					type: "item"
 				}
 				{
-					id: "A70000000000B007"
+					id: "502183E322A2D196"
 					title: "Confirmar Master Engineer"
 					type: "checkmark"
 				}
@@ -92,16 +91,16 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["A700000000000001"]
 			description: [
 				"Ya no exploras por loot rápido. Exploras para mapear, dominar y volver vivo."
 				""
 				"&aMaster Explorer&r: visita y confirma biomas raros del mundo final."
 			]
 			icon: "minecraft:map"
-			id: "A700000000000004"
+			dependencies: ["645596B76857319C"]
+			id: "6F201B65806CDC9B"
 			tasks: [{
-				id: "A70000000000B008"
+				id: "17CC535771CB9F7D"
 				title: "Confirmar Master Explorer"
 				type: "checkmark"
 			}]
@@ -110,16 +109,16 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["A700000000000001"]
 			description: [
 				"No es suerte: es crianza, builds y lectura de combate."
 				""
 				"&aMaster Trainer&r: deja listo tu equipo y cierra la élite de legendarios."
 			]
 			icon: "cobblemon:ultra_ball"
-			id: "A700000000000005"
+			dependencies: ["645596B76857319C"]
+			id: "5ACE8A8CF0432262"
 			tasks: [{
-				id: "A70000000000B009"
+				id: "03ABAEFA9969E270"
 				title: "Confirmar Master Trainer"
 				type: "checkmark"
 			}]
@@ -128,7 +127,6 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["A700000000000005"]
 			description: [
 				"El Pokémon genético."
 				"Tendrás que explorar instalaciones científicas abandonadas, recuperar tecnología de clonación y prepararte para la batalla de tu vida."
@@ -137,9 +135,10 @@
 				"&aObjetivo&r: captura a Mewtwo."
 			]
 			icon: "minecraft:ender_eye"
-			id: "A700000000000006"
+			dependencies: ["5ACE8A8CF0432262"]
+			id: "78807165FDC7594E"
 			tasks: [{
-				id: "A70000000000B00A"
+				id: "6083CF2A0A32818B"
 				title: "Confirmar captura de Mewtwo"
 				type: "checkmark"
 			}]
@@ -148,7 +147,6 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["A700000000000004"]
 			description: [
 				"El ancestro de todos."
 				"Descifra los misterios finales de Myths and Legends para encontrar a Mew en un templo remoto."
@@ -157,9 +155,10 @@
 				"&aObjetivo&r: captura a Mew."
 			]
 			icon: "minecraft:chorus_flower"
-			id: "A700000000000007"
+			dependencies: ["6F201B65806CDC9B"]
+			id: "1E5A872B212E4169"
 			tasks: [{
-				id: "A70000000000B00B"
+				id: "4CFD0D4ADB689572"
 				title: "Confirmar captura de Mew"
 				type: "checkmark"
 			}]
@@ -168,14 +167,6 @@
 			y: -5.0d
 		}
 		{
-			dependencies: [
-				"A700000000000002"
-				"A700000000000003"
-				"A700000000000004"
-				"A700000000000005"
-				"A700000000000006"
-				"A700000000000007"
-			]
 			description: [
 				"Ya dominas cocina, tecnología, exploración y entrenamiento."
 				"Ahora toca preparar la forja donde nace la Corona."
@@ -183,9 +174,10 @@
 				"&aObjetivo&r: activar la Forja del Legado."
 			]
 			icon: "minecraft:smithing_table"
-			id: "A700000000000008"
+			dependencies: ["0DB3A878808D5B6F", "1B894EAD2AF5C441", "78807165FDC7594E", "1E5A872B212E4169"]
+			id: "7EE82EC0511D7849"
 			tasks: [{
-				id: "A70000000000B00C"
+				id: "3A3B2030D25942DA"
 				title: "Confirmar: Forja del Legado activada"
 				type: "checkmark"
 			}]
@@ -194,12 +186,18 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["A700000000000008"]
 			description: ["Marca que tienes la recompensa del Acto I: Botas de Náufrago."]
-			icon: "minecraft:leather_boots"
-			id: "A700000000000009"
+			icon: {
+				Count: 1
+				id: "minecraft:leather_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			dependencies: ["7EE82EC0511D7849"]
+			id: "578D635C65815B54"
 			tasks: [{
-				id: "A70000000000B00D"
+				id: "5941661333DA4B69"
 				title: "Tengo Botas de Náufrago (Acto I)"
 				type: "checkmark"
 			}]
@@ -208,12 +206,18 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["A700000000000008"]
 			description: ["Marca que tienes la recompensa del Acto II: Peto de Colono."]
-			icon: "minecraft:iron_chestplate"
-			id: "A70000000000000A"
+			icon: {
+				Count: 1
+				id: "minecraft:iron_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			dependencies: ["7EE82EC0511D7849"]
+			id: "3213C7E11C4BA05F"
 			tasks: [{
-				id: "A70000000000B00E"
+				id: "5F0E2E1B2D7A5FBA"
 				title: "Tengo Peto de Colono (Acto II)"
 				type: "checkmark"
 			}]
@@ -222,12 +226,18 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["A700000000000008"]
 			description: ["Marca que tienes la recompensa del Acto III: Cuchillo de Chef Maestro."]
-			icon: "farmersdelight:golden_knife"
-			id: "A70000000000000B"
+			icon: {
+				Count: 1
+				id: "farmersdelight:golden_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			dependencies: ["7EE82EC0511D7849"]
+			id: "7711FD3407D09373"
 			tasks: [{
-				id: "A70000000000B00F"
+				id: "5A66D66B3C0D27BA"
 				title: "Tengo Cuchillo de Chef Maestro (Acto III)"
 				type: "checkmark"
 			}]
@@ -236,12 +246,12 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["A700000000000008"]
 			description: ["Marca que tienes la recompensa del Acto IV: Gafas del Ingeniero."]
 			icon: "create:goggles"
-			id: "A70000000000000C"
+			dependencies: ["7EE82EC0511D7849"]
+			id: "3EA361EB8A567F87"
 			tasks: [{
-				id: "A70000000000B010"
+				id: "62AB3B5D445D11F0"
 				title: "Tengo Gafas del Ingeniero (Acto IV)"
 				type: "checkmark"
 			}]
@@ -250,12 +260,18 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["A700000000000008"]
 			description: ["Marca que tienes la recompensa del Acto V: Pico del Explorador."]
-			icon: "minecraft:netherite_pickaxe"
-			id: "A70000000000000D"
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			dependencies: ["7EE82EC0511D7849"]
+			id: "4459EAD48BAFB654"
 			tasks: [{
-				id: "A70000000000B011"
+				id: "30DA654B02F53C48"
 				title: "Tengo Pico del Explorador (Acto V)"
 				type: "checkmark"
 			}]
@@ -264,12 +280,12 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["A700000000000008"]
 			description: ["Marca que tienes la recompensa del Acto VI: Sello de ChadStead."]
 			icon: "minecraft:name_tag"
-			id: "A70000000000000E"
+			dependencies: ["7EE82EC0511D7849"]
+			id: "4E6677FE03141367"
 			tasks: [{
-				id: "A70000000000B012"
+				id: "5AAE065471A3F4CB"
 				title: "Tengo Sello de ChadStead (Acto VI)"
 				type: "checkmark"
 			}]
@@ -278,41 +294,82 @@
 			y: -9.0d
 		}
 		{
-			dependencies: [
-				"A700000000000009"
-				"A70000000000000A"
-				"A70000000000000B"
-				"A70000000000000C"
-				"A70000000000000D"
-				"A70000000000000E"
-			]
 			description: [
 				"Con las 6 reliquias de acto ya puedes craftear la Corona del Fundador."
 				"Pon las reliquias en tu mesa ritual y forja la corona base."
 				""
 				"&aObjetivo&r: craftear una golden_helmet como base de la Corona."
 			]
-			icon: "minecraft:golden_helmet"
-			id: "A700006A7E000001"
+			icon: {
+				Count: 1
+				id: "minecraft:golden_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			dependencies: ["578D635C65815B54", "3213C7E11C4BA05F", "7711FD3407D09373", "3EA361EB8A567F87", "4459EAD48BAFB654", "4E6677FE03141367"]
+			id: "7C794963601F6706"
 			rewards: [{
-				id: "A70000000000C001"
+				id: "750F517BE267004A"
 				item: {
 					Count: 1
 					id: "minecraft:golden_helmet"
 					tag: {
-						display: {Name: '{"text":"Corona del Fundador","color":"gold","bold":true}'}
-						Enchantments: [
-							{id: "minecraft:protection", lvl: 10s}
-							{id: "minecraft:unbreaking", lvl: 10s}
-							{id: "minecraft:thorns", lvl: 5s}
-							{id: "minecraft:respiration", lvl: 3s}
-							{id: "minecraft:aqua_affinity", lvl: 1s}
-						]
 						AttributeModifiers: [
-							{AttributeName: "generic.max_health", Name: "generic.max_health", Amount: 100.0d, Operation: 0, UUID: [I;1,2,3,4], Slot: "head"}
-							{AttributeName: "generic.movement_speed", Name: "generic.movement_speed", Amount: 0.1d, Operation: 0, UUID: [I;1,2,3,5], Slot: "head"}
+							{
+								Amount: 100.0d
+								AttributeName: "generic.max_health"
+								Name: "generic.max_health"
+								Operation: 0
+								Slot: "head"
+								UUID: [I;
+									1
+									2
+									3
+									4
+								]
+							}
+							{
+								Amount: 0.1d
+								AttributeName: "generic.movement_speed"
+								Name: "generic.movement_speed"
+								Operation: 0
+								Slot: "head"
+								UUID: [I;
+									1
+									2
+									3
+									5
+								]
+							}
+						]
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:protection"
+								lvl: 10s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 10s
+							}
+							{
+								id: "minecraft:thorns"
+								lvl: 5s
+							}
+							{
+								id: "minecraft:respiration"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:aqua_affinity"
+								lvl: 1s
+							}
 						]
 						Unbreakable: 1b
+						display: {
+							Name: "{\"text\":\"Corona del Fundador\",\"color\":\"gold\",\"bold\":true}"
+						}
 					}
 				}
 				type: "item"
@@ -320,12 +377,18 @@
 			size: 2.0d
 			tasks: [
 				{
-					id: "A70000000000B013"
-					item: "minecraft:golden_helmet"
+					id: "3CA08895F3F2C2E5"
+					item: {
+						Count: 1
+						id: "minecraft:golden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
-					id: "A70000000000B014"
+					id: "36C91B5F34A093CB"
 					title: "Confirmar crafteo de Corona del Fundador"
 					type: "checkmark"
 				}
