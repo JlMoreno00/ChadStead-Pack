@@ -50,6 +50,7 @@
 				"Para bajarte, pulsa &bShift (agacharse)&r."
 			]
 			icon: "cobblemon:poke_ball"
+			dependencies: ["633B5D6732649053"]
 			id: "4CEB689DE5C4AAEF"
 			rewards: [{
 				id: "7E6E4CB50D674A05"
@@ -77,6 +78,7 @@
 				"Los Pokemon voladores pueden planear, y los acuaticos nadar contigo."
 			]
 			icon: "cobblemon:ultra_ball"
+			dependencies: ["633B5D6732649053"]
 			id: "09201035C89D5E99"
 			rewards: [{
 				id: "253F08F36882FDD4"
@@ -104,6 +106,7 @@
 				"Los Pokemon con mas nivel tienen mas estamina."
 			]
 			icon: "minecraft:golden_carrot"
+			dependencies: ["4CEB689DE5C4AAEF"]
 			id: "7E23E9BACF3ECA86"
 			rewards: [
 				{
@@ -137,6 +140,7 @@
 				"Bonus: hazlo en un Pokemon volador para admirar las vistas de Tectonic."
 			]
 			icon: "minecraft:compass"
+			dependencies: ["09201035C89D5E99"]
 			id: "620E0FC20CD0B684"
 			optional: true
 			rewards: [{

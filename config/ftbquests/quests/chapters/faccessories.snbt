@@ -11,6 +11,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "2409DDA767FA45E5"
 			rewards: [
 				{
@@ -36,6 +37,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "75ACFED6D2431DAD"
 			rewards: [
 				{
@@ -50,7 +52,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Everlasting Beef, o nada"
+			subtitle: "Everlasting Beef, or no Beef"
 			tasks: [{
 				id: "59CDF8A555ABADD5"
 				item: "artifacts:everlasting_beef"
@@ -61,6 +63,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "5DCF53BCB647F650"
 			rewards: [
 				{
@@ -85,6 +88,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "023A8358779B370C"
 			rewards: [
 				{
@@ -99,7 +103,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "¡Me encantan los microplásticos!"
+			subtitle: "I love microplastics!"
 			tasks: [{
 				id: "6318AB064B4842BF"
 				item: "artifacts:novelty_drinking_hat"
@@ -110,6 +114,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "50399DE711E6D6D7"
 			rewards: [
 				{
@@ -134,25 +139,26 @@
 			y: -2.5d
 		}
 		{
-		description: [
-			"En tu aventura, te encontrarás con accesorios. Algunos son divertidos, ¡pero la mayoría son muy útiles!"
-			" "
-			"¡Algunos se fabrican con materiales del mundo, otros se descubren en tesoros explorando, y otros los sueltan enemigos comunes y únicos!"
-		]
+			description: [
+				"On your journey, you will stumble upon accessories. A handful of them are funny, but most of them are helpful."
+				" "
+				"Some can be crafted from materials found in the world, some are discovered through treasures and exploration, and others drop from unique and common mobs!"
+			]
 			icon: "ftbquests:book"
 			id: "12F9750CFC68C73E"
 			optional: true
 			size: 1.5d
-		subtitle: "¡Haz clic para saber más!"
-		tasks: [{
-			id: "6DD92CDAB43BF073"
-			title: "&dColección de Accesorios"
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "6DD92CDAB43BF073"
+				title: "&dAccessory Collection"
 				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "0905D03321F758F8"
 			rewards: [
 				{
@@ -177,6 +183,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "796E154EEDDF0DF2"
 			rewards: [
 				{
@@ -201,6 +208,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "19A794DD89D64E58"
 			rewards: [
 				{
@@ -225,6 +233,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "200A64FA511FAA56"
 			rewards: [
 				{
@@ -239,7 +248,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "¡Referencia a Warwick Davis!"
+			subtitle: "Warwick Davis reference!"
 			tasks: [{
 				id: "0C317FE20D7D04BE"
 				item: "artifacts:superstitious_hat"
@@ -250,6 +259,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "7AC2326BA264C72E"
 			rewards: [
 				{
@@ -274,6 +284,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "5CAFB665F2FCBD46"
 			rewards: [
 				{
@@ -298,6 +309,7 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "2E93E193B513F414"
 			rewards: [
 				{
@@ -322,6 +334,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "1A4FDEDCB07A6CC5"
 			rewards: [
 				{
@@ -336,7 +349,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "¡Pánico Total!"
+			subtitle: "Do The Panic"
 			tasks: [{
 				id: "20208C4D8FB08ECC"
 				item: "artifacts:panic_necklace"
@@ -347,6 +360,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "00C6EE2DD7B979A2"
 			rewards: [
 				{
@@ -371,6 +385,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "4AB118F26A41FED5"
 			rewards: [
 				{
@@ -395,6 +410,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "5F1CCDAFA5658C05"
 			rewards: [
 				{
@@ -419,6 +435,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "73FCDE357329A3B2"
 			rewards: [
 				{
@@ -443,6 +460,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "6876A57BE0B86854"
 			rewards: [
 				{
@@ -457,7 +475,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "¿Cómo lo conseguiste?"
+			subtitle: "How did you manage this?"
 			tasks: [{
 				id: "0BB115220C973FBC"
 				item: "artifacts:cloud_in_a_bottle"
@@ -468,6 +486,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "37313A55E1C6E1A9"
 			rewards: [
 				{
@@ -482,7 +501,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "¡Referencia a Terraria!"
+			subtitle: "Terraria reference!"
 			tasks: [{
 				id: "0B31C4A2C95C9715"
 				item: "artifacts:obsidian_skull"
@@ -493,6 +512,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "0C788CEA9D15109B"
 			rewards: [
 				{
@@ -517,6 +537,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "217558482DD5A223"
 			rewards: [
 				{
@@ -541,6 +562,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "2B27F914E54CB7E1"
 			rewards: [
 				{
@@ -565,6 +587,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "7BC8ADF8B82FEC34"
 			rewards: [
 				{
@@ -589,6 +612,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "1568571219E799F6"
 			rewards: [
 				{
@@ -603,7 +627,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Mejor"
+			subtitle: "Better"
 			tasks: [{
 				id: "6FF08AB555737BD2"
 				item: "artifacts:digging_claws"
@@ -613,6 +637,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "0508E62CF7396DBB"
 			rewards: [
 				{
@@ -627,7 +652,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Más Rápido"
+			subtitle: "Faster"
 			tasks: [{
 				id: "25D51D0AFD69233F"
 				item: "artifacts:feral_claws"
@@ -637,6 +662,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "24996FE539323952"
 			rewards: [
 				{
@@ -651,7 +677,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Más Duro"
+			subtitle: "Harder"
 			tasks: [{
 				id: "34B8C70340C0E658"
 				item: "artifacts:power_glove"
@@ -661,6 +687,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "40A7BEAD9654D0A3"
 			rewards: [
 				{
@@ -684,6 +711,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "7DBDB3B88F49B637"
 			rewards: [
 				{
@@ -707,6 +735,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "7EBB3F20D0DE2C12"
 			rewards: [
 				{
@@ -730,6 +759,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "399D0AD2048DD3C6"
 			rewards: [
 				{
@@ -753,6 +783,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "540D7670B874BDA3"
 			rewards: [
 				{
@@ -778,6 +809,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "764B1D926A0C995A"
 			rewards: [
 				{
@@ -802,6 +834,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "18E7804AD35799CD"
 			rewards: [
 				{
@@ -827,6 +860,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "095069D8FBB05C18"
 			rewards: [
 				{
@@ -852,6 +886,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "76CEB4448678387E"
 			rewards: [
 				{
@@ -866,7 +901,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "¡Cuidado, Creepers!"
+			subtitle: "Creepers beware!"
 			tasks: [{
 				id: "3A8D38260658CBE2"
 				item: "artifacts:kitty_slippers"
@@ -878,6 +913,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "2237097F7D68D390"
 			rewards: [
 				{
@@ -903,6 +939,7 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "54CE53228B22C898"
 			rewards: [
 				{
@@ -927,6 +964,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "66AA091F9D258C5F"
 			rewards: [
 				{
@@ -951,6 +989,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "59B682CAB3418DCD"
 			rewards: [
 				{
@@ -975,6 +1014,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "15505E4AA09CC134"
 			rewards: [
 				{
@@ -999,6 +1039,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "10E65322405F7524"
 			rewards: [
 				{
@@ -1023,6 +1064,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "396A63904CF3C87E"
 			rewards: [
 				{
@@ -1046,6 +1088,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "302D45C77D7628ED"
 			rewards: [
 				{
@@ -1060,7 +1103,7 @@
 					xp_levels: 1
 				}
 			]
-			subtitle: "Más Fuerte"
+			subtitle: "Stronger"
 			tasks: [{
 				id: "03B8959CEF0C4F59"
 				item: "things:riot_gauntlet"
@@ -1070,6 +1113,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "03520B86F7FB71E0"
 			rewards: [
 				{
@@ -1094,6 +1138,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "2038C18BB578DC39"
 			rewards: [
 				{
@@ -1118,6 +1163,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "3E79E6B1A5983A77"
 			rewards: [
 				{
@@ -1142,6 +1188,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "5E739364A2BE71DC"
 			rewards: [
 				{
@@ -1166,6 +1213,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "16BEB7AF6B53A190"
 			rewards: [
 				{
@@ -1191,6 +1239,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "16711B6390E008BF"
 			rewards: [
 				{
@@ -1215,6 +1264,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "5B3AA940A88E425C"
 			rewards: [
 				{
@@ -1240,6 +1290,7 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "1F2AD51944A4CB8E"
 			rewards: [
 				{
@@ -1263,7 +1314,8 @@
 			y: 1.0d
 		}
 		{
-			description: ["Con el Agglomeration Orb, puedes combinar dos accesorios siempre que compartan el mismo espacio. (Algunos accesorios, como los Feral Claws, se pueden apilar.)"]
+			description: ["With the Agglomeration Orb, you can combine two accessories together, provided they share the same slot. (Some accessories, like Feral Claws, will stack.)"]
+			dependencies: ["12F9750CFC68C73E"]
 			id: "2C67B725F3C8BDE1"
 			rewards: [{
 				id: "31F05602D076B9C8"
@@ -1271,9 +1323,9 @@
 				type: "item"
 			}]
 			size: 1.5d
-		subtitle: "¡Haz clic para saber más!"
-		tasks: [{
-			id: "5108B9B4BFF0DFF5"
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "5108B9B4BFF0DFF5"
 				item: "things:empty_agglomeration"
 				title: "Empty Agglomeration"
 				type: "item"
@@ -1282,6 +1334,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "703AE832C3AEC609"
 			rewards: [
 				{
@@ -1306,6 +1359,7 @@
 			y: 5.5d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "1D4C3C522CA03354"
 			rewards: [
 				{
@@ -1329,6 +1383,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "0DDFF114847A1DE2"
 			rewards: [
 				{
@@ -1353,6 +1408,7 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["12F9750CFC68C73E"]
 			id: "09B95C3E4473A153"
 			rewards: [
 				{
@@ -1377,5 +1433,5 @@
 			y: 1.0d
 		}
 	]
-	title: " &dC&folección de Accesorios"
+	title: " &dA&fccessory Collection"
 }

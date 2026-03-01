@@ -96,6 +96,7 @@
 					Damage: 0
 				}
 			}
+			dependencies: ["7F9AC8931E4A610F"]
 			id: "00ABFB0F22459983"
 			optional: true
 			subtitle: "¡Haz clic para saber más!"
@@ -119,6 +120,7 @@
 			]
 			hide_until_deps_visible: true
 			icon: "minecraft:paper"
+			dependencies: ["7F9AC8931E4A610F"]
 			id: "2842A1F4485DA210"
 			optional: true
 			subtitle: "¡Haz clic para saber más!"
@@ -138,6 +140,7 @@
 				"Únete aquí: &ddiscord.gg/bigchadguys&r"
 			]
 			icon: "ftbquests:book"
+			dependencies: ["7F9AC8931E4A610F"]
 			id: "7F347C5E52359E01"
 			optional: true
 			subtitle: "¡Haz clic para saber más!"
@@ -161,6 +164,7 @@
 				"Se incluye automáticamente en los modpacks de BCG. Entra a un mundo de un jugador, abre el menú del juego y selecciona \"&bStart Co-op&r\" para activar el multijugador."
 			]
 			icon: "minecraft:villager_spawn_egg"
+			dependencies: ["7F9AC8931E4A610F"]
 			id: "384105BFD8CAD66D"
 			optional: true
 			subtitle: "¡Haz clic para saber más!"
@@ -201,6 +205,7 @@
 					Damage: 0
 				}
 			}
+			dependencies: ["7F9AC8931E4A610F"]
 			id: "08935F23101FE389"
 			optional: true
 			subtitle: "¡Haz clic para saber más!"
@@ -251,6 +256,7 @@
 				"Y por último, gracias a &6TI&r por jugar. Tu apoyo significa muchísimo, y me siento afortunadísimo de estar en una posición en la que puedo dedicarme a esto a tiempo completo. En serio, se me dan fatal los agradecimientos, pero de corazón: gracias."
 			]
 			icon: "bcg_smp:joe_coin"
+			dependencies: ["7F9AC8931E4A610F"]
 			id: "02AF54D55FF5C84F"
 			optional: true
 			subtitle: "¡Haz clic para ver a todos los involucrados!"
@@ -280,6 +286,7 @@
 					title: ""
 				}
 			}
+			dependencies: ["7F9AC8931E4A610F"]
 			id: "3EAEC39431D5A055"
 			optional: true
 			rewards: [{
@@ -318,6 +325,7 @@
 				"Y para quitar un claim, solo haz clic derecho."
 			]
 			icon: "minecraft:pillager_spawn_egg"
+			dependencies: ["7F9AC8931E4A610F"]
 			id: "06080C64F7F740C7"
 			optional: true
 			subtitle: "¡Haz clic para saber más!"

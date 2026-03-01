@@ -18,6 +18,7 @@
 				""
 				"With room for up to 11 passengers, including the captain, it excels in both trading and naval battles. The Brig boasts a top speed of 45 km/h, good maneuverability, and a sturdy hull strength of 400 HP."
 			]
+			dependencies: ["20CC2B81B58D09F7"]
 			id: "546811E28D0C421E"
 			rewards: [{
 				id: "72DF10D039D08A52"
@@ -49,6 +50,7 @@
 				""
 				"With seating for 9 passengers, including the captain, and a hull strength of 200 HP, it proves to be a promising vessel in various situations."
 			]
+			dependencies: ["20CC2B81B58D09F7"]
 			id: "143C1FFF1C05FC2C"
 			rewards: [{
 				count: 12
@@ -83,6 +85,7 @@
 				""
 				"With its ice-breaking ability, it proves to be a promising vessel in cold and icy oceans."
 			]
+			dependencies: ["20CC2B81B58D09F7"]
 			id: "4A79446E7F5419E4"
 			rewards: [{
 				id: "01065220A04C6B6B"
@@ -107,6 +110,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["20CC2B81B58D09F7"]
 			id: "51093C69C9E47B74"
 			subtitle: "Simply right-click onto a boat to mount a cannon onto it. Larger boats have the capacity to carry more cannons."
 			tasks: [{
@@ -118,6 +122,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["20CC2B81B58D09F7"]
 			id: "127ABD36A51DC8DC"
 			subtitle: "When placed in a boat's inventory, cannons can be fired by pressing the spacebar."
 			tasks: [{
@@ -136,6 +141,7 @@
 				""
 				"Accommodating up to 5 passengers, including the captain, its maneuverability may not be the best, but it excels as an excellent trading vessel with a top speed of 40 km/h and a sturdy hull strength of 300 HP."
 			]
+			dependencies: ["20CC2B81B58D09F7"]
 			id: "26113FAA900993FE"
 			rewards: [{
 				count: 12
